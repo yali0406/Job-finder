@@ -22,8 +22,8 @@ export default {
   async scheduled(event, env, ctx) {
     ctx.waitUntil(dispatch(env).then((r) => console.log("dispatch:", r)));
   },
-  // Opening the worker's URL triggers a scan too, handy for testing.
-  async fetch(request, env) {
-    return new Response(`dispatch: ${await dispatch(env)}\n(204 = scan started)`);
+  // No public trigger: anyone who found the URL could otherwise burn Actions minutes.
+  async fetch() {
+    return new Response("job-finder cron worker", { status: 200 });
   },
 };
