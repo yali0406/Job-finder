@@ -51,9 +51,14 @@ def fetch_board(board):
         log.warning("Getro board %s unreachable (%s)", board, r.status_code if r else "no response")
         return []
     data = _next_data(r.text)
-    collection = _find(data, "collection") or {}
-    cid = collection.get("id") if isinstance(collection, dict) else None
-    log.info("Getro %s: next_data=%s collection_id=%s", board, bool(data), cid)
+    cid = None
+    for key in ("collection", "network"):
+        obj = _find(data, key)
+        if isinstance(obj, dict) and obj.get("id"):
+            cid = obj["id"]
+            break
+    page_props = (data.get("props") or {}).get("pageProps") or {}
+    log.info("Getro %s: collection_id=%s pageProps keys=%s", board, cid, list(page_props)[:15])
 
     raw = []
     if cid:

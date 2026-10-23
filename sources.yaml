@@ -7,20 +7,9 @@ vc_boards:
   # seed / early-stage funds: jobs here are treated as startups (broader "foot in the door" roles)
   - {url: https://jobs.tlv.partners, early_stage: true}        # verified Getro
   - {url: https://careers.grovevc.com, early_stage: true}      # verified Getro
-  - {url: https://jobs.hetz.vc, early_stage: true}
-  - {url: https://jobs.entreecap.com, early_stage: true}
-  - {url: https://jobs.f2vc.com, early_stage: true}
-  - {url: https://jobs.10d.vc, early_stage: true}
-  - {url: https://jobs.stageonevc.com, early_stage: true}
   - {url: https://jobs.ibexinvestors.com, early_stage: true}
   - https://careers.viola-group.com  # verified
-  - https://jobs.team8.vc
-  - https://jobs.aleph.vc
-  - https://jobs.pitango.com
   - https://jobs.vertexventures.co.il
-  - https://jobs.cyberstarts.com
-  - https://jobs.glilotcapital.com
-  - https://jobs.insightpartners.com   # filter: Israel
 
 # General Israeli job sites (good for analyst / PM roles outside startups)
 job_sites: [drushim, alljobs, jobmaster]

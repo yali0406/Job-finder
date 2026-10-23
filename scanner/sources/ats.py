@@ -258,8 +258,15 @@ def fetch_companies(companies, cache: dict, israel_only=True):
 
 def fetch_description(job: Job):
     """For sources whose list endpoint has no description, fetch it for jobs we're about to score."""
+    if job.description:
+        return
     url = job.extra.get("detail")
-    if not url or job.description:
+    if not url:
+        # No API for details (Comeet, VC boards): read the public job page itself.
+        if job.url:
+            r = get(job.url)
+            if r and r.status_code == 200 and "html" in r.headers.get("content-type", ""):
+                job.description = strip_html(r.text)[:8000]
         return
     r = get(url)
     if not r or r.status_code != 200:
