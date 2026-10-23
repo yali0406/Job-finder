@@ -266,7 +266,7 @@ def fetch_description(job: Job):
         if job.url:
             r = get(job.url)
             if r and r.status_code == 200 and "html" in r.headers.get("content-type", ""):
-                job.description = strip_html(r.text)[:8000]
+                job.description = (_embedded_details(r.text) or strip_html(r.text))[:8000]
         return
     r = get(url)
     if not r or r.status_code != 200:
@@ -277,3 +277,19 @@ def fetch_description(job: Job):
         job.description = strip_html(" ".join((v or {}).get("text", "") for v in sections.values()))
     elif job.source == "workday":
         job.description = strip_html((data.get("jobPostingInfo") or {}).get("jobDescription", ""))
+
+
+def _embedded_details(html: str) -> str:
+    """Comeet pages render client-side; the description sits in a JSON "details" array in a script."""
+    texts = []
+    for m in re.finditer(r'"details"\s*:\s*(?=\[)', html):
+        try:
+            arr, _ = json.JSONDecoder().raw_decode(html, m.end())
+        except json.JSONDecodeError:
+            continue
+        for d in arr if isinstance(arr, list) else []:
+            if isinstance(d, dict) and d.get("value"):
+                texts.append(f"{d.get('name', '')}: {strip_html(d['value'])}")
+        if texts:
+            break
+    return "\n".join(texts)

@@ -132,6 +132,8 @@ def main():
             linkedin.fetch_description(j)
         else:
             ats.fetch_description(j)
+        if not j.description:
+            log.info("No description for %s job: %s", j.source, j.url)
         scorer.score(j)
         scored += 1
         if j.extra.get("years_required", 0) >= MAX_YEARS:
