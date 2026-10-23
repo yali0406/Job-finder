@@ -10,6 +10,8 @@ vc_boards:
   - {url: https://jobs.ibexinvestors.com, early_stage: true}
   - https://careers.viola-group.com  # verified
   - https://jobs.vertexventures.co.il
+  # Israel VC Forum: jobs across ~870 Israeli VC-backed companies; seed / series A ones are marked early-stage automatically
+  - https://israelvcforum.getro.com
 
 # General Israeli job sites (good for analyst / PM roles outside startups)
 job_sites: [drushim, alljobs, jobmaster]
@@ -263,4 +265,45 @@ gaming:
   - Product Madness Israel
 
 # Small / early-stage startups: any role that could be a way in (ops, support, CS, QA, implementation...)
-startups: []   # filled automatically from early_stage VC boards; add specific startups here by name
+startups:
+  - {name: "Team8 (stealth startups)", ats: comeet, slug: "team8/61.003"}
+  - {name: "Dream", ats: comeet, slug: "dreamgroup/99.002"}
+  - {name: "Skai", ats: comeet, slug: "kenshoo/22.00A"}
+  - {name: "Stampli", ats: comeet, slug: "stampli/F6.007"}
+  - {name: "ShieldFC", ats: comeet, slug: "shieldfc/A5.00E"}
+  - {name: "Abra R&D", ats: comeet, slug: "abra_rnd/15.007"}
+  - {name: "Alice", ats: comeet, slug: "alice/D5.005"}
+  - {name: "Ask-AI", ats: comeet, slug: "askai/1A.00C"}
+  - {name: "Autobrains", ats: comeet, slug: "autobrains/57.004"}
+  - {name: "Clover Security", ats: comeet, slug: "clover_security/7A.00A"}
+  - {name: "Exodigo", ats: comeet, slug: "exodigo/89.005"}
+  - {name: "Factify", ats: comeet, slug: "factify/A9.00F"}
+  - {name: "Flexor", ats: comeet, slug: "flexor/F9.006"}
+  - {name: "GrowthSpace", ats: comeet, slug: "growthspace/D7.00A"}
+  - {name: "Imagene AI", ats: comeet, slug: "imagene-ai/D7.000"}
+  - {name: "Inmanage", ats: comeet, slug: "inmanage/B7.006"}
+  - {name: "Integrity Labs", ats: comeet, slug: "integritylabs/43.009"}
+  - {name: "Attil", ats: comeet, slug: "joinattil/38.00A"}
+  - {name: "Majestic Labs", ats: comeet, slug: "majesticlabs/AA.004"}
+  - {name: "Native", ats: comeet, slug: "native/5A.00A"}
+  - {name: "Navina", ats: comeet, slug: "navina/E6.00C"}
+  - {name: "Nimbleway", ats: comeet, slug: "nimbleway/09.00F"}
+  - {name: "Oligo Security", ats: comeet, slug: "oligosecurity/5A.00B"}
+  - {name: "Reeco", ats: comeet, slug: "reeco/0A.00D"}
+  - {name: "Regulus", ats: comeet, slug: "regulus/9A.00D"}
+  - {name: "Rise Codes", ats: comeet, slug: "risecodes/A9.000"}
+  - {name: "Senai", ats: comeet, slug: "senai/CA.004"}
+  - {name: "Sensi", ats: comeet, slug: "sensi/E7.00F"}
+  - {name: "Vega", ats: comeet, slug: "vega/C9.009"}
+  - {name: "Waterfall Security", ats: comeet, slug: "waterfall-security/C7.009"}
+  - {name: "Xsight Labs", ats: comeet, slug: "xsightlabs/46.00C"}
+  - {name: "Zipher", ats: comeet, slug: "zipher/4B.00C"}
+  - {name: "Zyg", ats: comeet, slug: "zyg/DA.006"}
+  - {name: "Wonderful", ats: ashby, slug: "wonderful"}
+  - {name: "Apiiro", ats: greenhouse, slug: "apiiro"}
+  - {name: "Guardz", ats: greenhouse, slug: "guardz"}
+  - {name: "Eleos Health", ats: greenhouse, slug: "eleoshealth"}
+  - {name: "Mixtiles", ats: greenhouse, slug: "mixtiles"}
+  - {name: "Nanit", ats: greenhouse, slug: "nanit"}
+  - {name: "Salt Security", ats: greenhouse, slug: "saltsecurity"}
+  - {name: "Sweet Security", ats: greenhouse, slug: "sweetsecurity"}

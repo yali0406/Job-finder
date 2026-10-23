@@ -30,6 +30,23 @@ def _find(obj, key):
     return None
 
 
+EARLY = ("pre seed", "pre-seed", "seed", "series a", "stealth")
+
+
+def _is_early(org: dict) -> bool:
+    """Getro organizations carry stage tags ("Seed", "Series A") and sometimes a head count."""
+    text = json.dumps({k: v for k, v in org.items() if k not in ("logoUrl", "description")}).lower()
+    if any(s in text for s in EARLY):
+        return True
+    for key in ("headCount", "head_count", "employees", "size"):
+        v = org.get(key)
+        if isinstance(v, (int, float)) and v <= 60:
+            return True
+        if isinstance(v, str) and re.match(r"^(1|2|11|5|10|20|50)\b", v):  # e.g. "11-50"
+            return True
+    return False
+
+
 def _to_job(j, board):
     org = j.get("organization") or {}
     locs = j.get("locations") or j.get("searchableLocations") or []
@@ -63,7 +80,8 @@ def fetch_board(board):
     raw = []
     if cid:
         for page in range(MAX_PAGES):
-            resp = post(API.format(cid=cid), json={"hitsPerPage": 100, "page": page, "filters": {}, "query": ""})
+            resp = post(API.format(cid=cid), json={"hitsPerPage": 100, "page": page,
+                                                   "filters": {"searchable_locations": ["Israel"]}, "query": ""})
             if not resp or resp.status_code != 200:
                 log.warning("Getro API %s page %d: %s %s", board, page,
                             resp.status_code if resp else "no response", resp.text[:200] if resp else "")
@@ -78,7 +96,15 @@ def fetch_board(board):
         if isinstance(raw, dict):
             raw = raw.get("found") or raw.get("items") or []
 
-    jobs = [_to_job(j, board) for j in raw if isinstance(j, dict)]
+    raw = [j for j in raw if isinstance(j, dict)]
+    if raw:
+        log.info("Getro %s sample organization keys: %s", board, sorted((raw[0].get("organization") or {}).keys()))
+    jobs = []
+    for j in raw:
+        job = _to_job(j, board)
+        if _is_early(j.get("organization") or {}):
+            job.extra["broad"] = "early-stage startup"
+        jobs.append(job)
     jobs = [j for j in jobs if in_israel(j.location)]
     log.info("Getro %s: %d Israel jobs", board, len(jobs))
     return jobs
