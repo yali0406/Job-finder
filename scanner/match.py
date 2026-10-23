@@ -117,11 +117,21 @@ class Scorer:
     def _keyword_score(self, job: Job):
         text = f"{job.title}\n{job.description}".lower()
         hits = [s for s in self.SKILLS if s in text]
-        years = re.findall(r"(\d)\+?\s*(?:years|שנות|שנים)", text)
-        score = 50 + 5 * min(len(hits), 8)
-        if years and min(int(y) for y in years) >= 4:
-            score -= 30
+        # "at least 2 years", "3+ years", "2-3 years", "שנתיים"
+        years = [int(y) for y in re.findall(r"(\d)\s*(?:\+|-\s*\d)?\s*(?:years|yrs|שנות|שנים)", text)]
+        if "שנתיים" in text:
+            years.append(2)
+        score = 45 + 4 * min(len(hits), 6)
+        if years:
+            need = max(years)
+            score -= 35 if need >= 3 else 20 if need == 2 else 0
         if re.search(r"junior|entry|graduate|ג'וניור|ללא ניסיון", text):
             score += 10
-        job.score = max(0, min(100, score))
-        job.reason = ("מילות מפתח תואמות: " + ", ".join(hits[:6])) if hits else "התאמה לפי שם התפקיד בלבד"
+        job.score = max(0, min(85, score))  # keywords alone can't justify a "perfect" match
+        parts = []
+        if hits:
+            parts.append("מילות מפתח תואמות: " + ", ".join(hits[:6]))
+        if years and max(years) >= 2:
+            parts.append(f"דורשת {max(years)}+ שנות ניסיון")
+        job.reason = ". ".join(parts) if parts else "התאמה לפי שם התפקיד בלבד"
+        job.reason += " (דירוג לפי מילות מפתח)"
