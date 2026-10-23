@@ -49,6 +49,8 @@
   .tag { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); margin-inline-start: 6px; }
   .tag.new { background: var(--new); color: #fff; border-color: var(--new); }
   .tag.broad { color: var(--warn); border-color: var(--warn); }
+  .tag.chick { background: #fff6cc; border-color: #f5c400; color: #6b5200; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tag.chick { background: #3a3000; color: #ffe066; border-color: #a88600; } }
   .actions { display: flex; flex-direction: column; gap: 4px; }
   .actions button { border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 6px;
     font-size: 12px; padding: 3px 8px; cursor: pointer; white-space: nowrap; }
@@ -81,6 +83,7 @@
     <option value="applied">הגשתי</option>
     <option value="hidden">מוסתרות</option>
   </select>
+  <button class="chip" id="chickOnly" aria-pressed="false">🐣 רק סטארטאפים צעירים</button>
   <button class="btn" id="markSeen" title="כל המשרות הנוכחיות יפסיקו להיות מסומנות כחדשות">סמן הכל כנצפה</button>
 </div>
 <div class="controls" id="cats"></div>
@@ -106,6 +109,7 @@ let lastVisit = store.get("lastVisit", null);
 })();
 let marks = store.get("marks", {});             // id -> "saved" | "applied" | "hidden"
 let activeCats = new Set(store.get("cats", []));
+let chickOnly = false;
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -132,6 +136,7 @@ function jobHtml(j) {
     <div class="score ${cls}" title="ציון התאמה">${j.score ?? "–"}</div>
     <div>
       <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+      ${j.broad === "early-stage startup" ? '<span class="tag chick" title="סטארטאפ בשלב מוקדם">🐣 סטארטאפ צעיר</span>' : ""}
       ${isNew(j) ? '<span class="tag new">חדש</span>' : ""}
       ${j.category ? `<span class="tag ${j.broad ? "broad" : ""}">${esc(j.category)}</span>` : ""}
       <div class="meta">${esc(j.company)} · ${esc(j.location)} · נמצא ${fmt(j.first_seen)} · ${esc(j.source)}</div>
@@ -154,6 +159,7 @@ function render() {
     if (view === "active" ? m === "hidden" : m !== view) return false;
     if ((j.score ?? 0) < min) return false;
     if (activeCats.size && !activeCats.has(j.category)) return false;
+    if (chickOnly && j.broad !== "early-stage startup") return false;
     if (q && !`${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)) return false;
     return true;
   });
@@ -176,6 +182,11 @@ function render() {
 $("markSeen").onclick = () => {
   lastVisit = data.updated || new Date().toISOString();
   store.set("lastVisit", lastVisit);
+  render();
+};
+$("chickOnly").onclick = () => {
+  chickOnly = !chickOnly;
+  $("chickOnly").setAttribute("aria-pressed", chickOnly);
   render();
 };
 ["q", "minScore", "view"].forEach(id => $(id).addEventListener("input", render));
