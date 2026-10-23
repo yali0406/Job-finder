@@ -9,13 +9,14 @@ from pathlib import Path
 import yaml
 
 from .common import log
-from .match import Scorer, prefilter
+from .match import MAX_YEARS, Scorer, prefilter
 from .sources import ats, getro, linkedin
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
 JOBS_FILE = DATA / "jobs.json"
 CACHE_FILE = DATA / "ats_cache.json"
+REJECTED_FILE = DATA / "rejected.json"  # ids dropped after scoring (e.g. 3+ years), so they aren't re-scored
 KEEP_DAYS = 30          # drop jobs not seen for this long
 MAX_SCORE_PER_RUN = 300  # safety cap on Claude calls per run
 
@@ -113,6 +114,7 @@ def main():
             relevant.append(j)
     log.info("%d pass the title filter", len(relevant))
 
+    rejected = load_json(REJECTED_FILE, {})
     scorer = Scorer(profile)
     new_count = scored = 0
     now_s = now.isoformat(timespec="seconds")
@@ -122,12 +124,19 @@ def main():
             old["last_seen"] = now_s
             old["url"] = j.url or old["url"]
             continue
+        if j.id in rejected:
+            continue
         if scored >= MAX_SCORE_PER_RUN:
             continue  # picked up next run
         if j.source == "linkedin" and not j.description:
             linkedin.fetch_description(j)
+        else:
+            ats.fetch_description(j)
         scorer.score(j)
         scored += 1
+        if j.extra.get("years_required", 0) >= MAX_YEARS:
+            rejected[j.id] = {"title": j.title, "company": j.company, "reason": f"{j.extra['years_required']}+ years", "at": now_s}
+            continue
         d = j.to_dict()
         d["first_seen"] = now_s
         d["last_seen"] = now_s
@@ -142,6 +151,8 @@ def main():
         j.pop("description", None)  # keep the published file small
     jobs.sort(key=lambda j: (j.get("first_seen", ""), j.get("score") or 0), reverse=True)
 
+    REJECTED_FILE.write_text(json.dumps(
+        {k: v for k, v in rejected.items() if v.get("at", "") >= cutoff}, ensure_ascii=False, indent=1))
     JOBS_FILE.write_text(json.dumps({
         "updated": now_s,
         "linkedin_scanned": with_li,

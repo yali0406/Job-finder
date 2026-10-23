@@ -79,6 +79,7 @@ def _workday(slug, company):
                 location=j.get("locationsText", ""),
                 posted=j.get("postedOn", ""),
                 source="workday",
+                extra={"detail": f"{base}/wday/cxs/{tenant}/{site}{j.get('externalPath', '')}"},
             ))
         if len(posts) < 20:
             break
@@ -125,6 +126,7 @@ def _smartrecruiters(slug, company):
             location=", ".join(x for x in [loc.get("city"), loc.get("country")] if x),
             posted=j.get("releasedDate", ""),
             source="smartrecruiters",
+            extra={"detail": f"https://api.smartrecruiters.com/v1/companies/{slug}/postings/{j.get('id')}"},
         ))
     return jobs
 
@@ -252,3 +254,19 @@ def fetch_companies(companies, cache: dict, israel_only=True):
             jobs = [j for j in jobs if in_israel(j.location)]
         all_jobs.extend(jobs)
     return all_jobs
+
+
+def fetch_description(job: Job):
+    """For sources whose list endpoint has no description, fetch it for jobs we're about to score."""
+    url = job.extra.get("detail")
+    if not url or job.description:
+        return
+    r = get(url)
+    if not r or r.status_code != 200:
+        return
+    data = r.json()
+    if job.source == "smartrecruiters":
+        sections = (data.get("jobAd") or {}).get("sections") or {}
+        job.description = strip_html(" ".join((v or {}).get("text", "") for v in sections.values()))
+    elif job.source == "workday":
+        job.description = strip_html((data.get("jobPostingInfo") or {}).get("jobDescription", ""))

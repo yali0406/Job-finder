@@ -43,9 +43,28 @@ def prefilter(job: Job):
     return None
 
 
+YEARS_RE = re.compile(r"(\d{1,2})\s*(?:\+|-\s*\d{1,2})?\s*(?:\+\s*)?(?:years|yrs|שנות|שנים)", re.I)
+MAX_YEARS = 3  # jobs requiring this many years (or more) are dropped entirely
+
+
+def required_years(text: str) -> int:
+    """Largest 'N years' requirement in the text (ranges like 2-4 count as their lower bound)."""
+    text = (text or "").lower()
+    years = []
+    for m in YEARS_RE.finditer(text):
+        # only count it when it's about experience ("founded 10 years ago" shouldn't drop a job)
+        window = text[max(0, m.start() - 60): m.end() + 60]
+        if re.search(r"experience|ניסיון|hands-on|background in", window) and int(m.group(1)) <= 15:
+            years.append(int(m.group(1)))
+    if "שנתיים" in text:
+        years.append(2)
+    return max(years, default=0)
+
+
 class Verdict(BaseModel):
     score: int = Field(description="0-100: how good a fit this job is for the candidate")
     level_fit: Literal["fits", "too_senior", "too_junior", "unclear"]
+    years_required: int = Field(description="Minimum years of professional experience the posting requires (0 if none stated)")
     reason_he: str = Field(description="One or two short sentences in Hebrew explaining the score")
 
 
@@ -58,7 +77,7 @@ Scoring guide:
 - 80-100: role type is a target, seniority is junior/entry or "1-2 years", most required skills match.
 - 60-79: good role type, some gaps or asks for ~2-3 years.
 - 30-59: related but weak fit (big skill gaps, or unclear seniority).
-- 0-29: wrong role type, clearly senior (4+ years), shift-based NOC/SOC monitoring, or outside Israel without remote option.
+- 0-29: wrong role type, requires 3+ years, shift-based NOC/SOC monitoring, or outside Israel without remote option.
 If the job is marked "foot in the door", the candidate is open to a role outside their target titles
 at a gaming company or early-stage startup as a way in: score it on whether they could realistically
 get hired with their background (ops, payments, incident handling, CRM, SQL/Python, DevOps basics),
@@ -105,6 +124,7 @@ class Scorer:
         if resp.stop_reason == "refusal" or not resp.parsed_output:
             return self._keyword_score(job)
         v = resp.parsed_output
+        job.extra["years_required"] = max(v.years_required, required_years(job.description))
         job.score = max(0, min(100, v.score))
         if v.level_fit == "too_senior":
             job.score = min(job.score, 40)
@@ -117,21 +137,18 @@ class Scorer:
     def _keyword_score(self, job: Job):
         text = f"{job.title}\n{job.description}".lower()
         hits = [s for s in self.SKILLS if s in text]
-        # "at least 2 years", "3+ years", "2-3 years", "שנתיים"
-        years = [int(y) for y in re.findall(r"(\d)\s*(?:\+|-\s*\d)?\s*(?:years|yrs|שנות|שנים)", text)]
-        if "שנתיים" in text:
-            years.append(2)
+        need = required_years(text)
+        job.extra["years_required"] = need
         score = 45 + 4 * min(len(hits), 6)
-        if years:
-            need = max(years)
-            score -= 35 if need >= 3 else 20 if need == 2 else 0
+        if need == 2:
+            score -= 20
         if re.search(r"junior|entry|graduate|ג'וניור|ללא ניסיון", text):
             score += 10
         job.score = max(0, min(85, score))  # keywords alone can't justify a "perfect" match
         parts = []
         if hits:
             parts.append("מילות מפתח תואמות: " + ", ".join(hits[:6]))
-        if years and max(years) >= 2:
-            parts.append(f"דורשת {max(years)}+ שנות ניסיון")
+        if need >= 2:
+            parts.append(f"דורשת {need}+ שנות ניסיון")
         job.reason = ". ".join(parts) if parts else "התאמה לפי שם התפקיד בלבד"
         job.reason += " (דירוג לפי מילות מפתח)"
