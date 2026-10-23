@@ -88,5 +88,5 @@ def post(url, *, json=None, timeout=25, **kw):
     try:
         return session.post(url, json=json, timeout=timeout, **kw)
     except requests.RequestException as e:
-        log.debug("POST %s failed: %s", url, e)
+        log.warning("POST %s failed: %s", url, str(e)[:200])
         return None

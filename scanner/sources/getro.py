@@ -81,7 +81,8 @@ def fetch_board(board):
     if cid:
         for page in range(MAX_PAGES):
             resp = post(API.format(cid=cid), json={"hitsPerPage": 100, "page": page,
-                                                   "filters": {"searchable_locations": ["Israel"]}, "query": ""})
+                                                   "filters": {"searchable_locations": ["Israel"]}, "query": ""},
+                        headers={"Origin": board, "Referer": f"{board}/jobs", "Accept": "application/json"})
             if not resp or resp.status_code != 200:
                 log.warning("Getro API %s page %d: %s %s", board, page,
                             resp.status_code if resp else "no response", resp.text[:200] if resp else "")
@@ -91,8 +92,12 @@ def fetch_board(board):
                 break
             raw.extend(hits)
     if not raw:
-        # Fall back to whatever the server-rendered page contains.
-        raw = _find(data, "jobs") or []
+        # Fall back to the server-rendered page, filtered to Israel (first page of results only).
+        import base64
+        flt = base64.b64encode(json.dumps({"searchable_locations": ["Israel"]}).encode()).decode()
+        r2 = get(f"{board}/jobs", params={"filter": flt})
+        data2 = _next_data(r2.text) if r2 and r2.status_code == 200 else data
+        raw = _find(data2, "jobs") or []
         if isinstance(raw, dict):
             raw = raw.get("found") or raw.get("items") or []
 
