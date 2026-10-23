@@ -1,0 +1,620 @@
+{
+ "257478037213f950": {
+  "title": "DevOps Engineer - Cloud Infra Team",
+  "company": "Wix",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "2f0b54698375270c": {
+  "title": "Product Manager - Wix Editor Platform",
+  "company": "Wix",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "779c66c5da17a83c": {
+  "title": "Product Manager - Base44",
+  "company": "Wix",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "4b51ab643bc4c889": {
+  "title": "Product Analyst - Base44",
+  "company": "Wix",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "8c9ad163a9a0f0e3": {
+  "title": "AI Analyst",
+  "company": "Wix",
+  "reason": "6+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "20a63c7bcae35cf4": {
+  "title": "DevOps Engineer - Base44",
+  "company": "Wix",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "3d9b7aced9d230f9": {
+  "title": "Incident Response Analyst",
+  "company": "Check Point",
+  "reason": "10+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "e2fc479fc701f1ba": {
+  "title": "Product Manager",
+  "company": "Check Point",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "e543a7611559172e": {
+  "title": "DevOps Engineer - Autonomous Workspace Platform",
+  "company": "Check Point",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "83abed45917fcdbe": {
+  "title": "Product Engineering Change Analyst",
+  "company": "Nvidia Israel",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "d1443c4eee405226": {
+  "title": "Manager, Infrastructure Engineering and DevOps",
+  "company": "Nvidia Israel",
+  "reason": "8+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "0b6f2a90b9968ce6": {
+  "title": "Data Product Manager - Algorithms Division",
+  "company": "Mobileye",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "f6c2dcd99025ea01": {
+  "title": "Execution Program Manager",
+  "company": "Mobileye",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "df21c34e392be1e7": {
+  "title": "Execution Program Manager",
+  "company": "Mobileye",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "a3910dae96c906f2": {
+  "title": "Product Manager- Autonomous Driving",
+  "company": "Mobileye",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "e061ea9e70457681": {
+  "title": "Software Execution Project Manager - Camera Team",
+  "company": "Mobileye",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "6c4788ae58d422ba": {
+  "title": "Technical Execution Program Manager",
+  "company": "Mobileye",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "af9e67d7fea93368": {
+  "title": "Technical Program Manager",
+  "company": "Mobileye",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "afdc8e73eaeee04a": {
+  "title": "Technical Project Manager",
+  "company": "Mobileye",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "4450464309596d27": {
+  "title": "Technical Project Manager- AV",
+  "company": "Mobileye",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "2879061d3a88422d": {
+  "title": "Validation Analytics Tools Developer",
+  "company": "Mobileye",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "286726fcef7e6143": {
+  "title": "DevOps Engineer",
+  "company": "Wiz",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "f4d14e1142b8a46d": {
+  "title": "Product Manager, AI ",
+  "company": "Wiz",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "6c1a7c10fa6f0fe4": {
+  "title": "GTM Business Analyst - Marketing",
+  "company": "Cato Networks",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "cc61b0f59bc10a61": {
+  "title": "Product Manager - Access",
+  "company": "Cato Networks",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "4ddf3d0b90586013": {
+  "title": "Product Manager - AI Security",
+  "company": "Cato Networks",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "ce9a332935749b41": {
+  "title": "Product Manager - Data Security ",
+  "company": "Cato Networks",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "fc266085f46536f7": {
+  "title": "Product Manager - Network",
+  "company": "Cato Networks",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "0f92148c33cfc3ab": {
+  "title": "Product Manager – Network Backbone & Platform",
+  "company": "Cato Networks",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "825f4e9ec5f99f7b": {
+  "title": "Product Manager Pricing",
+  "company": "Cato Networks",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "8b1a829e5aa51f8f": {
+  "title": "IS Product Manager",
+  "company": "JFrog",
+  "reason": "7+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "142d5d742eb86576": {
+  "title": "Product Analyst",
+  "company": "Taboola",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "681cdb5bbb6958c5": {
+  "title": "Site Reliability Engineer, Traffic Infrastructure",
+  "company": "Taboola",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "2a8948d232246657": {
+  "title": "Agent Platform Engineer",
+  "company": "Similarweb",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "64a250abb70a1013": {
+  "title": "Big Data Analyst",
+  "company": "Similarweb",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "7cad68acd9b804ab": {
+  "title": "DevOps Engineer",
+  "company": "Similarweb",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "2b8ff961d342ef0d": {
+  "title": "ML & Big Data Analyst",
+  "company": "Similarweb",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "3edee4c87ec395a6": {
+  "title": " Product Manager",
+  "company": "Similarweb",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "68699a8ef77c1815": {
+  "title": "Business Analyst",
+  "company": "AppsFlyer",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "b06cc4de55333bf0": {
+  "title": "Commission Analyst",
+  "company": "AppsFlyer",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "c6308412ef0fbafa": {
+  "title": "Payment Fraud Product Manager",
+  "company": "Riskified",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "746f681b1d45826f": {
+  "title": "Payments Product Manager",
+  "company": "Riskified",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "174868a42b8a9f75": {
+  "title": "Product Analyst ",
+  "company": "Torq",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "8497aa9799d94dc6": {
+  "title": "Product Manager - Agentic AI",
+  "company": "Torq",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "144bd4df022ea317": {
+  "title": "DevOps Manager",
+  "company": "Checkmarx",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "e9d198a734ac4254": {
+  "title": "Data Analyst",
+  "company": "Connecteam",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "d21bddc0adb2c378": {
+  "title": "Website Product Manager",
+  "company": "Connecteam",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "c2d870b80b18557f": {
+  "title": "Technical Product Manager",
+  "company": "Finout",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "430f9400789cf557": {
+  "title": "Technical Program Manager",
+  "company": "KLA Israel",
+  "reason": "8+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "4d1e5c41ff0b7c69": {
+  "title": "Program Manager",
+  "company": "KLA Israel",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "f0c8195870a25d8a": {
+  "title": "AI Transformation Product Manager",
+  "company": "Applied Materials Israel",
+  "reason": "8+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "3dd7fbd616e55240": {
+  "title": "Software Infrastructure Engineer",
+  "company": "Applied Materials Israel",
+  "reason": "7+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "cd276ba663329b0c": {
+  "title": "Devops Engineer",
+  "company": "Applied Materials Israel",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "da1668c102fb3ee2": {
+  "title": "Supply Chain Project Manager",
+  "company": "Applied Materials Israel",
+  "reason": "7+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "10e9c5d68480e2b8": {
+  "title": "ETP Project Manager",
+  "company": "Applied Materials Israel",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "e495127f32a0174b": {
+  "title": "1708252 Computing Project manager",
+  "company": "Applied Materials Israel",
+  "reason": "7+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "b595138caed44612": {
+  "title": "NPI project manager",
+  "company": "Applied Materials Israel",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "5f50e54edefa6d5c": {
+  "title": "AI Product Owner",
+  "company": "Applied Materials Israel",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "ab5e2e6858462c60": {
+  "title": "FP&A Analyst",
+  "company": "Moon Active",
+  "reason": "6+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "1c2d0f9ab0be8191": {
+  "title": "E-Commerce Product Manager",
+  "company": "Moon Active",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "a506fa48df18847d": {
+  "title": "Group Product Manager",
+  "company": "Classiq",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "89ec765342326f8d": {
+  "title": "Group Product Manager",
+  "company": "Classiq",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "02b0298d526a1540": {
+  "title": "DevOps Engineer",
+  "company": "Mantis Tech",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "429de5b87b04d3a0": {
+  "title": "DevOps & Reliability Engineer",
+  "company": "Webiks",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "e953bfb17e41cc40": {
+  "title": "DevOps Engineer",
+  "company": "comblack",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "82f90d1490fc1166": {
+  "title": "Technical Integrator SRE",
+  "company": "Moveo Source",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "fe9e5f0cddffadc8": {
+  "title": "Data Analyst",
+  "company": "Israel Hayom ישראל היום",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "b9812c35ab8cdb73": {
+  "title": "Sodastream: Analytics & Insights Analyst",
+  "company": "PepsiCo",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "ac21b473e3d78a65": {
+  "title": "Data Systems Analyst & Developer (5491)",
+  "company": "INGIMA",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "9376ad4655c893a4": {
+  "title": "DWH Systems Analyst",
+  "company": "comblack",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "8169ab95394d5413": {
+  "title": "Salesforce Systems Analyst (37857)",
+  "company": "מרטנס | Mertens – מקבוצת מלם תים",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "8bd95124e783a1fa": {
+  "title": "לנס טכנולוגיות דרוש/ה מנתח/ת מערכות, למשרד ממשלתי בירושלים",
+  "company": "Ness Technologies | נס טכנולוגיות",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "db113903b1c5850d": {
+  "title": "System Analyst (Amadeus)",
+  "company": "comblack",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "7fecd5ccc46f732b": {
+  "title": "Digital Systems Analyst  (36931)",
+  "company": "מרטנס | Mertens – מקבוצת מלם תים",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "15861768b7a4e819": {
+  "title": "מנתח/ת מערכות סיילספורס",
+  "company": "Mimun Yashir מימון ישיר",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "71c34d18644720d5": {
+  "title": "24127 - Application Product Owner AI",
+  "company": "QualityAI",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "86112effe88a6e39": {
+  "title": "Product Manager, Meeting Insights",
+  "company": "AudioCodes",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "915f4ddab993e62f": {
+  "title": "Digital Systems Analyst (Web & Mobile) | Leading Enterprise Organization",
+  "company": "INGIMA",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "a7c1a14651ad93e5": {
+  "title": "Technical Product Manager \\ Systems Engineer - AI And Innovation",
+  "company": "Elbit Systems Israel",
+  "reason": "8+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "0ffacbd8dcb3456b": {
+  "title": "Product Manager",
+  "company": "Scytale",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "3a20e10b7b055372": {
+  "title": "Investment Analyst - Position No. 1769",
+  "company": "IBI Investment House",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "dd65cdb5fe3db543": {
+  "title": "Business Applications Program Manager - Hands On",
+  "company": "Pama Finance - פמה מימון",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "06901bed2c352332": {
+  "title": "Financial Core Systems Project Manager (37745)",
+  "company": "מרטנס | Mertens – מקבוצת מלם תים",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "4ba2f82786864c90": {
+  "title": "Technical Project Manager",
+  "company": "comblack",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "9f08e4d4f9af1db3": {
+  "title": "Engineering Project Manager",
+  "company": "DRS RADA Technologies",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "5500b1ea7ce7785a": {
+  "title": "Project Manager- For Mint",
+  "company": "Publicis Groupe Israel",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "8b54f24633d206ca": {
+  "title": "Clinical Research & Regulatory Project Manager",
+  "company": "HUNTHEAD",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "484fe1c7775ee9d9": {
+  "title": "UAV Mission Systems Project Manager",
+  "company": "Rafael Advanced Defense Systems",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "68cd0cfc38a2c8e3": {
+  "title": "Building Construction Project Manager 3160",
+  "company": "Bank Leumi בנק לאומי",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "ab8d43d3fbb48a0f": {
+  "title": "Program Manager (It Infrastructure)- 2623",
+  "company": "Shabak - Israeli Security Agency - Career",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "cf5fe5d8d68f14c3": {
+  "title": "Strategic Project Manager",
+  "company": "Aman Group",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "6de2ff0b70fe7bb7": {
+  "title": "Program Manager",
+  "company": "GE HealthCare",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "a496c0d68cfc8c28": {
+  "title": "Technical Project Manager",
+  "company": "Elbit Systems Israel",
+  "reason": "10+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "b3b2fdbdae13ff0f": {
+  "title": "מנהל/ת פרויקט לתחום האנרגיה Project Manager",
+  "company": "Siemens Energy",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "371a15885642d905": {
+  "title": "Priority Project Manager & Implementer (37853)",
+  "company": "מרטנס | Mertens – מקבוצת מלם תים",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "3f1d34625c39477e": {
+  "title": "Product Manager (French-Speaking)",
+  "company": "Unframe",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "42a375e0b930aab9": {
+  "title": "Cloud Product Manager",
+  "company": "Pentera",
+  "reason": "6+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "6b7f2c2c46dade46": {
+  "title": "Product Manager- Autonomous Driving",
+  "company": "Mobileye",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "3ac4f4d7c085db13": {
+  "title": "Group Product Manager, Filestore, Google Cloud",
+  "company": "Google",
+  "reason": "10+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "9f12eb19dd16f929": {
+  "title": "AI Project Manager",
+  "company": "Log-On Software",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "cafc6f380910d294": {
+  "title": "Product Manager - Private Healthcare Market | Pharmaceutical Industry Experience Required",
+  "company": "TOTSAOT  -  Human Resources",
+  "reason": "3+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "7fe500cfc2b40fb4": {
+  "title": "Product Manager-Pollogen",
+  "company": "Lumenis",
+  "reason": "5+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ },
+ "eaa200d21c5197e4": {
+  "title": "Technical Product Manager",
+  "company": "Elbit Systems Israel",
+  "reason": "4+ years",
+  "at": "2026-10-23T01:40:35+00:00"
+ }
+}
