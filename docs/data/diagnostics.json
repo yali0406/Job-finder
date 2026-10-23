@@ -1,9 +1,9 @@
 {
- "run": "2026-10-23T05:52:04+00:00",
+ "run": "2026-10-23T10:10:22+00:00",
  "collected_by_source": {
-  "smartrecruiters": 112,
-  "greenhouse": 373,
-  "workday": 420,
+  "smartrecruiters": 113,
+  "greenhouse": 372,
+  "workday": 421,
   "lever": 172,
   "comeet": 1061,
   "workable": 13,
@@ -49,26 +49,8 @@
   "INFO Getro https://israelvcforum.getro.com: collection_id=10949 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://israelvcforum.getro.com sample organization keys: ['head_count', 'id', 'industry_tags', 'logo_url', 'name', 'slug', 'stage', 'topics']",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO Collected 3323 jobs in Israel",
+  "INFO Collected 3324 jobs in Israel",
   "INFO 433 pass the title filter",
-  "INFO No description for vc:jobs.ibexinvestors.com job: https://boards.greenhouse.io/cyluscybersecurity/jobs/8446327002",
-  "INFO No description for vc:israelvcforum.getro.com job: https://www.hibob.com/jobs/27a2d278-6a83-45b1-8ef1-02d8e6b8d361",
-  "INFO No description for vc:israelvcforum.getro.com job: https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=6239337",
-  "INFO No description for vc:israelvcforum.getro.com job: https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=5733559",
-  "INFO No description for vc:israelvcforum.getro.com job: https://www.hibob.com/jobs/31cdd4ce-cc2a-411f-84e7-9e8b901dcd6e",
-  "INFO No description for vc:israelvcforum.getro.com job: https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/22-Aharon-Bert-st-Petah-Tikva-Israel/Key-Account-Manager--Mobile-Operators_R120333",
-  "INFO No description for vc:israelvcforum.getro.com job: https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/22-Aharon-Bert-st-Petah-Tikva-Israel/Digital-Commerce-Specialist_R120608",
-  "INFO No description for vc:israelvcforum.getro.com job: https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/22-Aharon-Bert-st-Petah-Tikva-Israel/Key-Account-Manager_R120607",
-  "INFO No description for vc:israelvcforum.getro.com job: https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=3420086",
-  "INFO No description for vc:israelvcforum.getro.com job: https://www.hibob.com/jobs/c6ab01a2-c1c6-48ea-9969-87b8bf7ae632",
-  "INFO No description for vc:israelvcforum.getro.com job: https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=2027169",
-  "INFO No description for vc:israelvcforum.getro.com job: https://unitytech.wd1.myworkdayjobs.com/Unity/job/Tel-Aviv-Israel/Workplace-Experience-Coordinator_JOBREQ-2616551",
-  "INFO No description for vc:israelvcforum.getro.com job: https://jj.wd5.myworkdayjobs.com/JJ/job/Kibbutz-Shefayim-Center-District-Israel/Clinical-Support_R-100261",
-  "INFO No description for vc:israelvcforum.getro.com job: https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=9945526",
-  "INFO No description for vc:israelvcforum.getro.com job: https://jj.wd5.myworkdayjobs.com/JJ/job/Kibbutz-Shefayim-Center-District-Israel/Product-Specialist-Immunology_R-098171",
-  "INFO No description for vc:israelvcforum.getro.com job: https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=9306411",
-  "INFO No description for vc:israelvcforum.getro.com job: https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=7946209",
-  "INFO No description for vc:israelvcforum.getro.com job: https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=7684809",
-  "INFO New: 75, total kept: 170"
+  "INFO New: 0, total kept: 170"
  ]
 }
