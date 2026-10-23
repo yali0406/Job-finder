@@ -53,12 +53,15 @@ def fetch_board(board):
     data = _next_data(r.text)
     collection = _find(data, "collection") or {}
     cid = collection.get("id") if isinstance(collection, dict) else None
+    log.info("Getro %s: next_data=%s collection_id=%s", board, bool(data), cid)
 
     raw = []
     if cid:
         for page in range(MAX_PAGES):
             resp = post(API.format(cid=cid), json={"hitsPerPage": 100, "page": page, "filters": {}, "query": ""})
             if not resp or resp.status_code != 200:
+                log.warning("Getro API %s page %d: %s %s", board, page,
+                            resp.status_code if resp else "no response", resp.text[:200] if resp else "")
                 break
             hits = (resp.json().get("results") or {}).get("jobs") or resp.json().get("jobs") or []
             if not hits:

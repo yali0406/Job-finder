@@ -27,6 +27,19 @@ def load_json(path, default):
         return default
 
 
+class _Collector(logging.Handler):
+    """Keeps warnings so each run leaves a diagnostics file we can read from the repo."""
+    def __init__(self):
+        super().__init__(logging.INFO)
+        self.lines = []
+
+    def emit(self, record):
+        self.lines.append(f"{record.levelname} {record.getMessage()}")
+
+
+DIAG = _Collector()
+
+
 def collect(cfg, with_linkedin: bool):
     jobs = []
     cache = load_json(CACHE_FILE, {})
@@ -59,12 +72,22 @@ def collect(cfg, with_linkedin: bool):
     return jobs
 
 
+def _still_relevant(d):
+    """Re-apply the title filter, so tightening the rules also cleans up older jobs."""
+    from .common import Job
+    stub = Job(title=d.get("title", ""), company=d.get("company", ""), url="", id=d["id"])
+    if d.get("broad"):
+        stub.extra["broad"] = d["broad"]
+    return prefilter(stub) is not None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--linkedin", choices=["auto", "yes", "no"], default="auto",
                     help="auto = only on runs where the Israel-time hour is divisible by 3")
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    log.addHandler(DIAG)
 
     cfg = yaml.safe_load((ROOT / "sources.yaml").read_text())
     # The profile holds personal details, so it comes from a secret (CANDIDATE_PROFILE) and is never committed.
@@ -114,7 +137,7 @@ def main():
 
     # Jobs from sources we didn't scan this run (e.g. LinkedIn off-hours) keep their last_seen.
     cutoff = (now - timedelta(days=KEEP_DAYS)).isoformat()
-    jobs = [j for j in existing.values() if j.get("last_seen", "") >= cutoff]
+    jobs = [j for j in existing.values() if j.get("last_seen", "") >= cutoff and _still_relevant(j)]
     for j in jobs:
         j.pop("description", None)  # keep the published file small
     jobs.sort(key=lambda j: (j.get("first_seen", ""), j.get("score") or 0), reverse=True)
@@ -126,6 +149,13 @@ def main():
         "jobs": jobs,
     }, ensure_ascii=False, indent=1))
     log.info("New: %d, total kept: %d", new_count, len(jobs))
+    from collections import Counter
+    (DATA / "diagnostics.json").write_text(json.dumps({
+        "run": now_s,
+        "collected_by_source": Counter(j.source for j in found),
+        "relevant_by_source": Counter(j.source for j in relevant),
+        "log": DIAG.lines[-300:],
+    }, ensure_ascii=False, indent=1))
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
             f.write(f"new_jobs={new_count}\n")

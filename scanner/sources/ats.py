@@ -7,7 +7,7 @@ import json
 import re
 from datetime import datetime, timezone, timedelta
 
-from ..common import Job, get, in_israel, log, strip_html
+from ..common import Job, get, in_israel, log, post, strip_html
 
 
 def _greenhouse(slug, company):
@@ -28,8 +28,8 @@ def _greenhouse(slug, company):
     ]
 
 
-def _lever(slug, company):
-    r = get(f"https://api.lever.co/v0/postings/{slug}", params={"mode": "json"})
+def _lever(slug, company, host="api.lever.co"):
+    r = get(f"https://{host}/v0/postings/{slug}", params={"mode": "json"})
     if not r or r.status_code != 200 or not isinstance(r.json(), list):
         return None
     jobs = []
@@ -50,6 +50,38 @@ def _lever(slug, company):
             posted=posted,
             source="lever",
         ))
+    return jobs
+
+
+def _lever_eu(slug, company):
+    return _lever(slug, company, host="api.eu.lever.co")
+
+
+def _workday(slug, company):
+    """slug format: 'tenant|wdN|site', e.g. 'nvidia|wd5|NVIDIAExternalCareerSite'."""
+    try:
+        tenant, wd, site = slug.split("|")
+    except ValueError:
+        return None
+    base = f"https://{tenant}.{wd}.myworkdayjobs.com"
+    jobs = []
+    for offset in range(0, 400, 20):
+        r = post(f"{base}/wday/cxs/{tenant}/{site}/jobs",
+                 json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": "Israel"})
+        if not r or r.status_code != 200:
+            return jobs or None
+        posts = r.json().get("jobPostings") or []
+        for j in posts:
+            jobs.append(Job(
+                title=j.get("title", ""),
+                company=company,
+                url=f"{base}/en-US/{site}{j.get('externalPath', '')}",
+                location=j.get("locationsText", ""),
+                posted=j.get("postedOn", ""),
+                source="workday",
+            ))
+        if len(posts) < 20:
+            break
     return jobs
 
 
@@ -121,18 +153,22 @@ def _comeet(slug, company):
     r = get(f"https://www.comeet.com/jobs/{slug}")
     if not r or r.status_code != 200:
         return None
-    m = re.search(r"COMPANY_POSITIONS_DATA\s*=\s*(\[.*?\]);", r.text, re.S)
+    m = re.search(r"COMPANY_POSITIONS_DATA\s*=\s*", r.text)
     if not m:
         return None
+    try:
+        positions, _ = json.JSONDecoder().raw_decode(r.text, m.end())
+    except json.JSONDecodeError:
+        return None
     jobs = []
-    for j in json.loads(m.group(1)):
+    for j in positions:
         loc = j.get("location") or {}
         details = " ".join(strip_html(d.get("value") or "") for d in j.get("details") or [])
         jobs.append(Job(
             title=j.get("name", ""),
             company=company,
             url=j.get("url_comeet_hosted_page") or j.get("url_active_page", ""),
-            location=", ".join(x for x in [loc.get("city"), loc.get("country")] if x),
+            location=", ".join(x for x in [loc.get("city"), "Israel" if loc.get("country") == "IL" else loc.get("country")] if x),
             description=details,
             posted=j.get("time_updated", ""),
             source="comeet",
@@ -147,6 +183,8 @@ FETCHERS = {
     "smartrecruiters": _smartrecruiters,
     "workable": _workable,
     "comeet": _comeet,
+    "lever_eu": _lever_eu,
+    "workday": _workday,
 }
 AUTODETECT_ORDER = ["greenhouse", "lever", "ashby", "workable", "smartrecruiters"]
 

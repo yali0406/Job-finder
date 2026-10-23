@@ -15,7 +15,7 @@ ROLE_PATTERNS = {
 }
 EXCLUDE = re.compile(
     r"\b(senior|sr\.?|lead|leader|head|director|principal|staff|vp|chief|architect|manager of|group manager)\b|"
-    r"\bnoc\b|\bsoc\b|security operations|network operations|cyber|monitoring analyst|"
+    r"\bnoc\b|\bsoc\b|security operations|network operations|cyber|security analyst|threat|\bmdr\b|monitoring analyst|"
     r"intern\b|student|סטודנט|בכיר",
     re.I,
 )

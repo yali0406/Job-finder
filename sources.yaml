@@ -47,9 +47,9 @@ linkedin_queries:
 
 companies:
   # Big tech / enterprise in Israel
-  - Wix
+  - {name: "Wix", ats: smartrecruiters, slug: "Wix2"}
   - monday.com
-  - Check Point
+  - {name: "Check Point", ats: smartrecruiters, slug: "CheckPointSoftwareTechnologies2"}
   - CyberArk
   - NICE
   - Amdocs
@@ -58,9 +58,9 @@ companies:
   - Amazon Israel
   - Meta Israel
   - Apple Israel
-  - Nvidia Israel
-  - Intel Israel
-  - Salesforce Israel
+  - {name: "Nvidia Israel", ats: workday, slug: "nvidia|wd5|NVIDIAExternalCareerSite"}
+  - {name: "Intel Israel", ats: workday, slug: "intel|wd1|External"}
+  - {name: "Salesforce Israel", ats: workday, slug: "salesforce|wd12|External_Career_Site"}
   - Oracle Israel
   - SAP Labs Israel
   - Dell Israel
@@ -70,7 +70,7 @@ companies:
   - Palo Alto Networks
   - Akamai Israel
   - Red Hat Israel
-  - Mobileye
+  - {name: "Mobileye", ats: lever_eu, slug: "mobileye"}
   - Elbit Systems
   - Rafael
   - Israel Aerospace Industries
@@ -81,28 +81,28 @@ companies:
   - Sapiens
   - Magic Software
   - Verint
-  - Cognyte
-  - Ceragon
+  - {name: "Cognyte", ats: comeet, slug: "cognyte/F2.009"}
+  - {name: "Ceragon", ats: comeet, slug: "ceragon/D3.003"}
   - Radware
   - Imperva
   - Varonis
   - SentinelOne
-  - Wiz
+  - {name: "Wiz", ats: greenhouse, slug: "wizinc"}
   - Snyk
-  - Orca Security
-  - Cato Networks
-  - Armis
+  - {name: "Orca Security", ats: greenhouse, slug: "orcasecurity"}
+  - {name: "Cato Networks", ats: greenhouse, slug: "catonetworks"}
+  - {name: "Armis", ats: smartrecruiters, slug: "armis"}
   - Axonius
   - Island
   - Aqua Security
   - JFrog
   - Taboola
   - Outbrain
-  - Fiverr
-  - Lemonade
+  - {name: "Fiverr", ats: comeet, slug: "fiverr/60.002"}
+  - {name: "Lemonade", ats: ashby, slug: "lemonade"}
   - Hippo
   - Next Insurance
-  - Gong
+  - {name: "Gong", ats: greenhouse, slug: "gongio"}
   - Yotpo
   - Similarweb
   - AppsFlyer
@@ -110,24 +110,24 @@ companies:
   - Forter
   - Payoneer
   - Nuvei
-  - Rapyd
+  - {name: "Rapyd", ats: comeet, slug: "rapyd/73.00E"}
   - Tipalti
   - Melio
-  - Papaya Global
+  - {name: "Papaya Global", ats: comeet, slug: "papayaglobal/16.005"}
   - Pagaya
-  - eToro
+  - {name: "eToro", ats: comeet, slug: "etoro/41.009"}
   - Plus500
   - Bluevine
-  - Global-e
+  - {name: "Global-e", ats: comeet, slug: "global-e/62.002"}
   - Hibob
   - Deel Israel
   - Rapid7 Israel
   - Zscaler Israel
-  - Cloudinary
+  - {name: "Cloudinary", ats: lever, slug: "cloudinary"}
   - Redis
   - Coralogix
   - Komodor
-  - Port
+  - {name: "Port", ats: comeet, slug: "port/59.004"}
   - env0
   - Spot by NetApp
   - Zesty
@@ -141,25 +141,25 @@ companies:
   - Innovid
   - Perion
   - Tufin
-  - Kaltura
-  - WalkMe
-  - Sisense
+  - {name: "Kaltura", ats: comeet, slug: "kaltura/E2.00D"}
+  - {name: "WalkMe", ats: lever, slug: "walkme"}
+  - {name: "Sisense", ats: ashby, slug: "sisense"}
   - Pecan
   - Explorium
-  - Next Silicon
+  - {name: "Next Silicon", ats: comeet, slug: "nextsilicon/18.007"}
   - Run:ai
-  - AI21 Labs
+  - {name: "AI21 Labs", ats: comeet, slug: "ai21/E6.001"}
   - Hailo
   - Lusha
-  - Guesty
+  - {name: "Guesty", ats: comeet, slug: "guesty/10.000"}
   - Bringg
   - Walnut
-  - Transmit Security
-  - Pentera
-  - Claroty
+  - {name: "Transmit Security", ats: greenhouse, slug: "transmitsecurity"}
+  - {name: "Pentera", ats: comeet, slug: "pentera/C5.00D"}
+  - {name: "Claroty", ats: comeet, slug: "Claroty/F2.004"}
   - Torq
-  - Cyera
-  - Silverfort
+  - {name: "Cyera", ats: comeet, slug: "cyera/17.008"}
+  - {name: "Silverfort", ats: comeet, slug: "silverfort/54.007"}
   - Navan Israel
   - Booking.com Israel
   - Mastercard Israel
@@ -194,13 +194,59 @@ companies:
   - Tikal
   - Sela
 
+  # Added from known Comeet / ATS boards (Israel)
+  - {name: "Checkmarx", ats: comeet, slug: "checkmarx/C0.008"}
+  - {name: "DriveNets", ats: comeet, slug: "drivenets/72.006"}
+  - {name: "VAST Data", ats: comeet, slug: "vastdata/43.001"}
+  - {name: "Nayax", ats: comeet, slug: "nayax/13.009"}
+  - {name: "One Zero Bank", ats: comeet, slug: "onezerobank/36.00A"}
+  - {name: "Cross River", ats: comeet, slug: "crossriver/C7.00F"}
+  - {name: "ChargeAfter", ats: comeet, slug: "chargeafter/C5.004"}
+  - {name: "Jifiti", ats: comeet, slug: "jifiti/47.005"}
+  - {name: "ThetaRay", ats: comeet, slug: "thetaray/72.00F"}
+  - {name: "Optibus", ats: comeet, slug: "optibus/D1.00C"}
+  - {name: "SolarEdge", ats: comeet, slug: "solaredge/71.00A"}
+  - {name: "Infinidat", ats: comeet, slug: "infinidat/D6.003"}
+  - {name: "Upstream", ats: comeet, slug: "upstream/E4.003"}
+  - {name: "Upwind", ats: comeet, slug: "upwind/49.004"}
+  - {name: "Zenity", ats: comeet, slug: "zenity/19.000"}
+  - {name: "Tabnine", ats: comeet, slug: "tabnine/39.006"}
+  - {name: "Pango", ats: comeet, slug: "pango/59.002"}
+  - {name: "Fullpath", ats: comeet, slug: "fullpath/54.002"}
+  - {name: "Voyantis", ats: comeet, slug: "voyantis/86.00B"}
+  - {name: "Arpeely", ats: comeet, slug: "arpeely/57.001"}
+  - {name: "Samsung Israel R&D", ats: comeet, slug: "samsung/D4.005"}
+  - {name: "Quantum Machines", ats: comeet, slug: "quantummachines/D6.000"}
+  - {name: "Nova", ats: comeet, slug: "nova/A5.007"}
+  - {name: "CEVA", ats: comeet, slug: "ceva/76.005"}
+  - {name: "Kela", ats: comeet, slug: "kelatechnologies/2A.007"}
+  - {name: "UVeye", ats: comeet, slug: "uveye/92.00F"}
+  - {name: "Wiliot", ats: comeet, slug: "wiliot/F6.003"}
+  - {name: "Automat-it", ats: comeet, slug: "automatit/26.003"}
+  - {name: "Comm-IT", ats: comeet, slug: "comm-it/76.008"}
+  - {name: "Connecteam", ats: greenhouse, slug: "connecteam"}
+  - {name: "Lightricks", ats: greenhouse, slug: "lightricks"}
+  - {name: "Duda", ats: greenhouse, slug: "duda"}
+  - {name: "Melio", ats: greenhouse, slug: "melio"}
+  - {name: "Cymulate", ats: greenhouse, slug: "cymulate"}
+  - {name: "Datadog Israel", ats: greenhouse, slug: "datadog"}
+  - {name: "MongoDB Israel", ats: greenhouse, slug: "mongodb"}
+  - {name: "Finout", ats: ashby, slug: "finout"}
+  - {name: "ServiceNow Israel", ats: smartrecruiters, slug: "servicenow"}
+  - {name: "Marvell Israel", ats: workday, slug: "marvell|wd1|MarvellCareers"}
+  - {name: "HPE Israel", ats: workday, slug: "hpe|wd5|Jobsathpe"}
+  - {name: "Motorola Solutions Israel", ats: workday, slug: "motorolasolutions|wd5|Careers"}
+  - {name: "KLA Israel", ats: workday, slug: "kla|wd1|Search"}
+  - {name: "Applied Materials Israel", ats: workday, slug: "amat|wd1|External"}
+  - {name: "CrowdStrike Israel", ats: workday, slug: "crowdstrike|wd5|crowdstrikecareers"}
+
 # Israeli gaming companies: all roles shown, broader titles allowed (LiveOps, UA, monetization, game analyst...)
 gaming:
   - Playtika
-  - Moon Active
+  - {name: "Moon Active", ats: ashby, slug: "moonactive"}
   - Plarium
-  - SuperPlay
-  - CrazyLabs
+  - {name: "SuperPlay", ats: comeet, slug: "superplay/28.003"}
+  - {name: "CrazyLabs", ats: comeet, slug: "crazylabs/32.00E"}
   - Unity (ironSource / Supersonic)
   - Beach Bum
   - Voodoo Tel Aviv
@@ -217,6 +263,8 @@ gaming:
   - Gankster
   - ShapeShift Gaming
   - Whalo Games
+  - {name: "Papaya Gaming", ats: comeet, slug: "papayagaming/46.00B"}
+  - {name: "PlayPerfect", ats: comeet, slug: "play_perfect/69.001"}
   - Kidoz
   - Matific
   - Evoke (888)
