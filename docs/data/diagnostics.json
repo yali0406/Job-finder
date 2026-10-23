@@ -1,20 +1,19 @@
 {
- "run": "2026-10-23T15:10:13+00:00",
+ "run": "2026-10-23T19:19:34+00:00",
  "collected_by_source": {
-  "smartrecruiters": 113,
+  "smartrecruiters": 115,
   "greenhouse": 373,
   "workday": 421,
   "lever": 172,
   "comeet": 1061,
   "workable": 13,
   "ashby": 46,
-  "vc:jobs.tlv.partners": 163,
-  "vc:careers.grovevc.com": 82,
+  "vc:jobs.tlv.partners": 164,
+  "vc:careers.grovevc.com": 84,
   "vc:jobs.ibexinvestors.com": 41,
-  "vc:careers.viola-group.com": 142,
-  "vc:jobs.vertexventures.co.il": 95,
-  "vc:israelvcforum.getro.com": 600,
-  "linkedin": 169
+  "vc:careers.viola-group.com": 144,
+  "vc:jobs.vertexventures.co.il": 96,
+  "vc:israelvcforum.getro.com": 600
  },
  "relevant_by_source": {
   "smartrecruiters": 15,
@@ -29,31 +28,29 @@
   "vc:jobs.ibexinvestors.com": 5,
   "vc:careers.viola-group.com": 30,
   "vc:jobs.vertexventures.co.il": 13,
-  "vc:israelvcforum.getro.com": 106,
-  "linkedin": 23
+  "vc:israelvcforum.getro.com": 106
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.tlv.partners sample organization keys: ['head_count', 'id', 'industry_tags', 'logo_url', 'name', 'slug', 'stage', 'topics']",
-  "INFO Getro https://jobs.tlv.partners: 163 Israel jobs",
+  "INFO Getro https://jobs.tlv.partners: 164 Israel jobs",
   "INFO Getro https://careers.grovevc.com: collection_id=9398 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://careers.grovevc.com sample organization keys: ['head_count', 'id', 'industry_tags', 'logo_url', 'name', 'slug', 'stage', 'topics']",
-  "INFO Getro https://careers.grovevc.com: 82 Israel jobs",
+  "INFO Getro https://careers.grovevc.com: 84 Israel jobs",
   "INFO Getro https://jobs.ibexinvestors.com: collection_id=1081 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.ibexinvestors.com sample organization keys: ['head_count', 'id', 'industry_tags', 'logo_url', 'name', 'slug', 'stage', 'topics']",
   "INFO Getro https://jobs.ibexinvestors.com: 41 Israel jobs",
   "INFO Getro https://careers.viola-group.com: collection_id=6263 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://careers.viola-group.com sample organization keys: ['head_count', 'id', 'industry_tags', 'logo_url', 'name', 'slug', 'stage', 'topics']",
-  "INFO Getro https://careers.viola-group.com: 142 Israel jobs",
+  "INFO Getro https://careers.viola-group.com: 144 Israel jobs",
   "INFO Getro https://jobs.vertexventures.co.il: collection_id=238 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.vertexventures.co.il sample organization keys: ['head_count', 'id', 'industry_tags', 'logo_url', 'name', 'slug', 'stage', 'topics']",
-  "INFO Getro https://jobs.vertexventures.co.il: 95 Israel jobs",
+  "INFO Getro https://jobs.vertexventures.co.il: 96 Israel jobs",
   "INFO Getro https://israelvcforum.getro.com: collection_id=10949 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://israelvcforum.getro.com sample organization keys: ['head_count', 'id', 'industry_tags', 'logo_url', 'name', 'slug', 'stage', 'topics']",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO LinkedIn: 169 jobs",
-  "INFO Collected 3491 jobs in Israel",
-  "INFO 457 pass the title filter",
-  "INFO New: 4, total kept: 174"
+  "INFO Collected 3330 jobs in Israel",
+  "INFO 434 pass the title filter",
+  "INFO New: 0, total kept: 174"
  ]
 }
