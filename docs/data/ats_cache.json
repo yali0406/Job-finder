@@ -1,0 +1,872 @@
+{
+ "AI21 Labs": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Accenture Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Akamai Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Amazon Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Amdocs": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Anzu": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "AppLovin Israel": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": "applovin"
+ },
+ "Appcharge": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Apple Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "AppsFlyer": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "appsflyer"
+ },
+ "Aqua Security": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Armis": {
+  "ats": "smartrecruiters",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "armis"
+ },
+ "Augury": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "augury"
+ },
+ "Axonius": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "axonius"
+ },
+ "Bank Hapoalim": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Bank Leumi": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Beach Bum": {
+  "ats": "ashby",
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": "beach-bum"
+ },
+ "Bezeq": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Bluevine": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Booking.com Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Bringg": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "bringg"
+ },
+ "Cal": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Candivore": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Cato Networks": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "catonetworks"
+ },
+ "Cellcom": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Ceragon": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Check Point": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Cisco Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Clal Insurance": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Claroty": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Cloudinary": {
+  "ats": "lever",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "cloudinary"
+ },
+ "Cognyte": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Coralogix": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "CrazyLabs": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "CyberArk": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Cyera": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Deel Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Dell Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Deloitte Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Develeap": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Discount Bank": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "EY Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Elbit Systems": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Evoke (888)": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Explorium": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Firefly": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "First International Bank": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Fiverr": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Formula Systems": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Forter": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "forter"
+ },
+ "Gankster": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Global-e": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Gong": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Google Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Guesty": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "HOT": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "HP Israel": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "hp"
+ },
+ "Hailo": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Harel Insurance": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Hibob": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Hippo": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Huuuge Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "IBM Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Imperva": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Innovid": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Intel Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Intuit Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Island": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "island"
+ },
+ "Isracard": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Israel Aerospace Industries": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "JFrog": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "jfrog"
+ },
+ "KPMG Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Kaltura": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Kidoz": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Komodor": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Kubiya": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Lemonade": {
+  "ats": "ashby",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "lemonade"
+ },
+ "Lightrun": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "lightrun"
+ },
+ "Lusha": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Magic Software": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Malam Team": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Mastercard Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Matific": {
+  "ats": "workable",
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": "matific"
+ },
+ "Matrix": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Max": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Melio": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "melio"
+ },
+ "Menora Mivtachim": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Meta Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Microsoft Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Migdal Insurance": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Mizrahi Tefahot": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Mobileye": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Moon Active": {
+  "ats": "ashby",
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": "moonactive"
+ },
+ "Moovit": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "NICE": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "nice"
+ },
+ "Navan Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Next Insurance": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Next Silicon": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Nuvei": {
+  "ats": "workable",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "nuvei"
+ },
+ "Nvidia Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "One Technologies": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Optimove": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": "optimove"
+ },
+ "Oracle Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Orca Security": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "orcasecurity"
+ },
+ "Outbrain": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Overwolf": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Pagaya": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "pagaya"
+ },
+ "Palo Alto Networks": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Papaya Global": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Partner Communications": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "PayPal Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Payoneer": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "payoneer"
+ },
+ "Pecan": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Pentera": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Perion": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Phoenix Insurance": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Plarium": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Playstudios Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Playtech Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Playtika": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Plus500": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Port": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Product Madness Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "PwC Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Radware": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Rafael": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Rapid7 Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Rapyd": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Red Hat Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Redis": {
+  "ats": "ashby",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "redis"
+ },
+ "Riskified": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "riskified"
+ },
+ "Run:ai": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "SAP Labs Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Salesforce Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Sapiens": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Screenz": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Sela": {
+  "ats": "ashby",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "sela"
+ },
+ "SentinelOne": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Sett": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "ShapeShift Gaming": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Silverfort": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Similarweb": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "similarweb"
+ },
+ "Sisense": {
+  "ats": "ashby",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "sisense"
+ },
+ "Snyk": {
+  "ats": "ashby",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "snyk"
+ },
+ "Spot by NetApp": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Strauss": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "SuperPlay": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Taboola": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "taboola"
+ },
+ "Teva": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Tikal": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "TinyTap": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Tipalti": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Torq": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "torq"
+ },
+ "Transmit Security": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "transmitsecurity"
+ },
+ "Tufin": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Unity (ironSource / Supersonic)": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Varonis": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Verint": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Via": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "via"
+ },
+ "Visa Israel": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Voodoo Tel Aviv": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "WalkMe": {
+  "ats": "lever",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "walkme"
+ },
+ "Walnut": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Waze": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Whalo Games": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Wix": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Wiz": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Xternity": {
+  "ats": null,
+  "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Yotpo": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "yotpo"
+ },
+ "Zesty": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Zscaler Israel": {
+  "ats": "greenhouse",
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": "zscaler"
+ },
+ "eToro": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "env0": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "monday.com": {
+  "ats": null,
+  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ }
+}
