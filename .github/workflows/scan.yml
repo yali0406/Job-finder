@@ -2,7 +2,7 @@ name: scan jobs
 
 on:
   schedule:
-    - cron: "0 4-21 * * *"   # hourly, roughly 07:00-23:00 Israel time
+    - cron: "17 4-21 * * *"  # hourly, roughly 07:00-23:00 Israel time (off the top of the hour: GitHub drops many :00 runs)
   workflow_dispatch:
     inputs:
       linkedin:
