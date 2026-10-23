@@ -1,0 +1,229 @@
+# Job sources for the scanner. Draft 2026-10-23.
+# ATS (Greenhouse / Lever / Ashby / SmartRecruiters / Comeet / Workable) is auto-detected
+# on the first run per company; unmatched companies are reported for manual mapping.
+
+# VC portfolio job boards (Getro). Each covers dozens to hundreds of Israeli startups.
+vc_boards:
+  # seed / early-stage funds: jobs here are treated as startups (broader "foot in the door" roles)
+  - {url: https://jobs.tlv.partners, early_stage: true}        # verified Getro
+  - {url: https://careers.grovevc.com, early_stage: true}      # verified Getro
+  - {url: https://jobs.hetz.vc, early_stage: true}
+  - {url: https://jobs.entreecap.com, early_stage: true}
+  - {url: https://jobs.f2vc.com, early_stage: true}
+  - {url: https://jobs.10d.vc, early_stage: true}
+  - {url: https://jobs.stageonevc.com, early_stage: true}
+  - {url: https://jobs.ibexinvestors.com, early_stage: true}
+  - https://careers.viola-group.com  # verified
+  - https://jobs.team8.vc
+  - https://jobs.aleph.vc
+  - https://jobs.pitango.com
+  - https://jobs.vertexventures.co.il
+  - https://jobs.cyberstarts.com
+  - https://jobs.glilotcapital.com
+  - https://jobs.insightpartners.com   # filter: Israel
+
+# General Israeli job sites (good for analyst / PM roles outside startups)
+job_sites: [drushim, alljobs, jobmaster]
+
+# LinkedIn public (logged-out) job search, Israel, past 24h, low rate
+linkedin_queries:
+  - DevOps Engineer
+  - Junior DevOps
+  - Cloud Engineer
+  - Site Reliability Engineer
+  - Data Analyst
+  - BI Analyst
+  - Business Analyst
+  - Systems Analyst
+  - Product Analyst
+  - Financial Analyst
+  - Payments Analyst
+  - Risk Analyst
+  - Fraud Analyst
+  - Project Manager
+  - Technical Project Manager
+  - Product Manager
+  - Associate Product Manager
+
+companies:
+  # Big tech / enterprise in Israel
+  - Wix
+  - monday.com
+  - Check Point
+  - CyberArk
+  - NICE
+  - Amdocs
+  - Microsoft Israel
+  - Google Israel
+  - Amazon Israel
+  - Meta Israel
+  - Apple Israel
+  - Nvidia Israel
+  - Intel Israel
+  - Salesforce Israel
+  - Oracle Israel
+  - SAP Labs Israel
+  - Dell Israel
+  - HP Israel
+  - IBM Israel
+  - Cisco Israel
+  - Palo Alto Networks
+  - Akamai Israel
+  - Red Hat Israel
+  - Mobileye
+  - Elbit Systems
+  - Rafael
+  - Israel Aerospace Industries
+  - Matrix
+  - One Technologies
+  - Malam Team
+  - Formula Systems
+  - Sapiens
+  - Magic Software
+  - Verint
+  - Cognyte
+  - Ceragon
+  - Radware
+  - Imperva
+  - Varonis
+  - SentinelOne
+  - Wiz
+  - Snyk
+  - Orca Security
+  - Cato Networks
+  - Armis
+  - Axonius
+  - Island
+  - Aqua Security
+  - JFrog
+  - Taboola
+  - Outbrain
+  - Fiverr
+  - Lemonade
+  - Hippo
+  - Next Insurance
+  - Gong
+  - Yotpo
+  - Similarweb
+  - AppsFlyer
+  - Riskified
+  - Forter
+  - Payoneer
+  - Nuvei
+  - Rapyd
+  - Tipalti
+  - Melio
+  - Papaya Global
+  - Pagaya
+  - eToro
+  - Plus500
+  - Bluevine
+  - Global-e
+  - Hibob
+  - Deel Israel
+  - Rapid7 Israel
+  - Zscaler Israel
+  - Cloudinary
+  - Redis
+  - Coralogix
+  - Komodor
+  - Port
+  - env0
+  - Spot by NetApp
+  - Zesty
+  - Firefly
+  - Kubiya
+  - Lightrun
+  - Augury
+  - Via
+  - Moovit
+  - Waze
+  - Innovid
+  - Perion
+  - Tufin
+  - Kaltura
+  - WalkMe
+  - Sisense
+  - Pecan
+  - Explorium
+  - Next Silicon
+  - Run:ai
+  - AI21 Labs
+  - Hailo
+  - Lusha
+  - Guesty
+  - Bringg
+  - Walnut
+  - Transmit Security
+  - Pentera
+  - Claroty
+  - Torq
+  - Cyera
+  - Silverfort
+  - Navan Israel
+  - Booking.com Israel
+  - Mastercard Israel
+  - Visa Israel
+  - PayPal Israel
+  - Intuit Israel
+  - Bank Hapoalim
+  - Bank Leumi
+  - Discount Bank
+  - Mizrahi Tefahot
+  - First International Bank
+  - Isracard
+  - Max
+  - Cal
+  - Clal Insurance
+  - Harel Insurance
+  - Migdal Insurance
+  - Phoenix Insurance
+  - Menora Mivtachim
+  - Bezeq
+  - Partner Communications
+  - Cellcom
+  - HOT
+  - Strauss
+  - Teva
+  - Deloitte Israel
+  - PwC Israel
+  - EY Israel
+  - KPMG Israel
+  - Accenture Israel
+  - Develeap
+  - Tikal
+  - Sela
+
+# Israeli gaming companies: all roles shown, broader titles allowed (LiveOps, UA, monetization, game analyst...)
+gaming:
+  - Playtika
+  - Moon Active
+  - Plarium
+  - SuperPlay
+  - CrazyLabs
+  - Unity (ironSource / Supersonic)
+  - Beach Bum
+  - Voodoo Tel Aviv
+  - AppLovin Israel
+  - Playstudios Israel
+  - Overwolf
+  - Appcharge
+  - Sett
+  - Anzu
+  - TinyTap
+  - Candivore
+  - Screenz
+  - Xternity
+  - Gankster
+  - ShapeShift Gaming
+  - Whalo Games
+  - Kidoz
+  - Matific
+  - Evoke (888)
+  - Playtech Israel
+  - Optimove
+  - Huuuge Israel
+  - Product Madness Israel
+
+# Small / early-stage startups: any role that could be a way in (ops, support, CS, QA, implementation...)
+startups: []   # filled automatically from early_stage VC boards; add specific startups here by name

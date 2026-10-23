@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>המשרות שלי</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #fff; --text: #1c2430; --muted: #667085; --line: #e4e7ec;
+    --accent: #2563eb; --new: #16a34a; --new-bg: #ecfdf3; --warn: #b54708;
+    --hi: #16a34a; --mid: #ca8a04; --lo: #98a2b3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1218; --card: #171b23; --text: #e6e9ef; --muted: #98a2b3; --line: #2a303b;
+      --accent: #60a5fa; --new: #4ade80; --new-bg: #13261b; --warn: #fbbf24;
+      --hi: #4ade80; --mid: #facc15; --lo: #667085;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Arial, sans-serif; }
+  header { padding: 20px 16px 8px; max-width: 980px; margin: 0 auto; }
+  h1 { margin: 0 0 4px; font-size: 24px; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .controls { max-width: 980px; margin: 0 auto; padding: 8px 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .controls input[type=search], .controls select { padding: 7px 10px; border: 1px solid var(--line);
+    border-radius: 8px; background: var(--card); color: var(--text); font: inherit; }
+  .controls input[type=search] { flex: 1 1 200px; }
+  .chip { border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 999px;
+    padding: 5px 12px; cursor: pointer; font: inherit; font-size: 13px; }
+  .chip[aria-pressed=true] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .btn { border: 0; background: var(--accent); color: #fff; padding: 7px 14px; border-radius: 8px; cursor: pointer; font: inherit; }
+  .summary { max-width: 980px; margin: 0 auto; padding: 4px 16px 0; color: var(--muted); font-size: 13px; }
+  main { max-width: 980px; margin: 0 auto; padding: 8px 16px 40px; }
+  .section-title { margin: 18px 0 8px; font-size: 15px; color: var(--muted); font-weight: 600; }
+  .job { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px;
+    margin-bottom: 8px; display: grid; grid-template-columns: 52px 1fr auto; gap: 12px; align-items: start; }
+  .job.is-new { border-color: var(--new); background: linear-gradient(0deg, var(--card), var(--new-bg)); }
+  .job.dim { opacity: .5; }
+  .score { width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; font-weight: 700;
+    border: 3px solid var(--lo); font-size: 16px; }
+  .score.hi { border-color: var(--hi); } .score.mid { border-color: var(--mid); }
+  .title { font-weight: 600; font-size: 16px; color: var(--text); text-decoration: none; }
+  .title:hover { text-decoration: underline; }
+  .meta { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .reason { font-size: 14px; margin-top: 6px; }
+  .tag { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); margin-inline-start: 6px; }
+  .tag.new { background: var(--new); color: #fff; border-color: var(--new); }
+  .tag.broad { color: var(--warn); border-color: var(--warn); }
+  .actions { display: flex; flex-direction: column; gap: 4px; }
+  .actions button { border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 6px;
+    font-size: 12px; padding: 3px 8px; cursor: pointer; white-space: nowrap; }
+  .actions button.on { color: var(--accent); border-color: var(--accent); }
+  .empty { color: var(--muted); padding: 30px 0; text-align: center; }
+  @media (max-width: 560px) {
+    .job { grid-template-columns: 44px 1fr; }
+    .score { width: 44px; height: 44px; font-size: 14px; }
+    .actions { grid-column: 1 / -1; flex-direction: row; flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>המשרות שלי</h1>
+  <div class="sub" id="status">טוען…</div>
+</header>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="חיפוש לפי תפקיד או חברה">
+  <select id="minScore" aria-label="ציון מינימלי">
+    <option value="0">כל הציונים</option>
+    <option value="40">40 ומעלה</option>
+    <option value="60" selected>60 ומעלה</option>
+    <option value="80">80 ומעלה</option>
+  </select>
+  <select id="view" aria-label="תצוגה">
+    <option value="active">פעילות</option>
+    <option value="saved">שמורות</option>
+    <option value="applied">הגשתי</option>
+    <option value="hidden">מוסתרות</option>
+  </select>
+  <button class="btn" id="markSeen" title="כל המשרות הנוכחיות יפסיקו להיות מסומנות כחדשות">סמן הכל כנצפה</button>
+</div>
+<div class="controls" id="cats"></div>
+<div class="summary" id="summary"></div>
+<main id="list"></main>
+
+<script>
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+let data = { jobs: [] };
+// A "visit" is a session: reopening the page within 30 minutes keeps the same "new" markers,
+// opening it later moves the "seen" point to the start of the previous visit.
+let lastVisit = store.get("lastVisit", null);
+(() => {
+  const thisVisit = store.get("thisVisit", null);
+  const now = new Date().toISOString();
+  if (!thisVisit || Date.now() - Date.parse(thisVisit) > 30 * 60 * 1000) {
+    if (thisVisit) { lastVisit = thisVisit; store.set("lastVisit", lastVisit); }
+    store.set("thisVisit", now);
+  }
+})();
+let marks = store.get("marks", {});             // id -> "saved" | "applied" | "hidden"
+let activeCats = new Set(store.get("cats", []));
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmt = (iso) => iso ? new Date(iso).toLocaleString("he-IL", { dateStyle: "short", timeStyle: "short" }) : "";
+const isNew = (j) => !lastVisit || Date.parse(j.first_seen) > Date.parse(lastVisit);
+
+function renderCats() {
+  const cats = [...new Set(data.jobs.map(j => j.category).filter(Boolean))].sort();
+  $("cats").innerHTML = cats.map(c =>
+    `<button class="chip" data-cat="${esc(c)}" aria-pressed="${activeCats.has(c)}">${esc(c)}</button>`).join("");
+  $("cats").querySelectorAll(".chip").forEach(b => b.onclick = () => {
+    const c = b.dataset.cat;
+    activeCats.has(c) ? activeCats.delete(c) : activeCats.add(c);
+    store.set("cats", [...activeCats]);
+    renderCats(); render();
+  });
+}
+
+function jobHtml(j) {
+  const s = j.score ?? 0;
+  const cls = s >= 75 ? "hi" : s >= 55 ? "mid" : "";
+  const m = marks[j.id];
+  return `<article class="job ${isNew(j) ? "is-new" : ""}">
+    <div class="score ${cls}" title="ציון התאמה">${j.score ?? "–"}</div>
+    <div>
+      <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+      ${isNew(j) ? '<span class="tag new">חדש</span>' : ""}
+      ${j.category ? `<span class="tag ${j.broad ? "broad" : ""}">${esc(j.category)}</span>` : ""}
+      <div class="meta">${esc(j.company)} · ${esc(j.location)} · נמצא ${fmt(j.first_seen)} · ${esc(j.source)}</div>
+      ${j.reason ? `<div class="reason">${esc(j.reason)}</div>` : ""}
+    </div>
+    <div class="actions">
+      <button data-id="${j.id}" data-mark="saved" class="${m === "saved" ? "on" : ""}">${m === "saved" ? "שמור ✓" : "שמור"}</button>
+      <button data-id="${j.id}" data-mark="applied" class="${m === "applied" ? "on" : ""}">${m === "applied" ? "הגשתי ✓" : "הגשתי"}</button>
+      <button data-id="${j.id}" data-mark="hidden" class="${m === "hidden" ? "on" : ""}">${m === "hidden" ? "הסתר ✓" : "הסתר"}</button>
+    </div>
+  </article>`;
+}
+
+function render() {
+  const q = $("q").value.trim().toLowerCase();
+  const min = +$("minScore").value;
+  const view = $("view").value;
+  const jobs = data.jobs.filter(j => {
+    const m = marks[j.id];
+    if (view === "active" ? m === "hidden" : m !== view) return false;
+    if ((j.score ?? 0) < min) return false;
+    if (activeCats.size && !activeCats.has(j.category)) return false;
+    if (q && !`${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  const fresh = jobs.filter(isNew).sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+  const older = jobs.filter(j => !isNew(j)).sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || (b.score ?? 0) - (a.score ?? 0));
+
+  $("summary").textContent = `${fresh.length} חדשות מאז הביקור הקודם · ${jobs.length} מוצגות מתוך ${data.jobs.length}`;
+  let html = "";
+  if (fresh.length) html += `<div class="section-title">חדש מאז ${lastVisit ? fmt(lastVisit) : "הביקור הראשון"}</div>` + fresh.map(jobHtml).join("");
+  if (older.length) html += `<div class="section-title">כבר ראית</div>` + older.map(jobHtml).join("");
+  $("list").innerHTML = html || `<div class="empty">אין משרות שמתאימות לסינון הנוכחי</div>`;
+  $("list").querySelectorAll("button[data-mark]").forEach(b => b.onclick = () => {
+    const { id, mark } = b.dataset;
+    marks[id] === mark ? delete marks[id] : (marks[id] = mark);
+    store.set("marks", marks);
+    render();
+  });
+}
+
+$("markSeen").onclick = () => {
+  lastVisit = data.updated || new Date().toISOString();
+  store.set("lastVisit", lastVisit);
+  render();
+};
+["q", "minScore", "view"].forEach(id => $(id).addEventListener("input", render));
+
+fetch("data/jobs.json", { cache: "no-store" })
+  .then(r => r.ok ? r.json() : Promise.reject(r.status))
+  .then(d => {
+    data = d;
+    $("status").textContent = `עודכן לאחרונה: ${fmt(d.updated)} · ${d.new_this_run ?? 0} משרות חדשות בסריקה האחרונה`;
+    renderCats(); render();
+  })
+  .catch(() => { $("status").textContent = "עדיין אין נתונים. הסריקה הראשונה תרוץ בקרוב."; });
+</script>
+</body>
+</html>
