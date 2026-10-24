@@ -57,6 +57,12 @@
   .actions button { border: 1px solid var(--line); background: transparent; color: var(--muted); border-radius: 6px;
     font-size: 12px; padding: 3px 8px; cursor: pointer; white-space: nowrap; }
   .actions button.on { color: var(--accent); border-color: var(--accent); }
+  .pick { width: 17px; height: 17px; margin: 0 0 0 6px; vertical-align: -3px; cursor: pointer; accent-color: var(--accent); }
+  .bulk { position: sticky; top: 0; z-index: 5; max-width: 980px; margin: 0 auto; padding: 8px 16px; display: none;
+    gap: 8px; align-items: center; flex-wrap: wrap; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .bulk.on { display: flex; }
+  .bulk button { border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 8px; padding: 5px 10px; cursor: pointer; font: inherit; font-size: 13px; }
+  .tag.opened, .tag.unopened { cursor: pointer; }
   .empty { color: var(--muted); padding: 30px 0; text-align: center; }
   @media (max-width: 560px) {
     .job { grid-template-columns: 44px 1fr; }
@@ -85,11 +91,23 @@
     <option value="applied">הגשתי</option>
     <option value="hidden">מוסתרות</option>
   </select>
+  <select id="openedFilter" aria-label="נכנסתי">
+    <option value="">נכנסתי ולא נכנסתי</option>
+    <option value="no">רק לא נכנסתי</option>
+    <option value="yes">רק נכנסתי</option>
+  </select>
   <button class="chip" id="chickOnly" aria-pressed="false">🐣 רק סטארטאפים צעירים</button>
   <button class="btn" id="markSeen" title="כל המשרות הנוכחיות יפסיקו להיות מסומנות כחדשות">סמן הכל כנצפה</button>
 </div>
 <div class="controls" id="cats"></div>
 <div class="summary" id="summary"></div>
+<div class="bulk" id="bulk">
+  <strong id="bulkCount"></strong>
+  <button id="bulkOpened">👁 סמן כנכנסתי</button>
+  <button id="bulkUnopened">סמן כלא נכנסתי</button>
+  <button id="bulkAll">בחר את כל המוצגות</button>
+  <button id="bulkClear">בטל בחירה</button>
+</div>
 <main id="list"></main>
 
 <script>
@@ -131,9 +149,18 @@ function renderCats() {
   });
 }
 
+// Clicking the tag toggles it by hand.
 const openedTag = (j) => opened[j.id]
-  ? `<span class="tag opened" title="נפתח ב-${fmt(opened[j.id])}">👁 נכנסתי</span>`
-  : '<span class="tag unopened">לא נכנסתי</span>';
+  ? `<span class="tag opened" data-toggle="${j.id}" title="נפתח ב-${fmt(opened[j.id])} · לחיצה תסמן כלא נכנסתי">👁 נכנסתי</span>`
+  : `<span class="tag unopened" data-toggle="${j.id}" title="לחיצה תסמן כנכנסתי">לא נכנסתי</span>`;
+const picked = new Set();
+let shown = [];
+
+function setOpened(ids, on) {
+  const now = new Date().toISOString();
+  ids.forEach(id => on ? (opened[id] = opened[id] || now) : delete opened[id]);
+  store.set("opened", opened);
+}
 
 function jobHtml(j) {
   const s = j.score ?? 0;
@@ -142,6 +169,7 @@ function jobHtml(j) {
   return `<article class="job ${isNew(j) ? "is-new" : ""}">
     <div class="score ${cls}" title="ציון התאמה">${j.score ?? "–"}</div>
     <div>
+      <input type="checkbox" class="pick" data-pick="${j.id}" ${picked.has(j.id) ? "checked" : ""} aria-label="בחירה">
       <a class="title" data-open="${j.id}" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
       ${j.broad === "early-stage startup" ? '<span class="tag chick" title="סטארטאפ בשלב מוקדם">🐣 סטארטאפ צעיר</span>' : ""}
       ${isNew(j) ? '<span class="tag new">חדש</span>' : ""}
@@ -168,6 +196,8 @@ function render() {
     if ((j.score ?? 0) < min) return false;
     if (activeCats.size && !activeCats.has(j.category)) return false;
     if (chickOnly && j.broad !== "early-stage startup") return false;
+    const of = $("openedFilter").value;
+    if (of && (of === "yes") !== !!opened[j.id]) return false;
     if (q && !`${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)) return false;
     return true;
   });
@@ -193,6 +223,16 @@ function render() {
     a.addEventListener("click", mark);
     a.addEventListener("auxclick", mark);
   });
+  shown = jobs.map(j => j.id);
+  $("list").querySelectorAll("[data-toggle]").forEach(t => t.onclick = () => {
+    setOpened([t.dataset.toggle], !opened[t.dataset.toggle]);
+    render();
+  });
+  $("list").querySelectorAll("[data-pick]").forEach(c => c.onchange = () => {
+    c.checked ? picked.add(c.dataset.pick) : picked.delete(c.dataset.pick);
+    renderBulk();
+  });
+  renderBulk();
   $("list").querySelectorAll("button[data-mark]").forEach(b => b.onclick = () => {
     const { id, mark } = b.dataset;
     marks[id] === mark ? delete marks[id] : (marks[id] = mark);
@@ -211,7 +251,17 @@ $("chickOnly").onclick = () => {
   $("chickOnly").setAttribute("aria-pressed", chickOnly);
   render();
 };
-["q", "minScore", "view"].forEach(id => $(id).addEventListener("input", render));
+function renderBulk() {
+  $("bulk").classList.toggle("on", picked.size > 0);
+  $("bulkCount").textContent = `${picked.size} נבחרו`;
+}
+const bulkSet = (on) => { setOpened([...picked], on); picked.clear(); render(); };
+$("bulkOpened").onclick = () => bulkSet(true);
+$("bulkUnopened").onclick = () => bulkSet(false);
+$("bulkAll").onclick = () => { shown.forEach(id => picked.add(id)); render(); };
+$("bulkClear").onclick = () => { picked.clear(); render(); };
+
+["q", "minScore", "view", "openedFilter"].forEach(id => $(id).addEventListener("input", render));
 
 fetch("data/jobs.json", { cache: "no-store" })
   .then(r => r.ok ? r.json() : Promise.reject(r.status))
