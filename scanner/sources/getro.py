@@ -30,21 +30,23 @@ def _find(obj, key):
     return None
 
 
-EARLY = ("pre seed", "pre-seed", "seed", "series a", "stealth")
+EARLY_STAGES = {"pre_seed", "preseed", "seed", "series_a", "stealth", "early_stage", "angel"}
+
+
+def _norm_stage(v) -> str:
+    if isinstance(v, dict):
+        v = v.get("name") or v.get("value") or ""
+    return re.sub(r"[^a-z]+", "_", str(v or "").lower()).strip("_")
 
 
 def _is_early(org: dict) -> bool:
-    """Getro organizations carry stage tags ("Seed", "Series A") and sometimes a head count."""
-    text = json.dumps({k: v for k, v in org.items() if k not in ("logoUrl", "description")}).lower()
-    if any(s in text for s in EARLY):
-        return True
-    for key in ("headCount", "head_count", "employees", "size"):
-        v = org.get(key)
-        if isinstance(v, (int, float)) and v <= 60:
-            return True
-        if isinstance(v, str) and re.match(r"^(1|2|11|5|10|20|50)\b", v):  # e.g. "11-50"
-            return True
-    return False
+    """Early only by the org's own stage field; exited, acquired and public companies never count."""
+    stage = _norm_stage(org.get("stage"))
+    if stage:
+        return stage in EARLY_STAGES
+    hc = org.get("head_count")
+    # Head count only when it's a readable range like "11-50" (Getro sometimes sends a bucket number instead).
+    return isinstance(hc, str) and bool(re.match(r"^(1|2|11)\s*-\s*(10|20|50)$", hc.strip()))
 
 
 def _to_job(j, board):
@@ -59,6 +61,8 @@ def _to_job(j, board):
         location=", ".join(l for l in locs if l),
         posted=str(j.get("createdAt") or j.get("created_at") or ""),
         source=f"vc:{board.split('//')[-1]}",
+        extra={"getro_page": f"{board}/companies/{org['slug']}/jobs/{j['slug']}"
+               if org.get("slug") and j.get("slug") else ""},
     )
 
 
@@ -103,7 +107,10 @@ def fetch_board(board):
 
     raw = [j for j in raw if isinstance(j, dict)]
     if raw:
-        log.info("Getro %s sample organization keys: %s", board, sorted((raw[0].get("organization") or {}).keys()))
+        from collections import Counter
+        orgs = [j.get("organization") or {} for j in raw]
+        log.info("Getro %s org stages: %s", board, dict(Counter(_norm_stage(o.get("stage")) for o in orgs).most_common(12)))
+        log.info("Getro %s org head counts: %s", board, dict(Counter(str(o.get("head_count")) for o in orgs).most_common(12)))
     jobs = []
     for j in raw:
         job = _to_job(j, board)

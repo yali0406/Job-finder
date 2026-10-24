@@ -267,6 +267,13 @@ def fetch_description(job: Job):
             r = get(job.url)
             if r and r.status_code == 200 and "html" in r.headers.get("content-type", ""):
                 job.description = (_embedded_details(r.text) or strip_html(r.text))[:8000]
+        if len(job.description or "") < 300 and job.extra.get("getro_page"):
+            # Many company career sites render client-side; the VC board keeps its own copy of the text.
+            r = get(job.extra["getro_page"])
+            if r and r.status_code == 200:
+                desc = _getro_description(r.text)
+                if desc:
+                    job.description = desc[:8000]
         return
     r = get(url)
     if not r or r.status_code != 200:
@@ -277,6 +284,30 @@ def fetch_description(job: Job):
         job.description = strip_html(" ".join((v or {}).get("text", "") for v in sections.values()))
     elif job.source == "workday":
         job.description = strip_html((data.get("jobPostingInfo") or {}).get("jobDescription", ""))
+
+
+def _getro_description(html: str) -> str:
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        return ""
+    best = ""
+
+    def walk(o):
+        nonlocal best
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k in ("description", "descriptionHtml", "description_html") and isinstance(v, str) and len(v) > len(best):
+                    best = v
+                else:
+                    walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    try:
+        walk(json.loads(m.group(1)))
+    except json.JSONDecodeError:
+        return ""
+    return strip_html(best)
 
 
 def _embedded_details(html: str) -> str:

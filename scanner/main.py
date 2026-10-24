@@ -9,7 +9,7 @@ from pathlib import Path
 import yaml
 
 from .common import log
-from .match import MAX_YEARS, Scorer, prefilter
+from .match import MAX_YEARS, Scorer, prefilter, required_years
 from .sources import ats, getro, linkedin
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -19,6 +19,7 @@ CACHE_FILE = DATA / "ats_cache.json"
 REJECTED_FILE = DATA / "rejected.json"  # ids dropped after scoring (e.g. 3+ years), so they aren't re-scored
 KEEP_DAYS = 30          # drop jobs not seen for this long
 MAX_SCORE_PER_RUN = 300  # safety cap on Claude calls per run
+RECHECK_PER_RUN = 200    # stored jobs re-read for a years requirement per run
 
 
 def load_json(path, default):
@@ -118,11 +119,24 @@ def main():
     scorer = Scorer(profile)
     new_count = scored = 0
     now_s = now.isoformat(timespec="seconds")
+    rechecked = 0
     for j in relevant:
         old = existing.get(j.id)
         if old:
             old["last_seen"] = now_s
             old["url"] = j.url or old["url"]
+            old["broad"] = j.extra.get("broad", "")  # the early-stage rule may have changed since it was stored
+            if not old.get("years_checked") and j.source != "linkedin" and rechecked < RECHECK_PER_RUN:
+                # Jobs stored before descriptions were read everywhere: check the years requirement once.
+                rechecked += 1
+                ats.fetch_description(j)
+                need = required_years(j.description)
+                if need >= MAX_YEARS:
+                    rejected[j.id] = {"title": j.title, "company": j.company, "reason": f"{need}+ years (recheck)", "at": now_s}
+                    del existing[j.id]
+                    log.info("Recheck dropped %s at %s: %d+ years", j.title, j.company, need)
+                    continue
+                old["years_checked"] = True
             continue
         if j.id in rejected:
             continue
@@ -143,6 +157,7 @@ def main():
         d["first_seen"] = now_s
         d["last_seen"] = now_s
         d["broad"] = j.extra.get("broad", "")
+        d["years_checked"] = True
         existing[j.id] = d
         new_count += 1
 
