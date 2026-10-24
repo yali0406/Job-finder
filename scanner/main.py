@@ -160,7 +160,11 @@ def main():
 
     # Jobs from sources we didn't scan this run (e.g. LinkedIn off-hours) keep their last_seen.
     cutoff = (now - timedelta(days=KEEP_DAYS)).isoformat()
-    jobs = [j for j in existing.values() if j.get("last_seen", "") >= cutoff and _still_relevant(j)]
+    # A stored job whose company's source answered this run but no longer passing the filter (closed, or
+    # its company lost the 🐣 tag that let a "foot in the door" title in) is dropped.
+    scanned = {(j.source, j.company) for j in found}
+    jobs = [j for j in existing.values() if j.get("last_seen", "") >= cutoff and _still_relevant(j)
+            and not ((j.get("source"), j.get("company")) in scanned and j.get("last_seen") != now_s)]
     for j in jobs:
         j.pop("description", None)  # keep the published file small
     jobs.sort(key=lambda j: (j.get("first_seen", ""), j.get("score") or 0), reverse=True)

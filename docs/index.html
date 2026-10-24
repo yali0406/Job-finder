@@ -49,6 +49,8 @@
   .tag { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); margin-inline-start: 6px; }
   .tag.new { background: var(--new); color: #fff; border-color: var(--new); }
   .tag.broad { color: var(--warn); border-color: var(--warn); }
+  .tag.opened { color: var(--accent); border-color: var(--accent); }
+  .tag.unopened { color: var(--muted); border-style: dashed; }
   .tag.chick { background: #fff6cc; border-color: #f5c400; color: #6b5200; }
   @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tag.chick { background: #3a3000; color: #ffe066; border-color: #a88600; } }
   .actions { display: flex; flex-direction: column; gap: 4px; }
@@ -110,6 +112,7 @@ let lastVisit = store.get("lastVisit", null);
 let marks = store.get("marks", {});             // id -> "saved" | "applied" | "hidden"
 let activeCats = new Set(store.get("cats", []));
 let chickOnly = false;
+let opened = store.get("opened", {});           // id -> when the job link was first opened
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -128,6 +131,10 @@ function renderCats() {
   });
 }
 
+const openedTag = (j) => opened[j.id]
+  ? `<span class="tag opened" title="נפתח ב-${fmt(opened[j.id])}">👁 נכנסתי</span>`
+  : '<span class="tag unopened">לא נכנסתי</span>';
+
 function jobHtml(j) {
   const s = j.score ?? 0;
   const cls = s >= 75 ? "hi" : s >= 55 ? "mid" : "";
@@ -135,9 +142,10 @@ function jobHtml(j) {
   return `<article class="job ${isNew(j) ? "is-new" : ""}">
     <div class="score ${cls}" title="ציון התאמה">${j.score ?? "–"}</div>
     <div>
-      <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+      <a class="title" data-open="${j.id}" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
       ${j.broad === "early-stage startup" ? '<span class="tag chick" title="סטארטאפ בשלב מוקדם">🐣 סטארטאפ צעיר</span>' : ""}
       ${isNew(j) ? '<span class="tag new">חדש</span>' : ""}
+      ${openedTag(j)}
       ${j.category ? `<span class="tag ${j.broad ? "broad" : ""}">${esc(j.category)}</span>` : ""}
       <div class="meta">${esc(j.company)} · ${esc(j.location)} · נמצא ${fmt(j.first_seen)} · ${esc(j.source)}</div>
       ${j.reason ? `<div class="reason">${esc(j.reason)}</div>` : ""}
@@ -171,6 +179,20 @@ function render() {
   if (fresh.length) html += `<div class="section-title">חדש מאז ${lastVisit ? fmt(lastVisit) : "הביקור הראשון"}</div>` + fresh.map(jobHtml).join("");
   if (older.length) html += `<div class="section-title">כבר ראית</div>` + older.map(jobHtml).join("");
   $("list").innerHTML = html || `<div class="empty">אין משרות שמתאימות לסינון הנוכחי</div>`;
+  // Left, middle or ctrl-click on the title all count as opening the job.
+  $("list").querySelectorAll("a[data-open]").forEach(a => {
+    const mark = (e) => {
+      if (e.type === "auxclick" && e.button !== 1) return;
+      const id = a.dataset.open;
+      if (opened[id]) return;
+      opened[id] = new Date().toISOString();
+      store.set("opened", opened);
+      const tag = a.parentElement.querySelector(".tag.unopened");
+      if (tag) tag.outerHTML = openedTag({ id });
+    };
+    a.addEventListener("click", mark);
+    a.addEventListener("auxclick", mark);
+  });
   $("list").querySelectorAll("button[data-mark]").forEach(b => b.onclick = () => {
     const { id, mark } = b.dataset;
     marks[id] === mark ? delete marks[id] : (marks[id] = mark);
