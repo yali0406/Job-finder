@@ -1,0 +1,14 @@
+# Cloudflare Pages config: the site in docs/, the API in functions/, the database in D1.
+# database_id is filled in by cloudflare/deploy.sh at deploy time (it looks the database up by name).
+name = "job-finder"
+pages_build_output_dir = "docs"
+compatibility_date = "2026-10-01"
+
+[vars]
+GOOGLE_CLIENT_ID = ""
+
+[[d1_databases]]
+binding = "DB"
+database_name = "job-finder"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"

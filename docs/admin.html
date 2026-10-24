@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>ניהול · המשרות שלי</title>
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<nav id="nav"></nav>
+<main>
+  <h1>ניהול משתמשים</h1>
+  <div class="sub">רק מי שברשימה יכול להיכנס. אחרי שמוסיפים מייל, שלחו לאותו אדם את כתובת האתר והוא ייכנס עם חשבון Google של המייל הזה.</div>
+  <div class="card">
+    <h2>הזמנת משתמש</h2>
+    <form class="row" id="invite">
+      <input type="email" id="email" placeholder="name@gmail.com" required dir="ltr">
+      <button class="btn">הוסף</button>
+    </form>
+    <div class="msg" id="msg"></div>
+  </div>
+  <div class="card">
+    <h2>משתמשים</h2>
+    <table>
+      <thead><tr><th>מייל</th><th class="hide-sm">שם</th><th>כניסה אחרונה</th><th></th></tr></thead>
+      <tbody id="users"><tr><td colspan="4" class="muted">טוען…</td></tr></tbody>
+    </table>
+  </div>
+</main>
+<script src="nav.js"></script>
+<script>
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const fmt = (iso) => iso ? new Date(iso).toLocaleString("he-IL", { dateStyle: "short", timeStyle: "short" }) : "עוד לא נכנס";
+
+  async function load() {
+    const r = await fetch("/api/admin/users", { cache: "no-store" });
+    if (r.status === 403) { $("users").innerHTML = `<tr><td colspan="4" class="muted">העמוד הזה רק למנהל.</td></tr>`; return; }
+    const users = await r.json();
+    $("users").innerHTML = users.map(u => `<tr>
+      <td dir="ltr" style="text-align:start">${esc(u.email)}${u.role === "admin" ? ' <span class="muted">(מנהל)</span>' : ""}</td>
+      <td class="hide-sm">${esc(u.name)}</td>
+      <td class="muted">${fmt(u.last_login)}</td>
+      <td>${u.role === "admin" ? "" : `<button class="btn quiet" data-remove="${esc(u.email)}">הסר</button>`}</td>
+    </tr>`).join("");
+    document.querySelectorAll("[data-remove]").forEach(b => b.onclick = async () => {
+      if (!confirm(`להסיר את ${b.dataset.remove}? הסימונים שלו יימחקו.`)) return;
+      await fetch(`/api/admin/users?email=${encodeURIComponent(b.dataset.remove)}`, { method: "DELETE" });
+      load();
+    });
+  }
+
+  $("invite").onsubmit = async (e) => {
+    e.preventDefault();
+    const r = await fetch("/api/admin/users", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: $("email").value }) });
+    const d = await r.json();
+    $("msg").textContent = r.ok ? `${d.invited} נוסף. אפשר לשלוח לו את כתובת האתר.` : "המייל לא תקין.";
+    if (r.ok) { $("email").value = ""; load(); }
+  };
+  load();
+</script>
+</body>
+</html>

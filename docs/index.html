@@ -72,6 +72,7 @@
 </style>
 </head>
 <body>
+<nav id="nav"></nav>
 <header>
   <h1>המשרות שלי</h1>
   <div class="sub" id="status">טוען…</div>
@@ -133,10 +134,36 @@ let lastVisit = store.get("lastVisit", null);
     store.set("thisVisit", now);
   }
 })();
-let marks = store.get("marks", {});             // id -> "saved" | "applied" | "hidden"
+// Marks live on the server per user, so they follow you between devices.
+let marks = {};                                 // id -> "saved" | "applied" | "hidden"
 let activeCats = new Set(store.get("cats", []));
 let chickOnly = false;
-let opened = store.get("opened", {});           // id -> when the job link was first opened
+let opened = {};                                // id -> when the job link was first opened
+
+function sync(updates) {
+  if (!updates.length) return;
+  fetch("/api/marks", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ updates }) })
+    .then(r => { if (!r.ok) throw r.status; })
+    .catch(() => { $("status").textContent = "שמירת הסימון נכשלה. בדוק את החיבור ונסה שוב."; });
+}
+
+async function loadMarks() {
+  const r = await fetch("/api/marks", { cache: "no-store" });
+  if (!r.ok) return;
+  const server = await r.json();
+  for (const [id, m] of Object.entries(server)) {
+    if (m.status) marks[id] = m.status;
+    if (m.opened_at) opened[id] = m.opened_at;
+  }
+  // One-time move of marks saved in this browser before sign-in existed.
+  const oldMarks = store.get("marks", {}), oldOpened = store.get("opened", {});
+  const ids = [...new Set([...Object.keys(oldMarks), ...Object.keys(oldOpened)])].filter(id => !server[id]);
+  if (ids.length) {
+    sync(ids.map(id => ({ job_id: id, ...(oldMarks[id] ? { status: oldMarks[id] } : {}), ...(oldOpened[id] ? { opened_at: oldOpened[id] } : {}) })));
+    ids.forEach(id => { if (oldMarks[id]) marks[id] = oldMarks[id]; if (oldOpened[id]) opened[id] = oldOpened[id]; });
+  }
+  try { localStorage.removeItem("marks"); localStorage.removeItem("opened"); } catch {}
+}
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -165,7 +192,7 @@ let shown = [];
 function setOpened(ids, on) {
   const now = new Date().toISOString();
   ids.forEach(id => on ? (opened[id] = opened[id] || now) : delete opened[id]);
-  store.set("opened", opened);
+  sync(ids.map(id => ({ job_id: id, opened_at: opened[id] || null })));
 }
 
 function jobHtml(j) {
@@ -231,7 +258,7 @@ function render() {
       const id = a.dataset.open;
       if (opened[id]) return;
       opened[id] = new Date().toISOString();
-      store.set("opened", opened);
+      sync([{ job_id: id, opened_at: opened[id] }]);
       const tag = a.parentElement.querySelector(".tag.unopened");
       if (tag) tag.outerHTML = openedTag({ id });
     };
@@ -251,7 +278,7 @@ function render() {
   $("list").querySelectorAll("button[data-mark]").forEach(b => b.onclick = () => {
     const { id, mark } = b.dataset;
     marks[id] === mark ? delete marks[id] : (marks[id] = mark);
-    store.set("marks", marks);
+    sync([{ job_id: id, status: marks[id] || null }]);
     render();
   });
 }
@@ -279,8 +306,8 @@ $("bulkClear").onclick = () => { picked.clear(); render(); };
 $("sort").value = store.get("sort", "score");
 ["q", "minScore", "view", "openedFilter", "sort"].forEach(id => $(id).addEventListener("input", render));
 
-fetch("data/jobs.json", { cache: "no-store" })
-  .then(r => r.ok ? r.json() : Promise.reject(r.status))
+Promise.all([fetch("data/jobs.json", { cache: "no-store" }), loadMarks().catch(() => {})])
+  .then(([r]) => r.ok ? r.json() : Promise.reject(r.status))
   .then(d => {
     data = d;
     $("status").textContent = `עודכן לאחרונה: ${fmt(d.updated)} · ${d.new_this_run ?? 0} משרות חדשות בסריקה האחרונה`;
@@ -288,5 +315,6 @@ fetch("data/jobs.json", { cache: "no-store" })
   })
   .catch(() => { $("status").textContent = "עדיין אין נתונים. הסריקה הראשונה תרוץ בקרוב."; });
 </script>
+<script src="nav.js"></script>
 </body>
 </html>

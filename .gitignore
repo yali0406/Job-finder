@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .venv/
 profile.md
+node_modules/
+.wrangler/
+.dev.vars

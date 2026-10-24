@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>פרופיל · המשרות שלי</title>
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<nav id="nav"></nav>
+<main>
+  <h1>פרופיל</h1>
+  <div class="sub" id="who">טוען…</div>
+  <div class="card">
+    <h2>קורות חיים והעדפות</h2>
+    <p class="muted">בקרוב: העלאת קורות חיים, תפקידי יעד, מיקום ומקסימום שנות ניסיון. לפי אלה ייבחרו וידורגו המשרות שלך.</p>
+  </div>
+</main>
+<script src="nav.js"></script>
+<script>
+  document.addEventListener("me", (e) => {
+    const me = e.detail;
+    document.getElementById("who").textContent = `${me.name || ""} · ${me.email}${me.role === "admin" ? " · מנהל" : ""}`;
+  });
+</script>
+</body>
+</html>
