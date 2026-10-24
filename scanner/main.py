@@ -60,11 +60,8 @@ def collect(cfg, with_linkedin: bool):
 
     for b in cfg.get("vc_boards", []):
         b = b if isinstance(b, dict) else {"url": b}
-        found = getro.fetch_board(b["url"].rstrip("/"))
-        if b.get("early_stage"):
-            for j in found:
-                j.extra["broad"] = "early-stage startup"
-        jobs += found
+        # The 🐣 tag comes from each company's own stage and size, not from which VC board listed it.
+        jobs += getro.fetch_board(b["url"].rstrip("/"))
 
     if with_linkedin:
         li = linkedin.fetch_queries(cfg.get("linkedin_queries", []))

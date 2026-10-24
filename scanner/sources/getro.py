@@ -40,13 +40,16 @@ def _norm_stage(v) -> str:
 
 
 def _is_early(org: dict) -> bool:
-    """Early only by the org's own stage field; exited, acquired and public companies never count."""
-    stage = _norm_stage(org.get("stage"))
-    if stage:
-        return stage in EARLY_STAGES
+    """Early = seed/series A stage AND small. Getro's stage tags go stale after a company grows or is
+    acquired, so the head count bucket (1 = 1-10, 2 = 11-50, 3 = 51-200, ...) has to agree."""
+    if _norm_stage(org.get("stage")) not in EARLY_STAGES:
+        return False
     hc = org.get("head_count")
-    # Head count only when it's a readable range like "11-50" (Getro sometimes sends a bucket number instead).
-    return isinstance(hc, str) and bool(re.match(r"^(1|2|11)\s*-\s*(10|20|50)$", hc.strip()))
+    if isinstance(hc, (int, float)):
+        return hc <= 2
+    if isinstance(hc, str) and hc.strip().isdigit():
+        return int(hc) <= 2
+    return True
 
 
 def _to_job(j, board):

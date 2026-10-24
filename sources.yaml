@@ -4,10 +4,10 @@
 
 # VC portfolio job boards (Getro). Each covers dozens to hundreds of Israeli startups.
 vc_boards:
-  # seed / early-stage funds: jobs here are treated as startups (broader "foot in the door" roles)
-  - {url: https://jobs.tlv.partners, early_stage: true}        # verified Getro
-  - {url: https://careers.grovevc.com, early_stage: true}      # verified Getro
-  - {url: https://jobs.ibexinvestors.com, early_stage: true}
+  # the 🐣 tag is set per company from its stage and size on the board, not per board
+  - https://jobs.tlv.partners        # verified Getro
+  - https://careers.grovevc.com      # verified Getro
+  - https://jobs.ibexinvestors.com
   - https://careers.viola-group.com  # verified
   - https://jobs.vertexventures.co.il
   # Israel VC Forum: jobs across ~870 Israeli VC-backed companies; seed / series A ones are marked early-stage automatically
