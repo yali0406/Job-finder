@@ -1,9 +1,9 @@
 {
- "run": "2026-10-24T11:17:21+00:00",
+ "run": "2026-10-24T12:17:19+00:00",
  "collected_by_source": {
   "smartrecruiters": 115,
   "greenhouse": 373,
-  "workday": 418,
+  "workday": 417,
   "lever": 172,
   "comeet": 1061,
   "workable": 13,
@@ -13,7 +13,8 @@
   "vc:jobs.ibexinvestors.com": 41,
   "vc:careers.viola-group.com": 144,
   "vc:jobs.vertexventures.co.il": 96,
-  "vc:israelvcforum.getro.com": 600
+  "vc:israelvcforum.getro.com": 600,
+  "linkedin": 131
  },
  "relevant_by_source": {
   "smartrecruiters": 15,
@@ -28,7 +29,8 @@
   "vc:jobs.ibexinvestors.com": 3,
   "vc:careers.viola-group.com": 20,
   "vc:jobs.vertexventures.co.il": 8,
-  "vc:israelvcforum.getro.com": 40
+  "vc:israelvcforum.getro.com": 40,
+  "linkedin": 18
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -57,12 +59,14 @@
   "INFO Getro https://jobs.vertexventures.co.il early-stage orgs: {'Bites': ('seed', 2), 'Ledge': ('seed', 2), 'TensorLeap': ('seed', 2), 'Adaptive6': ('series_a', 2), 'WireX Cube': ('series_a', 2)}",
   "INFO Getro https://jobs.vertexventures.co.il: 96 Israel jobs",
   "INFO Getro https://israelvcforum.getro.com: collection_id=10949 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://israelvcforum.getro.com org stages: {'acquisition': 105, 'series_c': 93, 'series_unknown': 91, 'series_b': 70, 'ipo': 61, 'other': 48, 'series_f': 35, 'series_d': 22, 'series_e': 19, 'private_equity': 14, 'pre_seed': 14, 'series_a': 12}",
-  "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 229, '4': 212, '2': 84, '5': 73, '1': 2}",
+  "INFO Getro https://israelvcforum.getro.com org stages: {'acquisition': 104, 'series_c': 93, 'series_unknown': 91, 'series_b': 71, 'ipo': 61, 'other': 48, 'series_f': 35, 'series_d': 22, 'series_e': 19, 'private_equity': 14, 'pre_seed': 14, 'series_a': 12}",
+  "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 230, '4': 215, '2': 80, '5': 73, '1': 2}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Quantum Source': ('series_a', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2), 'Regatta': ('seed', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO Collected 3327 jobs in Israel",
-  "INFO 305 pass the title filter",
-  "INFO New: 0, total kept: 91"
+  "WARNING LinkedIn search 'Systems Analyst' blocked or failed (none)",
+  "INFO LinkedIn: 131 jobs",
+  "INFO Collected 3457 jobs in Israel",
+  "INFO 323 pass the title filter",
+  "INFO New: 1, total kept: 92"
  ]
 }
