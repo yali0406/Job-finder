@@ -91,6 +91,12 @@
     <option value="applied">הגשתי</option>
     <option value="hidden">מוסתרות</option>
   </select>
+  <select id="sort" aria-label="מיון">
+    <option value="score">מיון: ציון גבוה לנמוך</option>
+    <option value="scoreAsc">מיון: ציון נמוך לגבוה</option>
+    <option value="newest">מיון: הכי חדשות</option>
+    <option value="company">מיון: לפי חברה</option>
+  </select>
   <select id="openedFilter" aria-label="נכנסתי">
     <option value="">נכנסתי ולא נכנסתי</option>
     <option value="no">רק לא נכנסתי</option>
@@ -201,8 +207,17 @@ function render() {
     if (q && !`${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q)) return false;
     return true;
   });
-  const fresh = jobs.filter(isNew).sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
-  const older = jobs.filter(j => !isNew(j)).sort((a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || (b.score ?? 0) - (a.score ?? 0));
+  const sc = (j) => j.score ?? 0;
+  const byScore = (a, b) => sc(b) - sc(a);
+  const cmp = {
+    score: byScore,
+    scoreAsc: (a, b) => sc(a) - sc(b),
+    newest: (a, b) => (b.first_seen || "").localeCompare(a.first_seen || "") || byScore(a, b),
+    company: (a, b) => (a.company || "").localeCompare(b.company || "", "he") || byScore(a, b),
+  }[$("sort").value] || byScore;
+  store.set("sort", $("sort").value);
+  const fresh = jobs.filter(isNew).sort(cmp);
+  const older = jobs.filter(j => !isNew(j)).sort(cmp);
 
   $("summary").textContent = `${fresh.length} חדשות מאז הביקור הקודם · ${jobs.length} מוצגות מתוך ${data.jobs.length}`;
   let html = "";
@@ -261,7 +276,8 @@ $("bulkUnopened").onclick = () => bulkSet(false);
 $("bulkAll").onclick = () => { shown.forEach(id => picked.add(id)); render(); };
 $("bulkClear").onclick = () => { picked.clear(); render(); };
 
-["q", "minScore", "view", "openedFilter"].forEach(id => $(id).addEventListener("input", render));
+$("sort").value = store.get("sort", "score");
+["q", "minScore", "view", "openedFilter", "sort"].forEach(id => $(id).addEventListener("input", render));
 
 fetch("data/jobs.json", { cache: "no-store" })
   .then(r => r.ok ? r.json() : Promise.reject(r.status))
