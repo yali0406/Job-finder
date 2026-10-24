@@ -1,5 +1,5 @@
 {
- "run": "2026-10-23T23:58:21+00:00",
+ "run": "2026-10-24T00:07:20+00:00",
  "collected_by_source": {
   "smartrecruiters": 115,
   "greenhouse": 373,
@@ -13,7 +13,8 @@
   "vc:jobs.ibexinvestors.com": 41,
   "vc:careers.viola-group.com": 144,
   "vc:jobs.vertexventures.co.il": 96,
-  "vc:israelvcforum.getro.com": 600
+  "vc:israelvcforum.getro.com": 600,
+  "linkedin": 123
  },
  "relevant_by_source": {
   "smartrecruiters": 15,
@@ -28,7 +29,8 @@
   "vc:jobs.ibexinvestors.com": 5,
   "vc:careers.viola-group.com": 30,
   "vc:jobs.vertexventures.co.il": 13,
-  "vc:israelvcforum.getro.com": 106
+  "vc:israelvcforum.getro.com": 106,
+  "linkedin": 16
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -49,8 +51,13 @@
   "INFO Getro https://israelvcforum.getro.com: collection_id=10949 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://israelvcforum.getro.com sample organization keys: ['head_count', 'id', 'industry_tags', 'logo_url', 'name', 'slug', 'stage', 'topics']",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO Collected 3330 jobs in Israel",
-  "INFO 434 pass the title filter",
+  "WARNING LinkedIn search 'Business Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Systems Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Payments Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Product Manager' blocked or failed (none)",
+  "INFO LinkedIn: 123 jobs",
+  "INFO Collected 3453 jobs in Israel",
+  "INFO 450 pass the title filter",
   "INFO New: 0, total kept: 174"
  ]
 }
