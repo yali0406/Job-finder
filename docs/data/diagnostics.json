@@ -1,5 +1,5 @@
 {
- "run": "2026-10-24T09:17:20+00:00",
+ "run": "2026-10-24T10:17:18+00:00",
  "collected_by_source": {
   "smartrecruiters": 115,
   "greenhouse": 373,
@@ -13,8 +13,7 @@
   "vc:jobs.ibexinvestors.com": 41,
   "vc:careers.viola-group.com": 144,
   "vc:jobs.vertexventures.co.il": 96,
-  "vc:israelvcforum.getro.com": 600,
-  "linkedin": 130
+  "vc:israelvcforum.getro.com": 600
  },
  "relevant_by_source": {
   "smartrecruiters": 15,
@@ -29,8 +28,7 @@
   "vc:jobs.ibexinvestors.com": 3,
   "vc:careers.viola-group.com": 20,
   "vc:jobs.vertexventures.co.il": 8,
-  "vc:israelvcforum.getro.com": 40,
-  "linkedin": 16
+  "vc:israelvcforum.getro.com": 40
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -63,10 +61,8 @@
   "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 229, '4': 212, '2': 84, '5': 73, '1': 2}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Quantum Source': ('series_a', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2), 'Regatta': ('seed', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "WARNING LinkedIn search 'Cloud Engineer' blocked or failed (none)",
-  "INFO LinkedIn: 130 jobs",
-  "INFO Collected 3456 jobs in Israel",
-  "INFO 321 pass the title filter",
+  "INFO Collected 3326 jobs in Israel",
+  "INFO 305 pass the title filter",
   "INFO New: 0, total kept: 91"
  ]
 }
