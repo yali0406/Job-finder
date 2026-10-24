@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T00:07:20+00:00",
- "linkedin_scanned": true,
+ "updated": "2026-10-24T00:34:42+00:00",
+ "linkedin_scanned": false,
  "new_this_run": 0,
  "jobs": [
   {
@@ -64,21 +64,6 @@
    "broad": ""
   },
   {
-   "title": "Financial Solutions & Business Analyst",
-   "company": "REAL",
-   "url": "https://apply.workable.com/real-dev-inc/j/9188839C3E",
-   "location": "Tel Aviv District, Israel, Tel Aviv-Yafo, Israel",
-   "source": "vc:jobs.tlv.partners",
-   "posted": "1785155685",
-   "id": "47ed433226d88774",
-   "first_seen": "2026-10-23T05:52:04+00:00",
-   "score": 62,
-   "reason": "התפקיד הוא אנליסט פיננסי ועסקי בסטארטאפ מוקדם בתל אביב, והוא מתאים לרקע של המועמד בתשלומים (Nuvei), SQL מתקדם ואנליזת מערכות. הפוסט עצמו דל מאוד ואין בו פירוט על דרישות ניסיון או כלים, לכן רמת הבשלות לתפקיד לא ברורה.",
-   "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
-  },
-  {
    "title": "Implementation Specialist",
    "company": "EasySend",
    "url": "https://www.comeet.com/jobs/easysend/D5.009/implementation-specialist/86.27C",
@@ -105,23 +90,9 @@
    "score": 62,
    "reason": "התפקיד DevOps בחברה מסוג סטארטאפ מוקדם, והמועמד מכיר AWS, EKS, Terraform, CI/CD ו-Docker מקורס ופרויקט גמר, אך אין דרישת שנות ניסיון מפורשת והמודעה לא מפרטת רמה. הפער העיקרי הוא ניסיון מעשי בפרודקשן מרובה אזורים, GovCloud ו-FIPS/STIG, ולכן הציון בינוני-גבוה.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
-  },
-  {
-   "title": "Product Manager",
-   "company": "Perimeter 81",
-   "url": "https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=3420086",
-   "location": "Tel Aviv-Yafo, Israel",
-   "source": "vc:israelvcforum.getro.com",
-   "posted": "1791198651",
-   "id": "6c37626bd132526d",
-   "first_seen": "2026-10-23T05:52:04+00:00",
-   "score": 62,
-   "reason": "תפקיד Product Manager הוא יעד ישיר של המועמד, והמיקום בתל אביב תואם. אין תיאור משרה, לכן לא ברור אם הדרישה היא ל-junior או ל-mid ואילו ניסיון נדרש. הרקע ב-SQL, Agile, ניתוח מערכות ותפעול תשלומים יכול לעזור, אבל חסר ניסיון מוצרי מוכח.",
-   "category": "Product Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Portfolio Management Analyst (Mat Leave Cover)",
@@ -135,8 +106,9 @@
    "score": 62,
    "reason": "התפקיד הוא אנליסט ניהול פורטפוליו זמני בסטארטאפ, ומתאים לרקע שלך באנליזה, ניהול נתונים, SQL, Excel ותהליכי תפעול כמו ניטור תשלומים ו-CRM. חסר ניסיון ישיר ב-VC או בתחום הרפואי, ודרישת 1-2 שנות ניסיון קרובה לרקע שלך.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Treasury Operations Associate",
@@ -154,21 +126,6 @@
    "broad": "early-stage startup"
   },
   {
-   "title": "DevOps Engineer - Autonomous Workspace Platform",
-   "company": "Perimeter 81",
-   "url": "https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=7684809",
-   "location": "Tel Aviv-Yafo, Israel",
-   "source": "vc:israelvcforum.getro.com",
-   "posted": "1788693125",
-   "id": "5ca7a7489c186361",
-   "first_seen": "2026-10-23T05:52:04+00:00",
-   "score": 62,
-   "reason": "התפקיד הוא DevOps, תחום יעד של המועמד, והוא מסומן כ-foot in the door בסטארטאפ, כך שהרקע בתשתיות AWS, Kubernetes, Docker ו-CI/CD רלוונטי. אין תיאור משרה, ולכן רמת הוותק והדרישות לא ידועות, וחסרה ניסיון מעשי מוכח בתפעול ייצור.",
-   "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
-  },
-  {
    "title": "Customer Delivery Manager",
    "company": "Rapyd",
    "url": "https://www.comeet.com/jobs/rapyd/73.00E/customer-delivery-manager/9D.178",
@@ -180,8 +137,9 @@
    "score": 62,
    "reason": "התפקיד מסומן כ-foot in the door בחברה פינטק, והרקע בתשלומים (Nuvei, ניטור תשלומים, ניהול אירועים וסיכונים) רלוונטי מאוד. הפער: הדרישה לשנתיים ניסיון בתחום התשלומים בתפקידים מול לקוחות, והניסיון הישיר בהטמעת סוחרים ו-high-risk עדיין מוגבל, אבל ניסיון ה-CRM וה-Max משלים אותו.",
    "category": "Project Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Portfolio Management Analyst (Mat Leave Cover)",
@@ -195,8 +153,9 @@
    "score": 58,
    "reason": "התפקיד הוא תמיכה תפעולית-אנליטית בניהול תיקי השקעות בסטארטאפ, וזה מתאים לרקע שלך באנליזה, דיווח ותהליכים (Nuvei, SQL, Excel, Agile). פער: אין ניסיון ישיר ב-VC או בתחום MedTech, ותקופת החוזה מוגבלת ל-6-8 חודשים עם דרישה ל-1-2 שנות ניסיון, והמשרה מוצעת בירושלים ובתל אביב.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "DevOps",
@@ -210,8 +169,9 @@
    "score": 55,
    "reason": "התפקיד DevOps בחברת סטארט-אפ ענן מתאים לכיוון שלך (Kubernetes, Docker, Terraform, CI/CD, AWS מהקורס), אבל הפרסום לא מציין רמת ותק ולא מפרט דרישות מפורטות. חסרה לך ניסיון מעשי ארוך בתפעול פלטפורמות ייצור, והמשרה מיועדת לצוות 'senior' לפי התיאור, ולכן הציון בינוני.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Data Analyst",
@@ -225,8 +185,9 @@
    "score": 55,
    "reason": "התפקיד דורש 2+ שנות ניסיון כאנליסט דאטה, SQL חזק ו-Python (חובה), ויש לך בסיס טוב ב-SQL וב-Python אבל אין לך ניסיון מוכח כאנליסט דאטה ולא מספיק ניסיון בהערכת מודלי LLM וסטטיסטיקה של precision/recall. ההתאמה חלקית בלבד עם פער בשנות הניסיון.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Bluespine- Junior Medical Fraud & Anomaly",
@@ -300,8 +261,9 @@
    "score": 45,
    "reason": "התפקיד הוא שירות לקוחות (Customer Care) ולא אחד מתחומי היעד שלך, אך במסגרת 'foot in the door' בסטארטאפ פיננסי כמו Mesh יש לך רקע רלוונטי: ניטור תשלומים ב-Nuvei, טיפול באירועים, עבודה מול לקוחות ב-Max ו-CRM. הפרטים המלאים על הדרישות חסרים בתיאור, ולכן רמת הדרישה לא ברורה.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Technical Account Manager (Digital tier)",
@@ -345,8 +307,9 @@
    "score": 45,
    "reason": "התפקיד הוא Product Manager בחברת סייבר (OX Security) והוא יעד בפרופיל, אך התיאור לא מפרט שנות ניסיון או דרישות ברורות, והדרישה לניסיון כ-PM ולעבודה עם מוצר AppSec אינה מתאימה לרקע שלך, שכולל בעיקר ניטור תשלומים ו-Agile. הניסיון שלך ב-SAP, ניהול פרויקטים ו-SQL יכול לעזור, אך ההיעדר ניסיון מוצרי ממשי מוריד את הסיכוי.",
    "category": "Product Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "People Tech Product Manager, AI & Systems",
@@ -360,8 +323,9 @@
    "score": 45,
    "reason": "התפקיד הוא Product Manager בצוות People Tech ו-AI, תחום שמתאים באופן חלקי לרקע של המועמד בניהול פרויקטים, Agile ומערכות ERP. תיאור המשרה בפועל חסר ולכן אין אפשרות לאמת דרישות ניסיון או כלים טכניים, וחברת monday.com אינה סטארטאפ מוקדם.",
    "category": "Product Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Support Engineer",
@@ -390,8 +354,9 @@
    "score": 40,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון כאנליסט בסביבת SaaS, והמועמד אין לו ניסיון כזה (ניסיון אנליטי של שנה בניטור תשלומים). יש חפיפה בSQL ובקליטת דאטה, אבל חסרים ניסיון SaaS, כלי BI כמו Looker/Tableau ומדדי ARR/Churn, ולכן ההתאמה חלשה.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "SMB Account Manager IL",
@@ -465,8 +430,9 @@
    "score": 35,
    "reason": "התפקיד Customer Onboarding Specialist לא מופיע ברשימת היעד שלך, אבל מדובר בסטארטאפ פיננסי שמתאים ל'דלת כניסה'. הרקע שלך בתשלומים, ניטור ותמיכה בלקוחות (Max, Nuvei) רלוונטי, אך לא הובאה דרישת ניסיון או תיאור תפקיד מפורט, ולכן רמת הבכירות לא ברורה.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Junior Customer Success Manager (Tel Aviv)",
@@ -480,23 +446,9 @@
    "score": 35,
    "reason": "התפקיד Junior Customer Success Manager הוא לא תפקיד יעד, אבל במסגרת foot in the door בסטארטאפ פיננסי הוא יכול להתאים לרקע של מוניטורינג בתשלומים ב-Nuvei, ניהול משמרות וקשרי לקוחות ב-Max וידע ב-SQL. חסר ניסיון ישיר בהצלחת לקוחות או ליווי לקוחות B2B, והתיאור בעמוד הוא רק רשימת משרות בלי דרישות מפורטות.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
-  },
-  {
-   "title": "CRE Solutions Engineer",
-   "company": "REAL",
-   "url": "https://apply.workable.com/real-dev-inc/j/523D9AB6CE",
-   "location": "Tel Aviv District, Israel, Tel Aviv-Yafo, Israel",
-   "source": "vc:jobs.tlv.partners",
-   "posted": "1791289730",
-   "id": "996f978badd33770",
-   "first_seen": "2026-10-23T05:52:04+00:00",
-   "score": 35,
-   "reason": "התפקיד מסומן כ-foot in the door בסטארטאפ, אבל התיאור דל מאוד ואין בו פירוט על דרישות או אחריות. הרקע בניטור תשתיות תשלומים, SQL ו-Python יכול להיות רלוונטי, אך אין מספיק מידע כדי לדעת אם יש התאמה.",
-   "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "IT Specialist",
@@ -510,8 +462,9 @@
    "score": 35,
    "reason": "התפקיד הוא IT Support ג'וניור בסטארטאפ מדיה, והמועמד לא מחזיק ניסיון ישיר בתמיכת משתמשים או ניהול הרשאות (רק מעט רקע מ-OCC ומשמרות). יש חפיפה בסיסית בהבנת מערכות ותמיכה טכנית, אך חסרים Okta, Google Workspace, ניהול מכשירי Mac/Windows וזרימת onboarding/offboarding.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Product Manager",
@@ -525,23 +478,9 @@
    "score": 35,
    "reason": "התפקיד דורש עומק טכני בתשתיות אחסון, רשתות ומערכות מבוזרות (NVMe, RDMA, Kubernetes ברמת מערכת), ולמועמד יש בסיס רלוונטי רק חלקית דרך Kubernetes, AWS ו-Docker. הניסיון בניהול תקלות ובמערכות תשלומים וה-SQL/Python יכולים לעזור, אבל חסר ניסיון ישיר בתחום ומדובר בתפקיד שסביר שייבחר בו מי שעבד בתשתיות עמוקות.",
    "category": "Product Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
-  },
-  {
-   "title": "Sales Operations Manager",
-   "company": "Cylus",
-   "url": "https://boards.greenhouse.io/cyluscybersecurity/jobs/8446327002",
-   "location": "Tel Aviv-Yafo, Israel",
-   "source": "vc:jobs.ibexinvestors.com",
-   "posted": "1772626703",
-   "id": "186e3676809505e4",
-   "first_seen": "2026-10-23T05:52:04+00:00",
-   "score": 35,
-   "reason": "התפקיד Sales Operations Manager אינו ברשימת היעדים שלך, אך הוא במסגרת סטארטאפ מוקדם שסומן כ'פריצה לדלת'. יש התאמה חלקית ברקע שלך ב-CRM, ניתוח נתונים ו-SQL ממקסים ומאוניברסיטה, אבל אין תיאור משרה ולכן אין וודאות לגבי רמת הניסיון הנדרשת או הכלים שנדרשים.",
-   "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Customer Support Communications Manager",
@@ -555,8 +494,9 @@
    "score": 35,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון בתמיכה/enablement ובניית Help Center ומאקרו, וכתיבה באנגלית ברמה גבוהה, שאין לך כרגע כרמה מקצועית מוכחת. יש חפיפה חלקית בתחום התמיכה והמדדים (CSAT, FRT) ובתרחישי שירות, אך חסר ניסיון בכתיבת תוכן ובהדרכה לנציגים.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Retention & Marketing Automation Specialist",
@@ -585,8 +525,9 @@
    "score": 35,
    "reason": "התפקיד הוא Technical Project Manager ב-CX, תחום קרוב לרקע של ניהול פרויקטים ו-Agile מתואר בתעודת BA, אבל התיאור בפוסט חסר כמעט לחלוטין ואין בו דרישות ברורות. ללא פירוט על שנות ניסיון ועל כלים נדרשים קשה להעריך התאמה מלאה.",
    "category": "Project Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Kubernetes Researcher",
@@ -600,8 +541,9 @@
    "score": 35,
    "reason": "התפקיד הוא מחקר Kubernetes בסטארטאפ מוקדם בתל אביב, והמשרה עצמה כמעט ריקה ולא מפרטת דרישות. יש חפיפה לרקע הדבקות של המועמד (EKS, Docker, CI/CD), אבל אין מספיק מידע כדי לדעת את רמת הבכירות או את הדרישות בפועל.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Account Manager IL",
@@ -709,21 +651,6 @@
    "broad": "early-stage startup"
   },
   {
-   "title": "Incident Response Analyst",
-   "company": "Perception Point",
-   "url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/24384",
-   "location": "Tel Aviv-Yafo, Israel",
-   "source": "vc:israelvcforum.getro.com",
-   "posted": "1789902329",
-   "id": "bd87efe6d784e4d4",
-   "first_seen": "2026-10-23T05:52:04+00:00",
-   "score": 35,
-   "reason": "התפקיד הוא Incident Response Analyst בסטארטאפ בתל אביב, וניסיון הניטור והטיפול באירועים ב-Nuvei רלוונטי. עם זאת, התיאור קצר מאוד ולא מפרט דרישות, ותחום סייבר/SOC אינו יעד של המועמד, כך שההתאמה חלשה ולא ברורה.",
-   "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
-  },
-  {
    "title": "Events Operations Specialist - Temporary Position (6 months)",
    "company": "Perimeter 81",
    "url": "https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=9945526",
@@ -810,8 +737,9 @@
    "score": 30,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון כמנהל מוצר ורקע מעמיק בתחום מודיעין או ביטחון, ולמועמד אין ניסיון ניהול מוצר מקצועי. יש לו בסיס רלוונטי בניתוח מערכות, SQL, Python ותהליכי טיפול באירועים, אבל הפער בניסיון PM ובידע המודיעיני גדול.",
    "category": "Product Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "DevOps Engineer",
@@ -825,8 +753,9 @@
    "score": 30,
    "reason": "התפקיד הוא DevOps, תחום יעד של המועמד, והמיקום בתל אביב מתאים. עם זאת, תיאור המשרה לא נטען כראוי ולכן אין מידע על דרישות הניסיון והכלים. המועמד מכיר Docker, Kubernetes, AWS ו-CI/CD מקורס ה-DevSecOps, אך ללא פרטי המשרה לא ניתן לאמת את ההתאמה.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "IT Support Engineer",
@@ -840,8 +769,9 @@
    "score": 28,
    "reason": "התפקיד הוא תמיכת IT שורה ראשונה (Help Desk/Desktop) ולא תפקיד יעד של המועמד, והוא דורש לפחות 2 שנות ניסיון בתמיכה טכנית ו-Intune/Entra ID שאינם מופיעים בקורות החיים. יש חפיפה חלקית בתמיכה במשתמשים ובניטור תקלות, אך חסר ניסיון מעשי בתמיכת מחשבים ו-Windows/macOS, ולכן ההתאמה חלשה.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Account Manager, Mid-market and Enterprise (Tel Aviv)",
@@ -855,8 +785,9 @@
    "score": 25,
    "reason": "הפוסט הוא בעיקר תפריט ניווט של האתר ולא תיאור תפקיד מלא, כך שאין דרישות מפורטות. התפקיד Account Manager הוא מכירות/ניהול לקוחות, שאינו מסלול יעד ולכן ההתאמה חלשה, אף שבמסגרת 'הדלת הפתוחה' ניהול לקוחות בתחום התשלומים יכול להיות נקודת כניסה, בהתחשב בניסיון ב-Nuvei ובשירות לקוחות ב-Max.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "IT Technician",
@@ -885,21 +816,6 @@
    "score": 25,
    "reason": "התפקיד הוא QA רשתות, תחום שאינו מתאים לרקע שלי כרגע, ואין תיאור משרה שמאפשר לאמת דרישות. יש חפיפה חלקית עם Wireshark ורקע בניטור מערכות תשלומים, אך אין התאמה ברורה לתפקיד.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
-  },
-  {
-   "title": "Incident Response Analyst",
-   "company": "Perimeter 81",
-   "url": "https://careers.checkpoint.com/index.php?m=cpcareers&a=show&joborderid=5733559",
-   "location": "Tel Aviv-Yafo, Israel",
-   "source": "vc:israelvcforum.getro.com",
-   "posted": "1792069071",
-   "id": "896c725805f8fb3c",
-   "first_seen": "2026-10-23T05:52:04+00:00",
-   "score": 25,
-   "reason": "התפקיד הוא Incident Response Analyst, שהוא תחום סייבר/SOC שנמצא מחוץ לתחומי היעד של המועמד, והמודעה ריקה מפירוט. יש חפיפה חלקית בטיפול באירועים מניטור תשלומים, אבל אין ניסיון בתגובה לאירועי אבטחה, ולכן ההתאמה חלשה.",
-   "category": "Analyst",
    "last_seen": "2026-10-24T00:07:20+00:00",
    "broad": "early-stage startup"
   },
@@ -1200,8 +1116,9 @@
    "score": 72,
    "reason": "התפקיד אנליסט דאטה והמועמד מתאים לתחום: יש לו SQL מתקדם, Excel, BA במערכות מידע וניסיון בניטור מערכות תשלומים וחקירת חריגות. חסרים ניסיון מוכח בכלי BI ועבודה עם מאגרי נתונים גדולים, וכן רקע במכס או בסחר בינלאומי, שמופיע כיתרון.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Forecast Analyst",
@@ -1215,8 +1132,9 @@
    "score": 72,
    "reason": "תפקיד Forecast Analyst הוא אנליסט נתונים/BI בתחום יעד, והדרישה היא עד שנתיים ניסיון, מה שמתאים לרמת ג'וניור. חסר ניסיון מוכח בבניית מודלים סטטיסטיים לתחזיות, אבל יש בסיס חזק ב-SQL, Python ואקסל ובניתוח נתונים מתוך Nuvei ו-Ono. דרישת אנגלית מעולה מתאימה לרקע של המועמד, אך נדרש תואר בתחום כמו הנדסת תעשייה, סטטיסטיקה או כלכלה, שאינו מופיע ב-CV בצורה ברורה.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Support & Compliance Agent",
@@ -1230,8 +1148,9 @@
    "score": 72,
    "reason": "תפקיד תמיכה ו-KYC בחברת גיימינג, עם דרישה לשנה ניסיון תפעולי שמתאימה לרקע שלך בניטור תשלומים ב-Nuvei ובמוקד פיננסי ב-Max. יש התאמה טובה לעבודה עם תשלומים, מסמכים ודיוק, אבל הפוזיציה לא טכנית ולא מתאימה ישירות ליעדים שלך כמו DevOps או PM, ודרישת האקסל והדיוק הופכת אותה לפחות מובילה.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "Business Analyst - Wix Marketing",
@@ -1245,8 +1164,9 @@
    "score": 62,
    "reason": "התפקיד הוא אנליסט עסקי/דאטה בתחום שיווק, שהוא קרוב לתפקידי האנליסט בפרופיל, והמועמד מכיר SQL מתקדם ו-Python. הפער: הדרישה לשנתיים ניסיון בניתוח כמותי על דאטה גדול, ניסיון באיגום A/B testing וסטטיסטיקה, ולא רואים ניסיון מוכח בזה ברקע הנוכחי.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Customer Delivery Manager",
@@ -1260,8 +1180,9 @@
    "score": 62,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון בתשלומים/פינטק בתפקיד מול לקוחות, ויש לך רקע רלוונטי מ-Nuvei בניטור מערכות תשלום, טיפול באירועים ותיאום עם צוותי Risk ו-Development, וכן ניסיון בשירות לקוחות ו-CRM ב-Max. הפער: אין לך ניסיון ישיר בהטמעת סוחרים (merchant onboarding) או בעבודה עם סוחרים בתחומי high-risk, ואין ניסיון מוכח בניהול KPI של authorization rates.",
    "category": "Project Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Payment Operations Analyst",
@@ -1275,8 +1196,9 @@
    "score": 62,
    "reason": "התפקיד מתאים לתחום הפיננסי/תשלומים ולרקע שלך כמנתח מוניטורינג בנובאי, וכולל SQL, ניתוח נתונים ותקשורת עם PSPs ו-acquirers. הפער: הדרישה לשנתיים ניסיון מעשי בתפעול תשלומים (חובה), ואין לך עדיין ניסיון מוכח בממשקי API ו-QlikSense.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Business Data Analyst",
@@ -1290,8 +1212,9 @@
    "score": 62,
    "reason": "המשרה היא אנליסט נתונים בחברת גיימינג בתל אביב, תחום שמתאים לרקע שלך ב-SQL ו-Python ולניתוח נתונים בתשלומים. הפער: הדרישה היא לפחות שנתיים של ניסיון אנליטי והעדפה לניסיון בגיימינג, שאין לך.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "Product Monetization Manager",
@@ -1305,8 +1228,9 @@
    "score": 62,
    "reason": "התפקיד נמצא בחברת גיימינג ומסומן כ'דלת כניסה', והרקע שלך בתשלומים, ניתוח נתונים ו-SQL רלוונטי לאנליטיקה של מונטיזציה. חסרים ניסיון ישיר בניהול אירועים ומבצעים במשחקים ובדיקות A/B, והדרישה לניסיון מוגדר כ'מנוסה' בלי מספר שנים ברור.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "Customer Success Manager",
@@ -1320,8 +1244,9 @@
    "score": 62,
    "reason": "התפקיד הוא Customer Success Manager בחברת SaaS לשיווק בתל אביב, דורש 1-2 שנות ניסיון בתפקידי לקוחות ומעדיף B2B SaaS, וזו התאמה סבירה לרקע שלך בתפקידי מוקד, ניטור ותמיכה בלקוחות (Nuvei, Max). נקודות החוזק שלך הן ניהול תקלות, SQL, Python ותקשורת מול צוותי פיתוח, אבל אין לך ניסיון ישיר בניהול לקוחות B2B או הדרכת משתמשי קצה.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "AWS Sales Operations",
@@ -1335,8 +1260,9 @@
    "score": 62,
    "reason": "התפקיד דורש 1-3 שנות ניסיון בתפעול או תמיכה במכירות, ומתאים לרקע התפעולי והמעקב של המועמד מ-Nuvei ומ-Max. חסר ניסיון מוכח ב-Salesforce ו-Monday.com ובתהליכי חיוב ושותפי AWS, אך הניסיון בתיאום בין צוותים ובניית תהליכים מחזק את ההתאמה כמסלול כניסה לסטארטאפ.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "DevOps Engineer",
@@ -1350,8 +1276,9 @@
    "score": 62,
    "reason": "התפקיד DevOps בתחום CI/CD וקונטיינרים, והמועמד מתאים לו בזכות Docker, Kubernetes ו-AWS EKS מפרויקט הקורס, Linux, Git וPython. חסרים ניסיון מעשי עם Jenkins ותהליכי build ו-release בארגון, ולכן הציון בינוני-גבוה.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "DevOps Specialist",
@@ -1395,8 +1322,9 @@
    "score": 55,
    "reason": "התפקיד הוא ניתוח רכישת משתמשים ופרסום ממומן (CAC, ROAS, LTV) וזה לא תחום היעד המרכזי שלך, אך קרוב לניתוח נתונים ו-SQL. הדרישה היא לשנתיים ניסיון אנליטי ואתה נשען על ניסיון ב-Excel ו-SQL מתקדם, אבל חסר לך ניסיון בפרסום דיגיטלי וקמפיינים בהיקף גדול.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Treasury Analyst",
@@ -1410,8 +1338,9 @@
    "score": 55,
    "reason": "התפקיד הוא אנליסט טרזרי (Financial), שנכנס לקטגוריית היעד של אנליסטים פיננסיים, והדרישה היא 1-2 שנות ניסיון פיננסי. לעומת זאת, אין לך ניסיון ישיר בניהול נזילות, תזרים מזומנים, פקטורינג או סיכוני מטח, והרקע שלך בתשלומים (Nuvei) ובמערכות SAP/Excel הוא רלוונטי רק חלקית.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "DevOps Engineer",
@@ -1425,8 +1354,9 @@
    "score": 55,
    "reason": "התפקיד DevOps שהוא יעד מובהק, אבל הדרישות כוללות \"ניסיון נרחב\" ב-Linux, Jenkins, qemu/KVM ו-Postgres, ואין ציון מפורש של שנות ניסיון. יש חפיפה טובה ב-Docker, Git, Terraform, Python ו-CI/CD מקורס ה-DevSecOps, אבל חסר ניסיון מעשי בוירטואליזציה, Ansible ו-Prometheus/Grafana/ELK.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Product Analyst",
@@ -1440,8 +1370,9 @@
    "score": 55,
    "reason": "התפקיד הוא אנליסט מוצר, תחום יעד חלקי, אבל הדרישה היא לפחות 2 שנות ניסיון באנליטיקה ב-SaaS ומיומנות SQL גבוהה וכלי BI כמו Looker/Tableau, ולמועמד יש SQL מתקדם ותפקיד מוניטורינג בפיננסים אך אין ניסיון SaaS או BI ייעודי. לכן ההתאמה חלקית.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Data Analyst",
@@ -1455,8 +1386,9 @@
    "score": 55,
    "reason": "התפקיד הוא Data Analyst בתחום אנליטיקת משתמשים ו-funnel, תואם לכיוון האנליסט של המועמד (SQL, Excel, ניתוח נתונים מ-Nuvei). עם זאת הדרישה היא 2+ שנות ניסיון בניתוח נתונים, יש דרישה ל-Google Analytics/Mixpanel/Amplitude, A/B testing וניסיון מוכח ב-Product Analytics, והמועמד חסר ניסיון ייעודי בכלים אלה ובעבודה עם QlikSense.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Sales Data Analyst",
@@ -1470,8 +1402,9 @@
    "score": 55,
    "reason": "התפקיד מתאים לתחום Data Analyst שהוא יעד, אבל הדרישה היא לפחות שנתיים ניסיון בתפקידי data/business analytics והתפקיד נמצא בחברה תעשייתית גדולה ולא בגיימינג או סטארטאפ. ליאור... הכישורים שלך ב-SQL ו-Excel רלוונטיים, אך חסר ניסיון מוכח בכלי BI ותואר בהנדסה/סטטיסטיקה/כלכלה.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Operations Monetization Specialist",
@@ -1485,8 +1418,9 @@
    "score": 55,
    "reason": "התפקיד בגיימינג ומבוסס על ניהול הגדרות, קמפיינים, מוניטיזציה ומעקב ניסויים חיים, מה שקשור לרקע שלך במוניטורינג תשלומים, ניתוח לוגים ו-SQL. עם זאת, אין דרישה לניסיון מסוים, אבל הדרישה לתואר בהנדסת תעשייה וניהול מתוך ציפייה ל-off-hours ולעבודה מול מערכות backend פחות מתאימות לרקע שלך.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "Bluespine- Junior Medical Fraud & Anomaly",
@@ -1500,8 +1434,9 @@
    "score": 55,
    "reason": "התפקיד ג'וניור ומתאים ל'דרך כניסה' בסטארטאפ, והרקע של המועמד בניטור תשלומים, חקירת תקלות ו-SQL/Python רלוונטי לחקירת הונאות ואנומליות. עם זאת, אין ניסיון ישיר בתביעות רפואיות או במדעי החיים, והדרישה לאנגלית כתובה ברמה גבוהה ולרקע מחקרי היא פער משמעותי.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Billing & Collections Specialist",
@@ -1515,8 +1450,9 @@
    "score": 55,
    "reason": "התפקיד מתאים לרמת כניסה ולמסלול 'רגל בדלת' בסטארטאפ, והמועמד יכול להציג רקע רלוונטי בתפעול תשלומים, ניטור ותהליכי כסף ב-Nuvei ובמשרות שירות. עם זאת, אין לו ניסיון ישיר בגבייה, התאמות חשבונות (AR) או Stripe, והדרישה לאנגלית ברמת שפת אם היא פער משמעותי שכדאי לבדוק.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "אנליסט/ית דאטה מתחיל/ה – לחברת ניהול מועדוני לקוחות בזירה הקמעונאית",
@@ -1560,8 +1496,9 @@
    "score": 52,
    "reason": "התפקיד הוא שיווק רכישת משתמשים במשחקי מובייל, לא תפקיד יעד ישיר, אבל במסגרת 'דלת כניסה' בחברת גיימינג זה אפשרי. יש התאמה בניתוח נתונים, Excel, עבודה על פרויקטים בלחץ ואנגלית שוטפת, אך חסרים ניסיון בקמפיינים בערוצי פרסום ורקע בשיווק דיגיטלי.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "Performance Marketing Analyst",
@@ -1575,8 +1512,9 @@
    "score": 50,
    "reason": "התפקיד הוא אנליסט נתונים עסקי, קרוב לתחומי האנליטיקה שלך, וכולל SQL/Excel מתקדם ושימוש בנתונים לקבלת החלטות. עם זאת, אין ניסיון שיווקי מוכח (Google Ads, Meta, אופטימיזציית קמפיינים) ולא מצוין מספר שנות ניסיון, והדרישות לכישורי הנהגה ויוזמות חוצות צוותים מרמזות על רמה בינונית ומעלה.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Performance Marketing Analyst - Base44",
@@ -1590,8 +1528,9 @@
    "score": 45,
    "reason": "התפקיד הוא Performance Marketing Analyst, שאינו בתחום היעד שלך, אבל יש חפיפה חלקית בניתוח נתונים ו-SQL. הדרישה היא 2+ שנות ניסיון אנליטי, ואין לך ניסיון שיווקי ישיר בקמפיינים ממומנים (CAC/ROAS/LTV), ולכן ההתאמה חלשה.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "DevOps Engineer",
@@ -1605,8 +1544,9 @@
    "score": 45,
    "reason": "התפקיד DevOps עם דרישות של שנתיים ניסיון ב-CI/CD, Python ו-Linux, ומחייב ניסיון רחב בחומרה ו-bare-metal, שאינו לכם. יש חפיפה בקונטיינרים ו-Kubernetes, AWS ו-GitHub Actions, אבל חסרים Ansible, Jenkins, QEMU/KVM ורקע בחומרת שרתים, ולכן ההתאמה חלקית.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Algorithm Data Analyst - Temporary position for 9 months",
@@ -1620,8 +1560,9 @@
    "score": 45,
    "reason": "התפקיד הוא אנליסט נתונים (Data Analyst) בתחום איכות מערכות אוטונומיות, שזה קרוב לתחומי היעד, אבל הוא דורש לפחות 2 שנות ניסיון בהייטק ו-B.Sc בתחום הנדסה או מדעי הטבע, ולמועמד יש ניסיון בעיקר בניטור תשתיות תשלומים ובאנליזה של לוגים. יתרון ל-SQL ו-Linux, שמתאימים לרקע, אבל אין ניסיון ישיר בניתוח נתונים סטטיסטי או בדיקות אלגוריתמים.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Data Platform Engineer ( Kafka Oriented)",
@@ -1635,8 +1576,9 @@
    "score": 45,
    "reason": "התפקיד הוא הנדסת פלטפורמת דאטה עם דגש על Kafka, שאינו מתואר בפירוט בפוסטינג ואינו בתחום הליבה של המועמד. יש חיבור לרקע בתשלומים ב-Nuvei ולכלי DevOps כמו Docker ו-Kubernetes, אך חסרה ניסיון מעשי ב-Kafka והנדסת דאטה, והדרישות לא ברורות.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Technical Operations Manager",
@@ -1650,8 +1592,9 @@
    "score": 45,
    "reason": "התפקיד הוא ניהול תפעול טכני במשחקים עם דרישה ל-2 שנות ניסיון כמהנדס אוטומציה/QA, שאין לך. יש התאמה בתפעול תשלומים, ניטור, זיהוי תקלות ותהליכים, אבל חסר ניסיון QA אוטומציה והכרה בכלי AI, ולכן זו התאמה חלקית בלבד.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "ERP Project Manager & Implementer",
@@ -1665,8 +1608,9 @@
    "score": 45,
    "reason": "התפקיד הוא ניהול פרויקטי ERP בתחום הקמעונאות, והמועמד מתאים כ-PM לפי הרקע בהטמעת SAP ובניתוח מערכות, אבל אין לו ניסיון מוכח בהובלת פרויקט ERP מקצה לקצה ולא בתחום הרטייל. דרישת שנה אחת ניסיון היא בגבולות היכולת שלו, ולכן הציון בינוני.",
    "category": "Project Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Junior Backend Developer (PHP)",
@@ -1680,8 +1624,9 @@
    "score": 45,
    "reason": "המשרה לבקאנד ג'וניור ב-PHP בחברה קטנה ו'פוש לדלת' לסטארטאפ, ולכן נבחנת לפי הרקע. יש חפיפה בינונית: SQL ו-Python ברמה טובה, אך אין ניסיון מוכח ב-PHP ו-MySQL, וההתמחות בצד השרת אינה הכיוון המרכזי של המועמד.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Junior QA",
@@ -1695,8 +1640,9 @@
    "score": 45,
    "reason": "תפקיד QA ידני לא מהתחומים המועדפים, אך מסומן כ-foot in the door בסטארטאפ, והרקע של המועמד בתקלות, לוגים ו-SQL מתאים חלקית. חסרים קורס QA חובה וניסיון בבדיקות Web/Mobile וב-Jira.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Intelligence Specialist",
@@ -1710,8 +1656,9 @@
    "score": 45,
    "reason": "התפקיד הוא בעיקר OSINT, ניהול ספקים והתרעות OpSec, תחום שאינו ברשימת היעד שלך, אך יש חפיפה לניטור לוגים ותקלות מניסיון ה-Nuvei שלך ולפייתון שמיש. חסר ניסיון בחקירות מודיעין וברכישת נכסים דיגיטליים, ואין דרישה לשנות ניסיון מוגדרות.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "IT Manager",
@@ -1725,8 +1672,9 @@
    "score": 45,
    "reason": "התפקיד הוא IT Manager ולא תפקיד יעד, אבל המשרה נפתחה לסטארטאפ מוקדם ולכן נבחנת כדלת כניסה. יש חפיפה לחוויית עובד, אוטומציה ו-SaaS/זהויות, אבל אין ניסיון ניהולי ב-IT, ניהול Mac או Identity Management, והתפקיד דורש בעלות מלאה על הפונקציה כ-one-person team ללא ציון שנות ניסיון.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Algorithm Data Analyst - Temporary position for 9 months",
@@ -1800,8 +1748,9 @@
    "score": 42,
    "reason": "התפקיד דורש לפחות 2 שנות ניסיון כמנהל מונטיזציה או מונטיזציית מוצר בתעשיית הגיימינג, ואין לך ניסיון כזה, אבל הוא פתוח לרקע של אנליזה ותפעול. יש התאמה בניתוח נתונים, SQL, ניהול פרויקטים ועבודה מול צוותים שונים, אך חסר ניסיון ישיר במונטיזציה ובגיימינג.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "Data Analyst",
@@ -1815,8 +1764,9 @@
    "score": 40,
    "reason": "התפקיד הוא אנליסט נתונים (יעד), אבל דורש לפחות 2 שנות ניסיון ומיומנות Python מתקדמת עם pandas, וניסיון מעשי ב-LLM ובמדדי הערכה כמו precision/recall, שאין לך בהם בסיס. יש התאמה ל-SQL ולעבודה עם נתונים מורכבים, אבל הפער בניסיון ובכלי ML מוריד את הציון.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Product Manager ",
@@ -1830,8 +1780,9 @@
    "score": 40,
    "reason": "התפקיד הוא Product Manager, תפקיד יעד, אך הדרישה היא לפחות 2-3 שנות ניסיון בניהול מוצר בחברות SaaS/פינטק, בעוד שלמועמד אין ניסיון ישיר כ-PM. יש התאמה חלקית דרך ניסיון ב-Agile, ניתוח מערכות ו-SQL, אבל חסר ניסיון ב-HR tech, AI agents או B2B SaaS growth.",
    "category": "Product Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Product Manager",
@@ -1845,8 +1796,9 @@
    "score": 40,
    "reason": "התפקיד הוא Product Manager בחברת גיימינג בתל אביב, כלומר נכנס לקטגוריית ה-foot in the door, אבל הדרישה היא לפחות שנתיים ניסיון כ-PM, ולרקע שלך אין ניסיון ניהול מוצר. יש התאמה חלקית באנליזה, SQL, Agile ותקשורת מול צוותים, אבל הפער בניסיון ובאחריות על מוצר בפועל משמעותי.",
    "category": "Product Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "IT Infrastructure & Cloud Engineer",
@@ -1860,8 +1812,9 @@
    "score": 40,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון מעשי כמנהל מערכות/DevOps, וכולל אחריות לאסטרטגיית GenAI, ארכיטקטורה ומדיניות רשת, כלומר רמה בינונית-בכירה. יש התאמה לדברים כמו AWS, Terraform, Linux, Kubernetes ו-Python מהקורס, אבל חסר ניסיון מעשי של שנתיים, ניסיון ברשתות/חומרה ו-GenAI.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "Financial Analyst Internship",
@@ -1905,8 +1858,9 @@
    "score": 35,
    "reason": "התפקיד DevOps מתאים לתחום היעד, אך הדרישה היא לפחות 2 שנות ניסיון מעשי ב-DevOps/SRE בסקייל גבוה, ודרישות עומק ב-EKS, Kubernetes internals, Terraform ו-Prometheus מעבר לרמת הג'וניור של המועמד. יש חפיפה בדוקר, EKS, CI/CD ו-GitHub Actions מהקורס, אבל אין ניסיון תפעולי מתמשך בסקייל כזה.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Product Manager, AI Security",
@@ -1920,8 +1874,9 @@
    "score": 35,
    "reason": "התפקיד הוא Product Manager, שהוא יעד של המועמד, אך הדרישות מדברות על 'track record' מוכח בניהול מוצר B2B ולא מצוין שנות ניסיון מפורשות, והתפקיד ברמה בכירה-מתקדמת בחברת סייבר עם ניסיון עמוק ב-AI ו-enterprise. לרקע של המועמד אין ניסיון ניהול מוצר B2B או סייבר מוצרי, והוא מתאים יותר לתפקידים ג'וניורים; ההתאמה חלקית מאוד.",
    "category": "Product Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Mobile User Acquisition Manager",
@@ -1935,8 +1890,9 @@
    "score": 35,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון ב-User Acquisition ברכישת מדיה ממומנת בקנה מידה גדול, וזה חסר למועמד. יש התאמה חלקית דרך ניתוח נתונים, SQL ו-Excel, ומעבר מעניין לגיימינג, אבל אין ניסיון בפרסום ממומן או ב-attribution.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "User Acquisition Manager",
@@ -1950,8 +1906,9 @@
    "score": 35,
    "reason": "התפקיד הוא User Acquisition ייעודי לגיימינג עם דרישה של שנה ניסיון בניהול קמפיינים ממומנים בהיקפים גדולים (Meta, Google, AppLovin, TikTok), וזה לא תואם לרקע שלך בניטור תשלומים, CRM וניתוח SQL/Python. יש חפיפה בניתוח נתונים ואקסל, אבל אין ניסיון ישיר בפרפורמנס מרקטינג, ולכן ההתאמה חלשה.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "VIP Account Manager - (Temporary for 9 months)",
@@ -1965,8 +1922,9 @@
    "score": 35,
    "reason": "התפקיד הוא VIP Account Manager בחברת גיימינג, והוא נכנס תחת 'דלת כניסה' אבל לא תואם את הרקע הטכני שלך. הדרישה לשנתיים ניסיון בתפקיד פונה לשירות לקוחות B2C, ויש לך ניסיון רלוונטי בתפקידי שירות ומנהל משמרת ב-Max, אך אין ניסיון בניהול קשרי VIP או בפוטושופ.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "Junior AI Video Builder",
@@ -1980,8 +1938,9 @@
    "score": 35,
    "reason": "המשרה מחייבת תיק עבודות יצירתי וניסיון מעשי בכלי AI ליצירת וידאו, שאין לך כרגע ברקורד, ורוב הדרישות הן יצירתיות ולא טכניות. יש התאמה חלקית דרך ניסיון ב-DevOps/אוטומציה, Python, Docker ו-Claude Code-דומה, וניסיון במוניטורינג תשלומים, אבל זה לא מספיק כדי להיות מועמד חזק.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "Game Economy Manager",
@@ -1995,8 +1954,9 @@
    "score": 35,
    "reason": "התפקיד דורש 2+ שנות ניסיון כ-Game Economy Manager ומיומנויות מתקדמות ב-BI, כלי AI וסטטיסטיקה שאין לך עדיין. יש התאמה חלקית ב-SQL, Excel, Python ואנליזה תפעולית מ-Nuvei, אבל הפער בניסיון במשחקים ובאיזון כלכלי גדול, ולכן זו התאמה חלשה, גם עם ה-foot in the door.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "User Acquisition Manager",
@@ -2010,8 +1970,9 @@
    "score": 35,
    "reason": "התפקיד דורש לפחות 2 שנות ניסיון בפרפורמנס מרקטינג או UA במשחקי מובייל, ואין למועמד ניסיון כזה, אם כי יש לו כישורי ניתוח נתונים ו-SQL ורקע בתשלומים שיכולים לעזור כ",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "ERP Priority Project Manager",
@@ -2025,8 +1986,9 @@
    "score": 35,
    "reason": "התפקיד דורש 2-5 שנות ניסיון מעשי ביישום Priority ERP וניהול פרויקטים מול לקוחות, וזה מעבר לניסיון הנוכחי של המועמד. יש חפיפה בניהול פרויקטים (Agile), SQL וניתוח מערכות, אבל אין ניסיון ב-Priority ולא בהטמעת ERP ללקוחות.",
    "category": "Project Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "IT Support Technician",
@@ -2040,8 +2002,9 @@
    "score": 35,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון מעשי בתמיכה טכנית/הלפ דסק, ולמועמד אין ניסיון כזה ישירות (הניסיון הנוכחי הוא ניטור תשתיות תשלומים). יש התאמה חלקית בפתרון תקלות, תיעוד ועבודה מול צוותי פיתוח ו-IT, אך חסרים ניסיון ב-Windows/Office ברמת תמיכת קצה ותחזוקת ציוד.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Junior Monday Implementation Specialist",
@@ -2055,8 +2018,9 @@
    "score": 35,
    "reason": "התפקיד הוא Monday.com ואוטומציות, תחום רחוק מהרקע שלי, ואין לי ניסיון מוצהר ב-Monday או ב-Make/Zapier שנדרשים כחובה. הוא מסומן כ'דלת כניסה' בסטארט-אפ, והרקע שלי בתפעול, אינטגרציות ו-SQL/Python נותן בסיס סביר, אבל הפער בכלי הספציפי משמעותי. המיקום במרכז מתאים.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Office 365 IT Support Specialist - temp",
@@ -2070,8 +2034,9 @@
    "score": 35,
    "reason": "התפקיד הוא תמיכה טכנית (Help Desk) ב-Office 365 ובציוד, לא תפקיד יעד שלך, ודורש לפחות שנה ניסיון ב-Help Desk שאין לך כעת; יש חפיפה בתחום הכלים ובעבודה מול משתמשים (Nuvei, Max), אבל אין ניסיון ישיר בתמיכה טכנית למשתמשי קצה. המשרה במשרה מלאה, בלוד, ולא היברידית, מה שמפחית את ההתאמה.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Technical Project Manager",
@@ -2085,8 +2050,9 @@
    "score": 35,
    "reason": "התפקיד הוא ניהול פרויקטים טכני בחברת סטארט-אפ בתחום בטיחות AI, עם דרישה ל-2 עד 4 שנות ניסיון בניהול תוכניות או מוצר ואוטונומיה גבוהה. לרקע שלך יש ניסיון מועט בניהול מסירת פרויקטים, אבל יש התאמה חלקית באנגלית, באג'יל, בניתוח מערכות ובעבודה מול צוותי פיתוח ו-Risk; הפער העיקרי הוא ניסיון הניהול הנדרש ותחום ה-AI והמחקר.",
    "category": "Project Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Junior IT",
@@ -2100,8 +2066,9 @@
    "score": 35,
    "reason": "התפקיד דורש שנה ניסיון ב-IT וידע מעשי ב-Windows Server, Microsoft 365/G-Suite וציוד רשת, ולמועמד אין ניסיון ישיר בהם. יש לו בסיס טוב ב-Linux, Python, AWS ו-Docker מהקורס וניסיון תפעולי כ-OCC Monitoring Analyst, ולכן ייתכן שייקלט כסטארטאפ בשלב כניסה, אך הפער בתפעול מערכות משמעותי.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Junior React Developer",
@@ -2115,8 +2082,9 @@
    "score": 35,
    "reason": "המשרה מפתח React ג'וניור דורשת ידע חזק ב-JavaScript, React, CSS ו-HTML, ולמועמד יש בעיקר JavaScript ו-HTML/CSS ברמה בסיסית מהלימודים ומפרויקטים, בלי ניסיון פיתוח צד לקוח מקצועי. הנטייה למשרה מאפשרת כניסה דרך סטארטאפ, אבל הפער הטכני משמעותי ורובו מחוץ לתחומי המועמד.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "IT Specialist",
@@ -2130,8 +2098,9 @@
    "score": 35,
    "reason": "התפקיד הוא בעיקר IT Support ו-System Administration עם דרישה ל-2 שנות ניסיון, ולכן זה לא תואם את הרקע של המועמד שמתמקד ב-DevOps ו-Monitoring. יש חפיפה חלקית ב-Linux, AWS ו-Troubleshooting, אבל חסרים ניסיון מעשי ב-Okta, Intune, Windows/macOS administration, VMware/HyperV ותחזוקת ציוד רשת כמו FortiGate.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Application Infrastructure Engineer",
@@ -2205,8 +2174,9 @@
    "score": 30,
    "reason": "המשרה דורשת ניסיון קודם בפיתוח BI, ETL ו-DWH וניסיון ב-Power BI, ואין לך ניסיון כזה (יש לך SQL מתקדם ו-Python). המיקום בחיפה גם לא בתל אביב/מרכז המועדפת עליך.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "PC Support Technician",
@@ -2220,8 +2190,9 @@
    "score": 30,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון בתמיכה טכנית ב-IT, עם ניסיון מעשי ב-Active Directory, VDI, Windows ו-Microsoft 365, ולמועמד יש רקע של ניטור תשתיות תשלומים ולא תמיכת משתמשים. יש חפיפה חלקית בפתרון תקלות ובעבודה מול משתמשים, אבל חסר ניסיון ישיר בתמיכת מחשבים ורשת.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "QA & Automation Engineer",
@@ -2235,8 +2206,9 @@
    "score": 30,
    "reason": "התפקיד דורש 2+ שנות ניסיון ברקע של אוטומציה מערכות משובצות (embedded) עם מספר מכשירים ו-DUT, דבר שאין למועמד. יש חפיפה חלקית עם Linux, Python, Git, Docker ו-CI/CD מקורס ה-DevSecOps, אבל אין ניסיון ב-PyTest או בבדיקות חומרה, ולכן ההתאמה חלשה.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "PMO",
@@ -2250,8 +2222,9 @@
    "score": 28,
    "reason": "התפקיד במשרה מלאה באשקלון, מחוץ למרכז ובמשרד בלבד, ודורש ניסיון קודם כ-PMO בחברת תשתיות או בנייה שאין למועמד. יש חפיפה בניהול פרויקטים, SAP ואקסל, ולכן ההתאמה חלקית בלבד.",
    "category": "Project Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Signal Analyst",
@@ -2265,8 +2238,9 @@
    "score": 28,
    "reason": "התפקיד הוא אנליסט סיגנלים וגיאו-מרחבי למפות תת-קרקעיות עם ניתוח חיישנים פיזיים, תחום רחוק מהרקע שלך (תפעול תשלומים, DevOps, SQL ו-Python). יש כאן כניסה אפשרית דרך סטארטאפ, אבל אין התאמה ישירה לכישורים שלך.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Sales Associate",
@@ -2280,8 +2254,9 @@
    "score": 28,
    "reason": "תפקיד מכירות (SDR/Sales Associate) בסטארטאפ סייבר, מחוץ לתחומי היעד המקצועיים של המועמד, אם כי נכנס תחת 'דלת כניסה'. הדרישה היא 1-2 שנות ניסיון ואנגלית ברמת שפת אם, בעוד שהרקע כולל ניסיון במוקד שירות ובמחזור ניהול משמרת במקס ולכן יש חפיפה חלקית, אבל אין ניסיון מכירות ישיר והתפקיד מעורב גם בסייבר.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Financial Planning Analyst",
@@ -2310,8 +2285,9 @@
    "score": 22,
    "reason": "התפקיד הוא Finance/FP&A בתעשיית הבנייה בקריית גת, לא מסלול יעד של המועמד, והוא כולל ניהול צוות אנליסטים ופיקוח על דיווחי settlement ותחזיות. הדרישה של 2-5 שנות ניסיון ותפקיד הנהגתי לא מתאימים לפרופיל ללא ניסיון בפיננסים או הנהלת חשבונות, וההתאמה היחידה היא שליטה ב-Excel וניתוח נתונים.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Corporate Development and M&A Analyst",
@@ -2325,8 +2301,9 @@
    "score": 22,
    "reason": "התפקיד הוא אנליסט Corporate Development/M&A, לא תואם ליעדים שלך, והדרישה היא 2-3 שנות ניסיון ב-M&A או Equity Research או VC, שאין לך. יש חפיפה חלקית במודלים פיננסיים ו-SQL, אבל אין ניסיון בעסקאות או בתחום הסמיקונדקטור, ולכן ההתאמה נמוכה. המיקום ברחובות גם רחוק ממרכז הארץ לפי ההעדפה שלך.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Configuration Analyst",
@@ -2340,8 +2317,9 @@
    "score": 22,
    "reason": "התפקיד הוא Configuration Analyst בתעשיית הסמיקונדקטור ודורש תואר בהנדסת תעשייה וניסיון במערכות ERP ובעיקר SAP VC ו-BOM, שאינם תחום הניסיון של המועמד. יש חפיפה חלקית רק ביכולות אנליטיות, SAP (מהתואר) ותקשורת מול צוותים, אך אין תואר רלוונטי ואין ניסיון בניהול תצורה.",
    "category": "Analyst",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Sales Account Manager",
@@ -2355,8 +2333,9 @@
    "score": 22,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון במכירות B2B טכנולוגיות ואין לך ניסיון מכירות ישיר, ורק חלק מהדרישות (Azure, AWS) מתאים לרקע שלך. למרות שזה סטארטאפ שמאפשר כניסה, הפער במכירות ובניסיון מסחרי גדול מדי.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "People Operations & HRIS Specialist",
@@ -2370,8 +2349,9 @@
    "score": 22,
    "reason": "התפקיד דורש 2+ שנים בתפעול HR או HRIS בחברה גלובלית, כולל שנה ניסיון מעשי ב-C&B ובכלי AI, ואין למועמד רקע כזה. למרות שהחברה סטארטאפ והמועמד פתוח לתפקידים כ'דלת כניסה', ההתאמה נמוכה מאוד: אין ניסיון ב-HR או C&B, והכישורים הטכניים (SQL, Python, Excel) מתאימים רק חלקית לחלק הדיווחים.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Utilities Coordinator",
@@ -2385,8 +2365,9 @@
    "score": 22,
    "reason": "התפקיד דורש ניסיון מוכח בתיאום תשתיות עירוניות, הכרת מערכות ECS, קריאת תוכניות תנועה ו-AutoCAD, ואין לך רקע בתחום הזה. הוא גם רחוק מתפקידי היעד שלך, ורק הגישה דרך סטארטאפ מוסיפה לו קצת משקל.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Customer Support Communications Manager",
@@ -2400,8 +2381,9 @@
    "score": 22,
    "reason": "התפקיד הוא ניהול תוכן והדרכה לתמיכת לקוחות (ידע, מאקרו, הדרכת נציגים) ולא תפקיד יעד שלך, ואף דורש 2+ שנות ניסיון ב-enablement או תקשורת תמיכה וכתיבה באנגלית ברמה גבוהה. אין לך ניסיון מתועד בבניית Help Center או מאקרו ב-Zendesk/Intercom, אם כי הניסיון כמנהל משמרת ומדריך נציגים ב-Max וההבנה של מדדי CSAT ו-FRT מהווים בסיס רלוונטי ל'פתיחת דלת' בסטארטאפ.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Employee Experience Specialist- Part Time",
@@ -2460,8 +2442,9 @@
    "score": 12,
    "reason": "התפקיד דורש תואר בהנדסת חשמל, ניסיון של שנתיים לפחות בתכנון לוחות ובניהול פרויקטי חומרה, והיכרות עם EVT/DVT/PVT ועם ODM, שאין לך. זהו תפקיד הנדסי-חומרה ולא תואם לתחומי היעד שלך (DevOps, אנליסט, PM תוכנה).",
    "category": "Project Manager",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "DevOps - AI Factory",
@@ -2475,8 +2458,9 @@
    "score": 12,
    "reason": "התפקיד דורש לפחות 2 שנות ניסיון ב-DevOps/Platform בסקייל גדול, ניסיון מעמיק ב-GPU inference, KubeFlow/Ray, NeoClouds וקוברנטס ברמת פנימיות המערכת, שאין למועמד. יש חפיפה בקוברנטס, Terraform ו-CI/CD מהקורס, אבל הפער בניסיון ובעומק הטכנולוגי גדול מאוד.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Junior AI Creative Technologist",
@@ -2490,8 +2474,9 @@
    "score": 12,
    "reason": "התפקיד דורש תואר באמנות/עיצוב ותיק עבודות ויזואלי חזק, ואין לך רקע כזה; יש לך חשיפה ל-AI ו-JavaScript אבל אין ניסיון בפיתוח משחקי web או Three.js. לכן ההתאמה נמוכה למרות שהחברה במשחקים והתפקיד ברמת junior.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "gaming company"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "gaming company",
+   "years_checked": true
   },
   {
    "title": "Field Service & Technical Support Engineer",
@@ -2505,8 +2490,9 @@
    "score": 12,
    "reason": "התפקיד דורש ניסיון מוכח בתחזוקה ואבחון של מערכות מכניות, חשמליות ואלקטרוניות בשטח, ידע במנועים וחיישנים ואחריות לנסיעות לחו\"ל, ואין לך רקע כזה. למרות שהחברה בשלב מוקדם, הפער בכישורי השטח גדול מדי ולכן ההתאמה נמוכה.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Integration Engineer",
@@ -2520,8 +2506,9 @@
    "score": 12,
    "reason": "התפקיד דורש הנדסת אלקטרוניקה ו-RF, ניסיון בבדיקות אינטגרציה של מערכות לוחמה אלקטרונית וציוד בדיקה חשמלי, ואין לך רקע בתחומים האלה. גם אם מדובר בסטארטאפ, הדרישה לניסיון של 2-3 שנים ולהובלת בדיקות אינטגרציה לא מתאימה לפרופיל שלך.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Integration Engineer / System Engineer",
@@ -2535,8 +2522,9 @@
    "score": 12,
    "reason": "התפקיד דורש תואר הנדסה או מדעי המחשב וניסיון של שנתיים לפחות כמהנדס אינטגרציה או מערכות, והמועמד אין לו רקע הנדסי פורמלי ואין לו ניסיון בתפקיד כזה. בנוסף, מדובר בפרויקט הגנה במודיעין, לא בתחום היעד.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Medical Data Specialist",
@@ -2550,8 +2538,9 @@
    "score": 12,
    "reason": "התפקיד דורש ניסיון מעשי בהיסטולוגיה ובאנוטציית תמונות פתולוגיה וכן רקע ברפואה או מדעי החיים, ואין לך רקע כזה בפועל. הרקע שלך בניטור תשתיות תשלומים, ניהול אירועים ו-SQL/Python אינו מתאים לתחום הפתולוגיה, ולכן ההתאמה נמוכה מאוד למרות שמדובר בסטארטאפ מוקדם.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Talent Acquisition Specialist – 12 Months Contract (Maternity Leave Cover)",
@@ -2565,8 +2554,9 @@
    "score": 12,
    "reason": "התפקיד הוא גיוס טכנולוגי (Talent Acquisition) הדורש לפחות שנתיים ניסיון בגיוס, ואין לי רקע בגיוס או במשאבי אנוש. למרות שמדובר בסטארטאפ, הכישורים שלי (ניטור תשתיות תשלומים, DevSecOps, SQL) לא מתאימים לדרישות הליבה כמו Sourcing, LinkedIn Recruiter ו-ATS.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   },
   {
    "title": "Product Manager",
@@ -2595,8 +2585,9 @@
    "score": 8,
    "reason": "תפקיד הנדסת קושחה משובצת (C/C++, מיקרו-בקרים, RTOS, JTAG) שאינו תואם לפרופיל הקנדידט שלו, שאין לו ניסיון פיתוח Embedded. נדרשות לפחות 2 שנות ניסיון בפיתוח קושחה בזמן אמת, ולכן זו אינה נקודת כניסה מתאימה לתפקיד DevOps/Cloud/אנליסט שהוא מחפש.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": ""
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "",
+   "years_checked": true
   },
   {
    "title": "Infrastructure Coordination Coordinator",
@@ -2610,8 +2601,9 @@
    "score": 8,
    "reason": "התפקיד דורש תואר הנדסה אזרחית, אדריכלות, הנדסת מים או גיאוגרפיה, וניסיון בתיאום תשתיות ומערכות GIS, שאין לי. המיקום באשקלון ועבודה במשרה מלאה מקשים עוד יותר, והתפקיד רחוק מתחומי היעד שלי.",
    "category": "דריסת רגל",
-   "last_seen": "2026-10-24T00:07:20+00:00",
-   "broad": "early-stage startup"
+   "last_seen": "2026-10-24T00:34:42+00:00",
+   "broad": "early-stage startup",
+   "years_checked": true
   }
  ]
 }
