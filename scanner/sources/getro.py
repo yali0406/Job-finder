@@ -121,6 +121,9 @@ def fetch_board(board):
             job.extra["broad"] = "early-stage startup"
         jobs.append(job)
     jobs = [j for j in jobs if in_israel(j.location)]
+    early = {(j.get("organization") or {}).get("name"): ((j.get("organization") or {}).get("stage"), (j.get("organization") or {}).get("head_count"))
+             for j in raw if _is_early(j.get("organization") or {})}
+    log.info("Getro %s early-stage orgs: %s", board, dict(list(early.items())[:40]))
     log.info("Getro %s: %d Israel jobs", board, len(jobs))
     return jobs
 
