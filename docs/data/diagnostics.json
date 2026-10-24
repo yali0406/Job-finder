@@ -1,5 +1,5 @@
 {
- "run": "2026-10-24T00:34:42+00:00",
+ "run": "2026-10-24T00:39:31+00:00",
  "collected_by_source": {
   "smartrecruiters": 115,
   "greenhouse": 373,
@@ -23,12 +23,12 @@
   "greenhouse": 37,
   "workable": 1,
   "ashby": 11,
-  "vc:jobs.tlv.partners": 22,
+  "vc:jobs.tlv.partners": 11,
   "vc:careers.grovevc.com": 7,
-  "vc:jobs.ibexinvestors.com": 5,
-  "vc:careers.viola-group.com": 21,
+  "vc:jobs.ibexinvestors.com": 3,
+  "vc:careers.viola-group.com": 20,
   "vc:jobs.vertexventures.co.il": 8,
-  "vc:israelvcforum.getro.com": 43
+  "vc:israelvcforum.getro.com": 40
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -56,14 +56,7 @@
   "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 229, '4': 212, '2': 84, '5': 73, '1': 2}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
   "INFO Collected 3330 jobs in Israel",
-  "INFO 357 pass the title filter",
-  "INFO Recheck dropped CRE Solutions Engineer at REAL: 4+ years",
-  "INFO Recheck dropped Financial Solutions & Business Analyst at REAL: 5+ years",
-  "INFO Recheck dropped Sales Operations Manager at Cylus: 5+ years",
-  "INFO Recheck dropped Incident Response Analyst at Perimeter 81: 10+ years",
-  "INFO Recheck dropped Product Manager at Perimeter 81: 5+ years",
-  "INFO Recheck dropped Incident Response Analyst at Perception Point: 3+ years",
-  "INFO Recheck dropped DevOps Engineer - Autonomous Workspace Platform at Perimeter 81: 4+ years",
+  "INFO 340 pass the title filter",
   "INFO New: 0, total kept: 167"
  ]
 }
