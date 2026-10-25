@@ -277,6 +277,88 @@ companies:
   - Rewire
   - Ness Technologies
   - NetApp Israel
+  # more Israeli companies, round 2 (2026-10-25)
+  - Deel
+  - ironSource
+  - Unity
+  - Playtika
+  - Moon Active
+  - Plarium
+  - Taranis
+  - Pecan AI
+  - Optimove
+  - Nexite
+  - XM Cyber
+  - Grip Security
+  - Ox Security
+  - Coro
+  - Personetics
+  - Justt
+  - Trigo
+  - Booking Israel
+  - Shufersal
+  - Partner
+  - Zap Group
+  - Yad2
+  - Wolt
+  - Gett
+  - Tipranks
+  - Vcita
+  - Bigabid
+  - Hour One
+  - D-ID
+  - Viz.ai
+  - Tytocare
+  - Sight Diagnostics
+  - REE
+  - StoreDot
+  - Nanox
+  - Insightec
+  - Harel
+  - Migdal
+  - Phoenix
+  - Menora
+  - Allot
+  - AudioCodes
+  - Gilat
+  - Silicom
+  - Hilan
+  - Priority Software
+  - Tabit
+  - SAP Israel
+  - HP Indigo
+  - Applied Materials
+  - KLA
+  - Marvell
+  - Qualcomm Israel
+  - Broadcom Israel
+  - Synopsys
+  - Cadence
+  - Akamai
+  - Zscaler
+  - Jit
+  - Configu
+  - Anecdotes
+  - Scytale
+  - Lili
+  - Novidea
+  - Hyp
+  - One Zero
+  - Cognata
+  - Wilco
+  - Tailorbrands
+  - Superpower
+  - Spinframe
+  - Nvidia
+  - Intel
+  - Microsoft
+  - Google
+  - Amazon
+  - Meta
+  - Apple
+  - Salesforce
+  - PayPal
+  - Mastercard
   # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
   - {name: Buildots, careers: "https://buildots.com/careers/"}
   - {name: Onyx Security, careers: "https://www.onyx.security/careers"}
