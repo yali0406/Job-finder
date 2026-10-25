@@ -1,9 +1,9 @@
 {
- "run": "2026-10-25T17:01:48+00:00",
+ "run": "2026-10-25T17:17:16+00:00",
  "collected_by_source": {
-  "smartrecruiters": 121,
+  "smartrecruiters": 122,
   "greenhouse": 397,
-  "workday": 432,
+  "workday": 433,
   "lever": 167,
   "comeet": 1081,
   "workable": 14,
@@ -89,8 +89,8 @@
   "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 230, '4': 210, '2': 81, '5': 76, '1': 3}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2), 'Regatta': ('seed', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO Collected 4470 jobs in Israel",
+  "INFO Collected 4472 jobs in Israel",
   "INFO 352 pass the title filter",
-  "INFO New: 14, total kept: 94"
+  "INFO New: 15, total kept: 94"
  ]
 }
