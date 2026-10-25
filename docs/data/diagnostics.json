@@ -1,25 +1,26 @@
 {
- "run": "2026-10-25T08:17:19+00:00",
+ "run": "2026-10-25T09:17:18+00:00",
  "collected_by_source": {
-  "smartrecruiters": 117,
-  "greenhouse": 372,
-  "workday": 419,
+  "smartrecruiters": 118,
+  "greenhouse": 374,
+  "workday": 420,
   "lever": 171,
-  "comeet": 1062,
-  "workable": 13,
+  "comeet": 1057,
+  "workable": 12,
   "ashby": 46,
   "vc:jobs.tlv.partners": 164,
   "vc:careers.grovevc.com": 84,
   "vc:jobs.ibexinvestors.com": 41,
   "vc:careers.viola-group.com": 144,
   "vc:jobs.vertexventures.co.il": 96,
-  "vc:israelvcforum.getro.com": 600
+  "vc:israelvcforum.getro.com": 600,
+  "linkedin": 114
  },
  "relevant_by_source": {
   "smartrecruiters": 16,
   "workday": 15,
   "lever": 10,
-  "comeet": 130,
+  "comeet": 129,
   "greenhouse": 32,
   "workable": 1,
   "ashby": 11,
@@ -28,7 +29,8 @@
   "vc:jobs.ibexinvestors.com": 3,
   "vc:careers.viola-group.com": 20,
   "vc:jobs.vertexventures.co.il": 8,
-  "vc:israelvcforum.getro.com": 41
+  "vc:israelvcforum.getro.com": 41,
+  "linkedin": 27
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -61,8 +63,9 @@
   "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 230, '4': 214, '2': 81, '5': 73, '1': 2}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2), 'Regatta': ('seed', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO Collected 3329 jobs in Israel",
-  "INFO 306 pass the title filter",
-  "INFO New: 0, total kept: 97"
+  "INFO LinkedIn: 114 jobs",
+  "INFO Collected 3441 jobs in Israel",
+  "INFO 332 pass the title filter",
+  "INFO New: 5, total kept: 98"
  ]
 }
