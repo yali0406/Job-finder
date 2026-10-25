@@ -243,7 +243,10 @@ companies:
   - {name: Huskeys, careers: "https://www.huskeys.com/careers"}
   - {name: Loora, careers: "https://www.loora.ai/careers"}
   - {name: Zafran Security, careers: "https://zafran.io/open-positions"}
-  - {name: AITAN}
+  - {name: AITAN, careers: "https://www.aitan.ai/careers"}
+  - {name: Glow Security, careers: "https://www.glow.security/careers"}
+  - {name: Neo Security, careers: "https://www.neo.security/careers"}
+  - {name: Enso, careers: "https://www.enso.ai/careers"}
   # grown past early stage: target titles only, no 🐣
   - {name: "Dream", ats: comeet, slug: "dreamgroup/99.002"}
   - {name: "Skai", ats: comeet, slug: "kenshoo/22.00A"}
