@@ -168,6 +168,11 @@ def main():
     scanned = {(j.source, j.company) for j in found}
     jobs = [j for j in existing.values() if j.get("last_seen", "") >= cutoff and _still_relevant(j)
             and not ((j.get("source"), j.get("company")) in scanned and j.get("last_seen") != now_s)]
+    # When a company's own job board answered this run, it is the source of truth: copies from VC
+    # boards and LinkedIn are either duplicates or stale (the VC board still lists closed jobs).
+    direct = {j.company.lower() for j in found if not j.source.startswith("vc:") and j.source != "linkedin"}
+    jobs = [j for j in jobs if not ((j.get("source", "").startswith("vc:") or j.get("source") == "linkedin")
+                                    and (j.get("company") or "").lower() in direct)]
     for j in jobs:
         j.pop("description", None)  # keep the published file small
     jobs.sort(key=lambda j: (j.get("first_seen", ""), j.get("score") or 0), reverse=True)
