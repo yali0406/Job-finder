@@ -1,19 +1,20 @@
 {
- "run": "2026-10-25T11:17:16+00:00",
+ "run": "2026-10-25T12:17:15+00:00",
  "collected_by_source": {
   "smartrecruiters": 120,
-  "greenhouse": 375,
-  "workday": 421,
+  "greenhouse": 374,
+  "workday": 423,
   "lever": 168,
-  "comeet": 1056,
+  "comeet": 1058,
   "workable": 12,
   "ashby": 46,
-  "vc:jobs.tlv.partners": 164,
+  "vc:jobs.tlv.partners": 163,
   "vc:careers.grovevc.com": 84,
   "vc:jobs.ibexinvestors.com": 41,
   "vc:careers.viola-group.com": 144,
   "vc:jobs.vertexventures.co.il": 96,
-  "vc:israelvcforum.getro.com": 600
+  "vc:israelvcforum.getro.com": 600,
+  "linkedin": 139
  },
  "relevant_by_source": {
   "smartrecruiters": 17,
@@ -28,14 +29,15 @@
   "vc:jobs.ibexinvestors.com": 3,
   "vc:careers.viola-group.com": 20,
   "vc:jobs.vertexventures.co.il": 8,
-  "vc:israelvcforum.getro.com": 40
+  "vc:israelvcforum.getro.com": 41,
+  "linkedin": 36
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://jobs.tlv.partners org stages: {'series_c': 55, 'series_e': 33, 'series_b': 27, 'other': 22, 'series_d': 17, 'series_a': 6, 'series_unknown': 2, 'seed': 1, 'series_c_plus': 1}",
-  "INFO Getro https://jobs.tlv.partners org head counts: {'3': 67, '4': 53, '2': 36, '1': 8}",
+  "INFO Getro https://jobs.tlv.partners org stages: {'series_c': 55, 'series_e': 32, 'series_b': 27, 'other': 22, 'series_d': 17, 'series_a': 6, 'series_unknown': 2, 'seed': 1, 'series_c_plus': 1}",
+  "INFO Getro https://jobs.tlv.partners org head counts: {'3': 67, '4': 52, '2': 36, '1': 8}",
   "INFO Getro https://jobs.tlv.partners early-stage orgs: {'Scala Biodesign': ('series_a', 2), 'Spacial': ('seed', 2), 'Token Security': ('series_a', 2)}",
-  "INFO Getro https://jobs.tlv.partners: 164 Israel jobs",
+  "INFO Getro https://jobs.tlv.partners: 163 Israel jobs",
   "INFO Getro https://careers.grovevc.com: collection_id=9398 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://careers.grovevc.com org stages: {'series_a': 25, 'series_b': 23, 'other': 13, 'series_c': 6, 'series_unknown': 6, '': 6, 'pre_seed': 5}",
   "INFO Getro https://careers.grovevc.com org head counts: {'4': 33, '2': 26, '3': 18, 'None': 6, '1': 1}",
@@ -57,12 +59,13 @@
   "INFO Getro https://jobs.vertexventures.co.il early-stage orgs: {'Bites': ('seed', 2), 'Ledge': ('seed', 2), 'TensorLeap': ('seed', 2), 'Adaptive6': ('series_a', 2), 'WireX Cube': ('series_a', 2)}",
   "INFO Getro https://jobs.vertexventures.co.il: 96 Israel jobs",
   "INFO Getro https://israelvcforum.getro.com: collection_id=10949 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://israelvcforum.getro.com org stages: {'acquisition': 100, 'series_c': 94, 'series_unknown': 91, 'series_b': 68, 'ipo': 67, 'other': 49, 'series_f': 35, 'series_d': 20, 'series_e': 19, 'pre_seed': 15, 'private_equity': 14, 'series_a': 12}",
-  "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 228, '4': 210, '2': 81, '5': 79, '1': 2}",
+  "INFO Getro https://israelvcforum.getro.com org stages: {'acquisition': 103, 'series_c': 94, 'series_unknown': 91, 'series_b': 68, 'ipo': 64, 'other': 49, 'series_f': 35, 'series_d': 21, 'series_e': 19, 'private_equity': 14, 'pre_seed': 14, 'series_a': 12}",
+  "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 230, '4': 211, '2': 81, '5': 76, '1': 2}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2), 'Regatta': ('seed', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO Collected 3327 jobs in Israel",
-  "INFO 306 pass the title filter",
-  "INFO New: 1, total kept: 99"
+  "INFO LinkedIn: 139 jobs",
+  "INFO Collected 3468 jobs in Israel",
+  "INFO 343 pass the title filter",
+  "INFO New: 3, total kept: 98"
  ]
 }
