@@ -1,5 +1,5 @@
 {
- "run": "2026-10-25T18:56:51+00:00",
+ "run": "2026-10-25T19:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 122,
   "greenhouse": 540,
@@ -102,27 +102,9 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 95 jobs",
-  "INFO GitLab: detected greenhouse/gitlab",
-  "INFO Canonical: detected greenhouse/canonical",
-  "INFO Zapier: detected ashby/zapier",
-  "INFO Remote.com: detected greenhouse/remote",
-  "INFO Grafana Labs: detected greenhouse/grafanalabs",
-  "INFO Elastic: detected greenhouse/elastic",
-  "INFO Mozilla: detected greenhouse/mozilla",
-  "INFO Bitwarden: detected greenhouse/bitwarden",
-  "INFO Toptal: detected lever/toptal",
-  "INFO Oyster: detected ashby/oyster",
-  "INFO Help Scout: detected ashby/helpscout",
-  "INFO Supabase: detected ashby/supabase",
-  "INFO PostHog: detected ashby/posthog",
-  "INFO Vercel: detected greenhouse/vercel",
-  "INFO Netlify: detected greenhouse/netlify",
-  "INFO Airbyte: detected ashby/airbyte",
-  "INFO Docker: detected ashby/docker",
-  "INFO Proton: detected greenhouse/proton",
   "INFO Remote: 1288 collected, 425 open to Israel",
   "INFO Collected 4905 jobs in Israel",
   "INFO 509 pass the title filter",
-  "INFO New: 24, total kept: 102"
+  "INFO New: 16, total kept: 102"
  ]
 }
