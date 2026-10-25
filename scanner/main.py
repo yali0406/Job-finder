@@ -12,7 +12,7 @@ import yaml
 from .common import log
 from .match import MAX_YEARS, Scorer, prefilter, required_years, STARTUP_OPEN_CATEGORY, STARTUP_OPEN_MIN_SCORE
 from .notify import send_digest
-from .sources import ats, getro, linkedin
+from .sources import ats, getro, linkedin, remote
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
@@ -64,6 +64,8 @@ def collect(cfg, with_linkedin: bool):
         b = b if isinstance(b, dict) else {"url": b}
         # The 🐣 tag comes from each company's own stage and size, not from which VC board listed it.
         jobs += getro.fetch_board(b["url"].rstrip("/"))
+
+    jobs += remote.fetch_all(cfg.get("remote_companies", []), cache)
 
     if with_linkedin:
         li = linkedin.fetch_queries(cfg.get("linkedin_queries", []))
@@ -193,6 +195,7 @@ def main():
         d["first_seen"] = now_s
         d["last_seen"] = now_s
         d["broad"] = j.extra.get("broad", "")
+        d["remote"] = bool(j.extra.get("remote"))
         d["years_checked"] = True
         existing[j.id] = d
         new_count += 1

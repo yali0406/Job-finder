@@ -90,6 +90,9 @@ not on whether the title is a target.
 At an early-stage startup ("Foot in the door: yes (early-stage startup)") any role is in scope: score only
 whether this CV could realistically get hired for it. Roles that need skills the CV lacks (e.g. backend or
 ML engineering, sales quota-carrying, design) score below 30.
+If the job is marked "Remote from abroad", the candidate would work fully remotely from Israel for a
+company abroad: score 0-20 if the posting limits hiring to residents/work authorization of other countries
+(e.g. US-only, EU-only) or requires being on-site; otherwise score the role fit as usual.
 Write reason_he in natural Hebrew, concrete (name the matching or missing skills)."""
 
 
@@ -116,7 +119,8 @@ class Scorer:
                 system=[{"type": "text", "text": self.system, "cache_control": {"type": "ephemeral"}}],
                 messages=[{"role": "user", "content": (
                     f"Title: {job.title}\nCompany: {job.company}\nLocation: {job.location}\n"
-                    f"{'Foot in the door: yes (' + job.extra.get('broad') + ')' if job.extra.get('broad') else ''}\n\n"
+                    f"{'Foot in the door: yes (' + job.extra.get('broad') + ')' if job.extra.get('broad') else ''}\n"
+                    f"{'Remote from abroad: yes' if job.extra.get('remote') else ''}\n\n"
                     f"Description:\n{(job.description or '(no description available, judge from title)')[:8000]}"
                 )}],
                 output_format=Verdict,

@@ -429,3 +429,37 @@ startups:
   - {name: "Wonderful", ats: ashby, slug: "wonderful"}
   - {name: "Guardz", ats: greenhouse, slug: "guardz"}
   - {name: "Sweet Security", ats: greenhouse, slug: "sweetsecurity"}
+
+# Remote-first companies abroad: only their fully remote jobs are kept, and only when the location
+# allows working from Israel (worldwide / EMEA / Israel). Remote job boards are scanned too.
+remote_companies:
+  - GitLab
+  - Canonical
+  - Automattic
+  - Zapier
+  - Doist
+  - Remote.com
+  - Deel
+  - Wikimedia Foundation
+  - Grafana Labs
+  - Elastic
+  - Mozilla
+  - DuckDuckGo
+  - Bitwarden
+  - Toggl
+  - Hotjar
+  - Sourcegraph
+  - Kraken
+  - Toptal
+  - Oyster
+  - Buffer
+  - Help Scout
+  - Hashicorp
+  - Supabase
+  - PostHog
+  - Vercel
+  - Netlify
+  - Airbyte
+  - Docker
+  - Proton
+  - Chainlink Labs
