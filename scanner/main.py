@@ -10,7 +10,7 @@ from pathlib import Path
 import yaml
 
 from .common import log
-from .match import MAX_YEARS, Scorer, prefilter, required_years
+from .match import MAX_YEARS, Scorer, prefilter, required_years, STARTUP_OPEN_CATEGORY, STARTUP_OPEN_MIN_SCORE
 from .notify import send_digest
 from .sources import ats, getro, linkedin
 
@@ -183,6 +183,9 @@ def main():
             log.info("No description for %s job: %s", j.source, j.url)
         scorer.score(j)
         scored += 1
+        if j.category == STARTUP_OPEN_CATEGORY and (j.score or 0) < STARTUP_OPEN_MIN_SCORE:
+            rejected[j.id] = {"title": j.title, "company": j.company, "reason": f"startup role, weak fit ({j.score})", "at": now_s}
+            continue
         if j.extra.get("years_required", 0) >= MAX_YEARS:
             rejected[j.id] = {"title": j.title, "company": j.company, "reason": f"{j.extra['years_required']}+ years", "at": now_s}
             continue
