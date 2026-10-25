@@ -10,6 +10,7 @@ import yaml
 
 from .common import log
 from .match import MAX_YEARS, Scorer, prefilter, required_years
+from .notify import send_digest
 from .sources import ats, getro, linkedin
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -115,6 +116,7 @@ def main():
     rejected = load_json(REJECTED_FILE, {})
     scorer = Scorer(profile)
     new_count = scored = 0
+    new_jobs = []
     now_s = now.isoformat(timespec="seconds")
     rechecked = 0
     for j in relevant:
@@ -157,6 +159,7 @@ def main():
         d["years_checked"] = True
         existing[j.id] = d
         new_count += 1
+        new_jobs.append(d)
 
     # Jobs from sources we didn't scan this run (e.g. LinkedIn off-hours) keep their last_seen.
     cutoff = (now - timedelta(days=KEEP_DAYS)).isoformat()
@@ -185,6 +188,7 @@ def main():
         "relevant_by_source": Counter(j.source for j in relevant),
         "log": DIAG.lines[-300:],
     }, ensure_ascii=False, indent=1))
+    send_digest([j for j in new_jobs if j in jobs], os.environ.get("SITE_URL", ""))
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
             f.write(f"new_jobs={new_count}\n")
