@@ -336,7 +336,6 @@ companies:
   - Wilco
   - Spinframe
   - {name: "Cadence Israel", ats: workday, slug: "cadence|wd1|External_Careers"}
-  - {name: "Synopsys Israel", ats: workday, slug: "synopsys|wd1|SynopsysCareers"}
   - {name: "Citi Israel", ats: workday, slug: "citi|wd5|2"}
   - {name: "eBay Israel", ats: workday, slug: "ebay|wd5|apply"}
   # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
