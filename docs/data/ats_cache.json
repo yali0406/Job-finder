@@ -6,8 +6,8 @@
  },
  "AITAN": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "careers": "https://www.aitan.ai/careers",
+  "checked": "2026-10-25T16:04:05.113253+00:00",
   "slug": null
  },
  "Accenture Israel": {
@@ -226,6 +226,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Enso": {
+  "ats": null,
+  "careers": "https://www.enso.ai/careers",
+  "checked": "2026-10-25T16:04:05.113253+00:00",
+  "slug": null
+ },
  "Evoke (888)": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
@@ -275,6 +281,12 @@
  "Global-e": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Glow Security": {
+  "ats": null,
+  "careers": "https://www.glow.security/careers",
+  "checked": "2026-10-25T16:04:05.113253+00:00",
   "slug": null
  },
  "Gong": {
@@ -520,6 +532,12 @@
  "Navan Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Neo Security": {
+  "ats": null,
+  "careers": "https://www.neo.security/careers",
+  "checked": "2026-10-25T16:04:05.113253+00:00",
   "slug": null
  },
  "Next Insurance": {
