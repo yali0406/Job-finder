@@ -1,6 +1,7 @@
 """Run one scan: collect jobs from every source, keep relevant ones, score new ones, write docs/data/jobs.json."""
 import argparse
 import json
+import re
 import logging
 import os
 from datetime import datetime, timezone, timedelta
@@ -79,6 +80,39 @@ def _still_relevant(d):
     if d.get("broad"):
         stub.extra["broad"] = d["broad"]
     return prefilter(stub) is not None
+
+
+def _norm_company(s):
+    s = re.sub(r"\(.*?\)", "", (s or "").lower())
+    s = re.sub(r"\b(israel|ltd|inc|technologies|pharmaceuticals|group)\b", "", s)
+    return re.sub(r"[^a-z0-9\u0590-\u05ff]+", "", s)
+
+
+def _source_rank(d):
+    src = d.get("source", "")
+    return 2 if src == "linkedin" else 1 if src.startswith("vc:") else 0
+
+
+def _dedupe(jobs):
+    """One card per company + title: keep the company's own board over VC boards over LinkedIn,
+    and list every location the copies had."""
+    groups = {}
+    for d in jobs:
+        key = (_norm_company(d.get("company")), re.sub(r"[^a-z0-9\u0590-\u05ff]+", " ", (d.get("title") or "").lower()).strip())
+        groups.setdefault(key, []).append(d)
+    out = []
+    for copies in groups.values():
+        copies.sort(key=lambda d: (_source_rank(d), -(d.get("score") or 0)))
+        best = copies[0]
+        locs = []
+        for d in copies:
+            for loc in (d.get("location") or "").split(" · "):
+                if loc and loc not in locs:
+                    locs.append(loc)
+        best["location"] = " · ".join(locs)
+        best["first_seen"] = min(d.get("first_seen", "") or best.get("first_seen", "") for d in copies)
+        out.append(best)
+    return out
 
 
 def main():
@@ -173,6 +207,7 @@ def main():
     direct = {j.company.lower() for j in found if not j.source.startswith("vc:") and j.source != "linkedin"}
     jobs = [j for j in jobs if not ((j.get("source", "").startswith("vc:") or j.get("source") == "linkedin")
                                     and (j.get("company") or "").lower() in direct)]
+    jobs = _dedupe(jobs)
     for j in jobs:
         j.pop("description", None)  # keep the published file small
     jobs.sort(key=lambda j: (j.get("first_seen", ""), j.get("score") or 0), reverse=True)
