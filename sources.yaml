@@ -295,7 +295,6 @@ companies:
   - Personetics
   - Justt
   - Trigo
-  - Booking Israel
   - Shufersal
   - Partner
   - Zap Group
@@ -316,7 +315,6 @@ companies:
   - Insightec
   - Harel
   - Migdal
-  - Phoenix
   - Menora
   - Allot
   - AudioCodes
@@ -325,16 +323,6 @@ companies:
   - Hilan
   - Priority Software
   - Tabit
-  - SAP Israel
-  - HP Indigo
-  - Applied Materials
-  - KLA
-  - Marvell
-  - Qualcomm Israel
-  - Broadcom Israel
-  - Synopsys
-  - Cadence
-  - Akamai
   - Zscaler
   - Jit
   - Configu
@@ -346,19 +334,11 @@ companies:
   - One Zero
   - Cognata
   - Wilco
-  - Tailorbrands
-  - Superpower
   - Spinframe
-  - Nvidia
-  - Intel
-  - Microsoft
-  - Google
-  - Amazon
-  - Meta
-  - Apple
-  - Salesforce
-  - PayPal
-  - Mastercard
+  - {name: "Cadence Israel", ats: workday, slug: "cadence|wd1|External_Careers"}
+  - {name: "Synopsys Israel", ats: workday, slug: "synopsys|wd1|SynopsysCareers"}
+  - {name: "Citi Israel", ats: workday, slug: "citi|wd5|2"}
+  - {name: "eBay Israel", ats: workday, slug: "ebay|wd5|apply"}
   # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
   - {name: Buildots, careers: "https://buildots.com/careers/"}
   - {name: Onyx Security, careers: "https://www.onyx.security/careers"}
