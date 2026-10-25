@@ -27,6 +27,12 @@
   "checked": "2026-10-25T16:08:57.275682+00:00",
   "slug": null
  },
+ "Airbyte": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "airbyte"
+ },
  "Akamai": {
   "ats": null,
   "careers": null,
@@ -136,6 +142,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "augury"
  },
+ "Automattic": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
  "Axonius": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -173,6 +185,12 @@
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
+ "Bitwarden": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "bitwarden"
+ },
  "Bizzabo": {
   "ats": null,
   "careers": null,
@@ -206,6 +224,12 @@
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
+ "Buffer": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
  "Buildots": {
   "ats": null,
   "careers": "https://buildots.com/careers/",
@@ -228,6 +252,12 @@
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": null
  },
+ "Canonical": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "canonical"
+ },
  "Cato Networks": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -247,6 +277,12 @@
  "Ceragon": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Chainlink Labs": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
   "slug": null
  },
  "Check Point": {
@@ -378,6 +414,24 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Docker": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "docker"
+ },
+ "Doist": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "DuckDuckGo": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
  "Dynamic Yield": {
   "ats": null,
   "careers": null,
@@ -394,6 +448,12 @@
   "careers": null,
   "checked": "2026-10-25T16:08:57.275682+00:00",
   "slug": null
+ },
+ "Elastic": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "elastic"
  },
  "Elbit Systems": {
   "ats": null,
@@ -488,6 +548,12 @@
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
+ "GitLab": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "gitlab"
+ },
  "Gloat": {
   "ats": null,
   "careers": null,
@@ -520,6 +586,12 @@
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
+ },
+ "Grafana Labs": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "grafanalabs"
  },
  "Grip Security": {
   "ats": null,
@@ -570,6 +642,18 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Hashicorp": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "Help Scout": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "helpscout"
+ },
  "Hibob": {
   "ats": null,
   "careers": "https://www.hibob.com/careers/",
@@ -592,6 +676,12 @@
   "careers": null,
   "checked": "2026-10-25T16:08:57.275682+00:00",
   "slug": "honeybook"
+ },
+ "Hotjar": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
  },
  "Hour One": {
   "ats": null,
@@ -721,6 +811,12 @@
  "Komodor": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Kraken": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
   "slug": null
  },
  "Kubiya": {
@@ -884,6 +980,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Mozilla": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "mozilla"
+ },
  "NICE": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -917,6 +1019,12 @@
   "careers": null,
   "checked": "2026-10-25T16:08:57.275682+00:00",
   "slug": null
+ },
+ "Netlify": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "netlify"
  },
  "Nexite": {
   "ats": null,
@@ -1021,6 +1129,12 @@
   "careers": null,
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
+ },
+ "Oyster": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "oyster"
  },
  "Pagaya": {
   "ats": "greenhouse",
@@ -1138,6 +1252,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "PostHog": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "posthog"
+ },
  "Priority Software": {
   "ats": null,
   "careers": null,
@@ -1154,6 +1274,12 @@
   "careers": null,
   "checked": "2026-10-25T16:08:57.275682+00:00",
   "slug": null
+ },
+ "Proton": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "proton"
  },
  "PwC Israel": {
   "ats": null,
@@ -1207,6 +1333,12 @@
   "careers": "https://www.remepy.com/careers",
   "checked": "2026-10-25T15:51:57.376191+00:00",
   "slug": null
+ },
+ "Remote.com": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "remote"
  },
  "Rewire": {
   "ats": null,
@@ -1332,6 +1464,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "snyk"
  },
+ "Sourcegraph": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
  "Spinframe": {
   "ats": null,
   "careers": null,
@@ -1359,6 +1497,12 @@
   "careers": null,
   "checked": "2026-10-25T16:08:57.275682+00:00",
   "slug": null
+ },
+ "Supabase": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "supabase"
  },
  "SuperPlay": {
   "ats": null,
@@ -1438,6 +1582,18 @@
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
+ "Toggl": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "Toptal": {
+  "ats": "lever",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "toptal"
+ },
  "Torq": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -1505,6 +1661,12 @@
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
+ "Vercel": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "vercel"
+ },
  "Verint": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -1549,6 +1711,12 @@
  "Whalo Games": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Wikimedia Foundation": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
   "slug": null
  },
  "Wilco": {
@@ -1606,6 +1774,12 @@
   "careers": null,
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
+ },
+ "Zapier": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "zapier"
  },
  "Zencity": {
   "ats": null,
