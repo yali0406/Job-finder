@@ -1,9 +1,9 @@
 {
- "run": "2026-10-25T16:43:51+00:00",
+ "run": "2026-10-25T16:52:31+00:00",
  "collected_by_source": {
   "smartrecruiters": 121,
   "greenhouse": 397,
-  "workday": 427,
+  "workday": 431,
   "lever": 167,
   "comeet": 1081,
   "workable": 14,
@@ -39,12 +39,7 @@
   "vc:israelvcforum.getro.com": 34
  },
  "log": [
-  "INFO Wolt: detected greenhouse/wolt",
-  "INFO D-ID: detected workable/d-id",
-  "INFO Phoenix: detected ashby/phoenix",
-  "INFO Zscaler: detected greenhouse/zscaler",
-  "INFO Novidea: detected ashby/novidea",
-  "INFO Superpower: detected ashby/superpower",
+  "WARNING Synopsys Israel: workday/synopsys|wd1|SynopsysCareers stopped responding",
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.tlv.partners org stages: {'series_c': 55, 'series_e': 32, 'series_b': 27, 'other': 22, 'series_d': 17, 'series_a': 6, 'series_unknown': 2, 'seed': 1, 'series_c_plus': 1}",
   "INFO Getro https://jobs.tlv.partners org head counts: {'3': 67, '4': 52, '2': 36, '1': 8}",
@@ -95,7 +90,7 @@
   "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 230, '4': 210, '2': 81, '5': 76, '1': 3}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2), 'Regatta': ('seed', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO Collected 4465 jobs in Israel",
+  "INFO Collected 4469 jobs in Israel",
   "INFO 352 pass the title filter",
   "INFO New: 0, total kept: 113"
  ]
