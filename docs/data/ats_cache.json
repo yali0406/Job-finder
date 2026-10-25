@@ -4,6 +4,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "AITAN": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": null
+ },
  "Accenture Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -103,6 +109,12 @@
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "bringg"
+ },
+ "Buildots": {
+  "ats": null,
+  "careers": "https://buildots.com/careers/",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": null
  },
  "Cal": {
   "ats": null,
@@ -224,6 +236,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Faye": {
+  "ats": null,
+  "careers": "https://www.withfaye.com/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": null
+ },
  "Firefly": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -269,6 +287,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Guardio": {
+  "ats": "comeet",
+  "careers": "https://guard.io/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": "guardio/57.000"
+ },
  "Guesty": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -296,13 +320,20 @@
  },
  "Hibob": {
   "ats": null,
-  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "careers": "https://www.hibob.com/careers/",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
   "slug": null
  },
  "Hippo": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
+ },
+ "Huskeys": {
+  "ats": "ashby",
+  "careers": "https://www.huskeys.com/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": "huskeys"
  },
  "Huuuge Israel": {
   "ats": null,
@@ -389,10 +420,22 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "lightrun"
  },
+ "Loora": {
+  "ats": "ashby",
+  "careers": "https://www.loora.ai/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": "loora"
+ },
  "Lusha": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
+ },
+ "MIND": {
+  "ats": "comeet",
+  "careers": "https://mind.io/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": "mindsecurity/4A.00D"
  },
  "Magic Software": {
   "ats": null,
@@ -502,6 +545,12 @@
  "One Technologies": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Onyx Security": {
+  "ats": null,
+  "careers": "https://www.onyx.security/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
   "slug": null
  },
  "Optimove": {
@@ -648,6 +697,12 @@
   "ats": "ashby",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "redis"
+ },
+ "Remepy": {
+  "ats": null,
+  "careers": "https://www.remepy.com/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": null
  },
  "Riskified": {
   "ats": "greenhouse",
@@ -844,6 +899,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "yotpo"
  },
+ "Zafran Security": {
+  "ats": "ashby",
+  "careers": "https://zafran.io/open-positions",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": "zafran-security"
+ },
  "Zesty": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -862,6 +923,12 @@
  "env0": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "groundcover": {
+  "ats": null,
+  "careers": "https://www.groundcover.com/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
   "slug": null
  },
  "monday.com": {
