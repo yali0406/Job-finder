@@ -110,7 +110,7 @@ companies:
   - Plus500
   - Bluevine
   - {name: "Global-e", ats: comeet, slug: "global-e/62.002"}
-  - Hibob
+  - {name: Hibob, careers: "https://www.hibob.com/careers/"}
   - Deel Israel
   - Rapid7 Israel
   - Zscaler Israel
@@ -232,6 +232,18 @@ companies:
   - {name: "CrowdStrike Israel", ats: workday, slug: "crowdstrike|wd5|crowdstrikecareers"}
 
 # Israeli gaming companies: all roles shown, broader titles allowed (LiveOps, UA, monetization, game analyst...)
+  # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
+  - {name: Buildots, careers: "https://buildots.com/careers/"}
+  - {name: Onyx Security, careers: "https://www.onyx.security/careers"}
+  - {name: groundcover, careers: "https://www.groundcover.com/careers"}
+  - {name: MIND, careers: "https://mind.io/careers"}
+  - {name: Faye, careers: "https://www.withfaye.com/careers"}
+  - {name: Guardio, careers: "https://guard.io/careers"}
+  - {name: Remepy, careers: "https://www.remepy.com/careers"}
+  - {name: Huskeys, careers: "https://www.huskeys.com/careers"}
+  - {name: Loora, careers: "https://www.loora.ai/careers"}
+  - {name: Zafran Security, careers: "https://zafran.io/open-positions"}
+  - {name: AITAN}
   # grown past early stage: target titles only, no 🐣
   - {name: "Dream", ats: comeet, slug: "dreamgroup/99.002"}
   - {name: "Skai", ats: comeet, slug: "kenshoo/22.00A"}
