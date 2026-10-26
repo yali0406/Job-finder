@@ -338,6 +338,40 @@ companies:
   - {name: "Cadence Israel", ats: workday, slug: "cadence|wd1|External_Careers"}
   - {name: "Citi Israel", ats: workday, slug: "citi|wd5|2"}
   - {name: "eBay Israel", ats: workday, slug: "ebay|wd5|apply"}
+  # consumer apps, sports & media tech, ad-tech (similar to 365Scores)
+  - 365Scores
+  - Minute Media
+  - WSC Sports
+  - Pixellot
+  - Ex.co
+  - Yango
+  - SciPlay
+  - Voodoo
+  - Trax
+  - Nexxen
+  - Digital Turbine
+  - Singular
+  - Anyclip
+  - Glassbox
+  - Madlan
+  - Homie
+  - Buyme
+  - 10bis
+  - Hello Heart
+  - K Health
+  - Dario Health
+  - Playtech
+  - Playstudios
+  - Jelly Button
+  - Tiltan
+  - Track160
+  - Sportify
+  - Playwire
+  - Spinoco
+  - Kubient
+  - Zoomd
+  - Perion Network
+  - Vonage
   # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
   - {name: Buildots, careers: "https://buildots.com/careers/"}
   - {name: Onyx Security, careers: "https://www.onyx.security/careers"}
