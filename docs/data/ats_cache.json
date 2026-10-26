@@ -7,8 +7,8 @@
  },
  "365Scores": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "careers": "https://www.365scores.com/careers",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "AI21 Labs": {
@@ -86,8 +86,8 @@
  },
  "Anyclip": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "careers": "https://anyclip.com/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "Anzu": {
@@ -515,8 +515,8 @@
  },
  "Ex.co": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "careers": "https://ex.co/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "Explorium": {
@@ -598,8 +598,8 @@
  },
  "Glassbox": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "careers": "https://www.glassbox.com/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "Gloat": {
@@ -943,8 +943,8 @@
  },
  "Madlan": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "careers": "https://www.madlan.co.il/careers",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "Magic Software": {
@@ -1045,10 +1045,10 @@
   "slug": null
  },
  "Minute Media": {
-  "ats": null,
-  "careers": null,
-  "checked": "2026-10-26T11:46:35.465298+00:00",
-  "slug": null
+  "ats": "comeet",
+  "careers": "https://www.minutemedia.com/careers",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
+  "slug": "minute/45.00A"
  },
  "Mizrahi Tefahot": {
   "ats": null,
@@ -1320,8 +1320,8 @@
  },
  "Pixellot": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "careers": "https://www.pixellot.tv/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "Placer.ai": {
@@ -1768,8 +1768,8 @@
  },
  "Trax": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "careers": "https://traxretail.com/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "Trigo": {
@@ -1875,8 +1875,8 @@
  },
  "WSC Sports": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "careers": "https://wsc-sports.com/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "WalkMe": {
@@ -1986,8 +1986,8 @@
  },
  "Zoomd": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "careers": "https://zoomd.com/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "Zscaler": {

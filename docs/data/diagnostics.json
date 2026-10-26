@@ -1,11 +1,11 @@
 {
- "run": "2026-10-26T11:46:35+00:00",
+ "run": "2026-10-26T11:52:46+00:00",
  "collected_by_source": {
   "smartrecruiters": 119,
-  "greenhouse": 551,
+  "greenhouse": 548,
   "workday": 429,
   "lever": 166,
-  "comeet": 1080,
+  "comeet": 1084,
   "workable": 13,
   "ashby": 151,
   "vc:jobs.tlv.partners": 161,
@@ -20,7 +20,7 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 7,
   "remote:remoteok": 64,
-  "remote:himalayas": 2,
+  "remote:himalayas": 18,
   "remote:jobicy": 65,
   "remote:weworkremotely": 94
  },
@@ -43,15 +43,21 @@
   "vc:jobs.nfx.com": 2,
   "vc:israelvcforum.getro.com": 32,
   "remote:remoteok": 5,
+  "remote:himalayas": 2,
   "remote:jobicy": 5,
   "remote:weworkremotely": 8
  },
  "log": [
-  "INFO Voodoo: detected ashby/voodoo",
-  "INFO Nexxen: detected ashby/nexxen",
-  "INFO Singular: detected ashby/singular",
-  "INFO Hello Heart: detected greenhouse/helloheart",
-  "INFO Vonage: detected greenhouse/vonage",
+  "INFO 365Scores: no known job board linked from https://www.365scores.com/careers",
+  "INFO Minute Media: detected comeet/minute/45.00A",
+  "INFO WSC Sports: no known job board linked from https://wsc-sports.com/careers/",
+  "INFO Pixellot: no known job board linked from https://www.pixellot.tv/careers/",
+  "INFO Ex.co: no known job board linked from https://ex.co/careers/",
+  "INFO Trax: no known job board linked from https://traxretail.com/careers/",
+  "INFO Anyclip: no known job board linked from https://anyclip.com/careers/",
+  "INFO Glassbox: no known job board linked from https://www.glassbox.com/careers/",
+  "INFO Madlan: careers page https://www.madlan.co.il/careers unreachable (no response)",
+  "INFO Zoomd: no known job board linked from https://zoomd.com/careers/",
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.tlv.partners org stages: {'series_c': 55, 'series_e': 32, 'series_b': 26, 'other': 21, 'series_d': 17, 'series_a': 6, 'series_unknown': 2, 'seed': 1, 'series_c_plus': 1}",
   "INFO Getro https://jobs.tlv.partners org head counts: {'3': 66, '4': 52, '2': 35, '1': 8}",
@@ -107,9 +113,9 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 96 jobs",
-  "INFO Remote: 1291 collected, 422 open to Israel",
-  "INFO Collected 4908 jobs in Israel",
-  "INFO 506 pass the title filter",
-  "INFO New: 16, total kept: 101"
+  "INFO Remote: 1291 collected, 438 open to Israel",
+  "INFO Collected 4925 jobs in Israel",
+  "INFO 508 pass the title filter",
+  "INFO New: 14, total kept: 101"
  ]
 }
