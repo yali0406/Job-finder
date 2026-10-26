@@ -1,0 +1,20 @@
+name: check login setup
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GOOGLE_CLIENT_ID set
+        run: test -n "${{ secrets.GOOGLE_CLIENT_ID }}"
+      - name: GOOGLE_CLIENT_SECRET set
+        if: always()
+        run: test -n "${{ secrets.GOOGLE_CLIENT_SECRET }}"
+      - name: ADMIN_EMAIL set
+        if: always()
+        run: test -n "${{ secrets.ADMIN_EMAIL }}"
+      - name: Cloudflare token can use D1
+        if: always()
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@4 d1 list
