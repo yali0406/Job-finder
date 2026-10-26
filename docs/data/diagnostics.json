@@ -1,11 +1,11 @@
 {
- "run": "2026-10-26T08:17:20+00:00",
+ "run": "2026-10-26T09:17:20+00:00",
  "collected_by_source": {
-  "smartrecruiters": 123,
+  "smartrecruiters": 120,
   "greenhouse": 542,
-  "workday": 430,
-  "lever": 168,
-  "comeet": 1078,
+  "workday": 429,
+  "lever": 167,
+  "comeet": 1079,
   "workable": 14,
   "ashby": 138,
   "vc:jobs.tlv.partners": 162,
@@ -21,12 +21,13 @@
   "remote:remotive": 7,
   "remote:remoteok": 64,
   "remote:himalayas": 5,
-  "remote:jobicy": 66,
-  "remote:weworkremotely": 94
+  "remote:jobicy": 65,
+  "remote:weworkremotely": 94,
+  "linkedin": 163
  },
  "relevant_by_source": {
-  "smartrecruiters": 17,
-  "workday": 16,
+  "smartrecruiters": 16,
+  "workday": 15,
   "lever": 10,
   "comeet": 201,
   "greenhouse": 42,
@@ -45,7 +46,8 @@
   "remote:remoteok": 5,
   "remote:himalayas": 1,
   "remote:jobicy": 5,
-  "remote:weworkremotely": 8
+  "remote:weworkremotely": 8,
+  "linkedin": 51
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -103,9 +105,10 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 96 jobs",
-  "INFO Remote: 1289 collected, 424 open to Israel",
-  "INFO Collected 4901 jobs in Israel",
-  "INFO 512 pass the title filter",
+  "INFO Remote: 1289 collected, 423 open to Israel",
+  "INFO LinkedIn: 163 jobs",
+  "INFO Collected 5059 jobs in Israel",
+  "INFO 561 pass the title filter",
   "INFO New: 18, total kept: 103"
  ]
 }
