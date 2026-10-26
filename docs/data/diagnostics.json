@@ -1,8 +1,8 @@
 {
- "run": "2026-10-26T15:32:15+00:00",
+ "run": "2026-10-26T16:17:17+00:00",
  "collected_by_source": {
-  "smartrecruiters": 117,
-  "greenhouse": 548,
+  "smartrecruiters": 116,
+  "greenhouse": 547,
   "workday": 430,
   "lever": 168,
   "comeet": 1090,
@@ -20,10 +20,9 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 7,
   "remote:remoteok": 65,
-  "remote:himalayas": 10,
+  "remote:himalayas": 13,
   "remote:jobicy": 60,
-  "remote:weworkremotely": 94,
-  "linkedin": 265
+  "remote:weworkremotely": 94
  },
  "relevant_by_source": {
   "smartrecruiters": 16,
@@ -46,8 +45,7 @@
   "remote:remoteok": 5,
   "remote:himalayas": 1,
   "remote:jobicy": 5,
-  "remote:weworkremotely": 8,
-  "linkedin": 60
+  "remote:weworkremotely": 8
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -105,11 +103,9 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 96 jobs",
-  "INFO Remote: 1290 collected, 427 open to Israel",
-  "WARNING LinkedIn search 'DevOps Engineer' blocked or failed (none)",
-  "INFO LinkedIn: 265 jobs",
-  "INFO Collected 5175 jobs in Israel",
-  "INFO 567 pass the title filter",
-  "INFO New: 20, total kept: 107"
+  "INFO Remote: 1288 collected, 429 open to Israel",
+  "INFO Collected 4911 jobs in Israel",
+  "INFO 507 pass the title filter",
+  "INFO New: 14, total kept: 106"
  ]
 }
