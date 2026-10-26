@@ -339,21 +339,21 @@ companies:
   - {name: "Citi Israel", ats: workday, slug: "citi|wd5|2"}
   - {name: "eBay Israel", ats: workday, slug: "ebay|wd5|apply"}
   # consumer apps, sports & media tech, ad-tech (similar to 365Scores)
-  - 365Scores
-  - Minute Media
-  - WSC Sports
-  - Pixellot
-  - Ex.co
+  - {name: "365Scores", careers: "https://www.365scores.com/careers"}
+  - {name: "Minute Media", careers: "https://www.minutemedia.com/careers"}
+  - {name: "WSC Sports", careers: "https://wsc-sports.com/careers/"}
+  - {name: "Pixellot", careers: "https://www.pixellot.tv/careers/"}
+  - {name: "Ex.co", careers: "https://ex.co/careers/"}
   - Yango
   - SciPlay
   - Voodoo
-  - Trax
+  - {name: "Trax", careers: "https://traxretail.com/careers/"}
   - Nexxen
   - Digital Turbine
   - Singular
-  - Anyclip
-  - Glassbox
-  - Madlan
+  - {name: "Anyclip", careers: "https://anyclip.com/careers/"}
+  - {name: "Glassbox", careers: "https://www.glassbox.com/careers/"}
+  - {name: "Madlan", careers: "https://www.madlan.co.il/careers"}
   - Homie
   - Buyme
   - 10bis
@@ -369,7 +369,7 @@ companies:
   - Playwire
   - Spinoco
   - Kubient
-  - Zoomd
+  - {name: "Zoomd", careers: "https://zoomd.com/careers/"}
   - Perion Network
   - Vonage
   # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
