@@ -1,18 +1,18 @@
 {
- "run": "2026-10-26T18:17:18+00:00",
+ "run": "2026-10-26T19:17:17+00:00",
  "collected_by_source": {
   "smartrecruiters": 116,
   "greenhouse": 545,
-  "workday": 428,
+  "workday": 721,
   "lever": 168,
-  "comeet": 1092,
+  "comeet": 1093,
   "workable": 14,
   "ashby": 152,
   "vc:jobs.tlv.partners": 164,
   "vc:careers.grovevc.com": 83,
   "vc:jobs.ibexinvestors.com": 41,
   "vc:careers.viola-group.com": 147,
-  "vc:jobs.vertexventures.co.il": 100,
+  "vc:jobs.vertexventures.co.il": 99,
   "vc:jobs.insightpartners.com": 323,
   "vc:jobs.accel.com": 528,
   "vc:careers.greenfield-growth.com": 135,
@@ -20,10 +20,9 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 7,
   "remote:remoteok": 65,
-  "remote:himalayas": 10,
+  "remote:himalayas": 11,
   "remote:jobicy": 59,
-  "remote:weworkremotely": 94,
-  "linkedin": 242
+  "remote:weworkremotely": 94
  },
  "relevant_by_source": {
   "smartrecruiters": 16,
@@ -44,10 +43,8 @@
   "vc:jobs.nfx.com": 2,
   "vc:israelvcforum.getro.com": 34,
   "remote:remoteok": 5,
-  "remote:himalayas": 1,
   "remote:jobicy": 4,
-  "remote:weworkremotely": 8,
-  "linkedin": 55
+  "remote:weworkremotely": 8
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -71,10 +68,10 @@
   "INFO Getro https://careers.viola-group.com early-stage orgs: {'Volumez': ('series_a', 2), 'ZyG': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Impala.ai': ('seed', None), 'Aryon Security': ('seed', 2), 'Nilos': ('seed', 2), 'Foundational': ('seed', 2)}",
   "INFO Getro https://careers.viola-group.com: 147 Israel jobs",
   "INFO Getro https://jobs.vertexventures.co.il: collection_id=238 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://jobs.vertexventures.co.il org stages: {'series_unknown': 25, 'series_c': 23, 'series_b': 12, 'other': 11, 'series_a': 8, 'seed': 7, 'series_e': 5, 'series_d': 4, 'series_c_plus': 3, 'acquisition': 2}",
-  "INFO Getro https://jobs.vertexventures.co.il org head counts: {'3': 49, '4': 26, '2': 23, '1': 2}",
+  "INFO Getro https://jobs.vertexventures.co.il org stages: {'series_unknown': 24, 'series_c': 23, 'series_b': 12, 'other': 11, 'series_a': 8, 'seed': 7, 'series_e': 5, 'series_d': 4, 'series_c_plus': 3, 'acquisition': 2}",
+  "INFO Getro https://jobs.vertexventures.co.il org head counts: {'3': 48, '4': 26, '2': 23, '1': 2}",
   "INFO Getro https://jobs.vertexventures.co.il early-stage orgs: {'TensorLeap': ('seed', 2), 'Bites': ('seed', 2), 'Ledge': ('seed', 2), 'Adaptive6': ('series_a', 2), 'WireX Cube': ('series_a', 2)}",
-  "INFO Getro https://jobs.vertexventures.co.il: 100 Israel jobs",
+  "INFO Getro https://jobs.vertexventures.co.il: 99 Israel jobs",
   "INFO Getro https://jobs.insightpartners.com: collection_id=246 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.insightpartners.com org stages: {'other': 91, 'series_c': 65, 'series_d': 37, 'series_a': 29, 'series_b': 25, 'acquisition': 24, 'series_unknown': 23, 'ipo': 15, 'series_e': 6, 'seed': 4, 'series_f': 2, 'series_c_plus': 2}",
   "INFO Getro https://jobs.insightpartners.com org head counts: {'4': 122, '3': 99, '5': 70, '2': 32}",
@@ -105,13 +102,9 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 96 jobs",
-  "INFO Remote: 1283 collected, 424 open to Israel",
-  "WARNING LinkedIn search 'Trax Retail' blocked or failed (none)",
-  "WARNING LinkedIn search 'Junior DevOps' blocked or failed (none)",
-  "WARNING LinkedIn search 'Cloud Engineer' blocked or failed (none)",
-  "INFO LinkedIn: 242 jobs",
-  "INFO Collected 5169 jobs in Israel",
-  "INFO 562 pass the title filter",
-  "INFO New: 17, total kept: 109"
+  "INFO Remote: 1282 collected, 425 open to Israel",
+  "INFO Collected 5221 jobs in Israel",
+  "INFO 506 pass the title filter",
+  "INFO New: 13, total kept: 109"
  ]
 }
