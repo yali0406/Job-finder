@@ -28,6 +28,9 @@ FOOT_IN_DOOR = (
     r"account manager|community|coordinator|associate|specialist|junior|ג'וניור|תפעול|תמיכה"
 )
 FOOT_IN_DOOR_CATEGORY = "דריסת רגל"
+# At early-stage startups any role counts (not only the target titles); Claude judges the fit to the CV.
+STARTUP_OPEN_CATEGORY = "סטארטאפ: כל תפקיד"
+STARTUP_OPEN_MIN_SCORE = 40  # below this an off-target startup role is dropped instead of shown
 
 
 def prefilter(job: Job):
@@ -40,6 +43,8 @@ def prefilter(job: Job):
             return cat
     if job.extra.get("broad") and re.search(FOOT_IN_DOOR, title, re.I):
         return FOOT_IN_DOOR_CATEGORY
+    if job.extra.get("broad") == "early-stage startup":
+        return STARTUP_OPEN_CATEGORY
     return None
 
 
@@ -82,6 +87,12 @@ If the job is marked "foot in the door", the candidate is open to a role outside
 at a gaming company or early-stage startup as a way in: score it on whether they could realistically
 get hired with their background (ops, payments, incident handling, CRM, SQL/Python, DevOps basics),
 not on whether the title is a target.
+At an early-stage startup ("Foot in the door: yes (early-stage startup)") any role is in scope: score only
+whether this CV could realistically get hired for it. Roles that need skills the CV lacks (e.g. backend or
+ML engineering, sales quota-carrying, design) score below 30.
+If the job is marked "Remote from abroad", the candidate would work fully remotely from Israel for a
+company abroad: score 0-20 if the posting limits hiring to residents/work authorization of other countries
+(e.g. US-only, EU-only) or requires being on-site; otherwise score the role fit as usual.
 Write reason_he in natural Hebrew, concrete (name the matching or missing skills)."""
 
 
@@ -108,7 +119,8 @@ class Scorer:
                 system=[{"type": "text", "text": self.system, "cache_control": {"type": "ephemeral"}}],
                 messages=[{"role": "user", "content": (
                     f"Title: {job.title}\nCompany: {job.company}\nLocation: {job.location}\n"
-                    f"{'Foot in the door: yes (' + job.extra.get('broad') + ')' if job.extra.get('broad') else ''}\n\n"
+                    f"{'Foot in the door: yes (' + job.extra.get('broad') + ')' if job.extra.get('broad') else ''}\n"
+                    f"{'Remote from abroad: yes' if job.extra.get('remote') else ''}\n\n"
                     f"Description:\n{(job.description or '(no description available, judge from title)')[:8000]}"
                 )}],
                 output_format=Verdict,

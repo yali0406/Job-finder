@@ -78,6 +78,11 @@
   <div class="sub" id="status">טוען…</div>
 </header>
 
+<div class="controls" id="sections">
+  <button class="chip" data-section="il">🇮🇱 בישראל <span id="countIl"></span></button>
+  <button class="chip" data-section="remote">🌍 מרחוק מחו״ל <span id="countRemote"></span></button>
+</div>
+
 <div class="controls">
   <input type="search" id="q" placeholder="חיפוש לפי תפקיד או חברה">
   <select id="minScore" aria-label="ציון מינימלי">
@@ -138,32 +143,8 @@ let lastVisit = store.get("lastVisit", null);
 let marks = {};                                 // id -> "saved" | "applied" | "hidden"
 let activeCats = new Set(store.get("cats", []));
 let chickOnly = false;
-let opened = {};                                // id -> when the job link was first opened
-
-function sync(updates) {
-  if (!updates.length) return;
-  fetch("/api/marks", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ updates }) })
-    .then(r => { if (!r.ok) throw r.status; })
-    .catch(() => { $("status").textContent = "שמירת הסימון נכשלה. בדוק את החיבור ונסה שוב."; });
-}
-
-async function loadMarks() {
-  const r = await fetch("/api/marks", { cache: "no-store" });
-  if (!r.ok) return;
-  const server = await r.json();
-  for (const [id, m] of Object.entries(server)) {
-    if (m.status) marks[id] = m.status;
-    if (m.opened_at) opened[id] = m.opened_at;
-  }
-  // One-time move of marks saved in this browser before sign-in existed.
-  const oldMarks = store.get("marks", {}), oldOpened = store.get("opened", {});
-  const ids = [...new Set([...Object.keys(oldMarks), ...Object.keys(oldOpened)])].filter(id => !server[id]);
-  if (ids.length) {
-    sync(ids.map(id => ({ job_id: id, ...(oldMarks[id] ? { status: oldMarks[id] } : {}), ...(oldOpened[id] ? { opened_at: oldOpened[id] } : {}) })));
-    ids.forEach(id => { if (oldMarks[id]) marks[id] = oldMarks[id]; if (oldOpened[id]) opened[id] = oldOpened[id]; });
-  }
-  try { localStorage.removeItem("marks"); localStorage.removeItem("opened"); } catch {}
-}
+let section = store.get("section", "il");  // "il" = jobs in Israel, "remote" = fully remote at companies abroad
+let opened = store.get("opened", {});           // id -> when the job link was first opened
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -205,6 +186,7 @@ function jobHtml(j) {
       <input type="checkbox" class="pick" data-pick="${j.id}" ${picked.has(j.id) ? "checked" : ""} aria-label="בחירה">
       <a class="title" data-open="${j.id}" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
       ${j.broad === "early-stage startup" ? '<span class="tag chick" title="סטארטאפ בשלב מוקדם">🐣 סטארטאפ צעיר</span>' : ""}
+      ${j.remote ? '<span class="tag" title="עבודה מלאה מרחוק מישראל">🌍 מרחוק</span>' : ""}
       ${isNew(j) ? '<span class="tag new">חדש</span>' : ""}
       ${openedTag(j)}
       ${j.category ? `<span class="tag ${j.broad ? "broad" : ""}">${esc(j.category)}</span>` : ""}
@@ -228,6 +210,7 @@ function render() {
     if (view === "active" ? m === "hidden" : m !== view) return false;
     if ((j.score ?? 0) < min) return false;
     if (activeCats.size && !activeCats.has(j.category)) return false;
+    if ((section === "remote") !== !!j.remote) return false;
     if (chickOnly && j.broad !== "early-stage startup") return false;
     const of = $("openedFilter").value;
     if (of && (of === "yes") !== !!opened[j.id]) return false;
@@ -288,6 +271,16 @@ $("markSeen").onclick = () => {
   store.set("lastVisit", lastVisit);
   render();
 };
+function renderSections() {
+  document.querySelectorAll("[data-section]").forEach(b => b.setAttribute("aria-pressed", b.dataset.section === section));
+  $("countIl").textContent = `(${data.jobs.filter(j => !j.remote).length})`;
+  $("countRemote").textContent = `(${data.jobs.filter(j => j.remote).length})`;
+}
+document.querySelectorAll("[data-section]").forEach(b => b.onclick = () => {
+  section = b.dataset.section;
+  store.set("section", section);
+  renderSections(); render();
+});
 $("chickOnly").onclick = () => {
   chickOnly = !chickOnly;
   $("chickOnly").setAttribute("aria-pressed", chickOnly);
@@ -311,7 +304,7 @@ Promise.all([fetch("data/jobs.json", { cache: "no-store" }), loadMarks().catch((
   .then(d => {
     data = d;
     $("status").textContent = `עודכן לאחרונה: ${fmt(d.updated)} · ${d.new_this_run ?? 0} משרות חדשות בסריקה האחרונה`;
-    renderCats(); render();
+    renderSections(); renderCats(); render();
   })
   .catch(() => { $("status").textContent = "עדיין אין נתונים. הסריקה הראשונה תרוץ בקרוב."; });
 </script>

@@ -10,6 +10,10 @@ vc_boards:
   - https://jobs.ibexinvestors.com
   - https://careers.viola-group.com  # verified
   - https://jobs.vertexventures.co.il
+  - https://jobs.insightpartners.com
+  - https://jobs.accel.com
+  - https://careers.greenfield-growth.com
+  - https://jobs.nfx.com
   # Israel VC Forum: jobs across ~870 Israeli VC-backed companies; seed / series A ones are marked early-stage automatically
   - https://israelvcforum.getro.com
 
@@ -18,6 +22,12 @@ job_sites: [drushim, alljobs, jobmaster]
 
 # LinkedIn public (logged-out) job search, Israel, past 24h, low rate
 linkedin_queries:
+  - 365Scores
+  - WSC Sports
+  - Pixellot
+  - Anyclip
+  - Glassbox
+  - Trax Retail
   - DevOps Engineer
   - Junior DevOps
   - Cloud Engineer
@@ -110,7 +120,7 @@ companies:
   - Plus500
   - Bluevine
   - {name: "Global-e", ats: comeet, slug: "global-e/62.002"}
-  - Hibob
+  - {name: Hibob, careers: "https://www.hibob.com/careers/"}
   - Deel Israel
   - Rapid7 Israel
   - Zscaler Israel
@@ -232,6 +242,157 @@ companies:
   - {name: "CrowdStrike Israel", ats: workday, slug: "crowdstrike|wd5|crowdstrikecareers"}
 
 # Israeli gaming companies: all roles shown, broader titles allowed (LiveOps, UA, monetization, game analyst...)
+  # more Israeli tech companies (job board found automatically by name)
+  - Aidoc
+  - Atera
+  - BigID
+  - Bizzabo
+  - Cellebrite
+  - Classiq
+  - Cybereason
+  - Cycode
+  - Descope
+  - Earnix
+  - Elementor
+  - Fireblocks
+  - Fundbox
+  - Gloat
+  - HoneyBook
+  - Hunters
+  - Innoviz
+  - Legit Security
+  - Mesh Payments
+  - Noma Security
+  - Obligo
+  - OpenWeb
+  - Placer.ai
+  - Riverside
+  - Sentra
+  - Sunbit
+  - Sygnia
+  - Tailor Brands
+  - Unit
+  - Vayyar
+  - Zencity
+  - Aim Security
+  - Prompt Security
+  - Arbe
+  - Valens
+  - Dynamic Yield
+  - Fundguard
+  - Rewire
+  - Ness Technologies
+  - NetApp Israel
+  # more Israeli companies, round 2 (2026-10-25)
+  - Deel
+  - ironSource
+  - Unity
+  - Playtika
+  - Moon Active
+  - Plarium
+  - Taranis
+  - Pecan AI
+  - Optimove
+  - Nexite
+  - XM Cyber
+  - Grip Security
+  - Ox Security
+  - Coro
+  - Personetics
+  - Justt
+  - Trigo
+  - Shufersal
+  - Partner
+  - Zap Group
+  - Yad2
+  - Wolt
+  - Gett
+  - Tipranks
+  - Vcita
+  - Bigabid
+  - Hour One
+  - D-ID
+  - Viz.ai
+  - Tytocare
+  - Sight Diagnostics
+  - REE
+  - StoreDot
+  - Nanox
+  - Insightec
+  - Harel
+  - Migdal
+  - Menora
+  - Allot
+  - AudioCodes
+  - Gilat
+  - Silicom
+  - Hilan
+  - Priority Software
+  - Tabit
+  - Zscaler
+  - Jit
+  - Configu
+  - Anecdotes
+  - Scytale
+  - Lili
+  - Novidea
+  - Hyp
+  - One Zero
+  - Cognata
+  - Wilco
+  - Spinframe
+  - {name: "Cadence Israel", ats: workday, slug: "cadence|wd1|External_Careers"}
+  - {name: "Citi Israel", ats: workday, slug: "citi|wd5|2"}
+  - {name: "eBay Israel", ats: workday, slug: "ebay|wd5|apply"}
+  # consumer apps, sports & media tech, ad-tech (similar to 365Scores)
+  - {name: "365Scores", careers: "https://www.365scores.com/careers"}
+  - {name: "Minute Media", careers: "https://www.minutemedia.com/careers"}
+  - {name: "WSC Sports", careers: "https://wsc-sports.com/careers/"}
+  - {name: "Pixellot", careers: "https://www.pixellot.tv/careers/"}
+  - {name: "Ex.co", careers: "https://ex.co/careers/"}
+  - Yango
+  - SciPlay
+  - Voodoo
+  - {name: "Trax", careers: "https://traxretail.com/careers/"}
+  - Nexxen
+  - Digital Turbine
+  - Singular
+  - {name: "Anyclip", careers: "https://anyclip.com/careers/"}
+  - {name: "Glassbox", careers: "https://www.glassbox.com/careers/"}
+  - {name: "Madlan", careers: "https://www.madlan.co.il/careers"}
+  - Homie
+  - Buyme
+  - 10bis
+  - Hello Heart
+  - K Health
+  - Dario Health
+  - Playtech
+  - Playstudios
+  - Jelly Button
+  - Tiltan
+  - Track160
+  - Sportify
+  - Playwire
+  - Spinoco
+  - Kubient
+  - {name: "Zoomd", careers: "https://zoomd.com/careers/"}
+  - Perion Network
+  - Vonage
+  # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
+  - {name: Buildots, careers: "https://buildots.com/careers/"}
+  - {name: Onyx Security, careers: "https://www.onyx.security/careers"}
+  - {name: groundcover, careers: "https://www.groundcover.com/careers"}
+  - {name: MIND, careers: "https://mind.io/careers"}
+  - {name: Faye, careers: "https://www.withfaye.com/careers"}
+  - {name: Guardio, careers: "https://guard.io/careers"}
+  - {name: Remepy, careers: "https://www.remepy.com/careers"}
+  - {name: Huskeys, careers: "https://www.huskeys.com/careers"}
+  - {name: Loora, careers: "https://www.loora.ai/careers"}
+  - {name: Zafran Security, careers: "https://zafran.io/open-positions"}
+  - {name: AITAN, careers: "https://www.aitan.ai/careers"}
+  - {name: Glow Security, careers: "https://www.glow.security/careers"}
+  - {name: Neo Security, careers: "https://www.neo.security/careers"}
+  - {name: Enso, careers: "https://www.enso.ai/careers"}
   # grown past early stage: target titles only, no 🐣
   - {name: "Dream", ats: comeet, slug: "dreamgroup/99.002"}
   - {name: "Skai", ats: comeet, slug: "kenshoo/22.00A"}
@@ -308,3 +469,37 @@ startups:
   - {name: "Wonderful", ats: ashby, slug: "wonderful"}
   - {name: "Guardz", ats: greenhouse, slug: "guardz"}
   - {name: "Sweet Security", ats: greenhouse, slug: "sweetsecurity"}
+
+# Remote-first companies abroad: only their fully remote jobs are kept, and only when the location
+# allows working from Israel (worldwide / EMEA / Israel). Remote job boards are scanned too.
+remote_companies:
+  - GitLab
+  - Canonical
+  - Automattic
+  - Zapier
+  - Doist
+  - Remote.com
+  - Deel
+  - Wikimedia Foundation
+  - Grafana Labs
+  - Elastic
+  - Mozilla
+  - DuckDuckGo
+  - Bitwarden
+  - Toggl
+  - Hotjar
+  - Sourcegraph
+  - Kraken
+  - Toptal
+  - Oyster
+  - Buffer
+  - Help Scout
+  - Hashicorp
+  - Supabase
+  - PostHog
+  - Vercel
+  - Netlify
+  - Airbyte
+  - Docker
+  - Proton
+  - Chainlink Labs

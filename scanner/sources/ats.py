@@ -212,7 +212,43 @@ def slug_candidates(name: str):
     return out
 
 
-def detect(name: str):
+# ATS links as they appear on a company's own careers page -> (ats, slug).
+CAREERS_LINKS = [
+    ("comeet", re.compile(r"comeet\.(?:com|co)/jobs/([\w.-]+)/([0-9A-F]{2}\.[0-9A-F]{3})", re.I), lambda m: f"{m[1]}/{m[2]}"),
+    ("greenhouse", re.compile(r"(?:boards|job-boards)(?:-api)?\.(?:eu\.)?greenhouse\.io/(?:embed/job_board(?:/js)?\?for=)?([\w-]+)", re.I), lambda m: m[1]),
+    ("lever_eu", re.compile(r"jobs\.eu\.lever\.co/([\w-]+)", re.I), lambda m: m[1]),
+    ("lever", re.compile(r"jobs\.lever\.co/([\w-]+)", re.I), lambda m: m[1]),
+    ("ashby", re.compile(r"jobs\.ashbyhq\.com/([\w.%-]+)", re.I), lambda m: m[1]),
+    ("smartrecruiters", re.compile(r"(?:jobs|careers)\.smartrecruiters\.com/([\w-]+)", re.I), lambda m: m[1]),
+    ("workable", re.compile(r"apply\.workable\.com/([\w-]+)", re.I), lambda m: m[1]),
+]
+
+
+def detect_from_careers(url: str, name: str):
+    """Read the company's careers page and follow the first job-board link that answers."""
+    r = get(url)
+    if not r or r.status_code != 200:
+        log.info("%s: careers page %s unreachable (%s)", name, url, r.status_code if r else "no response")
+        return None, None, None
+    seen = set()
+    for ats, rx, to_slug in CAREERS_LINKS:
+        for m in rx.finditer(r.text):
+            slug = to_slug(m)
+            if (ats, slug) in seen or slug.lower() in ("embed", "js", "v1"):
+                continue
+            seen.add((ats, slug))
+            jobs = FETCHERS[ats](slug, name)
+            if jobs is not None:
+                return ats, slug, jobs
+    log.info("%s: no known job board linked from %s", name, url)
+    return None, None, None
+
+
+def detect(name: str, careers: str | None = None):
+    if careers:
+        ats, slug, jobs = detect_from_careers(careers, name)
+        if ats:
+            return ats, slug, jobs
     for ats in AUTODETECT_ORDER:
         for slug in slug_candidates(name):
             jobs = FETCHERS[ats](slug, name)
@@ -222,7 +258,7 @@ def detect(name: str):
 
 
 def fetch_companies(companies, cache: dict, israel_only=True):
-    """companies: list of str or {name, ats, slug}. cache: mutated in place."""
+    """companies: list of str or {name, ats, slug} or {name, careers}. cache: mutated in place."""
     now = datetime.now(timezone.utc)
     all_jobs = []
     for entry in companies:
@@ -241,11 +277,13 @@ def fetch_companies(companies, cache: dict, israel_only=True):
                 log.warning("%s: %s/%s stopped responding", name, ats, slug)
         else:
             # Retry unknown companies at most once a week.
+            # A newly added careers page is tried right away.
             last = cached.get("checked")
-            if last and now - datetime.fromisoformat(last) < timedelta(days=7):
+            new_page = entry.get("careers") and cached.get("careers") != entry.get("careers")
+            if last and not new_page and now - datetime.fromisoformat(last) < timedelta(days=7):
                 continue
-            ats, slug, jobs = detect(name)
-            cache[name] = {"ats": ats, "slug": slug, "checked": now.isoformat()}
+            ats, slug, jobs = detect(name, entry.get("careers"))
+            cache[name] = {"ats": ats, "slug": slug, "checked": now.isoformat(), "careers": entry.get("careers")}
             if ats:
                 log.info("%s: detected %s/%s", name, ats, slug)
 

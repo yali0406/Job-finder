@@ -1,7 +1,25 @@
 {
+ "10bis": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
+ "365Scores": {
+  "ats": null,
+  "careers": "https://www.365scores.com/careers",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
+  "slug": null
+ },
  "AI21 Labs": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "AITAN": {
+  "ats": null,
+  "careers": "https://www.aitan.ai/careers",
+  "checked": "2026-10-25T16:04:05.113253+00:00",
   "slug": null
  },
  "Accenture Israel": {
@@ -9,9 +27,45 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Aidoc": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Aim Security": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Airbyte": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "airbyte"
+ },
+ "Akamai": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Akamai Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Allot": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Amazon": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Amazon Israel": {
@@ -22,6 +76,18 @@
  "Amdocs": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Anecdotes": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Anyclip": {
+  "ats": null,
+  "careers": "https://anyclip.com/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "Anzu": {
@@ -39,9 +105,21 @@
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": null
  },
+ "Apple": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Apple Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Applied Materials": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "AppsFlyer": {
@@ -54,15 +132,39 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Arbe": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
  "Armis": {
   "ats": "smartrecruiters",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "armis"
  },
+ "Atera": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "AudioCodes": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Augury": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "augury"
+ },
+ "Automattic": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
  },
  "Axonius": {
   "ats": "greenhouse",
@@ -89,9 +191,39 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "BigID": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": "bigid"
+ },
+ "Bigabid": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Bitwarden": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "bitwarden"
+ },
+ "Bizzabo": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
  "Bluevine": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Booking Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Booking.com Israel": {
@@ -104,6 +236,36 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "bringg"
  },
+ "Broadcom Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Buffer": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "Buildots": {
+  "ats": null,
+  "careers": "https://buildots.com/careers/",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": null
+ },
+ "Buyme": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
+ "Cadence": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Cal": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -113,6 +275,12 @@
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": null
+ },
+ "Canonical": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "canonical"
  },
  "Cato Networks": {
   "ats": "greenhouse",
@@ -124,9 +292,21 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Cellebrite": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
  "Ceragon": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Chainlink Labs": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
   "slug": null
  },
  "Check Point": {
@@ -149,19 +329,43 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Classiq": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
  "Cloudinary": {
   "ats": "lever",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "cloudinary"
+ },
+ "Cognata": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
  },
  "Cognyte": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Configu": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Coralogix": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Coro": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "CrazyLabs": {
@@ -174,9 +378,39 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Cybereason": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Cycode": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
  "Cyera": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "D-ID": {
+  "ats": "workable",
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": "d-id"
+ },
+ "Dario Health": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
+ "Deel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Deel Israel": {
@@ -194,9 +428,21 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Descope": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": "descope"
+ },
  "Develeap": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Digital Turbine": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
   "slug": null
  },
  "Discount Bank": {
@@ -204,14 +450,62 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Docker": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "docker"
+ },
+ "Doist": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "DuckDuckGo": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "Dynamic Yield": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
  "EY Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Earnix": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Elastic": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "elastic"
+ },
  "Elbit Systems": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Elementor": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Enso": {
+  "ats": null,
+  "careers": "https://www.enso.ai/careers",
+  "checked": "2026-10-25T16:04:05.113253+00:00",
   "slug": null
  },
  "Evoke (888)": {
@@ -219,10 +513,28 @@
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": null
  },
+ "Ex.co": {
+  "ats": null,
+  "careers": "https://ex.co/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
+  "slug": null
+ },
  "Explorium": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
+ },
+ "Faye": {
+  "ats": null,
+  "careers": "https://www.withfaye.com/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": null
+ },
+ "Fireblocks": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": "fireblocks"
  },
  "Firefly": {
   "ats": null,
@@ -249,9 +561,51 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "forter"
  },
+ "Fundbox": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Fundguard": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
  "Gankster": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Gett": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Gilat": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "GitLab": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "gitlab"
+ },
+ "Glassbox": {
+  "ats": null,
+  "careers": "https://www.glassbox.com/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
+  "slug": null
+ },
+ "Gloat": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
   "slug": null
  },
  "Global-e": {
@@ -259,15 +613,45 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Glow Security": {
+  "ats": null,
+  "careers": "https://www.glow.security/careers",
+  "checked": "2026-10-25T16:04:05.113253+00:00",
+  "slug": null
+ },
  "Gong": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Google": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Google Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
+ },
+ "Grafana Labs": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "grafanalabs"
+ },
+ "Grip Security": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Guardio": {
+  "ats": "comeet",
+  "careers": "https://guard.io/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": "guardio/57.000"
  },
  "Guesty": {
   "ats": null,
@@ -277,6 +661,12 @@
  "HOT": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "HP Indigo": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "HP Israel": {
@@ -289,14 +679,45 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Harel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Harel Insurance": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Hashicorp": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "Hello Heart": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": "helloheart"
+ },
+ "Help Scout": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "helpscout"
+ },
  "Hibob": {
   "ats": null,
-  "checked": "2026-10-23T01:07:16.169709+00:00",
+  "careers": "https://www.hibob.com/careers/",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": null
+ },
+ "Hilan": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Hippo": {
@@ -304,9 +725,51 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Homie": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
+ "HoneyBook": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": "honeybook"
+ },
+ "Hotjar": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "Hour One": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Hunters": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Huskeys": {
+  "ats": "ashby",
+  "careers": "https://www.huskeys.com/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": "huskeys"
+ },
  "Huuuge Israel": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Hyp": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "IBM Israel": {
@@ -322,6 +785,24 @@
  "Innovid": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Innoviz": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Insightec": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Intel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Intel Israel": {
@@ -354,6 +835,36 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "jfrog"
  },
+ "Jelly Button": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
+ "Jit": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Justt": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "K Health": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
+ "KLA": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "KPMG Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -374,9 +885,27 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Kraken": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "Kubient": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
  "Kubiya": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Legit Security": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
   "slug": null
  },
  "Lemonade": {
@@ -389,9 +918,33 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "lightrun"
  },
+ "Lili": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Loora": {
+  "ats": "ashby",
+  "careers": "https://www.loora.ai/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": "loora"
+ },
  "Lusha": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "MIND": {
+  "ats": "comeet",
+  "careers": "https://mind.io/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": "mindsecurity/4A.00D"
+ },
+ "Madlan": {
+  "ats": null,
+  "careers": "https://www.madlan.co.il/careers",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "Magic Software": {
@@ -402,6 +955,18 @@
  "Malam Team": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Marvell": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Mastercard": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Mastercard Israel": {
@@ -429,9 +994,27 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "melio"
  },
+ "Menora": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Menora Mivtachim": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Mesh Payments": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Meta": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Meta Israel": {
@@ -439,15 +1022,33 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Microsoft": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Microsoft Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Migdal": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Migdal Insurance": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
+ },
+ "Minute Media": {
+  "ats": "comeet",
+  "careers": "https://www.minutemedia.com/careers",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
+  "slug": "minute/45.00A"
  },
  "Mizrahi Tefahot": {
   "ats": null,
@@ -469,14 +1070,56 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Mozilla": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "mozilla"
+ },
  "NICE": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "nice"
  },
+ "Nanox": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Navan Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Neo Security": {
+  "ats": null,
+  "careers": "https://www.neo.security/careers",
+  "checked": "2026-10-25T16:04:05.113253+00:00",
+  "slug": null
+ },
+ "Ness Technologies": {
+  "ats": "smartrecruiters",
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": "nesstechnologies"
+ },
+ "NetApp Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Netlify": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "netlify"
+ },
+ "Nexite": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Next Insurance": {
@@ -489,19 +1132,67 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Nexxen": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": "nexxen"
+ },
+ "Noma Security": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Novidea": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": "novidea"
+ },
  "Nuvei": {
   "ats": "workable",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "nuvei"
+ },
+ "Nvidia": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
  },
  "Nvidia Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Obligo": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": "obligo"
+ },
  "One Technologies": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "One Zero": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Onyx Security": {
+  "ats": null,
+  "careers": "https://www.onyx.security/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": null
+ },
+ "OpenWeb": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
   "slug": null
  },
  "Optimove": {
@@ -529,6 +1220,18 @@
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": null
  },
+ "Ox Security": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Oyster": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "oyster"
+ },
  "Pagaya": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -544,9 +1247,21 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Partner": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Partner Communications": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "PayPal": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "PayPal Israel": {
@@ -564,6 +1279,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Pecan AI": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Pentera": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -574,9 +1295,39 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Perion Network": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
+ "Personetics": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Phoenix": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": "phoenix"
+ },
  "Phoenix Insurance": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Pixellot": {
+  "ats": null,
+  "careers": "https://www.pixellot.tv/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
+  "slug": null
+ },
+ "Placer.ai": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
   "slug": null
  },
  "Plarium": {
@@ -584,9 +1335,21 @@
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": null
  },
+ "Playstudios": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
  "Playstudios Israel": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Playtech": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
   "slug": null
  },
  "Playtech Israel": {
@@ -599,6 +1362,12 @@
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": null
  },
+ "Playwire": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
  "Plus500": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -609,14 +1378,50 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "PostHog": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "posthog"
+ },
+ "Priority Software": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Product Madness Israel": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": null
  },
+ "Prompt Security": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Proton": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "proton"
+ },
  "PwC Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Qualcomm Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "REE": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Radware": {
@@ -649,19 +1454,55 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "redis"
  },
+ "Remepy": {
+  "ats": null,
+  "careers": "https://www.remepy.com/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": null
+ },
+ "Remote.com": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "remote"
+ },
+ "Rewire": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
  "Riskified": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "riskified"
+ },
+ "Riverside": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
  },
  "Run:ai": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "SAP Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "SAP Labs Israel": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Salesforce": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Salesforce Israel": {
@@ -674,9 +1515,21 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "SciPlay": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
  "Screenz": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Scytale": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Sela": {
@@ -689,6 +1542,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Sentra": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": "sentra"
+ },
  "Sett": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
@@ -697,6 +1556,24 @@
  "ShapeShift Gaming": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Shufersal": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Sight Diagnostics": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Silicom": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Silverfort": {
@@ -709,6 +1586,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "similarweb"
  },
+ "Singular": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": "singular"
+ },
  "Sisense": {
   "ats": "ashby",
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -719,9 +1602,39 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "snyk"
  },
+ "Sourcegraph": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "Spinframe": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Spinoco": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
+ "Sportify": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
+ },
  "Spot by NetApp": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "StoreDot": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Strauss": {
@@ -729,15 +1642,69 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Sunbit": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Supabase": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "supabase"
+ },
  "SuperPlay": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Superpower": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": "superpower"
+ },
+ "Sygnia": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Synopsys": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Tabit": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Taboola": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "taboola"
+ },
+ "Tailor Brands": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Tailorbrands": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Taranis": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
  },
  "Teva": {
   "ats": null,
@@ -747,6 +1714,12 @@
  "Tikal": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Tiltan": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
   "slug": null
  },
  "TinyTap": {
@@ -759,19 +1732,73 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Tipranks": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Toggl": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "Toptal": {
+  "ats": "lever",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "toptal"
+ },
  "Torq": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "torq"
+ },
+ "Track160": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": null
  },
  "Transmit Security": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "transmitsecurity"
  },
+ "Trax": {
+  "ats": null,
+  "careers": "https://traxretail.com/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
+  "slug": null
+ },
+ "Trigo": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Tufin": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Tytocare": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Unit": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": "unit"
+ },
+ "Unity": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "Unity (ironSource / Supersonic)": {
@@ -779,10 +1806,34 @@
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": null
  },
+ "Valens": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
  "Varonis": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
+ },
+ "Vayyar": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
+ "Vcita": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Vercel": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "vercel"
  },
  "Verint": {
   "ats": null,
@@ -799,9 +1850,33 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Viz.ai": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Vonage": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": "vonage"
+ },
+ "Voodoo": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
+  "slug": "voodoo"
+ },
  "Voodoo Tel Aviv": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "WSC Sports": {
+  "ats": null,
+  "careers": "https://wsc-sports.com/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
   "slug": null
  },
  "WalkMe": {
@@ -824,6 +1899,18 @@
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": null
  },
+ "Wikimedia Foundation": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": null
+ },
+ "Wilco": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Wix": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -834,9 +1921,33 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Wolt": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": "wolt"
+ },
+ "XM Cyber": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
  "Xternity": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Yad2": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Yango": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-26T11:46:35.465298+00:00",
   "slug": null
  },
  "Yotpo": {
@@ -844,10 +1955,46 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "yotpo"
  },
+ "Zafran Security": {
+  "ats": "ashby",
+  "careers": "https://zafran.io/open-positions",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": "zafran-security"
+ },
+ "Zap Group": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "Zapier": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-10-25T18:58:58.588675+00:00",
+  "slug": "zapier"
+ },
+ "Zencity": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:08:57.275682+00:00",
+  "slug": null
+ },
  "Zesty": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
+ },
+ "Zoomd": {
+  "ats": null,
+  "careers": "https://zoomd.com/careers/",
+  "checked": "2026-10-26T11:52:46.557657+00:00",
+  "slug": null
+ },
+ "Zscaler": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": "zscaler"
  },
  "Zscaler Israel": {
   "ats": "greenhouse",
@@ -862,6 +2009,18 @@
  "env0": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "groundcover": {
+  "ats": null,
+  "careers": "https://www.groundcover.com/careers",
+  "checked": "2026-10-25T15:51:57.376191+00:00",
+  "slug": null
+ },
+ "ironSource": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
  "monday.com": {
