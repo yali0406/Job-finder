@@ -1,11 +1,11 @@
 {
- "run": "2026-10-27T07:17:19+00:00",
+ "run": "2026-10-27T09:17:18+00:00",
  "collected_by_source": {
-  "smartrecruiters": 116,
+  "smartrecruiters": 115,
   "greenhouse": 546,
-  "workday": 722,
-  "lever": 169,
-  "comeet": 1093,
+  "workday": 434,
+  "lever": 173,
+  "comeet": 1094,
   "workable": 14,
   "ashby": 152,
   "vc:jobs.tlv.partners": 164,
@@ -20,15 +20,16 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 7,
   "remote:remoteok": 65,
-  "remote:himalayas": 12,
+  "remote:himalayas": 7,
   "remote:jobicy": 59,
-  "remote:weworkremotely": 94
+  "remote:weworkremotely": 94,
+  "linkedin": 234
  },
  "relevant_by_source": {
   "smartrecruiters": 16,
   "workday": 15,
   "lever": 10,
-  "comeet": 201,
+  "comeet": 202,
   "greenhouse": 39,
   "workable": 1,
   "ashby": 28,
@@ -42,9 +43,10 @@
   "vc:careers.greenfield-growth.com": 6,
   "vc:jobs.nfx.com": 2,
   "vc:israelvcforum.getro.com": 34,
-  "remote:remoteok": 5,
+  "remote:remoteok": 4,
   "remote:jobicy": 4,
-  "remote:weworkremotely": 8
+  "remote:weworkremotely": 7,
+  "linkedin": 52
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -102,9 +104,14 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 96 jobs",
-  "INFO Remote: 1285 collected, 427 open to Israel",
-  "INFO Collected 5225 jobs in Israel",
-  "INFO 506 pass the title filter",
-  "INFO New: 15, total kept: 109"
+  "INFO Remote: 1285 collected, 422 open to Israel",
+  "WARNING LinkedIn search 'Anyclip' blocked or failed (none)",
+  "WARNING LinkedIn search 'Glassbox' blocked or failed (none)",
+  "WARNING LinkedIn search 'Cloud Engineer' blocked or failed (none)",
+  "WARNING LinkedIn search 'Product Manager' blocked or failed (none)",
+  "INFO LinkedIn: 234 jobs",
+  "INFO Collected 5170 jobs in Israel",
+  "INFO 557 pass the title filter",
+  "INFO New: 13, total kept: 109"
  ]
 }
