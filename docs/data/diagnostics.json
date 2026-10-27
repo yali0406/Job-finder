@@ -1,10 +1,10 @@
 {
- "run": "2026-10-27T06:17:18+00:00",
+ "run": "2026-10-27T07:17:19+00:00",
  "collected_by_source": {
-  "smartrecruiters": 115,
+  "smartrecruiters": 116,
   "greenhouse": 546,
-  "workday": 721,
-  "lever": 168,
+  "workday": 722,
+  "lever": 169,
   "comeet": 1093,
   "workable": 14,
   "ashby": 152,
@@ -20,10 +20,9 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 7,
   "remote:remoteok": 65,
-  "remote:himalayas": 8,
-  "remote:jobicy": 57,
-  "remote:weworkremotely": 94,
-  "linkedin": 257
+  "remote:himalayas": 12,
+  "remote:jobicy": 59,
+  "remote:weworkremotely": 94
  },
  "relevant_by_source": {
   "smartrecruiters": 16,
@@ -45,8 +44,7 @@
   "vc:israelvcforum.getro.com": 34,
   "remote:remoteok": 5,
   "remote:jobicy": 4,
-  "remote:weworkremotely": 8,
-  "linkedin": 59
+  "remote:weworkremotely": 8
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -104,11 +102,9 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 96 jobs",
-  "INFO Remote: 1285 collected, 421 open to Israel",
-  "WARNING LinkedIn search 'Anyclip' blocked or failed (none)",
-  "INFO LinkedIn: 257 jobs",
-  "INFO Collected 5473 jobs in Israel",
-  "INFO 565 pass the title filter",
-  "INFO New: 13, total kept: 107"
+  "INFO Remote: 1285 collected, 427 open to Israel",
+  "INFO Collected 5225 jobs in Israel",
+  "INFO 506 pass the title filter",
+  "INFO New: 15, total kept: 109"
  ]
 }
