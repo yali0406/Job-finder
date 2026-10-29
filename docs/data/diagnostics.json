@@ -1,5 +1,5 @@
 {
- "run": "2026-10-29T04:17:18+00:00",
+ "run": "2026-10-29T05:17:15+00:00",
  "collected_by_source": {
   "smartrecruiters": 120,
   "greenhouse": 522,
@@ -105,6 +105,6 @@
   "INFO Remote: 1265 collected, 411 open to Israel",
   "INFO Collected 4950 jobs in Israel",
   "INFO 514 pass the title filter",
-  "INFO New: 16, total kept: 121"
+  "INFO New: 14, total kept: 121"
  ]
 }
