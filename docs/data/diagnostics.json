@@ -1,5 +1,5 @@
 {
- "run": "2026-10-29T18:17:20+00:00",
+ "run": "2026-10-29T19:17:18+00:00",
  "collected_by_source": {
   "smartrecruiters": 121,
   "greenhouse": 517,
@@ -13,17 +13,16 @@
   "vc:jobs.ibexinvestors.com": 45,
   "vc:careers.viola-group.com": 143,
   "vc:jobs.vertexventures.co.il": 105,
-  "vc:jobs.insightpartners.com": 367,
-  "vc:jobs.accel.com": 508,
+  "vc:jobs.insightpartners.com": 368,
+  "vc:jobs.accel.com": 512,
   "vc:careers.greenfield-growth.com": 133,
   "vc:jobs.nfx.com": 55,
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 8,
   "remote:remoteok": 65,
-  "remote:himalayas": 19,
+  "remote:himalayas": 20,
   "remote:jobicy": 55,
-  "remote:weworkremotely": 94,
-  "linkedin": 225
+  "remote:weworkremotely": 93
  },
  "relevant_by_source": {
   "smartrecruiters": 16,
@@ -45,8 +44,7 @@
   "vc:israelvcforum.getro.com": 34,
   "remote:remoteok": 4,
   "remote:jobicy": 5,
-  "remote:weworkremotely": 7,
-  "linkedin": 51
+  "remote:weworkremotely": 7
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -75,15 +73,15 @@
   "INFO Getro https://jobs.vertexventures.co.il early-stage orgs: {'TensorLeap': ('seed', 2), 'Bites': ('seed', 2), 'Ledge': ('seed', 2), 'hear': ('pre_seed', 2), 'Adaptive6': ('series_a', 2), 'WireX Cube': ('series_a', 2)}",
   "INFO Getro https://jobs.vertexventures.co.il: 105 Israel jobs",
   "INFO Getro https://jobs.insightpartners.com: collection_id=246 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://jobs.insightpartners.com org stages: {'other': 89, 'acquisition': 70, 'series_c': 64, 'series_d': 39, 'series_a': 28, 'series_b': 24, 'series_unknown': 22, 'ipo': 17, 'series_e': 6, 'seed': 4, 'series_f': 2, 'series_c_plus': 2}",
-  "INFO Getro https://jobs.insightpartners.com org head counts: {'4': 118, '3': 99, '2': 78, '5': 72}",
+  "INFO Getro https://jobs.insightpartners.com org stages: {'other': 89, 'acquisition': 70, 'series_c': 64, 'series_d': 39, 'series_a': 28, 'series_b': 25, 'series_unknown': 22, 'ipo': 17, 'series_e': 6, 'seed': 4, 'series_f': 2, 'series_c_plus': 2}",
+  "INFO Getro https://jobs.insightpartners.com org head counts: {'4': 118, '3': 100, '2': 78, '5': 72}",
   "INFO Getro https://jobs.insightpartners.com early-stage orgs: {'theator': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Slice | Global Equity': ('series_a', 2), 'Prelude': ('series_a', 2), 'Datafy': ('seed', 2), 'Briya': ('series_a', 2), 'Canditech Ltd.': ('seed', 2)}",
-  "INFO Getro https://jobs.insightpartners.com: 367 Israel jobs",
+  "INFO Getro https://jobs.insightpartners.com: 368 Israel jobs",
   "INFO Getro https://jobs.accel.com: collection_id=8672 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://jobs.accel.com org stages: {'acquisition': 226, 'ipo': 121, 'other': 55, 'series_g': 36, 'series_a': 29, 'series_b': 13, 'series_c': 12, 'series_e': 6, 'series_d': 5, 'series_unknown': 4, 'private_equity': 1}",
-  "INFO Getro https://jobs.accel.com org head counts: {'4': 198, '6': 92, '2': 79, '3': 51, '5': 48, '1': 40}",
+  "INFO Getro https://jobs.accel.com org stages: {'acquisition': 230, 'ipo': 121, 'other': 55, 'series_g': 36, 'series_a': 29, 'series_b': 13, 'series_c': 12, 'series_e': 6, 'series_d': 5, 'series_unknown': 4, 'private_equity': 1}",
+  "INFO Getro https://jobs.accel.com org head counts: {'4': 199, '6': 92, '2': 81, '3': 51, '5': 48, '1': 41}",
   "INFO Getro https://jobs.accel.com early-stage orgs: {'Vega Ventures': ('series_a', 1), 'ZyG': ('series_a', 2), 'Surf AI': ('series_a', 2), 'Legion Security': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Vorlon': ('series_a', 2)}",
-  "INFO Getro https://jobs.accel.com: 508 Israel jobs",
+  "INFO Getro https://jobs.accel.com: 512 Israel jobs",
   "INFO Getro https://careers.greenfield-growth.com: collection_id=1534 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://careers.greenfield-growth.com org stages: {'series_f': 43, 'series_b': 30, 'series_c': 25, 'series_d': 13, 'other': 8, 'series_c_plus': 8, 'series_a': 4, 'series_unknown': 1, 'seed': 1}",
   "INFO Getro https://careers.greenfield-growth.com org head counts: {'4': 88, '3': 40, '2': 5}",
@@ -96,18 +94,17 @@
   "INFO Getro https://jobs.nfx.com: 55 Israel jobs",
   "INFO Getro https://israelvcforum.getro.com: collection_id=10949 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://israelvcforum.getro.com org stages: {'acquisition': 112, 'series_unknown': 93, 'series_c': 91, 'ipo': 66, 'series_b': 61, 'other': 49, 'series_f': 34, 'series_e': 21, 'series_d': 21, 'private_equity': 15, 'series_a': 14, 'pre_seed': 9}",
-  "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 229, '4': 218, '2': 77, '5': 73, '1': 3}",
+  "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 230, '4': 217, '2': 77, '5': 73, '1': 3}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
   "INFO Remote board remotive: 12 jobs",
   "INFO Remote board remoteok: 99 jobs",
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
-  "INFO Remote board weworkremotely: 97 jobs",
+  "INFO Remote board weworkremotely: 95 jobs",
   "INFO Remote: 1263 collected, 423 open to Israel",
-  "INFO LinkedIn: 225 jobs",
-  "INFO Collected 5186 jobs in Israel",
-  "INFO 562 pass the title filter",
-  "INFO New: 22, total kept: 129"
+  "INFO Collected 4966 jobs in Israel",
+  "INFO 511 pass the title filter",
+  "INFO New: 14, total kept: 129"
  ]
 }
