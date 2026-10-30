@@ -1,5 +1,5 @@
 {
- "run": "2026-10-30T19:17:19+00:00",
+ "run": "2026-10-30T20:17:15+00:00",
  "collected_by_source": {
   "smartrecruiters": 119,
   "greenhouse": 514,
@@ -12,7 +12,7 @@
   "vc:careers.grovevc.com": 91,
   "vc:jobs.ibexinvestors.com": 46,
   "vc:careers.viola-group.com": 140,
-  "vc:jobs.vertexventures.co.il": 104,
+  "vc:jobs.vertexventures.co.il": 107,
   "vc:jobs.insightpartners.com": 338,
   "vc:jobs.accel.com": 509,
   "vc:careers.greenfield-growth.com": 132,
@@ -20,8 +20,8 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 8,
   "remote:remoteok": 65,
-  "remote:himalayas": 2,
-  "remote:jobicy": 53,
+  "remote:himalayas": 3,
+  "remote:jobicy": 50,
   "remote:weworkremotely": 90
  },
  "relevant_by_source": {
@@ -36,7 +36,7 @@
   "vc:careers.grovevc.com": 18,
   "vc:jobs.ibexinvestors.com": 8,
   "vc:careers.viola-group.com": 27,
-  "vc:jobs.vertexventures.co.il": 15,
+  "vc:jobs.vertexventures.co.il": 16,
   "vc:jobs.insightpartners.com": 32,
   "vc:jobs.accel.com": 20,
   "vc:careers.greenfield-growth.com": 5,
@@ -68,10 +68,10 @@
   "INFO Getro https://careers.viola-group.com early-stage orgs: {'Volumez': ('series_a', 2), 'ZyG': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Impala.ai': ('seed', None), 'Aryon Security': ('seed', 2), 'Nilos': ('seed', 2), 'Foundational': ('seed', 2)}",
   "INFO Getro https://careers.viola-group.com: 140 Israel jobs",
   "INFO Getro https://jobs.vertexventures.co.il: collection_id=238 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://jobs.vertexventures.co.il org stages: {'series_unknown': 24, 'series_c': 24, 'series_b': 12, 'other': 11, 'series_a': 9, 'seed': 7, 'series_e': 6, 'series_d': 4, 'series_c_plus': 3, 'acquisition': 2, 'pre_seed': 2}",
-  "INFO Getro https://jobs.vertexventures.co.il org head counts: {'3': 50, '4': 27, '2': 25, '1': 2}",
-  "INFO Getro https://jobs.vertexventures.co.il early-stage orgs: {'TensorLeap': ('seed', 2), 'Bites': ('seed', 2), 'Ledge': ('seed', 2), 'hear': ('pre_seed', 2), 'Adaptive6': ('series_a', 2), 'WireX Cube': ('series_a', 2)}",
-  "INFO Getro https://jobs.vertexventures.co.il: 104 Israel jobs",
+  "INFO Getro https://jobs.vertexventures.co.il org stages: {'series_unknown': 24, 'series_c': 24, 'series_b': 12, 'other': 11, 'seed': 10, 'series_a': 9, 'series_e': 6, 'series_d': 4, 'series_c_plus': 3, 'acquisition': 2, 'pre_seed': 2}",
+  "INFO Getro https://jobs.vertexventures.co.il org head counts: {'3': 50, '2': 28, '4': 27, '1': 2}",
+  "INFO Getro https://jobs.vertexventures.co.il early-stage orgs: {'Charm Security': ('seed', 2), 'TensorLeap': ('seed', 2), 'Bites': ('seed', 2), 'Ledge': ('seed', 2), 'hear': ('pre_seed', 2), 'Adaptive6': ('series_a', 2), 'WireX Cube': ('series_a', 2)}",
+  "INFO Getro https://jobs.vertexventures.co.il: 107 Israel jobs",
   "INFO Getro https://jobs.insightpartners.com: collection_id=246 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.insightpartners.com org stages: {'acquisition': 69, 'series_c': 63, 'other': 60, 'series_d': 39, 'series_b': 26, 'series_a': 26, 'series_unknown': 21, 'ipo': 20, 'series_e': 6, 'seed': 4, 'series_f': 2, 'series_c_plus': 2}",
   "INFO Getro https://jobs.insightpartners.com org head counts: {'4': 116, '3': 100, '2': 77, '5': 45}",
@@ -102,9 +102,9 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 96 jobs",
-  "INFO Remote: 1254 collected, 397 open to Israel",
-  "INFO Collected 4904 jobs in Israel",
-  "INFO 506 pass the title filter",
+  "INFO Remote: 1255 collected, 395 open to Israel",
+  "INFO Collected 4905 jobs in Israel",
+  "INFO 507 pass the title filter",
   "INFO New: 8, total kept: 128"
  ]
 }
