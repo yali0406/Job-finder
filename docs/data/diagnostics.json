@@ -1,5 +1,5 @@
 {
- "run": "2026-10-30T17:17:16+00:00",
+ "run": "2026-10-30T18:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 119,
   "greenhouse": 514,
@@ -20,9 +20,10 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 8,
   "remote:remoteok": 65,
-  "remote:himalayas": 5,
+  "remote:himalayas": 2,
   "remote:jobicy": 53,
-  "remote:weworkremotely": 90
+  "remote:weworkremotely": 90,
+  "linkedin": 174
  },
  "relevant_by_source": {
   "smartrecruiters": 16,
@@ -43,9 +44,9 @@
   "vc:jobs.nfx.com": 2,
   "vc:israelvcforum.getro.com": 36,
   "remote:remoteok": 4,
-  "remote:himalayas": 1,
   "remote:jobicy": 4,
-  "remote:weworkremotely": 9
+  "remote:weworkremotely": 9,
+  "linkedin": 25
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -103,9 +104,10 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 96 jobs",
-  "INFO Remote: 1251 collected, 400 open to Israel",
-  "INFO Collected 4904 jobs in Israel",
-  "INFO 508 pass the title filter",
-  "INFO New: 8, total kept: 127"
+  "INFO Remote: 1256 collected, 397 open to Israel",
+  "INFO LinkedIn: 174 jobs",
+  "INFO Collected 5075 jobs in Israel",
+  "INFO 532 pass the title filter",
+  "INFO New: 11, total kept: 128"
  ]
 }
