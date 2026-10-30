@@ -30,7 +30,7 @@ FOOT_IN_DOOR = (
 FOOT_IN_DOOR_CATEGORY = "דריסת רגל"
 # At early-stage startups any role counts (not only the target titles); Claude judges the fit to the CV.
 STARTUP_OPEN_CATEGORY = "סטארטאפ: כל תפקיד"
-STARTUP_OPEN_MIN_SCORE = 40  # below this an off-target startup role is dropped instead of shown
+STARTUP_OPEN_MIN_SCORE = 25  # below this an off-target startup role is dropped instead of shown
 
 
 def prefilter(job: Job):
@@ -87,9 +87,13 @@ If the job is marked "foot in the door", the candidate is open to a role outside
 at a gaming company or early-stage startup as a way in: score it on whether they could realistically
 get hired with their background (ops, payments, incident handling, CRM, SQL/Python, DevOps basics),
 not on whether the title is a target.
-At an early-stage startup ("Foot in the door: yes (early-stage startup)") any role is in scope: score only
-whether this CV could realistically get hired for it. Roles that need skills the CV lacks (e.g. backend or
-ML engineering, sales quota-carrying, design) score below 30.
+At an early-stage startup ("Foot in the door: yes (early-stage startup)") any role is in scope, and the
+candidate especially wants generalist roles there: operations / bizops, customer success or support,
+onboarding / implementation, sales or business development (SDR/BDR), people / office / HR ops, chief of
+staff, QA, data or content operations, community, marketing ops. For such roles score 45-75 when the posting
+doesn't demand a specialist background the CV lacks; small startups hire generalists on attitude and
+transferable skills (ops, payments, incident handling, CRM, SQL/Python). Only roles that need a specialist
+skill set the CV lacks (software/ML/hardware engineering, research, design, legal, accounting) score below 25.
 If the job is marked "Remote from abroad", the candidate would work fully remotely from Israel for a
 company abroad: score 0-20 if the posting limits hiring to residents/work authorization of other countries
 (e.g. US-only, EU-only) or requires being on-site; otherwise score the role fit as usual.
