@@ -1,5 +1,5 @@
 {
- "run": "2026-10-31T10:17:18+00:00",
+ "run": "2026-10-31T11:17:26+00:00",
  "collected_by_source": {
   "smartrecruiters": 119,
   "greenhouse": 512,
@@ -7,7 +7,7 @@
   "lever": 171,
   "comeet": 1097,
   "workable": 15,
-  "ashby": 154,
+  "ashby": 155,
   "vc:jobs.tlv.partners": 162,
   "vc:careers.grovevc.com": 91,
   "vc:jobs.ibexinvestors.com": 46,
@@ -20,7 +20,7 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 9,
   "remote:remoteok": 66,
-  "remote:himalayas": 5,
+  "remote:himalayas": 6,
   "remote:jobicy": 50,
   "remote:weworkremotely": 93
  },
@@ -31,7 +31,7 @@
   "lever": 10,
   "comeet": 199,
   "workable": 1,
-  "ashby": 32,
+  "ashby": 33,
   "vc:jobs.tlv.partners": 13,
   "vc:careers.grovevc.com": 18,
   "vc:jobs.ibexinvestors.com": 8,
@@ -93,8 +93,8 @@
   "INFO Getro https://jobs.nfx.com early-stage orgs: {'Zengaming': ('seed', 1)}",
   "INFO Getro https://jobs.nfx.com: 54 Israel jobs",
   "INFO Getro https://israelvcforum.getro.com: collection_id=10949 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://israelvcforum.getro.com org stages: {'acquisition': 100, 'series_unknown': 99, 'series_c': 91, 'ipo': 69, 'series_b': 62, 'other': 51, 'series_f': 34, 'series_e': 21, 'series_d': 21, 'private_equity': 16, 'series_a': 13, 'pre_seed': 9}",
-  "INFO Getro https://israelvcforum.getro.com org head counts: {'4': 226, '3': 217, '2': 79, '5': 75, '1': 3}",
+  "INFO Getro https://israelvcforum.getro.com org stages: {'series_unknown': 99, 'acquisition': 98, 'series_c': 91, 'ipo': 69, 'series_b': 64, 'other': 51, 'series_f': 34, 'series_e': 21, 'series_d': 21, 'private_equity': 16, 'series_a': 13, 'pre_seed': 9}",
+  "INFO Getro https://israelvcforum.getro.com org head counts: {'4': 226, '3': 219, '2': 77, '5': 75, '1': 3}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
   "INFO Remote board remotive: 13 jobs",
@@ -102,9 +102,9 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 99 jobs",
-  "INFO Remote: 1257 collected, 404 open to Israel",
-  "INFO Collected 4908 jobs in Israel",
-  "INFO 511 pass the title filter",
+  "INFO Remote: 1258 collected, 406 open to Israel",
+  "INFO Collected 4910 jobs in Israel",
+  "INFO 512 pass the title filter",
   "INFO New: 8, total kept: 144"
  ]
 }
