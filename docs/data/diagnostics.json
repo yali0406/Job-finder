@@ -1,8 +1,8 @@
 {
- "run": "2026-10-30T21:31:39+00:00",
+ "run": "2026-10-31T04:17:17+00:00",
  "collected_by_source": {
   "smartrecruiters": 119,
-  "greenhouse": 514,
+  "greenhouse": 512,
   "workday": 443,
   "lever": 171,
   "comeet": 1097,
@@ -19,8 +19,8 @@
   "vc:jobs.nfx.com": 54,
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 8,
-  "remote:remoteok": 65,
-  "remote:himalayas": 3,
+  "remote:remoteok": 66,
+  "remote:himalayas": 9,
   "remote:jobicy": 50,
   "remote:weworkremotely": 90
  },
@@ -102,9 +102,9 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 96 jobs",
-  "INFO Remote: 1254 collected, 395 open to Israel",
-  "INFO Collected 4905 jobs in Israel",
+  "INFO Remote: 1250 collected, 401 open to Israel",
+  "INFO Collected 4910 jobs in Israel",
   "INFO 507 pass the title filter",
-  "INFO New: 21, total kept: 141"
+  "INFO New: 8, total kept: 141"
  ]
 }
