@@ -1,5 +1,5 @@
 {
- "run": "2026-10-31T08:17:16+00:00",
+ "run": "2026-10-31T09:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 119,
   "greenhouse": 512,
@@ -7,7 +7,7 @@
   "lever": 171,
   "comeet": 1097,
   "workable": 15,
-  "ashby": 151,
+  "ashby": 152,
   "vc:jobs.tlv.partners": 162,
   "vc:careers.grovevc.com": 91,
   "vc:jobs.ibexinvestors.com": 46,
@@ -18,11 +18,12 @@
   "vc:careers.greenfield-growth.com": 132,
   "vc:jobs.nfx.com": 54,
   "vc:israelvcforum.getro.com": 600,
-  "remote:remotive": 8,
+  "remote:remotive": 9,
   "remote:remoteok": 66,
   "remote:himalayas": 4,
   "remote:jobicy": 50,
-  "remote:weworkremotely": 93
+  "remote:weworkremotely": 93,
+  "linkedin": 157
  },
  "relevant_by_source": {
   "smartrecruiters": 16,
@@ -44,7 +45,8 @@
   "vc:israelvcforum.getro.com": 35,
   "remote:remoteok": 4,
   "remote:jobicy": 4,
-  "remote:weworkremotely": 11
+  "remote:weworkremotely": 11,
+  "linkedin": 16
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -97,14 +99,15 @@
   "INFO Getro https://israelvcforum.getro.com org head counts: {'4': 226, '3': 216, '2': 80, '5': 75, '1': 3}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO Remote board remotive: 12 jobs",
+  "INFO Remote board remotive: 13 jobs",
   "INFO Remote board remoteok: 99 jobs",
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 99 jobs",
-  "INFO Remote: 1253 collected, 399 open to Israel",
-  "INFO Collected 4903 jobs in Israel",
-  "INFO 509 pass the title filter",
-  "INFO New: 10, total kept: 143"
+  "INFO Remote: 1255 collected, 401 open to Israel",
+  "INFO LinkedIn: 157 jobs",
+  "INFO Collected 5062 jobs in Israel",
+  "INFO 525 pass the title filter",
+  "INFO New: 9, total kept: 144"
  ]
 }
