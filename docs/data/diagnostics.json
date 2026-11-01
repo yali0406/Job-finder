@@ -1,11 +1,11 @@
 {
- "run": "2026-11-01T14:17:17+00:00",
+ "run": "2026-11-01T15:17:18+00:00",
  "collected_by_source": {
   "smartrecruiters": 118,
-  "greenhouse": 508,
+  "greenhouse": 509,
   "workday": 447,
   "lever": 172,
-  "comeet": 1088,
+  "comeet": 1086,
   "workable": 14,
   "ashby": 156,
   "vc:jobs.tlv.partners": 161,
@@ -20,9 +20,10 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 9,
   "remote:remoteok": 67,
-  "remote:himalayas": 18,
+  "remote:himalayas": 25,
   "remote:jobicy": 49,
-  "remote:weworkremotely": 92
+  "remote:weworkremotely": 92,
+  "linkedin": 247
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
@@ -43,9 +44,10 @@
   "vc:jobs.nfx.com": 3,
   "vc:israelvcforum.getro.com": 46,
   "remote:remoteok": 7,
-  "remote:himalayas": 1,
+  "remote:himalayas": 2,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 10
+  "remote:weworkremotely": 10,
+  "linkedin": 46
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -103,9 +105,22 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 96 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 1254 collected, 417 open to Israel",
-  "INFO Collected 4902 jobs in Israel",
-  "INFO 567 pass the title filter",
-  "INFO New: 15, total kept: 167"
+  "INFO Remote: 1254 collected, 424 open to Israel",
+  "WARNING LinkedIn search 'Operations Specialist' blocked or failed (none)",
+  "WARNING LinkedIn search 'WSC Sports' blocked or failed (none)",
+  "WARNING LinkedIn search 'Anyclip' blocked or failed (none)",
+  "WARNING LinkedIn search 'DevOps Engineer' blocked or failed (none)",
+  "WARNING LinkedIn search 'Cloud Engineer' blocked or failed (none)",
+  "WARNING LinkedIn search 'Financial Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Payments Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Fraud Analyst' blocked or failed (none)",
+  "INFO LinkedIn: 247 jobs",
+  "INFO Collected 5155 jobs in Israel",
+  "INFO 614 pass the title filter",
+  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/business-analyst-at-matchpointit-4485946980",
+  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/hr-operations-specialist-global-pharma-company-3993-at-gefen-recruitment-%D7%92%D7%A4%D7%9F-%D7%94%D7%A9%D7%9E%D7%95%D7%AA-4485421232",
+  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/data-product-manager-1008111-at-elad-software-systems-4485965253",
+  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/product-manager-at-connecteam-4392907337",
+  "INFO New: 27, total kept: 174"
  ]
 }
