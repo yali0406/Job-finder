@@ -116,8 +116,18 @@ def _smartrecruiters(slug, company):
         probe = get(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings", params={"limit": 1})
         if not probe or probe.status_code != 200 or not probe.json().get("content"):
             return None
+    content = list(data.get("content", []))
+    # big employers (e.g. Check Point) have more than one page; without paging, jobs past the first
+    # 100 would flicker in and out between runs and get dropped as "closed"
+    while len(content) < min(data.get("totalFound", 0), 1000):
+        more = get(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings",
+                   params={"country": "il", "limit": 100, "offset": len(content)})
+        page = more.json().get("content", []) if more and more.status_code == 200 else []
+        if not page:
+            break
+        content += page
     jobs = []
-    for j in data.get("content", []):
+    for j in content:
         loc = j.get("location") or {}
         jobs.append(Job(
             title=j.get("name", ""),
