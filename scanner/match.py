@@ -11,6 +11,7 @@ ROLE_PATTERNS = {
     "DevOps / Cloud": r"devops|devsecops|cloud\s*(engineer|ops|operations)|site reliability|\bsre\b|platform engineer|infrastructure engineer|kubernetes|aws engineer",
     "Analyst": r"analyst|אנליסט|analytics|\bbi\b|business intelligence|data analyst|מנתח",
     "Project Manager": r"project manager|program manager|\bpmo\b|delivery manager|implementation manager|מנהל[ת]? פרויקט",
+    "Operations": r"operations|\bops\b|bizops|biz ops|revops|revenue ops|sales ops|תפעול|אופרציה",
     "Product Manager": r"product manager|product owner|\bapm\b|associate product|מנהל[ת]? מוצר",
 }
 EXCLUDE = re.compile(
@@ -79,6 +80,8 @@ Candidate profile and CV summary:
 {profile}
 
 Scoring guide:
+Target role types: DevOps/Cloud/SRE, analyst roles, Project Manager, Product Manager, and Operations
+(business/revenue/sales/payment/customer operations, ops analyst/specialist/manager).
 - 80-100: role type is a target, seniority is junior/entry or "1-2 years", most required skills match.
 - 60-79: good role type, some gaps or asks for ~2-3 years.
 - 30-59: related but weak fit (big skill gaps, or unclear seniority).

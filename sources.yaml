@@ -22,6 +22,12 @@ job_sites: [drushim, alljobs, jobmaster]
 
 # LinkedIn public (logged-out) job search, Israel, past 24h, low rate
 linkedin_queries:
+  - Operations Analyst
+  - Operations Specialist
+  - Business Operations
+  - Revenue Operations
+  - Operations Manager
+  - Payment Operations
   - 365Scores
   - WSC Sports
   - Pixellot
