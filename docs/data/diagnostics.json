@@ -1,10 +1,10 @@
 {
- "run": "2026-11-01T18:17:14+00:00",
+ "run": "2026-11-01T19:17:17+00:00",
  "collected_by_source": {
-  "smartrecruiters": 117,
+  "smartrecruiters": 115,
   "greenhouse": 509,
-  "workday": 733,
-  "lever": 172,
+  "workday": 734,
+  "lever": 171,
   "comeet": 1090,
   "workable": 14,
   "ashby": 157,
@@ -20,13 +20,12 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 9,
   "remote:remoteok": 67,
-  "remote:himalayas": 21,
+  "remote:himalayas": 3,
   "remote:jobicy": 49,
-  "remote:weworkremotely": 89,
-  "linkedin": 226
+  "remote:weworkremotely": 89
  },
  "relevant_by_source": {
-  "smartrecruiters": 18,
+  "smartrecruiters": 17,
   "greenhouse": 48,
   "workday": 18,
   "lever": 11,
@@ -46,8 +45,7 @@
   "remote:remoteok": 7,
   "remote:himalayas": 1,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 10,
-  "linkedin": 42
+  "remote:weworkremotely": 10
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -105,27 +103,9 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 96 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 1254 collected, 417 open to Israel",
-  "WARNING LinkedIn search 'Operations Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Operations Specialist' blocked or failed (none)",
-  "WARNING LinkedIn search 'Business Operations' blocked or failed (none)",
-  "WARNING LinkedIn search 'Pixellot' blocked or failed (none)",
-  "WARNING LinkedIn search 'Anyclip' blocked or failed (none)",
-  "WARNING LinkedIn search 'Trax Retail' blocked or failed (none)",
-  "WARNING LinkedIn search 'DevOps Engineer' blocked or failed (none)",
-  "WARNING LinkedIn search 'Junior DevOps' blocked or failed (none)",
-  "WARNING LinkedIn search 'Data Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'BI Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Product Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Payments Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Risk Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Fraud Analyst' blocked or failed (none)",
-  "INFO LinkedIn: 226 jobs",
-  "INFO Collected 5423 jobs in Israel",
-  "INFO 609 pass the title filter",
-  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/people-operations-talent-acquisition-manager-at-linearb-4485991087",
-  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/execution-program-manager-at-mobileye-4485414458",
-  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/product-manager-at-snatch-up-jobs-4485412532",
-  "INFO New: 23, total kept: 178"
+  "INFO Remote: 1254 collected, 399 open to Israel",
+  "INFO Collected 5177 jobs in Israel",
+  "INFO 566 pass the title filter",
+  "INFO New: 16, total kept: 179"
  ]
 }
