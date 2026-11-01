@@ -100,7 +100,7 @@ skill set the CV lacks (software/ML/hardware engineering, research, design, lega
 If the job is marked "Remote from abroad", the candidate would work fully remotely from Israel for a
 company abroad: score 0-20 if the posting limits hiring to residents/work authorization of other countries
 (e.g. US-only, EU-only) or requires being on-site; otherwise score the role fit as usual.
-Write reason_he in natural Hebrew, concrete (name the matching or missing skills)."""
+Write reason_he in natural Hebrew, concrete; keep company, product and tool names in English as written (e.g. Nuvei, Salesforce) (name the matching or missing skills)."""
 
 
 class Scorer:

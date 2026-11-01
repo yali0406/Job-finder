@@ -102,6 +102,19 @@ def _dedupe(jobs):
     for d in jobs:
         key = (_norm_company(d.get("company")), re.sub(r"[^a-z0-9\u0590-\u05ff]+", " ", (d.get("title") or "").lower()).strip())
         groups.setdefault(key, []).append(d)
+    # The same posting can come under two names (e.g. Veriti's job on the Check Point board after the
+    # acquisition): same title and the same job number in both links means one job.
+    by_num = {}
+    for key, copies in list(groups.items()):
+        for d in copies:
+            m = max(re.findall(r"\d{6,}", d.get("url") or ""), key=len, default="")
+            if not m:
+                continue
+            k2 = (key[1], m[-7:])
+            if k2 in by_num and by_num[k2] != key and by_num[k2] in groups:
+                groups[by_num[k2]].extend(groups.pop(key))
+                break
+            by_num.setdefault(k2, key)
     out = []
     for copies in groups.values():
         copies.sort(key=lambda d: (_source_rank(d), -(d.get("score") or 0)))
