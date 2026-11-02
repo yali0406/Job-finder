@@ -1,5 +1,5 @@
 {
- "run": "2026-11-02T06:17:16+00:00",
+ "run": "2026-11-02T06:28:47+00:00",
  "collected_by_source": {
   "smartrecruiters": 115,
   "greenhouse": 509,
@@ -20,10 +20,10 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 9,
   "remote:remoteok": 67,
-  "remote:himalayas": 45,
+  "remote:himalayas": 44,
   "remote:jobicy": 45,
   "remote:weworkremotely": 89,
-  "linkedin": 265
+  "linkedin": 218
  },
  "relevant_by_source": {
   "smartrecruiters": 17,
@@ -47,7 +47,7 @@
   "remote:himalayas": 2,
   "remote:jobicy": 3,
   "remote:weworkremotely": 10,
-  "linkedin": 50
+  "linkedin": 47
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -105,15 +105,28 @@
   "INFO Remote board himalayas: 300 jobs",
   "INFO Remote board jobicy: 92 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 1250 collected, 437 open to Israel",
+  "INFO Remote: 1250 collected, 436 open to Israel",
+  "WARNING LinkedIn search 'PMO Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Operations Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Business Operations' blocked or failed (none)",
   "WARNING LinkedIn search 'Operations Manager' blocked or failed (none)",
+  "WARNING LinkedIn search 'Payment Operations' blocked or failed (none)",
+  "WARNING LinkedIn search 'Pixellot' blocked or failed (none)",
+  "WARNING LinkedIn search 'Anyclip' blocked or failed (none)",
+  "WARNING LinkedIn search 'Glassbox' blocked or failed (none)",
+  "WARNING LinkedIn search 'Junior DevOps' blocked or failed (none)",
+  "WARNING LinkedIn search 'Data Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Business Analyst' blocked or failed (none)",
   "WARNING LinkedIn search 'Financial Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Product Manager' blocked or failed (none)",
-  "INFO LinkedIn: 265 jobs",
-  "INFO Collected 5200 jobs in Israel",
-  "INFO 618 pass the title filter",
-  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/business-analyst-at-justt-4486100655",
+  "WARNING LinkedIn search 'Payments Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Risk Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Fraud Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Technical Project Manager' blocked or failed (none)",
+  "WARNING LinkedIn search 'Associate Product Manager' blocked or failed (none)",
+  "INFO LinkedIn: 218 jobs",
+  "INFO Collected 5152 jobs in Israel",
+  "INFO 615 pass the title filter",
   "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/%D7%9E%D7%A0%D7%94%D7%9C-%D7%AA-%D7%90%D7%93%D7%9E%D7%99%D7%A0%D7%99%D7%A1%D7%98%D7%A8%D7%A6%D7%99%D7%94-%D7%95%D7%AA%D7%A4%D7%A2%D7%95%D7%9C-%D7%9E%D7%A9%D7%A8%D7%93-at-bioanalytics-ltd-4484300482",
-  "INFO New: 20, total kept: 182"
+  "INFO New: 17, total kept: 183"
  ]
 }
