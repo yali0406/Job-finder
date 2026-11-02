@@ -22,6 +22,10 @@ job_sites: [drushim, alljobs, jobmaster]
 
 # LinkedIn public (logged-out) job search, Israel, past 24h, low rate
 linkedin_queries:
+  - PMO
+  - Project Coordinator
+  - PMO Analyst
+  - Program Coordinator
   - Operations Analyst
   - Operations Specialist
   - Business Operations
