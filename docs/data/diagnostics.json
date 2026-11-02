@@ -1,11 +1,11 @@
 {
- "run": "2026-11-01T21:17:17+00:00",
+ "run": "2026-11-02T04:17:18+00:00",
  "collected_by_source": {
   "smartrecruiters": 115,
   "greenhouse": 509,
   "workday": 449,
   "lever": 171,
-  "comeet": 1091,
+  "comeet": 1092,
   "workable": 14,
   "ashby": 157,
   "vc:jobs.tlv.partners": 162,
@@ -20,9 +20,9 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 9,
   "remote:remoteok": 67,
-  "remote:jobicy": 51,
-  "remote:weworkremotely": 89,
-  "linkedin": 281
+  "remote:himalayas": 40,
+  "remote:jobicy": 47,
+  "remote:weworkremotely": 89
  },
  "relevant_by_source": {
   "smartrecruiters": 17,
@@ -42,10 +42,10 @@
   "vc:careers.greenfield-growth.com": 7,
   "vc:jobs.nfx.com": 3,
   "vc:israelvcforum.getro.com": 46,
-  "remote:remoteok": 7,
+  "remote:remoteok": 8,
+  "remote:himalayas": 2,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 10,
-  "linkedin": 48
+  "remote:weworkremotely": 10
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -101,14 +101,11 @@
   "INFO Remote board remotive: 12 jobs",
   "INFO Remote board remoteok: 99 jobs",
   "INFO Remote board himalayas: 300 jobs",
-  "INFO Remote board jobicy: 97 jobs",
+  "INFO Remote board jobicy: 94 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 1255 collected, 398 open to Israel",
-  "WARNING LinkedIn search 'Technical Project Manager' blocked or failed (none)",
-  "INFO LinkedIn: 281 jobs",
-  "INFO Collected 5173 jobs in Israel",
-  "INFO 614 pass the title filter",
-  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/business-analyst-at-justt-4485987841",
-  "INFO New: 20, total kept: 180"
+  "INFO Remote: 1252 collected, 434 open to Israel",
+  "INFO Collected 4929 jobs in Israel",
+  "INFO 569 pass the title filter",
+  "INFO New: 16, total kept: 181"
  ]
 }
