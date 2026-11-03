@@ -1,10 +1,10 @@
 {
- "run": "2026-11-03T07:17:26+00:00",
+ "run": "2026-11-03T08:17:16+00:00",
  "collected_by_source": {
-  "smartrecruiters": 110,
-  "greenhouse": 510,
-  "workday": 733,
-  "lever": 169,
+  "smartrecruiters": 113,
+  "greenhouse": 508,
+  "workday": 731,
+  "lever": 168,
   "comeet": 1089,
   "workable": 14,
   "ashby": 159,
@@ -25,10 +25,10 @@
   "remote:weworkremotely": 87
  },
  "relevant_by_source": {
-  "smartrecruiters": 18,
+  "smartrecruiters": 19,
   "greenhouse": 48,
   "workday": 18,
-  "lever": 12,
+  "lever": 13,
   "comeet": 213,
   "workable": 2,
   "ashby": 35,
@@ -103,8 +103,8 @@
   "INFO Remote board jobicy: 89 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
   "INFO Remote: 1244 collected, 389 open to Israel",
-  "INFO Collected 5159 jobs in Israel",
-  "INFO 560 pass the title filter",
-  "INFO New: 14, total kept: 193"
+  "INFO Collected 5157 jobs in Israel",
+  "INFO 562 pass the title filter",
+  "INFO New: 15, total kept: 194"
  ]
 }
