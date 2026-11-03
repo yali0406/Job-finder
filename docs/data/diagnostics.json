@@ -1,11 +1,11 @@
 {
- "run": "2026-11-03T08:17:16+00:00",
+ "run": "2026-11-03T09:17:25+00:00",
  "collected_by_source": {
   "smartrecruiters": 113,
   "greenhouse": 508,
-  "workday": 731,
-  "lever": 168,
-  "comeet": 1089,
+  "workday": 732,
+  "lever": 169,
+  "comeet": 1091,
   "workable": 14,
   "ashby": 159,
   "vc:jobs.tlv.partners": 160,
@@ -18,14 +18,14 @@
   "vc:careers.greenfield-growth.com": 130,
   "vc:jobs.nfx.com": 56,
   "vc:israelvcforum.getro.com": 600,
-  "remote:remotive": 9,
+  "remote:remotive": 8,
   "remote:remoteok": 67,
-  "remote:himalayas": 2,
-  "remote:jobicy": 45,
-  "remote:weworkremotely": 87
+  "remote:jobicy": 57,
+  "remote:weworkremotely": 87,
+  "linkedin": 321
  },
  "relevant_by_source": {
-  "smartrecruiters": 19,
+  "smartrecruiters": 18,
   "greenhouse": 48,
   "workday": 18,
   "lever": 13,
@@ -43,8 +43,9 @@
   "vc:jobs.nfx.com": 3,
   "vc:israelvcforum.getro.com": 46,
   "remote:remoteok": 8,
-  "remote:jobicy": 1,
-  "remote:weworkremotely": 8
+  "remote:jobicy": 2,
+  "remote:weworkremotely": 8,
+  "linkedin": 76
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -97,14 +98,20 @@
   "INFO Getro https://israelvcforum.getro.com org head counts: {'4': 237, '3': 208, '5': 76, '2': 76, '1': 3}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO Remote board remotive: 12 jobs",
+  "INFO Remote board remotive: 10 jobs",
   "INFO Remote board remoteok: 99 jobs",
   "INFO Remote board himalayas: 300 jobs",
-  "INFO Remote board jobicy: 89 jobs",
+  "INFO Remote board jobicy: 95 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 1244 collected, 389 open to Israel",
-  "INFO Collected 5157 jobs in Israel",
-  "INFO 562 pass the title filter",
-  "INFO New: 15, total kept: 194"
+  "INFO Remote: 1248 collected, 398 open to Israel",
+  "WARNING LinkedIn search 'Program Coordinator' blocked or failed (none)",
+  "WARNING LinkedIn search 'Business Operations' blocked or failed (none)",
+  "WARNING LinkedIn search 'Operations Manager' blocked or failed (none)",
+  "INFO LinkedIn: 321 jobs",
+  "INFO Collected 5491 jobs in Israel",
+  "INFO 638 pass the title filter",
+  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/data-analyst-at-malamteam-4486832300",
+  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/treasury-analyst-at-check-point-software-4484638858",
+  "INFO New: 21, total kept: 198"
  ]
 }
