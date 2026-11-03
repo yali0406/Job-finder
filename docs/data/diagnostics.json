@@ -1,13 +1,13 @@
 {
- "run": "2026-11-03T04:17:19+00:00",
+ "run": "2026-11-03T05:17:19+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
-  "greenhouse": 511,
+  "greenhouse": 512,
   "workday": 733,
   "lever": 170,
   "comeet": 1089,
   "workable": 14,
-  "ashby": 161,
+  "ashby": 160,
   "vc:jobs.tlv.partners": 161,
   "vc:careers.grovevc.com": 90,
   "vc:jobs.ibexinvestors.com": 44,
@@ -20,7 +20,8 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 9,
   "remote:remoteok": 67,
-  "remote:himalayas": 4,
+  "remote:himalayas": 5,
+  "remote:jobicy": 42,
   "remote:weworkremotely": 87
  },
  "relevant_by_source": {
@@ -30,7 +31,7 @@
   "lever": 12,
   "comeet": 213,
   "workable": 2,
-  "ashby": 37,
+  "ashby": 36,
   "vc:jobs.tlv.partners": 12,
   "vc:careers.grovevc.com": 18,
   "vc:jobs.ibexinvestors.com": 8,
@@ -42,6 +43,7 @@
   "vc:jobs.nfx.com": 3,
   "vc:israelvcforum.getro.com": 46,
   "remote:remoteok": 8,
+  "remote:jobicy": 1,
   "remote:weworkremotely": 8
  },
  "log": [
@@ -98,12 +100,11 @@
   "INFO Remote board remotive: 12 jobs",
   "INFO Remote board remoteok: 99 jobs",
   "INFO Remote board himalayas: 300 jobs",
-  "WARNING Jobicy returned nothing",
-  "INFO Remote board jobicy: 0 jobs",
+  "INFO Remote board jobicy: 87 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 1155 collected, 346 open to Israel",
-  "INFO Collected 5121 jobs in Israel",
+  "INFO Remote: 1242 collected, 389 open to Israel",
+  "INFO Collected 5164 jobs in Israel",
   "INFO 561 pass the title filter",
-  "INFO New: 14, total kept: 195"
+  "INFO New: 13, total kept: 194"
  ]
 }
