@@ -1,5 +1,5 @@
 {
- "run": "2026-11-04T05:17:17+00:00",
+ "run": "2026-11-04T06:17:21+00:00",
  "collected_by_source": {
   "smartrecruiters": 114,
   "greenhouse": 513,
@@ -22,7 +22,8 @@
   "remote:remoteok": 63,
   "remote:himalayas": 21,
   "remote:jobicy": 81,
-  "remote:weworkremotely": 84
+  "remote:weworkremotely": 84,
+  "linkedin": 327
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
@@ -45,7 +46,8 @@
   "remote:remoteok": 8,
   "remote:himalayas": 2,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 9
+  "remote:weworkremotely": 9,
+  "linkedin": 75
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -104,8 +106,9 @@
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
   "INFO Remote: 1253 collected, 435 open to Israel",
-  "INFO Collected 4919 jobs in Israel",
-  "INFO 568 pass the title filter",
-  "INFO New: 13, total kept: 207"
+  "INFO LinkedIn: 327 jobs",
+  "INFO Collected 5246 jobs in Israel",
+  "INFO 643 pass the title filter",
+  "INFO New: 24, total kept: 212"
  ]
 }
