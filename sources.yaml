@@ -22,6 +22,9 @@ job_sites: [drushim, alljobs, jobmaster]
 
 # LinkedIn public (logged-out) job search, Israel, past 24h, low rate
 linkedin_queries:
+  - Payments Operations Analyst
+  - Payments Analyst
+  - Payments Specialist
   - Business Development Representative
   - Sales Development Representative
   - BDR
@@ -520,6 +523,7 @@ remote_companies:
 
 # LinkedIn searches limited to fully remote jobs open to candidates in Israel (run with the LinkedIn scan).
 linkedin_remote_queries:
+  - Payments Operations
   - Data Analyst
   - Business Analyst
   - Operations

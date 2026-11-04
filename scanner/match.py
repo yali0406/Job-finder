@@ -11,7 +11,7 @@ ROLE_PATTERNS = {
     "DevOps / Cloud": r"devops|devsecops|cloud\s*(engineer|ops|operations)|site reliability|\bsre\b|platform engineer|infrastructure engineer|kubernetes|aws engineer",
     "Analyst": r"analyst|אנליסט|analytics|\bbi\b|business intelligence|data analyst|מנתח",
     "Project Manager": r"project manager|program manager|\bpmo\b|project management office|project (coordinator|administrator|specialist|analyst|controller)|program (coordinator|specialist|analyst)|portfolio (coordinator|analyst)|רכז[ת]? פרויקט|רכז[ת]? תוכני|delivery manager|implementation manager|מנהל[ת]? פרויקט",
-    "Operations": r"operations|\bops\b|bizops|biz ops|revops|revenue ops|sales ops|תפעול|אופרציה",
+    "Operations": r"payments?\b|settlement|reconciliation|chargeback|acquiring|merchant (ops|operations|support|onboarding)|operations|\bops\b|bizops|biz ops|revops|revenue ops|sales ops|תפעול|אופרציה",
     "Business Development": r"business development|\bbdr\b|\bsdr\b|sales development|account development|lead generation|inside sales|partnerships? (associate|coordinator|specialist|representative)|פיתוח עסקי",
     "Product Manager": r"product manager|product owner|\bapm\b|associate product|מנהל[ת]? מוצר",
 }
@@ -82,7 +82,9 @@ Candidate profile and CV summary:
 
 Scoring guide:
 Target role types: DevOps/Cloud/SRE, analyst roles, Project Manager / PMO (incl. project coordinator / PMO analyst), Product Manager, Business Development (BDR/SDR, sales development, BD associate, partnerships associate), and Operations
-(business/revenue/sales/payment/customer operations, ops analyst/specialist/manager).
+(business/revenue/sales/payment/customer operations, ops analyst/specialist/manager). Payments operations
+(payments ops analyst/specialist, settlements, reconciliation, chargebacks, merchant onboarding) is an especially
+strong match for this candidate's background.
 - 80-100: role type is a target, seniority is junior/entry or "1-2 years", most required skills match.
 - 60-79: good role type, some gaps or asks for ~2-3 years.
 - 30-59: related but weak fit (big skill gaps, or unclear seniority).
