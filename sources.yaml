@@ -22,6 +22,10 @@ job_sites: [drushim, alljobs, jobmaster]
 
 # LinkedIn public (logged-out) job search, Israel, past 24h, low rate
 linkedin_queries:
+  - Business Development Representative
+  - Sales Development Representative
+  - BDR
+  - Business Development Associate
   - PMO
   - Project Coordinator
   - PMO Analyst
