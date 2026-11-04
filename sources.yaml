@@ -517,3 +517,14 @@ remote_companies:
   - Docker
   - Proton
   - Chainlink Labs
+
+# LinkedIn searches limited to fully remote jobs open to candidates in Israel (run with the LinkedIn scan).
+linkedin_remote_queries:
+  - Data Analyst
+  - Business Analyst
+  - Operations
+  - Project Manager
+  - Product Manager
+  - DevOps
+  - Business Development Representative
+  - Customer Success

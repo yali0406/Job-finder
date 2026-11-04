@@ -51,7 +51,7 @@ def remoteok():
             for x in r.json() if isinstance(x, dict) and x.get("position")]
 
 
-def himalayas(pages=15):
+def himalayas(pages=60):
     out = []
     for p in range(pages):
         r = get("https://himalayas.app/jobs/api", params={"limit": 20, "offset": p * 20})

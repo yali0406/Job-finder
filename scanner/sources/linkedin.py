@@ -15,13 +15,13 @@ def _pause():
     time.sleep(random.uniform(2.5, 5.0))
 
 
-def search(keywords, location="Israel", hours=24, pages=2):
+def search(keywords, location="Israel", hours=24, pages=2, remote=False):
     jobs = []
     for page in range(pages):
-        r = get(SEARCH, params={
-            "keywords": keywords, "location": location,
-            "f_TPR": f"r{hours * 3600}", "start": page * 25,
-        })
+        params = {"keywords": keywords, "location": location, "f_TPR": f"r{hours * 3600}", "start": page * 25}
+        if remote:
+            params["f_WT"] = 2  # LinkedIn's "Remote" workplace filter
+        r = get(SEARCH, params=params)
         _pause()
         if not r or r.status_code != 200:
             log.warning("LinkedIn search '%s' blocked or failed (%s)", keywords, r.status_code if r else "none")
@@ -47,7 +47,7 @@ def search(keywords, location="Israel", hours=24, pages=2):
                 location=loc.get_text(strip=True) if loc else location,
                 posted=t.get("datetime", "") if t else "",
                 source="linkedin",
-                extra={"li_id": m.group(1) if m else None},
+                extra={"li_id": m.group(1) if m else None, **({"remote": True} if remote else {})},
             ))
     return jobs
 
@@ -72,4 +72,16 @@ def fetch_queries(queries):
                 seen.add(j.id)
                 out.append(j)
     log.info("LinkedIn: %d jobs", len(out))
+    return out
+
+
+def fetch_remote_queries(queries):
+    """Fully remote jobs that LinkedIn lists as open to candidates in Israel (mostly companies abroad)."""
+    out, seen = [], set()
+    for q in queries:
+        for j in search(q, hours=72, pages=1, remote=True):
+            if j.id not in seen:
+                seen.add(j.id)
+                out.append(j)
+    log.info("LinkedIn remote: %d jobs", len(out))
     return out

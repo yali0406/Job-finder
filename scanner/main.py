@@ -69,6 +69,7 @@ def collect(cfg, with_linkedin: bool):
 
     if with_linkedin:
         li = linkedin.fetch_queries(cfg.get("linkedin_queries", []))
+        li += linkedin.fetch_remote_queries(cfg.get("linkedin_remote_queries", []))
         jobs += li
 
     CACHE_FILE.write_text(json.dumps(cache, indent=1, ensure_ascii=False, sort_keys=True))
