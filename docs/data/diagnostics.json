@@ -1,13 +1,13 @@
 {
- "run": "2026-11-05T08:17:16+00:00",
+ "run": "2026-11-05T09:17:20+00:00",
  "collected_by_source": {
   "smartrecruiters": 109,
-  "greenhouse": 509,
-  "workday": 442,
+  "greenhouse": 508,
+  "workday": 441,
   "lever": 161,
-  "comeet": 1082,
+  "comeet": 1080,
   "workable": 13,
-  "ashby": 158,
+  "ashby": 159,
   "vc:jobs.tlv.partners": 158,
   "vc:careers.grovevc.com": 89,
   "vc:jobs.ibexinvestors.com": 45,
@@ -18,18 +18,19 @@
   "vc:careers.greenfield-growth.com": 133,
   "vc:jobs.nfx.com": 56,
   "vc:israelvcforum.getro.com": 600,
-  "remote:remotive": 9,
+  "remote:remotive": 8,
   "remote:remoteok": 52,
-  "remote:himalayas": 17,
+  "remote:himalayas": 11,
   "remote:jobicy": 65,
-  "remote:weworkremotely": 89
+  "remote:weworkremotely": 89,
+  "linkedin": 401
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
   "greenhouse": 54,
   "workday": 19,
   "lever": 11,
-  "comeet": 219,
+  "comeet": 217,
   "workable": 2,
   "ashby": 38,
   "vc:jobs.tlv.partners": 13,
@@ -44,9 +45,9 @@
   "vc:israelvcforum.getro.com": 65,
   "remote:remotive": 1,
   "remote:remoteok": 6,
-  "remote:himalayas": 1,
   "remote:jobicy": 8,
-  "remote:weworkremotely": 14
+  "remote:weworkremotely": 14,
+  "linkedin": 90
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -99,14 +100,16 @@
   "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 210, '4': 202, '2': 119, '5': 66, '1': 3}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Nagish': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 600 Israel jobs",
-  "INFO Remote board remotive: 11 jobs",
+  "INFO Remote board remotive: 10 jobs",
   "INFO Remote board remoteok: 99 jobs",
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2166 collected, 408 open to Israel",
-  "INFO Collected 4864 jobs in Israel",
-  "INFO 611 pass the title filter",
-  "INFO New: 14, total kept: 255"
+  "INFO Remote: 2164 collected, 401 open to Israel",
+  "INFO LinkedIn: 311 jobs",
+  "INFO LinkedIn remote: 90 jobs",
+  "INFO Collected 5255 jobs in Israel",
+  "INFO 698 pass the title filter",
+  "INFO New: 27, total kept: 255"
  ]
 }
