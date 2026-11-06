@@ -1,5 +1,5 @@
 {
- "run": "2026-11-06T07:17:16+00:00",
+ "run": "2026-11-06T08:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 111,
   "greenhouse": 511,
@@ -7,7 +7,7 @@
   "lever": 167,
   "comeet": 1074,
   "workable": 13,
-  "ashby": 160,
+  "ashby": 159,
   "vc:jobs.tlv.partners": 161,
   "vc:careers.grovevc.com": 89,
   "vc:jobs.ibexinvestors.com": 44,
@@ -105,7 +105,7 @@
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
   "INFO Remote: 2162 collected, 393 open to Israel",
-  "INFO Collected 5116 jobs in Israel",
+  "INFO Collected 5115 jobs in Israel",
   "INFO 608 pass the title filter",
   "INFO New: 13, total kept: 267"
  ]
