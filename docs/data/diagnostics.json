@@ -1,5 +1,5 @@
 {
- "run": "2026-11-07T18:17:17+00:00",
+ "run": "2026-11-07T19:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
   "greenhouse": 512,
@@ -21,9 +21,8 @@
   "remote:remotive": 8,
   "remote:remoteok": 59,
   "remote:himalayas": 3,
-  "remote:jobicy": 65,
-  "remote:weworkremotely": 68,
-  "linkedin": 224
+  "remote:jobicy": 80,
+  "remote:weworkremotely": 68
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
@@ -46,9 +45,8 @@
   "remote:remotive": 1,
   "remote:remoteok": 8,
   "remote:himalayas": 1,
-  "remote:jobicy": 3,
-  "remote:weworkremotely": 9,
-  "linkedin": 47
+  "remote:jobicy": 5,
+  "remote:weworkremotely": 9
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -83,7 +81,7 @@
   "INFO Getro https://jobs.insightpartners.com: 323 Israel jobs",
   "INFO Getro https://jobs.accel.com: collection_id=8672 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.accel.com org stages: {'acquisition': 222, 'ipo': 64, 'other': 52, 'series_a': 32, 'series_g': 32, 'series_c': 13, 'series_b': 12, 'series_e': 7, 'series_d': 5, 'series_unknown': 3}",
-  "INFO Getro https://jobs.accel.com org head counts: {'4': 188, '2': 84, '3': 49, '5': 46, '1': 44, '6': 31}",
+  "INFO Getro https://jobs.accel.com org head counts: {'4': 189, '2': 83, '3': 49, '5': 46, '1': 44, '6': 31}",
   "INFO Getro https://jobs.accel.com early-stage orgs: {'ZyG': ('series_a', 2), 'Legion Security': ('series_a', 2), 'Vega Ventures': ('series_a', 1), 'Surf AI': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Vorlon': ('series_a', 2)}",
   "INFO Getro https://jobs.accel.com: 442 Israel jobs",
   "INFO Getro https://careers.greenfield-growth.com: collection_id=1534 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -106,19 +104,9 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2175 collected, 384 open to Israel",
-  "WARNING LinkedIn search 'Business Development Associate' blocked or failed (none)",
-  "WARNING LinkedIn search 'Operations Manager' blocked or failed (none)",
-  "WARNING LinkedIn search 'Payment Operations' blocked or failed (none)",
-  "WARNING LinkedIn search 'Junior DevOps' blocked or failed (none)",
-  "WARNING LinkedIn search 'BI Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Project Manager' blocked or failed (none)",
-  "INFO LinkedIn: 145 jobs",
-  "WARNING LinkedIn search 'Data Analyst' blocked or failed (none)",
-  "INFO LinkedIn remote: 79 jobs",
-  "INFO Collected 4980 jobs in Israel",
-  "INFO 642 pass the title filter",
-  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/business-development-representative-maternity-cover-at-sysaid-4485815688",
-  "INFO New: 18, total kept: 258"
+  "INFO Remote: 2175 collected, 399 open to Israel",
+  "INFO Collected 4771 jobs in Israel",
+  "INFO 597 pass the title filter",
+  "INFO New: 15, total kept: 259"
  ]
 }
