@@ -1,5 +1,5 @@
 {
- "run": "2026-11-07T14:17:18+00:00",
+ "run": "2026-11-07T15:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
   "greenhouse": 513,
@@ -20,9 +20,10 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 8,
   "remote:remoteok": 60,
-  "remote:himalayas": 2,
+  "remote:himalayas": 1,
   "remote:jobicy": 65,
-  "remote:weworkremotely": 74
+  "remote:weworkremotely": 74,
+  "linkedin": 243
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
@@ -45,7 +46,8 @@
   "remote:remotive": 1,
   "remote:remoteok": 8,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 10
+  "remote:weworkremotely": 10,
+  "linkedin": 50
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -60,11 +62,11 @@
   "INFO Getro https://careers.grovevc.com: 84 Israel jobs",
   "INFO Getro https://jobs.ibexinvestors.com: collection_id=1081 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.ibexinvestors.com org stages: {'ipo': 14, 'series_e': 10, 'seed': 8, 'series_unknown': 5, 'series_b': 4, '': 1, 'other': 1}",
-  "INFO Getro https://jobs.ibexinvestors.com org head counts: {'5': 14, '4': 12, '2': 11, '1': 3, '3': 2, 'None': 1}",
-  "INFO Getro https://jobs.ibexinvestors.com early-stage orgs: {'Varos': ('seed', 2), 'Magical': ('seed', 1), 'Ray Security': ('seed', 2)}",
+  "INFO Getro https://jobs.ibexinvestors.com org head counts: {'5': 14, '2': 14, '4': 12, '3': 2, 'None': 1}",
+  "INFO Getro https://jobs.ibexinvestors.com early-stage orgs: {'Varos': ('seed', 2), 'Magical': ('seed', 2), 'Ray Security': ('seed', 2)}",
   "INFO Getro https://jobs.ibexinvestors.com: 43 Israel jobs",
   "INFO Getro https://careers.viola-group.com: collection_id=6263 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://careers.viola-group.com org stages: {'other': 35, 'series_a': 18, 'series_unknown': 15, 'series_c': 12, 'series_b': 11, 'series_e': 9, 'series_f': 8, 'private_equity': 8, 'seed': 8, 'series_d': 6, 'ipo': 4, 'acquisition': 2}",
+  "INFO Getro https://careers.viola-group.com org stages: {'other': 35, 'series_a': 18, 'series_unknown': 15, 'series_c': 12, 'series_e': 11, 'series_b': 11, 'series_f': 8, 'private_equity': 8, 'seed': 8, 'ipo': 4, 'series_d': 4, 'acquisition': 2}",
   "INFO Getro https://careers.viola-group.com org head counts: {'4': 55, '3': 46, '2': 20, '5': 11, 'None': 4}",
   "INFO Getro https://careers.viola-group.com early-stage orgs: {'ZyG': ('series_a', 2), 'Volumez': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Impala.ai': ('seed', None), 'Aryon Security': ('seed', 2), 'Nilos': ('seed', 2), 'Foundational': ('seed', 2)}",
   "INFO Getro https://careers.viola-group.com: 136 Israel jobs",
@@ -103,9 +105,11 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2175 collected, 390 open to Israel",
-  "INFO Collected 4761 jobs in Israel",
-  "INFO 596 pass the title filter",
-  "INFO New: 14, total kept: 252"
+  "INFO Remote: 2175 collected, 389 open to Israel",
+  "INFO LinkedIn: 154 jobs",
+  "INFO LinkedIn remote: 89 jobs",
+  "INFO Collected 5003 jobs in Israel",
+  "INFO 646 pass the title filter",
+  "INFO New: 18, total kept: 254"
  ]
 }
