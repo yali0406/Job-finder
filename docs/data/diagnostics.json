@@ -1,9 +1,9 @@
 {
- "run": "2026-11-07T06:17:15+00:00",
+ "run": "2026-11-07T09:17:18+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
   "greenhouse": 513,
-  "workday": 437,
+  "workday": 423,
   "lever": 167,
   "comeet": 1074,
   "workable": 13,
@@ -19,11 +19,11 @@
   "vc:jobs.nfx.com": 56,
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 9,
-  "remote:remoteok": 58,
-  "remote:himalayas": 16,
+  "remote:remoteok": 59,
+  "remote:himalayas": 12,
   "remote:jobicy": 65,
   "remote:weworkremotely": 73,
-  "linkedin": 271
+  "linkedin": 262
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
@@ -48,9 +48,10 @@
   "remote:himalayas": 1,
   "remote:jobicy": 4,
   "remote:weworkremotely": 10,
-  "linkedin": 55
+  "linkedin": 56
  },
  "log": [
+  "WARNING Marvell Israel: workday/marvell|wd1|MarvellCareers stopped responding",
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.tlv.partners org stages: {'series_c': 55, 'series_e': 36, 'series_b': 22, 'other': 21, 'series_d': 16, 'series_a': 7, 'series_unknown': 2, 'seed': 1, 'series_c_plus': 1}",
   "INFO Getro https://jobs.tlv.partners org head counts: {'3': 67, '4': 55, '2': 31, '1': 8}",
@@ -106,11 +107,11 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2175 collected, 402 open to Israel",
-  "INFO LinkedIn: 182 jobs",
+  "INFO Remote: 2175 collected, 399 open to Israel",
+  "INFO LinkedIn: 173 jobs",
   "INFO LinkedIn remote: 89 jobs",
-  "INFO Collected 5049 jobs in Israel",
-  "INFO 653 pass the title filter",
-  "INFO New: 20, total kept: 251"
+  "INFO Collected 5023 jobs in Israel",
+  "INFO 654 pass the title filter",
+  "INFO New: 20, total kept: 252"
  ]
 }
