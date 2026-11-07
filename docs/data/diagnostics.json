@@ -1,5 +1,5 @@
 {
- "run": "2026-11-07T17:17:14+00:00",
+ "run": "2026-11-07T18:17:17+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
   "greenhouse": 512,
@@ -10,7 +10,7 @@
   "ashby": 161,
   "vc:jobs.tlv.partners": 162,
   "vc:careers.grovevc.com": 84,
-  "vc:jobs.ibexinvestors.com": 44,
+  "vc:jobs.ibexinvestors.com": 45,
   "vc:careers.viola-group.com": 136,
   "vc:jobs.vertexventures.co.il": 102,
   "vc:jobs.insightpartners.com": 323,
@@ -19,10 +19,11 @@
   "vc:jobs.nfx.com": 56,
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 8,
-  "remote:remoteok": 60,
-  "remote:himalayas": 5,
+  "remote:remoteok": 59,
+  "remote:himalayas": 3,
   "remote:jobicy": 65,
-  "remote:weworkremotely": 68
+  "remote:weworkremotely": 68,
+  "linkedin": 224
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
@@ -46,7 +47,8 @@
   "remote:remoteok": 8,
   "remote:himalayas": 1,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 9
+  "remote:weworkremotely": 9,
+  "linkedin": 47
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -60,10 +62,10 @@
   "INFO Getro https://careers.grovevc.com early-stage orgs: {'Majestic Labs ai': ('series_a', 2), 'Quantum Source': ('series_a', 2), 'Vocai': ('pre_seed', 1), 'Particula': ('series_a', 2), 'env0': ('series_a', 2)}",
   "INFO Getro https://careers.grovevc.com: 84 Israel jobs",
   "INFO Getro https://jobs.ibexinvestors.com: collection_id=1081 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://jobs.ibexinvestors.com org stages: {'ipo': 15, 'series_e': 10, 'seed': 8, 'series_unknown': 5, 'series_b': 4, '': 1, 'other': 1}",
-  "INFO Getro https://jobs.ibexinvestors.com org head counts: {'5': 15, '2': 14, '4': 12, '3': 2, 'None': 1}",
+  "INFO Getro https://jobs.ibexinvestors.com org stages: {'ipo': 15, 'series_e': 11, 'seed': 8, 'series_unknown': 5, 'series_b': 4, '': 1, 'other': 1}",
+  "INFO Getro https://jobs.ibexinvestors.com org head counts: {'5': 15, '2': 14, '4': 13, '3': 2, 'None': 1}",
   "INFO Getro https://jobs.ibexinvestors.com early-stage orgs: {'Varos': ('seed', 2), 'Magical': ('seed', 2), 'Ray Security': ('seed', 2)}",
-  "INFO Getro https://jobs.ibexinvestors.com: 44 Israel jobs",
+  "INFO Getro https://jobs.ibexinvestors.com: 45 Israel jobs",
   "INFO Getro https://careers.viola-group.com: collection_id=6263 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://careers.viola-group.com org stages: {'other': 35, 'series_a': 18, 'series_unknown': 15, 'series_c': 12, 'series_e': 11, 'series_b': 11, 'series_f': 8, 'private_equity': 8, 'seed': 8, 'ipo': 4, 'series_d': 4, 'acquisition': 2}",
   "INFO Getro https://careers.viola-group.com org head counts: {'4': 55, '3': 46, '2': 20, '5': 11, 'None': 4}",
@@ -104,9 +106,19 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2175 collected, 387 open to Israel",
-  "INFO Collected 4758 jobs in Israel",
-  "INFO 595 pass the title filter",
-  "INFO New: 14, total kept: 255"
+  "INFO Remote: 2175 collected, 384 open to Israel",
+  "WARNING LinkedIn search 'Business Development Associate' blocked or failed (none)",
+  "WARNING LinkedIn search 'Operations Manager' blocked or failed (none)",
+  "WARNING LinkedIn search 'Payment Operations' blocked or failed (none)",
+  "WARNING LinkedIn search 'Junior DevOps' blocked or failed (none)",
+  "WARNING LinkedIn search 'BI Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Project Manager' blocked or failed (none)",
+  "INFO LinkedIn: 145 jobs",
+  "WARNING LinkedIn search 'Data Analyst' blocked or failed (none)",
+  "INFO LinkedIn remote: 79 jobs",
+  "INFO Collected 4980 jobs in Israel",
+  "INFO 642 pass the title filter",
+  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/business-development-representative-maternity-cover-at-sysaid-4485815688",
+  "INFO New: 18, total kept: 258"
  ]
 }
