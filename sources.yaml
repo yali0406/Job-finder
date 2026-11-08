@@ -497,6 +497,78 @@ companies:
   - Pillar Security
   - Mend
   - Arnica
+  # round 5 (2026-11-08): companies whose own job board was found through VC job board links
+  - {name: "Adaptive6", ats: comeet, slug: "adaptive6/AA.000"}
+  - {name: "Agora", ats: comeet, slug: "agora/08.007"}
+  - {name: "Aligned", ats: greenhouse, slug: "aligned"}
+  - {name: "Alta", ats: greenhouse, slug: "alta"}
+  - {name: "Anchor", ats: comeet, slug: "anchorfintech/87.00D"}
+  - {name: "Anyword", ats: comeet, slug: "anyword/30.00B"}
+  - {name: "Aquant", ats: ashby, slug: "Aquant"}
+  - {name: "BeamUP", ats: greenhouse, slug: "beamup"}
+  - {name: "Beewise", ats: comeet, slug: "beewise/0B.001"}
+  - {name: "BioCatch", ats: comeet, slug: "biocatch/03.00E"}
+  - {name: "Blink", ats: comeet, slug: "blinkops/C7.004"}
+  - {name: "BlueGreen Water Technologies", ats: comeet, slug: "bgtechs/E6.00D"}
+  - {name: "Bluewhite", ats: comeet, slug: "bluewhite/D5.00D"}
+  - {name: "Camunda", ats: ashby, slug: "camunda"}
+  - {name: "Canopy", ats: greenhouse, slug: "canopycare"}
+  - {name: "Capitolis", ats: greenhouse, slug: "capitolis"}
+  - {name: "Clinch", ats: comeet, slug: "clinch/42.007"}
+  - {name: "CropX", ats: workable, slug: "cropx"}
+  - {name: "Cylus", ats: greenhouse, slug: "cyluscybersecurity"}
+  - {name: "Cynet", ats: comeet, slug: "cynet/33.00D"}
+  - {name: "CytoReason", ats: comeet, slug: "cytoreason/16.002"}
+  - {name: "D-Fend Solutions", ats: lever, slug: "d-fendsolutions"}
+  - {name: "Datafy", ats: comeet, slug: "datafy/4A.007"}
+  - {name: "DustPhotonics", ats: comeet, slug: "dustphotonics/05.00B"}
+  - {name: "EasySend", ats: comeet, slug: "easysend/D5.009"}
+  - {name: "EverC", ats: comeet, slug: "g2risksolutions/C9.003"}
+  - {name: "Flytrex", ats: comeet, slug: "flytrex/77.003"}
+  - {name: "HUMAN", ats: ashby, slug: "HUMAN"}
+  - {name: "Honeycomb Insurance", ats: greenhouse, slug: "honeycombinsurance"}
+  - {name: "HyperGuest Ltd.", ats: comeet, slug: "hyperguest/09.00B"}
+  - {name: "IVIX", ats: comeet, slug: "ivix/09.002"}
+  - {name: "Immunai", ats: comeet, slug: "immunai/37.009"}
+  - {name: "Incredibuild", ats: comeet, slug: "incredibuild/66.00F"}
+  - {name: "IronScales", ats: comeet, slug: "ironscales/1A.007"}
+  - {name: "Jennifer Airobotics", ats: comeet, slug: "airobotics/AA.005"}
+  - {name: "Ledge", ats: ashby, slug: "ledge"}
+  - {name: "Linx Security", ats: comeet, slug: "linxsecurity/99.00C"}
+  - {name: "MDClone", ats: comeet, slug: "mdclone/66.004"}
+  - {name: "Magical", ats: workable, slug: "timeos"}
+  - {name: "Nebius", ats: greenhouse, slug: "nebius"}
+  - {name: "OPSWAT", ats: greenhouse, slug: "opswat"}
+  - {name: "Omnea", ats: ashby, slug: "Omnea"}
+  - {name: "PhaseV", ats: greenhouse, slug: "phasev"}
+  - {name: "PlainID", ats: comeet, slug: "plainid/C4.00C"}
+  - {name: "PointFive", ats: ashby, slug: "pointfive"}
+  - {name: "Prelude", ats: ashby, slug: "originhq"}
+  - {name: "PrettyDamnQuick", ats: comeet, slug: "prettydamnquick/0A.00E"}
+  - {name: "REAL", ats: workable, slug: "real-dev-inc"}
+  - {name: "Reco", ats: comeet, slug: "reco/3A.00D"}
+  - {name: "Remedio", ats: comeet, slug: "remedio/CA.000"}
+  - {name: "Rylo", ats: comeet, slug: "rylo/D8.007"}
+  - {name: "SAM Seamless Network", ats: comeet, slug: "securingsam/D4.000"}
+  - {name: "Sauce", ats: lever, slug: "Sauce"}
+  - {name: "ScyllaDB", ats: comeet, slug: "scylladb/E4.006"}
+  - {name: "Semperis", ats: ashby, slug: "semperis"}
+  - {name: "Sensi.AI", ats: comeet, slug: "sensi/E7.00F"}
+  - {name: "Spacial", ats: ashby, slug: "spacial"}
+  - {name: "Stream Security", ats: comeet, slug: "streamsecurity/39.008"}
+  - {name: "Surf AI", ats: greenhouse, slug: "surfai"}
+  - {name: "Sweep", ats: ashby, slug: "sweep"}
+  - {name: "Tavily", ats: greenhouse, slug: "tavily"}
+  - {name: "Tenable", ats: greenhouse, slug: "tenableinc"}
+  - {name: "The Freightos Group", ats: comeet, slug: "freightos/F0.000"}
+  - {name: "Toka", ats: comeet, slug: "toka/46.00D"}
+  - {name: "Tonkean", ats: lever, slug: "tonkean"}
+  - {name: "Travelier", ats: comeet, slug: "travelier/64.006"}
+  - {name: "TriEye", ats: comeet, slug: "trieye/A6.00E"}
+  - {name: "Tripledot Studios", ats: greenhouse, slug: "tripledotstudios"}
+  - {name: "Trullion", ats: comeet, slug: "trullion/07.000"}
+  - {name: "Unframe", ats: greenhouse, slug: "unframe"}
+  - {name: "mPrest", ats: comeet, slug: "mprest/38.005"}
   # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
   - {name: Buildots, careers: "https://buildots.com/careers/"}
   - {name: Onyx Security, careers: "https://www.onyx.security/careers"}
