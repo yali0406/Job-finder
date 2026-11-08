@@ -1,10 +1,10 @@
 {
- "run": "2026-11-08T06:17:17+00:00",
+ "run": "2026-11-08T07:17:18+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
   "greenhouse": 512,
-  "workday": 433,
-  "lever": 167,
+  "workday": 434,
+  "lever": 166,
   "comeet": 1073,
   "workable": 13,
   "ashby": 161,
@@ -20,10 +20,9 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 8,
   "remote:remoteok": 59,
-  "remote:himalayas": 38,
+  "remote:himalayas": 53,
   "remote:jobicy": 65,
-  "remote:weworkremotely": 68,
-  "linkedin": 207
+  "remote:weworkremotely": 68
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
@@ -45,10 +44,9 @@
   "vc:israelvcforum.getro.com": 64,
   "remote:remotive": 1,
   "remote:remoteok": 8,
-  "remote:himalayas": 3,
+  "remote:himalayas": 2,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 9,
-  "linkedin": 46
+  "remote:weworkremotely": 9
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -83,7 +81,7 @@
   "INFO Getro https://jobs.insightpartners.com: 323 Israel jobs",
   "INFO Getro https://jobs.accel.com: collection_id=8672 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.accel.com org stages: {'acquisition': 222, 'ipo': 64, 'other': 52, 'series_a': 32, 'series_g': 32, 'series_c': 13, 'series_b': 12, 'series_e': 7, 'series_d': 5, 'series_unknown': 3}",
-  "INFO Getro https://jobs.accel.com org head counts: {'4': 187, '2': 85, '3': 49, '5': 46, '1': 44, '6': 31}",
+  "INFO Getro https://jobs.accel.com org head counts: {'4': 188, '2': 84, '3': 49, '5': 46, '1': 44, '6': 31}",
   "INFO Getro https://jobs.accel.com early-stage orgs: {'ZyG': ('series_a', 2), 'Legion Security': ('series_a', 2), 'Vega Ventures': ('series_a', 1), 'Surf AI': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Vorlon': ('series_a', 2)}",
   "INFO Getro https://jobs.accel.com: 442 Israel jobs",
   "INFO Getro https://careers.greenfield-growth.com: collection_id=1534 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -106,29 +104,9 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2175 collected, 419 open to Israel",
-  "WARNING LinkedIn search 'Business Development Associate' blocked or failed (none)",
-  "WARNING LinkedIn search 'PMO Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Operations Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Business Operations' blocked or failed (none)",
-  "WARNING LinkedIn search 'Operations Manager' blocked or failed (none)",
-  "WARNING LinkedIn search 'Payment Operations' blocked or failed (none)",
-  "WARNING LinkedIn search 'Glassbox' blocked or failed (none)",
-  "WARNING LinkedIn search 'DevOps Engineer' blocked or failed (none)",
-  "WARNING LinkedIn search 'Cloud Engineer' blocked or failed (none)",
-  "WARNING LinkedIn search 'Business Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Product Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Financial Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Associate Product Manager' blocked or failed (none)",
-  "INFO LinkedIn: 147 jobs",
-  "WARNING LinkedIn search 'Payments Operations' blocked or failed (none)",
-  "WARNING LinkedIn search 'Data Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Customer Success' blocked or failed (none)",
-  "INFO LinkedIn remote: 60 jobs",
-  "INFO Collected 4997 jobs in Israel",
-  "INFO 642 pass the title filter",
-  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/payment-specialist-at-jobsseek-4488755737",
-  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/data-analyst-at-aqurate-data-4488765313",
-  "INFO New: 20, total kept: 259"
+  "INFO Remote: 2175 collected, 434 open to Israel",
+  "INFO Collected 4805 jobs in Israel",
+  "INFO 595 pass the title filter",
+  "INFO New: 13, total kept: 259"
  ]
 }
