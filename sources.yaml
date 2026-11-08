@@ -10,6 +10,24 @@ vc_boards:
   - https://jobs.ibexinvestors.com
   - https://careers.viola-group.com  # verified
   - https://jobs.vertexventures.co.il
+  - https://jobs.jvp.vc
+  - https://jobs.83north.com
+  - https://jobs.target.vc
+  - https://jobs.lool.vc
+  - https://jobs.entree.capital
+  - https://jobs.mizmaa.com
+  - https://jobs.vintage-ip.com
+  - https://jobs.amiti.com
+  - https://jobs.blumberg.vc
+  - https://jobs.tlv.vc
+  - https://careers.ourcrowd.com
+  - https://jobs.magmavc.com
+  - https://jobs.innovationendeavors.com
+  - https://jobs.battery.com
+  - https://jobs.gv.com
+  - https://jobs.lightspeedventurepartners.com
+  - https://jobs.indexventures.com
+  - https://jobs.redpoint.com
   - https://jobs.insightpartners.com
   - https://jobs.accel.com
   - https://careers.greenfield-growth.com
@@ -395,6 +413,54 @@ companies:
   - {name: "Zoomd", careers: "https://zoomd.com/careers/"}
   - Perion Network
   - Vonage
+  # round 3 (2026-11-08): fintech, banking/investment, insurance, retail/consumer, mobility, infra/security
+  - Chargeflow
+  - Tranzila
+  - Pepper
+  - Bank Jerusalem
+  - Meitav
+  - Altshuler Shaham
+  - More Investment
+  - Psagot
+  - IBI
+  - Excellence
+  - Ayalon Insurance
+  - Wobi
+  - Bituach Yashir
+  - 9 Million
+  - Rami Levy
+  - Super-Pharm
+  - Fox Group
+  - Castro
+  - Terminal X
+  - Delta Galil
+  - Strauss Group
+  - Tnuva
+  - Coca-Cola Israel
+  - Elal
+  - Arkia
+  - Israir
+  - Electra
+  - Shikun & Binui
+  - Azrieli Group
+  - Ituran
+  - Pointer
+  - Perrigo Israel
+  - Taro
+  - Kamada
+  - Foretellix
+  - Autotalks
+  - ScaleOps
+  - Logz.io
+  - Cast AI
+  - Spacelift
+  - Akeyless
+  - Pynt
+  - Frontegg
+  - Permit.io
+  - Seemplicity
+  - Vulcan Cyber
+  - Nucleus
   # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
   - {name: Buildots, careers: "https://buildots.com/careers/"}
   - {name: Onyx Security, careers: "https://www.onyx.security/careers"}
