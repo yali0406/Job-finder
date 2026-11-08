@@ -1,11 +1,11 @@
 {
- "run": "2026-11-08T08:17:17+00:00",
+ "run": "2026-11-08T08:20:42+00:00",
  "collected_by_source": {
   "smartrecruiters": 108,
   "greenhouse": 511,
   "workday": 436,
   "lever": 165,
-  "comeet": 1074,
+  "comeet": 1073,
   "workable": 13,
   "ashby": 158,
   "vc:jobs.tlv.partners": 162,
@@ -20,9 +20,10 @@
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 8,
   "remote:remoteok": 59,
-  "remote:himalayas": 45,
+  "remote:himalayas": 47,
   "remote:jobicy": 65,
-  "remote:weworkremotely": 68
+  "remote:weworkremotely": 68,
+  "linkedin": 246
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
@@ -46,7 +47,8 @@
   "remote:remoteok": 8,
   "remote:himalayas": 2,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 9
+  "remote:weworkremotely": 9,
+  "linkedin": 48
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -104,9 +106,23 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2175 collected, 426 open to Israel",
-  "INFO Collected 4793 jobs in Israel",
-  "INFO 595 pass the title filter",
-  "INFO New: 14, total kept: 260"
+  "INFO Remote: 2175 collected, 428 open to Israel",
+  "WARNING LinkedIn search 'PMO Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Operations Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Operations Specialist' blocked or failed (none)",
+  "WARNING LinkedIn search 'Revenue Operations' blocked or failed (none)",
+  "WARNING LinkedIn search '365Scores' blocked or failed (none)",
+  "WARNING LinkedIn search 'Glassbox' blocked or failed (none)",
+  "WARNING LinkedIn search 'Site Reliability Engineer' blocked or failed (none)",
+  "WARNING LinkedIn search 'Data Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Risk Analyst' blocked or failed (none)",
+  "INFO LinkedIn: 168 jobs",
+  "WARNING LinkedIn search 'Data Analyst' blocked or failed (none)",
+  "INFO LinkedIn remote: 78 jobs",
+  "INFO Collected 5040 jobs in Israel",
+  "INFO 643 pass the title filter",
+  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/data-analyst-at-aqurate-data-4488765313",
+  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/erp-systems-analyst-at-abra-4487758900",
+  "INFO New: 37, total kept: 235"
  ]
 }
