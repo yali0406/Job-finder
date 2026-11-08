@@ -291,7 +291,7 @@
  "Automattic": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
+  "checked": "2026-11-08T19:20:46.598674+00:00",
   "slug": null
  },
  "Autotalks": {
@@ -490,10 +490,10 @@
   "slug": null
  },
  "Buffer": {
-  "ats": null,
+  "ats": "ashby",
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
-  "slug": null
+  "checked": "2026-11-08T19:20:46.598674+00:00",
+  "slug": "buffer"
  },
  "Buildots": {
   "ats": null,
@@ -592,7 +592,7 @@
  "Chainlink Labs": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
+  "checked": "2026-11-08T19:20:46.598674+00:00",
   "slug": null
  },
  "Chargeflow": {
@@ -874,7 +874,7 @@
  "Doist": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
+  "checked": "2026-11-08T19:20:46.598674+00:00",
   "slug": null
  },
  "Dreamplay": {
@@ -886,7 +886,7 @@
  "DuckDuckGo": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
+  "checked": "2026-11-08T19:20:46.598674+00:00",
   "slug": null
  },
  "Dynamic Yield": {
@@ -1294,7 +1294,7 @@
  "Hashicorp": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
+  "checked": "2026-11-08T19:20:46.598674+00:00",
   "slug": null
  },
  "Healthy.io": {
@@ -1354,7 +1354,7 @@
  "Hotjar": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
+  "checked": "2026-11-08T19:20:46.598674+00:00",
   "slug": null
  },
  "Hour One": {
@@ -1602,7 +1602,7 @@
  "Kraken": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
+  "checked": "2026-11-08T19:20:46.598674+00:00",
   "slug": null
  },
  "Kubient": {
@@ -2752,7 +2752,7 @@
  "Sourcegraph": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
+  "checked": "2026-11-08T19:20:46.598674+00:00",
   "slug": null
  },
  "Spacelift": {
@@ -3002,7 +3002,7 @@
  "Toggl": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
+  "checked": "2026-11-08T19:20:46.598674+00:00",
   "slug": null
  },
  "Token Security": {
@@ -3262,7 +3262,7 @@
  "Wikimedia Foundation": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-01T19:19:39.782576+00:00",
+  "checked": "2026-11-08T19:20:46.598674+00:00",
   "slug": null
  },
  "Wilco": {
