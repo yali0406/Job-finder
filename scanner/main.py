@@ -147,7 +147,12 @@ def main():
     with_li = args.linkedin == "yes" or (args.linkedin == "auto" and il_hour % 3 == 0)
 
     DATA.mkdir(parents=True, exist_ok=True)
-    existing = {j["id"]: j for j in load_json(JOBS_FILE, {"jobs": []})["jobs"]}
+    existing = {}
+    for j in load_json(JOBS_FILE, {"jobs": []})["jobs"]:
+        # if a bad merge ever left two copies of a job, keep the most recently scored one
+        old = existing.get(j["id"])
+        if not old or (j.get("first_seen", ""), j.get("last_seen", "")) > (old.get("first_seen", ""), old.get("last_seen", "")):
+            existing[j["id"]] = j
 
     found = collect(cfg, with_li)
     log.info("Collected %d jobs in Israel", len(found))

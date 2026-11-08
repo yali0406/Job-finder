@@ -47,7 +47,13 @@ jobs:
           git add docs/data
           git diff --cached --quiet || git commit -m "scan $(date -u +%Y-%m-%dT%H:%MZ)"
           # main may have moved while scanning (config edits); rebase and retry instead of failing
-          for i in 1 2 3; do git push && break; git pull --rebase -X theirs origin main; done
+          # (a line-by-line merge of the JSON files can duplicate jobs, so this run's data files replace main's)
+          for i in 1 2 3; do
+            git push && break
+            cp -r docs/data /tmp/data && git fetch origin main && git reset --hard origin/main
+            rm -rf docs/data && cp -r /tmp/data docs/data && rm -rf /tmp/data
+            git add docs/data && git commit -m "scan $(date -u +%Y-%m-%dT%H:%MZ)"
+          done
       # Cloudflare Pages project is not connected to git, so hourly data commits don't trigger
       # builds; we upload the site directly, and only when something new was found.
       - name: Deploy site
