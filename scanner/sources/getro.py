@@ -52,8 +52,23 @@ def _is_early(org: dict) -> bool:
     return True
 
 
+# Companies whose own job board shows up in Getro job links: {company name: (ats, slug)}.
+# Written out by main so they can be added as direct sources.
+DISCOVERED = {}
+
+
+def _note_ats(name, url):
+    from .ats import CAREERS_LINKS
+    for ats, rx, slug in CAREERS_LINKS:
+        m = rx.search(url or "")
+        if m and name:
+            DISCOVERED.setdefault(name, (ats, slug(m)))
+            return
+
+
 def _to_job(j, board):
     org = j.get("organization") or {}
+    _note_ats(org.get("name", ""), j.get("url"))
     locs = j.get("locations") or j.get("searchableLocations") or []
     if locs and isinstance(locs[0], dict):
         locs = [l.get("name", "") for l in locs]

@@ -73,6 +73,8 @@ def collect(cfg, with_linkedin: bool):
         jobs += li
 
     CACHE_FILE.write_text(json.dumps(cache, indent=1, ensure_ascii=False, sort_keys=True))
+    (CACHE_FILE.parent / "discovered.json").write_text(
+        json.dumps({k: list(v) for k, v in sorted(getro.DISCOVERED.items())}, indent=1, ensure_ascii=False))
     return jobs
 
 
