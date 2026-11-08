@@ -81,7 +81,8 @@ Candidate profile and CV summary:
 {profile}
 
 Scoring guide:
-Target role types: DevOps/Cloud/SRE, analyst roles, Project Manager / PMO (incl. project coordinator / PMO analyst), Product Manager, Business Development (BDR/SDR, sales development, BD associate, partnerships associate), and Operations
+Target role types: DevOps/Cloud/SRE, analyst roles of any domain (data, BI, business, marketing, product,
+financial, risk, fraud, payments, operations, etc.; the domain alone is never a reason to lower the score), Project Manager / PMO (incl. project coordinator / PMO analyst), Product Manager, Business Development (BDR/SDR, sales development, BD associate, partnerships associate), and Operations
 (business/revenue/sales/payment/customer operations, ops analyst/specialist/manager). Payments operations
 (payments ops analyst/specialist, settlements, reconciliation, chargebacks, merchant onboarding) is an especially
 strong match for this candidate's background.
