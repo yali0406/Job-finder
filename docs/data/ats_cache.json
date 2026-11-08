@@ -11,6 +11,18 @@
   "checked": "2026-11-02T12:17:18.843304+00:00",
   "slug": null
  },
+ "7AI": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "888": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "9 Million": {
   "ats": null,
   "careers": null,
@@ -34,6 +46,18 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "Activefence": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Aeronautics": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Aidoc": {
   "ats": null,
   "careers": null,
@@ -51,6 +75,12 @@
   "careers": null,
   "checked": "2026-10-25T18:58:58.588675+00:00",
   "slug": "airbyte"
+ },
+ "Airobotics": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
  },
  "Akamai": {
   "ats": null,
@@ -82,6 +112,12 @@
   "checked": "2026-11-01T17:17:15.876481+00:00",
   "slug": null
  },
+ "Alloy Israel": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "alloy"
+ },
  "Altshuler Shaham": {
   "ats": null,
   "careers": null,
@@ -112,6 +148,12 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "Analyst IMS": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Anecdotes": {
   "ats": null,
   "careers": null,
@@ -134,6 +176,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:26:16.148954+00:00",
+  "slug": null
+ },
+ "Aporia": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "AppLovin Israel": {
@@ -182,6 +230,18 @@
   "checked": "2026-11-01T16:17:18.492672+00:00",
   "slug": null
  },
+ "Arbe Robotics": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Aristocrat Interactive": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Arkia": {
   "ats": null,
   "careers": null,
@@ -211,6 +271,12 @@
   "checked": "2026-11-01T16:17:18.492672+00:00",
   "slug": null
  },
+ "Atidot": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "AudioCodes": {
   "ats": null,
   "careers": null,
@@ -234,6 +300,12 @@
   "checked": "2026-11-08T13:21:51.572615+00:00",
   "slug": null
  },
+ "Aviagames": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Axonius": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -249,6 +321,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-08T13:21:51.572615+00:00",
+  "slug": null
+ },
+ "Balance": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Bank Hapoalim": {
@@ -269,10 +347,40 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "Bank Yahav": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Base44": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Beach Bum": {
   "ats": "ashby",
   "checked": "2026-10-23T01:18:08.459390+00:00",
   "slug": "beach-bum"
+ },
+ "Behalf": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Bending Spoons Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Bestow": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
  },
  "Bezeq": {
   "ats": null,
@@ -310,10 +418,22 @@
   "checked": "2026-10-25T18:58:58.588675+00:00",
   "slug": "bitwarden"
  },
+ "Bizi": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Bizzabo": {
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T16:17:18.492672+00:00",
+  "slug": null
+ },
+ "Blender": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "BlinkOps": {
@@ -332,6 +452,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "BondIT": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Booking Israel": {
@@ -355,6 +481,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-10-25T16:43:51.422374+00:00",
+  "slug": null
+ },
+ "BtoBet": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Buffer": {
@@ -391,6 +523,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "Camtek": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Candivore": {
@@ -480,6 +618,12 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "Clarity": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Claroty": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -561,9 +705,33 @@
   "checked": "2026-11-01T17:17:15.876481+00:00",
   "slug": null
  },
+ "Coverwallet": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "CrazyLabs": {
   "ats": null,
   "checked": "2026-10-23T01:18:08.459390+00:00",
+  "slug": null
+ },
+ "Credi": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Cyabra": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Cyata": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "CyberArk": {
@@ -607,6 +775,24 @@
   "checked": "2026-11-08T13:33:07.869563+00:00",
   "slug": "datarails"
  },
+ "Datos Health": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Daylight": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "daylight"
+ },
+ "Decart": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Deel": {
   "ats": null,
   "careers": null,
@@ -617,6 +803,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "Deepchecks": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Dell Israel": {
@@ -649,6 +841,12 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "Diagnostic Robotics": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Digital Turbine": {
   "ats": null,
   "careers": null,
@@ -679,6 +877,12 @@
   "checked": "2026-11-01T19:19:39.782576+00:00",
   "slug": null
  },
+ "Dreamplay": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "DuckDuckGo": {
   "ats": null,
   "careers": null,
@@ -702,6 +906,18 @@
   "careers": null,
   "checked": "2026-11-01T16:17:18.492672+00:00",
   "slug": null
+ },
+ "Easybrain": {
+  "ats": "lever",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "easybrain"
+ },
+ "Ebury Israel": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "ebury"
  },
  "Eco": {
   "ats": null,
@@ -745,10 +961,34 @@
   "checked": "2026-11-01T16:17:18.492672+00:00",
   "slug": null
  },
+ "Eleos": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "eleos"
+ },
+ "Elta": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Enso": {
   "ats": null,
   "careers": "https://www.enso.ai/careers",
   "checked": "2026-11-01T16:17:18.492672+00:00",
+  "slug": null
+ },
+ "Eviation": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Evoke": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Evoke (888)": {
@@ -787,6 +1027,12 @@
   "checked": "2026-11-08T13:33:07.869563+00:00",
   "slug": null
  },
+ "Finonex": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Fintica": {
   "ats": null,
   "careers": null,
@@ -815,6 +1061,18 @@
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
+ },
+ "Flexi": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Foresight": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "foresight"
  },
  "Foretellix": {
   "ats": null,
@@ -845,6 +1103,12 @@
   "checked": "2026-11-08T13:21:51.572615+00:00",
   "slug": null
  },
+ "Fuel Games": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Fundbox": {
   "ats": null,
   "careers": null,
@@ -855,6 +1119,24 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T16:17:18.492672+00:00",
+  "slug": null
+ },
+ "Funtomic": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Gainy": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Gan Sports": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Gankster": {
@@ -891,6 +1173,12 @@
   "ats": null,
   "careers": "https://www.glassbox.com/careers/",
   "checked": "2026-11-02T12:17:18.843304+00:00",
+  "slug": null
+ },
+ "Glassix": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Gloat": {
@@ -973,6 +1261,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "hp"
  },
+ "Hai Robotics Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Hailo": {
   "ats": null,
   "careers": null,
@@ -1003,6 +1297,12 @@
   "checked": "2026-11-01T19:19:39.782576+00:00",
   "slug": null
  },
+ "Healthy.io": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Hello Heart": {
   "ats": "greenhouse",
   "careers": null,
@@ -1031,6 +1331,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "Hiro": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Homie": {
@@ -1069,6 +1375,12 @@
   "checked": "2026-10-25T15:51:57.376191+00:00",
   "slug": "huskeys"
  },
+ "Huuuge Games": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Huuuge Israel": {
   "ats": null,
   "careers": null,
@@ -1081,6 +1393,18 @@
   "checked": "2026-11-01T17:17:15.876481+00:00",
   "slug": null
  },
+ "Hypernative": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "IAI": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "iai"
+ },
  "IBI": {
   "ats": null,
   "careers": null,
@@ -1091,6 +1415,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "Ibex Medical": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Imperva": {
@@ -1134,6 +1464,12 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "Ironblocks": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Island": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -1167,6 +1503,18 @@
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "jfrog"
+ },
+ "JP Morgan Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Jackpot.com": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "jackpot"
  },
  "Jelly Button": {
   "ats": null,
@@ -1221,10 +1569,28 @@
   "checked": "2026-11-08T13:21:51.572615+00:00",
   "slug": null
  },
+ "Kando": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Kashing": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Kidoz": {
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:26:16.148954+00:00",
+  "slug": null
+ },
+ "Kirobo": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Komodor": {
@@ -1251,6 +1617,18 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "LSEG Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Ladder": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "ladder"
+ },
  "Lasso Security": {
   "ats": null,
   "careers": null,
@@ -1268,6 +1646,24 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "lemonade"
  },
+ "Lendbuzz": {
+  "ats": "lever",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "lendbuzz"
+ },
+ "Light & Wonder Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Lightico": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Lightrun": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -1277,6 +1673,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T17:17:15.876481+00:00",
+  "slug": null
+ },
+ "Liquidity Group": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Logz.io": {
@@ -1290,6 +1692,18 @@
   "careers": "https://www.loora.ai/careers",
   "checked": "2026-10-25T15:51:57.376191+00:00",
   "slug": "loora"
+ },
+ "Lovable Israel": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "lovable"
+ },
+ "Lucky Labs": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
  },
  "Lusha": {
   "ats": null,
@@ -1327,6 +1741,12 @@
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
+ "Massive": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Mastercard": {
   "ats": null,
   "careers": null,
@@ -1337,6 +1757,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "Mate Security": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Matific": {
@@ -1354,6 +1780,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "Medal.tv": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Meitav": {
@@ -1383,6 +1815,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "Mentee Robotics": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Mesh Payments": {
@@ -1508,6 +1946,12 @@
   "checked": "2026-11-01T16:17:18.492672+00:00",
   "slug": null
  },
+ "NeoGames": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Ness Technologies": {
   "ats": "smartrecruiters",
   "careers": null,
@@ -1532,6 +1976,12 @@
   "checked": "2026-11-08T13:33:07.869563+00:00",
   "slug": null
  },
+ "Nexar": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Nexite": {
   "ats": null,
   "careers": null,
@@ -1547,6 +1997,12 @@
  "Next Silicon": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "NextSilicon": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Nexxen": {
@@ -1631,6 +2087,12 @@
   "checked": "2026-11-08T13:33:07.869563+00:00",
   "slug": null
  },
+ "Optimal+": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Optimove": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:18:08.459390+00:00",
@@ -1646,6 +2108,12 @@
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "orcasecurity"
+ },
+ "Oscilar": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "oscilar"
  },
  "Outbrain": {
   "ats": null,
@@ -1682,9 +2150,21 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "Pangea": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Papaya Global": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Pariplay": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Partner": {
@@ -1697,6 +2177,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "PayBox": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "PayPal": {
@@ -1715,6 +2201,18 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-08T13:33:07.869563+00:00",
+  "slug": null
+ },
+ "Payem": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Paygilant": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Payoneer": {
@@ -1749,6 +2247,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-08T13:21:51.572615+00:00",
+  "slug": null
+ },
+ "Percepto": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Perion": {
@@ -1799,6 +2303,12 @@
   "checked": "2026-11-08T13:33:07.869563+00:00",
   "slug": null
  },
+ "Pipe Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Pixellot": {
   "ats": null,
   "careers": "https://www.pixellot.tv/careers/",
@@ -1821,6 +2331,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "Playbuzz": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Playstudios": {
@@ -1894,6 +2410,12 @@
   "checked": "2026-11-01T17:17:15.876481+00:00",
   "slug": null
  },
+ "Product Madness": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Product Madness Israel": {
   "ats": null,
   "careers": null,
@@ -1904,6 +2426,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T16:17:18.492672+00:00",
+  "slug": null
+ },
+ "Prospera": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Proton": {
@@ -1934,6 +2462,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-08T13:33:07.869563+00:00",
+  "slug": null
+ },
+ "Qodo": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Qualcomm Israel": {
@@ -2006,6 +2540,12 @@
   "checked": "2026-11-01T16:17:18.492672+00:00",
   "slug": null
  },
+ "Rho Israel": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "rho"
+ },
  "Riskified": {
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -2027,6 +2567,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "S&P Global Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "SAP Israel": {
@@ -2058,6 +2604,12 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "Sardine Israel": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "sardine"
+ },
  "ScaleOps": {
   "ats": "greenhouse",
   "careers": null,
@@ -2080,6 +2632,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T17:17:15.876481+00:00",
+  "slug": null
+ },
+ "Seebo": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Seemplicity": {
@@ -2111,6 +2669,12 @@
   "checked": "2026-11-06T04:26:16.148954+00:00",
   "slug": null
  },
+ "Settle": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "ShapeShift Gaming": {
   "ats": null,
   "careers": null,
@@ -2133,6 +2697,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T17:17:15.876481+00:00",
+  "slug": null
+ },
+ "Shva": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Sight Diagnostics": {
@@ -2173,6 +2743,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "snyk"
  },
+ "Sola Security": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Sourcegraph": {
   "ats": null,
   "careers": null,
@@ -2191,6 +2767,12 @@
   "checked": "2026-11-08T13:33:07.869563+00:00",
   "slug": null
  },
+ "Spendesk Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Spinframe": {
   "ats": null,
   "careers": null,
@@ -2203,6 +2785,12 @@
   "checked": "2026-11-02T12:17:18.843304+00:00",
   "slug": null
  },
+ "Spinomenal": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Sportify": {
   "ats": null,
   "careers": null,
@@ -2213,6 +2801,24 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "Spring": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Sproutt": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Stardust": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "StarkWare": {
@@ -2267,6 +2873,18 @@
   "careers": null,
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": "superpower"
+ },
+ "Supersonic": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Superwise": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
  },
  "Sygnia": {
   "ats": null,
@@ -2339,6 +2957,12 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "Theator": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Tikal": {
   "ats": null,
   "careers": null,
@@ -2387,6 +3011,12 @@
   "checked": "2026-11-08T13:33:07.869563+00:00",
   "slug": "tokensecurity"
  },
+ "Tomorrow.io": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Toptal": {
   "ats": "lever",
   "careers": null,
@@ -2397,6 +3027,12 @@
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "torq"
+ },
+ "Tower Semiconductor": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
  },
  "Track160": {
   "ats": null,
@@ -2421,10 +3057,28 @@
   "checked": "2026-11-02T12:17:18.843304+00:00",
   "slug": null
  },
+ "Treasury Prime Israel": {
+  "ats": "greenhouse",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "treasuryprime"
+ },
+ "Tribal Credit": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Trigo": {
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T17:17:15.876481+00:00",
+  "slug": null
+ },
+ "Trustmi": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Tufin": {
@@ -2433,10 +3087,22 @@
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
  },
+ "Tyto Care": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Tytocare": {
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T17:17:15.876481+00:00",
+  "slug": null
+ },
+ "Unicorn Gaming": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Unit": {
@@ -2457,16 +3123,34 @@
   "checked": "2026-11-06T04:26:16.148954+00:00",
   "slug": null
  },
+ "Unlimited Robotics": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Valens": {
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T16:17:18.492672+00:00",
   "slug": null
  },
+ "Valid": {
+  "ats": "ashby",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "valid"
+ },
  "Varonis": {
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "Vayu": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Vayyar": {
@@ -2497,6 +3181,12 @@
   "ats": "greenhouse",
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": "via"
+ },
+ "Vimeo Israel": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
  },
  "Visa Israel": {
   "ats": null,
@@ -2581,6 +3271,12 @@
   "checked": "2026-11-01T17:17:15.876481+00:00",
   "slug": null
  },
+ "Wishbone": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Wix": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -2615,16 +3311,40 @@
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": "wolt"
  },
+ "XLMedia": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "XM Cyber": {
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T17:17:15.876481+00:00",
   "slug": null
  },
+ "Xsolla": {
+  "ats": "lever",
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": "xsolla"
+ },
+ "Xtend": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Xternity": {
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:26:16.148954+00:00",
+  "slug": null
+ },
+ "Yaada": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Yad2": {
@@ -2662,10 +3382,34 @@
   "checked": "2026-10-25T18:58:58.588675+00:00",
   "slug": "zapier"
  },
+ "Zcredit": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Zebra Medical": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Zeek": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
  "Zencity": {
   "ats": null,
   "careers": null,
   "checked": "2026-11-01T16:17:18.492672+00:00",
+  "slug": null
+ },
+ "Zengo": {
+  "ats": null,
+  "careers": null,
+  "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
  "Zesty": {
