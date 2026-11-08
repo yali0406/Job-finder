@@ -1,0 +1,638 @@
+{
+ "Adaptive6": [
+  "comeet",
+  "adaptive6/AA.000"
+ ],
+ "Agora": [
+  "comeet",
+  "agora/08.007"
+ ],
+ "Aidoc": [
+  "greenhouse",
+  "aidocmedical"
+ ],
+ "Alice": [
+  "comeet",
+  "alice/D5.005"
+ ],
+ "Aligned": [
+  "greenhouse",
+  "aligned"
+ ],
+ "Alta": [
+  "greenhouse",
+  "alta"
+ ],
+ "Anchor": [
+  "comeet",
+  "anchorfintech/87.00D"
+ ],
+ "Anyword": [
+  "comeet",
+  "anyword/30.00B"
+ ],
+ "AppsFlyer": [
+  "greenhouse",
+  "appsflyer"
+ ],
+ "Aqua Security": [
+  "comeet",
+  "aquasec/91.001"
+ ],
+ "Aquant": [
+  "ashby",
+  "Aquant"
+ ],
+ "Ask-AI": [
+  "comeet",
+  "askai/1A.00C"
+ ],
+ "Axonius": [
+  "greenhouse",
+  "axonius"
+ ],
+ "BeamUP": [
+  "greenhouse",
+  "beamup"
+ ],
+ "Beewise": [
+  "comeet",
+  "beewise/0B.001"
+ ],
+ "BioCatch": [
+  "comeet",
+  "biocatch/03.00E"
+ ],
+ "Bizzabo": [
+  "comeet",
+  "bizzabo/A5.000"
+ ],
+ "Blink": [
+  "comeet",
+  "blinkops/C7.004"
+ ],
+ "BlueGreen Water Technologies": [
+  "comeet",
+  "bgtechs/E6.00D"
+ ],
+ "Bluewhite": [
+  "comeet",
+  "bluewhite/D5.00D"
+ ],
+ "Buildots": [
+  "comeet",
+  "buildots/36.004"
+ ],
+ "C2i Genomics": [
+  "greenhouse",
+  "veracyte"
+ ],
+ "Camunda": [
+  "ashby",
+  "camunda"
+ ],
+ "Canopy": [
+  "greenhouse",
+  "canopycare"
+ ],
+ "Capitolis": [
+  "greenhouse",
+  "capitolis"
+ ],
+ "Cast AI": [
+  "greenhouse",
+  "castaigroupinc"
+ ],
+ "Chainalysis": [
+  "ashby",
+  "chainalysis-careers"
+ ],
+ "Checkmarx": [
+  "comeet",
+  "checkmarx/C0.008"
+ ],
+ "Claroty": [
+  "comeet",
+  "Claroty/F2.004"
+ ],
+ "Classiq": [
+  "comeet",
+  "classiq/F7.008"
+ ],
+ "Clinch": [
+  "comeet",
+  "clinch/42.007"
+ ],
+ "Connecteam": [
+  "greenhouse",
+  "connecteam"
+ ],
+ "Coralogix": [
+  "comeet",
+  "coralogix/06.004"
+ ],
+ "CropX": [
+  "workable",
+  "cropx"
+ ],
+ "Cycode": [
+  "comeet",
+  "cycode/A8.00D"
+ ],
+ "Cyera": [
+  "comeet",
+  "cyera/17.008"
+ ],
+ "Cylus": [
+  "greenhouse",
+  "cyluscybersecurity"
+ ],
+ "Cymulate": [
+  "greenhouse",
+  "cymulate"
+ ],
+ "Cynet": [
+  "comeet",
+  "cynet/33.00D"
+ ],
+ "CytoReason": [
+  "comeet",
+  "cytoreason/16.002"
+ ],
+ "D-Fend Solutions": [
+  "lever",
+  "d-fendsolutions"
+ ],
+ "D-ID": [
+  "workable",
+  "j"
+ ],
+ "Datafy": [
+  "comeet",
+  "datafy/4A.007"
+ ],
+ "Datarails": [
+  "greenhouse",
+  "datarails"
+ ],
+ "DuckDuckGo": [
+  "ashby",
+  "duck-duck-go"
+ ],
+ "DustPhotonics": [
+  "comeet",
+  "dustphotonics/05.00B"
+ ],
+ "EX.CO": [
+  "comeet",
+  "exco/F0.005"
+ ],
+ "Earnix": [
+  "comeet",
+  "earnix/93.00B"
+ ],
+ "EasySend": [
+  "comeet",
+  "easysend/D5.009"
+ ],
+ "Eleos Health": [
+  "greenhouse",
+  "eleoshealth"
+ ],
+ "EverC": [
+  "comeet",
+  "g2risksolutions/C9.003"
+ ],
+ "Exodigo": [
+  "comeet",
+  "exodigo/89.005"
+ ],
+ "Finout": [
+  "ashby",
+  "finout"
+ ],
+ "Fiverr": [
+  "comeet",
+  "fiverr/60.002"
+ ],
+ "Flexor": [
+  "comeet",
+  "flexor/F9.006"
+ ],
+ "Flytrex": [
+  "comeet",
+  "flytrex/77.003"
+ ],
+ "Forgerock": [
+  "greenhouse",
+  "pingidentity"
+ ],
+ "Forter": [
+  "greenhouse",
+  "forter"
+ ],
+ "Garden": [
+  "comeet",
+  "incredibuild/66.00F"
+ ],
+ "Glassbox": [
+  "greenhouse",
+  "glassboxltd"
+ ],
+ "Guardio": [
+  "comeet",
+  "guardio/57.000"
+ ],
+ "Guesty": [
+  "comeet",
+  "guesty/10.000"
+ ],
+ "HUMAN": [
+  "ashby",
+  "HUMAN"
+ ],
+ "HoneyBook": [
+  "ashby",
+  "honeybook"
+ ],
+ "Honeycomb Insurance": [
+  "greenhouse",
+  "honeycombinsurance"
+ ],
+ "HyperGuest Ltd.": [
+  "comeet",
+  "hyperguest/09.00B"
+ ],
+ "IVIX": [
+  "comeet",
+  "ivix/09.002"
+ ],
+ "Immunai": [
+  "comeet",
+  "immunai/37.009"
+ ],
+ "Incredibuild": [
+  "comeet",
+  "incredibuild/66.00F"
+ ],
+ "Innoviz Technologies": [
+  "comeet",
+  "innoviz/52.004"
+ ],
+ "Insightec": [
+  "comeet",
+  "insightec/4A.004"
+ ],
+ "IronScales": [
+  "comeet",
+  "ironscales/1A.007"
+ ],
+ "JVP": [
+  "comeet",
+  "jvp/35.00E"
+ ],
+ "Jennifer Airobotics": [
+  "comeet",
+  "airobotics/AA.005"
+ ],
+ "Komodor": [
+  "comeet",
+  "komodor/96.005"
+ ],
+ "Konnecto": [
+  "greenhouse",
+  "partnerize"
+ ],
+ "Ledge": [
+  "ashby",
+  "ledge"
+ ],
+ "Linx Security": [
+  "comeet",
+  "linxsecurity/99.00C"
+ ],
+ "MDClone": [
+  "comeet",
+  "mdclone/66.004"
+ ],
+ "Magical": [
+  "workable",
+  "timeos"
+ ],
+ "Minute Media": [
+  "comeet",
+  "minute/45.00A"
+ ],
+ "Mixtiles": [
+  "greenhouse",
+  "mixtiles"
+ ],
+ "Moon Active": [
+  "ashby",
+  "moonactive"
+ ],
+ "Nagish": [
+  "comeet",
+  "rylo/D8.007"
+ ],
+ "Nebius": [
+  "greenhouse",
+  "nebius"
+ ],
+ "Nexite": [
+  "comeet",
+  "nexite/37.000"
+ ],
+ "Next Insurance": [
+  "greenhouse",
+  "nextinsurance66"
+ ],
+ "Next Silicon": [
+  "comeet",
+  "nextsilicon/18.007"
+ ],
+ "OPSWAT": [
+  "greenhouse",
+  "opswat"
+ ],
+ "Obligo": [
+  "greenhouse",
+  "obligo"
+ ],
+ "Omnea": [
+  "ashby",
+  "Omnea"
+ ],
+ "Optibus": [
+  "comeet",
+  "optibus/D1.00C"
+ ],
+ "OurCrowd": [
+  "comeet",
+  "ourcrowd/D3.00A"
+ ],
+ "Outbrain": [
+  "greenhouse",
+  "teads1"
+ ],
+ "Pagaya Investments": [
+  "greenhouse",
+  "pagayais"
+ ],
+ "Pentera": [
+  "comeet",
+  "pentera/C5.00D"
+ ],
+ "Personetics": [
+  "comeet",
+  "personetics/83.00A"
+ ],
+ "PhaseV": [
+  "greenhouse",
+  "phasev"
+ ],
+ "PlainID": [
+  "comeet",
+  "plainid/C4.00C"
+ ],
+ "Planck": [
+  "comeet",
+  "planck/28.00E"
+ ],
+ "PointFive": [
+  "ashby",
+  "pointfive"
+ ],
+ "Port": [
+  "comeet",
+  "port/59.004"
+ ],
+ "Prelude": [
+  "ashby",
+  "originhq"
+ ],
+ "PrettyDamnQuick": [
+  "comeet",
+  "prettydamnquick/0A.00E"
+ ],
+ "Qedma": [
+  "comeet",
+  "qedma/7A.006"
+ ],
+ "Qubex": [
+  "comeet",
+  "zesty/06.000"
+ ],
+ "REAL": [
+  "workable",
+  "real-dev-inc"
+ ],
+ "Rapyd": [
+  "comeet",
+  "rapyd/73.00E"
+ ],
+ "Reco": [
+  "comeet",
+  "reco/3A.00D"
+ ],
+ "Remedio": [
+  "comeet",
+  "remedio/CA.000"
+ ],
+ "RightBound": [
+  "greenhouse",
+  "gongio"
+ ],
+ "Riskified": [
+  "greenhouse",
+  "riskified"
+ ],
+ "Rylo": [
+  "comeet",
+  "rylo/D8.007"
+ ],
+ "SAM Seamless Network": [
+  "comeet",
+  "securingsam/D4.000"
+ ],
+ "Sauce": [
+  "lever",
+  "Sauce"
+ ],
+ "ScaleOps": [
+  "greenhouse",
+  "scaleops"
+ ],
+ "ScyllaDB": [
+  "comeet",
+  "scylladb/E4.006"
+ ],
+ "Semperis": [
+  "ashby",
+  "semperis"
+ ],
+ "Sensi.AI": [
+  "comeet",
+  "sensi/E7.00F"
+ ],
+ "SentinelOne": [
+  "greenhouse",
+  "sentinellabs"
+ ],
+ "Sett": [
+  "comeet",
+  "sett/4A.00B"
+ ],
+ "Shield.": [
+  "comeet",
+  "shieldfc/A5.00E"
+ ],
+ "Silverfort": [
+  "comeet",
+  "silverfort/54.007"
+ ],
+ "SimilarWeb": [
+  "greenhouse",
+  "similarweb"
+ ],
+ "Sisense": [
+  "ashby",
+  "sisense"
+ ],
+ "Skai": [
+  "comeet",
+  "skai/22.00A"
+ ],
+ "Spacial": [
+  "ashby",
+  "spacial"
+ ],
+ "StageOne Ventures": [
+  "workable",
+  "diagnostic-robotics"
+ ],
+ "Stampli": [
+  "comeet",
+  "stampli/F6.007"
+ ],
+ "Stream Security": [
+  "comeet",
+  "streamsecurity/39.008"
+ ],
+ "Surf AI": [
+  "greenhouse",
+  "surfai"
+ ],
+ "Sweep": [
+  "ashby",
+  "sweep"
+ ],
+ "Swish AI": [
+  "greenhouse",
+  "unframe"
+ ],
+ "Tailor Brands": [
+  "comeet",
+  "tailorbrands/94.009"
+ ],
+ "Tavily": [
+  "greenhouse",
+  "tavily"
+ ],
+ "Tenable": [
+  "greenhouse",
+  "tenableinc"
+ ],
+ "The Freightos Group": [
+  "comeet",
+  "freightos/F0.000"
+ ],
+ "ThetaRay": [
+  "comeet",
+  "thetaray/72.00F"
+ ],
+ "Toka": [
+  "comeet",
+  "toka/46.00D"
+ ],
+ "Token Security": [
+  "greenhouse",
+  "tokensecurity"
+ ],
+ "Tonkean": [
+  "lever",
+  "tonkean"
+ ],
+ "Torq ": [
+  "greenhouse",
+  "torq"
+ ],
+ "Transmit Security": [
+  "greenhouse",
+  "transmitsecurity"
+ ],
+ "Travelier": [
+  "comeet",
+  "travelier/64.006"
+ ],
+ "TriEye": [
+  "comeet",
+  "trieye/A6.00E"
+ ],
+ "Trigo": [
+  "comeet",
+  "trigo/A6.005"
+ ],
+ "Tripledot Studios": [
+  "greenhouse",
+  "tripledotstudios"
+ ],
+ "Trullion": [
+  "comeet",
+  "trullion/07.000"
+ ],
+ "Unframe": [
+  "greenhouse",
+  "unframe"
+ ],
+ "Unit": [
+  "ashby",
+  "unit"
+ ],
+ "VAST Data": [
+  "comeet",
+  "vastdata/43.001"
+ ],
+ "Vega Ventures": [
+  "comeet",
+  "vega/C9.009"
+ ],
+ "Viz.ai": [
+  "ashby",
+  "Viz.ai"
+ ],
+ "Weka.IO": [
+  "greenhouse",
+  "wekatest"
+ ],
+ "Wiliot": [
+  "comeet",
+  "wiliot/F6.003"
+ ],
+ "Yotpo": [
+  "greenhouse",
+  "yotpo"
+ ],
+ "Zencity": [
+  "comeet",
+  "zencity/56.00B"
+ ],
+ "mPrest": [
+  "comeet",
+  "mprest/38.005"
+ ],
+ "monday.com": [
+  "ashby",
+  "monday.com"
+ ]
+}
