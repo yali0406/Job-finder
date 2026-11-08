@@ -1,11 +1,11 @@
 {
- "run": "2026-11-07T21:17:16+00:00",
+ "run": "2026-11-08T04:17:18+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
   "greenhouse": 512,
   "workday": 433,
   "lever": 167,
-  "comeet": 1073,
+  "comeet": 1074,
   "workable": 13,
   "ashby": 161,
   "vc:jobs.tlv.partners": 162,
@@ -19,18 +19,17 @@
   "vc:jobs.nfx.com": 56,
   "vc:israelvcforum.getro.com": 600,
   "remote:remotive": 8,
-  "remote:remoteok": 59,
-  "remote:himalayas": 12,
+  "remote:remoteok": 60,
+  "remote:himalayas": 21,
   "remote:jobicy": 75,
-  "remote:weworkremotely": 68,
-  "linkedin": 224
+  "remote:weworkremotely": 68
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
   "greenhouse": 56,
   "workday": 18,
   "lever": 13,
-  "comeet": 213,
+  "comeet": 214,
   "workable": 2,
   "ashby": 38,
   "vc:jobs.tlv.partners": 14,
@@ -45,10 +44,9 @@
   "vc:israelvcforum.getro.com": 64,
   "remote:remotive": 1,
   "remote:remoteok": 8,
-  "remote:himalayas": 4,
+  "remote:himalayas": 1,
   "remote:jobicy": 4,
-  "remote:weworkremotely": 9,
-  "linkedin": 51
+  "remote:weworkremotely": 9
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -106,14 +104,9 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2175 collected, 403 open to Israel",
-  "WARNING LinkedIn search 'PMO' blocked or failed (none)",
-  "WARNING LinkedIn search 'Site Reliability Engineer' blocked or failed (none)",
-  "INFO LinkedIn: 146 jobs",
-  "WARNING LinkedIn search 'DevOps' blocked or failed (none)",
-  "INFO LinkedIn remote: 78 jobs",
-  "INFO Collected 4998 jobs in Israel",
-  "INFO 649 pass the title filter",
-  "INFO New: 19, total kept: 259"
+  "INFO Remote: 2175 collected, 413 open to Israel",
+  "INFO Collected 4785 jobs in Israel",
+  "INFO 596 pass the title filter",
+  "INFO New: 14, total kept: 260"
  ]
 }
