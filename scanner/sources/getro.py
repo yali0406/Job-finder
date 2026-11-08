@@ -69,6 +69,29 @@ def _to_job(j, board):
     )
 
 
+
+SEARCH_CAP = 600
+ROLE_QUERIES = ["analyst", "operations", "product", "project", "devops", "cloud", "business development",
+                "sales development", "customer success", "payments", "pmo", "junior"]
+
+
+def _search(board, cid, query):
+    raw = []
+    for page in range(MAX_PAGES):
+        resp = post(API.format(cid=cid), json={"hitsPerPage": 100, "page": page,
+                                               "filters": {"searchable_locations": ["Israel"]}, "query": query},
+                    headers={"Origin": board, "Referer": f"{board}/jobs", "Accept": "application/json"})
+        if not resp or resp.status_code != 200:
+            log.warning("Getro API %s page %d: %s %s", board, page,
+                        resp.status_code if resp else "no response", resp.text[:200] if resp else "")
+            break
+        hits = (resp.json().get("results") or {}).get("jobs") or resp.json().get("jobs") or []
+        if not hits:
+            break
+        raw.extend(hits)
+    return raw
+
+
 def fetch_board(board):
     r = get(f"{board}/jobs")
     if not r or r.status_code != 200:
@@ -86,18 +109,18 @@ def fetch_board(board):
 
     raw = []
     if cid:
-        for page in range(MAX_PAGES):
-            resp = post(API.format(cid=cid), json={"hitsPerPage": 100, "page": page,
-                                                   "filters": {"searchable_locations": ["Israel"]}, "query": ""},
-                        headers={"Origin": board, "Referer": f"{board}/jobs", "Accept": "application/json"})
-            if not resp or resp.status_code != 200:
-                log.warning("Getro API %s page %d: %s %s", board, page,
-                            resp.status_code if resp else "no response", resp.text[:200] if resp else "")
-                break
-            hits = (resp.json().get("results") or {}).get("jobs") or resp.json().get("jobs") or []
-            if not hits:
-                break
-            raw.extend(hits)
+        raw = _search(board, cid, "")
+        if len(raw) >= SEARCH_CAP:
+            # Big boards stop returning results at the search cap; ask again per role keyword so the
+            # jobs we care about past the cap are still found.
+            seen = {h.get("id") or h.get("slug") for h in raw}
+            for q in ROLE_QUERIES:
+                for h in _search(board, cid, q):
+                    k = h.get("id") or h.get("slug")
+                    if k not in seen:
+                        seen.add(k)
+                        raw.append(h)
+            log.info("Getro %s: hit the %d cap, %d jobs after keyword searches", board, SEARCH_CAP, len(raw))
     if not raw:
         # Fall back to the server-rendered page, filtered to Israel (first page of results only).
         import base64

@@ -10,24 +10,7 @@ vc_boards:
   - https://jobs.ibexinvestors.com
   - https://careers.viola-group.com  # verified
   - https://jobs.vertexventures.co.il
-  - https://jobs.jvp.vc
-  - https://jobs.83north.com
-  - https://jobs.target.vc
-  - https://jobs.lool.vc
-  - https://jobs.entree.capital
-  - https://jobs.mizmaa.com
-  - https://jobs.vintage-ip.com
-  - https://jobs.amiti.com
-  - https://jobs.blumberg.vc
-  - https://jobs.tlv.vc
-  - https://careers.ourcrowd.com
-  - https://jobs.magmavc.com
   - https://jobs.innovationendeavors.com
-  - https://jobs.battery.com
-  - https://jobs.gv.com
-  - https://jobs.lightspeedventurepartners.com
-  - https://jobs.indexventures.com
-  - https://jobs.redpoint.com
   - https://jobs.insightpartners.com
   - https://jobs.accel.com
   - https://careers.greenfield-growth.com
@@ -461,6 +444,59 @@ companies:
   - Seemplicity
   - Vulcan Cyber
   - Nucleus
+  # round 4 (2026-11-08): infra/AI chips, crypto, payments, IT services & cloud consultancies, data, security
+  - Pliops
+  - NeuReality
+  - Speedata
+  - Qedma
+  - StarkWare
+  - Chainalysis
+  - Blockaid
+  - Eco
+  - Coinmama
+  - Bits of Gold
+  - Colu
+  - Wochit
+  - Zeta Global Israel
+  - Paysafe Israel
+  - Finaro
+  - Shift4 Israel
+  - Cardcom
+  - Meshulam
+  - Grow Payments
+  - PayPlus
+  - iCount
+  - Morning
+  - Rivhit
+  - Hashavshevet
+  - Wizsoft
+  - Bynet
+  - Taldor
+  - We-Sec
+  - Elad Systems
+  - Aman Group
+  - John Bryce
+  - Commit
+  - Gini-Apps
+  - Moveo
+  - Opsfleet
+  - DoiT
+  - AllCloud
+  - Cloudride
+  - Terasky
+  - CloudZone
+  - Anodot
+  - Datarails
+  - Fintica
+  - Planck
+  - BlinkOps
+  - Oasis Security
+  - Token Security
+  - Astrix
+  - Lasso Security
+  - Pillar Security
+  - Mend
+  - Arnica
   # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
   - {name: Buildots, careers: "https://buildots.com/careers/"}
   - {name: Onyx Security, careers: "https://www.onyx.security/careers"}
