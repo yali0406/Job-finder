@@ -1,7 +1,14 @@
 name: test email
 
-# Sends the current top jobs by email once, to check the Gmail secrets.
-on: workflow_dispatch
+# Sends jobs by email once: the current top 3 (to check the Gmail secrets), or with `since`,
+# every job scoring 60+ first seen at or after that time.
+on:
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "ISO time, e.g. 2026-11-08T08:00 (empty = top 3)"
+        required: false
+        default: ""
 
 jobs:
   send:
@@ -16,11 +23,15 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+          SINCE: ${{ inputs.since }}
         run: |
           python - <<'PY'
-          import json, logging
+          import json, logging, os
           from scanner.notify import send_digest
           logging.basicConfig(level=logging.INFO)
-          jobs = sorted(json.load(open("docs/data/jobs.json"))["jobs"], key=lambda j: -(j.get("score") or 0))[:3]
+          jobs = sorted(json.load(open("docs/data/jobs.json"))["jobs"], key=lambda j: -(j.get("score") or 0))
+          since = os.environ.get("SINCE")
+          jobs = [j for j in jobs if j.get("first_seen", "") >= since and (j.get("score") or 0) >= 60] if since else jobs[:3]
+          print(len(jobs), "jobs")
           send_digest(jobs, "https://job-finder-d29.pages.dev")
           PY
