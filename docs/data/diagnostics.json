@@ -1,11 +1,11 @@
 {
- "run": "2026-11-09T13:17:19+00:00",
+ "run": "2026-11-09T14:17:18+00:00",
  "collected_by_source": {
-  "smartrecruiters": 108,
-  "greenhouse": 649,
+  "smartrecruiters": 109,
+  "greenhouse": 648,
   "workday": 435,
   "lever": 191,
-  "comeet": 1225,
+  "comeet": 1223,
   "workable": 24,
   "ashby": 180,
   "vc:jobs.tlv.partners": 163,
@@ -20,22 +20,22 @@
   "vc:jobs.nfx.com": 56,
   "vc:israelvcforum.getro.com": 1087,
   "remote:remotive": 8,
-  "remote:remoteok": 60,
-  "remote:himalayas": 10,
+  "remote:remoteok": 59,
+  "remote:himalayas": 13,
   "remote:jobicy": 54,
-  "remote:weworkremotely": 47
+  "remote:weworkremotely": 49
  },
  "relevant_by_source": {
-  "smartrecruiters": 17,
+  "smartrecruiters": 18,
   "greenhouse": 75,
   "workday": 18,
-  "lever": 15,
-  "comeet": 229,
+  "lever": 14,
+  "comeet": 228,
   "workable": 5,
   "ashby": 37,
   "vc:jobs.tlv.partners": 13,
   "vc:careers.grovevc.com": 16,
-  "vc:jobs.ibexinvestors.com": 6,
+  "vc:jobs.ibexinvestors.com": 7,
   "vc:careers.viola-group.com": 26,
   "vc:jobs.vertexventures.co.il": 16,
   "vc:jobs.innovationendeavors.com": 10,
@@ -46,7 +46,7 @@
   "vc:israelvcforum.getro.com": 94,
   "remote:remoteok": 8,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 7
+  "remote:weworkremotely": 8
  },
  "log": [
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
@@ -111,9 +111,9 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2178 collected, 361 open to Israel",
-  "INFO Collected 5649 jobs in Israel",
-  "INFO 664 pass the title filter",
-  "INFO New: 24, total kept: 254"
+  "INFO Remote: 2177 collected, 365 open to Israel",
+  "INFO Collected 5651 jobs in Israel",
+  "INFO 665 pass the title filter",
+  "INFO New: 24, total kept: 255"
  ]
 }
