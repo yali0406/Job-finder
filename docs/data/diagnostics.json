@@ -1,13 +1,13 @@
 {
- "run": "2026-11-09T08:17:19+00:00",
+ "run": "2026-11-09T09:17:16+00:00",
  "collected_by_source": {
-  "smartrecruiters": 106,
-  "greenhouse": 649,
-  "workday": 434,
-  "lever": 191,
-  "comeet": 1233,
+  "smartrecruiters": 107,
+  "greenhouse": 648,
+  "workday": 435,
+  "lever": 190,
+  "comeet": 1231,
   "workable": 22,
-  "ashby": 180,
+  "ashby": 181,
   "vc:jobs.tlv.partners": 162,
   "vc:careers.grovevc.com": 84,
   "vc:jobs.ibexinvestors.com": 42,
@@ -21,15 +21,16 @@
   "vc:israelvcforum.getro.com": 1111,
   "remote:remotive": 9,
   "remote:remoteok": 60,
-  "remote:himalayas": 11,
+  "remote:himalayas": 12,
   "remote:jobicy": 54,
-  "remote:weworkremotely": 50
+  "remote:weworkremotely": 47,
+  "linkedin": 384
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
   "greenhouse": 74,
   "workday": 18,
-  "lever": 16,
+  "lever": 15,
   "comeet": 230,
   "workable": 4,
   "ashby": 37,
@@ -47,7 +48,8 @@
   "remote:remotive": 1,
   "remote:remoteok": 8,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 7
+  "remote:weworkremotely": 7,
+  "linkedin": 80
  },
  "log": [
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -111,9 +113,13 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2182 collected, 367 open to Israel",
-  "INFO Collected 5693 jobs in Israel",
-  "INFO 668 pass the title filter",
-  "INFO New: 24, total kept: 250"
+  "INFO Remote: 2181 collected, 364 open to Israel",
+  "WARNING LinkedIn search 'Pixellot' blocked or failed (none)",
+  "INFO LinkedIn: 295 jobs",
+  "INFO LinkedIn remote: 89 jobs",
+  "INFO Collected 6074 jobs in Israel",
+  "INFO 747 pass the title filter",
+  "INFO No description for linkedin job: https://il.linkedin.com/jobs/view/devops-engineer-at-bdo-israel-4487678389",
+  "INFO New: 29, total kept: 250"
  ]
 }
