@@ -5,6 +5,8 @@ result is cached in docs/data/ats_cache.json so later runs only hit the right en
 """
 import json
 import re
+
+import requests
 from datetime import datetime, timezone, timedelta
 
 from ..common import Job, get, in_israel, log, post, strip_html
@@ -188,6 +190,24 @@ def _comeet(slug, company):
     return jobs
 
 
+def _comeet_site(slug, company):
+    """Companies that embed Comeet on their own careers page (e.g. Coralogix): slug is that page's URL;
+    each position is a link like /careers/co/<location>/<uid>/<title-slug>/all/."""
+    r = get(slug)
+    if not r or r.status_code != 200:
+        return None
+    jobs, seen = [], set()
+    for m in re.finditer(r'href="([^"]*/co/([\w-]+)/([0-9A-F]{2}\.[0-9A-F]{3}[\w.-]*)/([\w-]+)/all/?)"', r.text):
+        url, loc, uid, title = m.groups()
+        if uid in seen:
+            continue
+        seen.add(uid)
+        jobs.append(Job(title=title.replace("-", " ").title(), company=company,
+                        url=url if url.startswith("http") else requests.compat.urljoin(slug, url),
+                        location=loc.replace("-", " ").title(), source="comeet"))
+    return jobs
+
+
 FETCHERS = {
     "greenhouse": _greenhouse,
     "lever": _lever,
@@ -197,6 +217,7 @@ FETCHERS = {
     "comeet": _comeet,
     "lever_eu": _lever_eu,
     "workday": _workday,
+    "comeet_site": _comeet_site,
 }
 AUTODETECT_ORDER = ["greenhouse", "lever", "ashby", "workable", "smartrecruiters"]
 

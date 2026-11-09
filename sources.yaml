@@ -86,7 +86,7 @@ companies:
   - HP Israel
   - IBM Israel
   - Cisco Israel
-  - Palo Alto Networks
+  - {name: "Palo Alto Networks (incl. CyberArk)", ats: workday, slug: "paloaltonetworks|wd5|panwexternalcareers"}
   - Akamai Israel
   - Red Hat Israel
   - {name: "Mobileye", ats: lever_eu, slug: "mobileye"}
@@ -103,9 +103,9 @@ companies:
   - {name: "Cognyte", ats: comeet, slug: "cognyte/F2.009"}
   - {name: "Ceragon", ats: comeet, slug: "ceragon/D3.003"}
   - Radware
-  - Imperva
+  - {name: "Imperva (Thales Israel)", ats: workday, slug: "thales|wd3|Careers"}
   - Varonis
-  - SentinelOne
+  - {name: "SentinelOne", ats: greenhouse, slug: "sentinellabs"}
   - {name: "Wiz", ats: greenhouse, slug: "wizinc"}
   - Snyk
   - {name: "Orca Security", ats: greenhouse, slug: "orcasecurity"}
@@ -144,7 +144,7 @@ companies:
   - Zscaler Israel
   - {name: "Cloudinary", ats: lever, slug: "cloudinary"}
   - Redis
-  - Coralogix
+  - {name: "Coralogix", ats: comeet_site, slug: "https://coralogix.com/careers/"}
   - Komodor
   - {name: "Port", ats: comeet, slug: "port/59.004"}
   - env0
@@ -261,7 +261,7 @@ companies:
 
 # Israeli gaming companies: all roles shown, broader titles allowed (LiveOps, UA, monetization, game analyst...)
   # more Israeli tech companies (job board found automatically by name)
-  - Aidoc
+  - {name: "Aidoc", ats: greenhouse, slug: "aidocmedical"}
   - Atera
   - BigID
   - Bizzabo
@@ -694,6 +694,7 @@ companies:
   - "Healthy.io"
   - "Ibex Medical"
   - "Zebra Medical"
+  - {name: "Echo", ats: ashby, slug: "echo.ai"}
   # raised recently (list from 2026-10): the careers page tells the scanner which job board they use
   - {name: Buildots, careers: "https://buildots.com/careers/"}
   - {name: Onyx Security, careers: "https://www.onyx.security/careers"}
