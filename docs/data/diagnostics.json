@@ -1,9 +1,9 @@
 {
- "run": "2026-11-09T20:32:43+00:00",
+ "run": "2026-11-09T21:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
   "greenhouse": 686,
-  "workday": 570,
+  "workday": 571,
   "lever": 191,
   "comeet": 1236,
   "workable": 24,
@@ -18,12 +18,13 @@
   "vc:jobs.accel.com": 487,
   "vc:careers.greenfield-growth.com": 133,
   "vc:jobs.nfx.com": 56,
-  "vc:israelvcforum.getro.com": 1093,
+  "vc:israelvcforum.getro.com": 1092,
   "remote:remotive": 8,
   "remote:remoteok": 60,
-  "remote:himalayas": 36,
+  "remote:himalayas": 34,
   "remote:jobicy": 51,
-  "remote:weworkremotely": 51
+  "remote:weworkremotely": 51,
+  "linkedin": 424
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
@@ -35,7 +36,7 @@
   "ashby": 40,
   "vc:jobs.tlv.partners": 14,
   "vc:careers.grovevc.com": 16,
-  "vc:jobs.ibexinvestors.com": 6,
+  "vc:jobs.ibexinvestors.com": 7,
   "vc:careers.viola-group.com": 27,
   "vc:jobs.vertexventures.co.il": 16,
   "vc:jobs.innovationendeavors.com": 8,
@@ -45,9 +46,10 @@
   "vc:jobs.nfx.com": 3,
   "vc:israelvcforum.getro.com": 95,
   "remote:remoteok": 8,
-  "remote:himalayas": 5,
+  "remote:himalayas": 7,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 8
+  "remote:weworkremotely": 8,
+  "linkedin": 98
  },
  "log": [
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
@@ -102,19 +104,22 @@
   "INFO Getro https://jobs.nfx.com early-stage orgs: {'Zengaming': ('seed', 1)}",
   "INFO Getro https://jobs.nfx.com: 56 Israel jobs",
   "INFO Getro https://israelvcforum.getro.com: collection_id=10949 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://israelvcforum.getro.com: hit the 600 cap, 1093 jobs after keyword searches",
-  "INFO Getro https://israelvcforum.getro.com org stages: {'other': 183, 'acquisition': 171, 'series_unknown': 168, 'series_c': 148, 'series_b': 91, 'ipo': 85, 'series_f': 52, 'series_d': 39, 'series_e': 35, 'seed': 35, 'series_a': 30, 'pre_seed': 26}",
-  "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 387, '4': 386, '2': 202, '5': 105, '1': 11, '6': 2}",
+  "INFO Getro https://israelvcforum.getro.com: hit the 600 cap, 1092 jobs after keyword searches",
+  "INFO Getro https://israelvcforum.getro.com org stages: {'other': 183, 'acquisition': 170, 'series_unknown': 168, 'series_c': 148, 'series_b': 91, 'ipo': 85, 'series_f': 52, 'series_d': 39, 'series_e': 35, 'seed': 35, 'series_a': 30, 'pre_seed': 26}",
+  "INFO Getro https://israelvcforum.getro.com org head counts: {'3': 386, '4': 386, '2': 202, '5': 105, '1': 11, '6': 2}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Ledge': ('seed', 2), 'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Nagish': ('series_a', 2), 'Bites': ('seed', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'Alta': ('series_a', 2), 'WireX Cube': ('series_a', 2), 'Scala Biodesign': ('series_a', 2), 'Cypago': ('seed', 2), 'Zengaming': ('seed', 1), 'BioRaptor': ('seed', 1), 'Regatta': ('seed', 2), 'env0': ('series_a', 2), 'Kipp': ('seed', 2), 'Omnix Medical': ('pre_seed', 2), 'Creednz': ('seed', 1), 'ITsMine': ('seed', 2)}",
-  "INFO Getro https://israelvcforum.getro.com: 1093 Israel jobs",
+  "INFO Getro https://israelvcforum.getro.com: 1092 Israel jobs",
   "INFO Remote board remotive: 12 jobs",
   "INFO Remote board remoteok: 99 jobs",
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2181 collected, 388 open to Israel",
-  "INFO Collected 5894 jobs in Israel",
-  "INFO 677 pass the title filter",
-  "INFO New: 26, total kept: 262"
+  "INFO Remote: 2188 collected, 386 open to Israel",
+  "WARNING LinkedIn search 'Program Coordinator' blocked or failed (none)",
+  "INFO LinkedIn: 335 jobs",
+  "INFO LinkedIn remote: 89 jobs",
+  "INFO Collected 6316 jobs in Israel",
+  "INFO 778 pass the title filter",
+  "INFO New: 34, total kept: 261"
  ]
 }
