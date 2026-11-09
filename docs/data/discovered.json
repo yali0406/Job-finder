@@ -51,10 +51,6 @@
   "greenhouse",
   "axonius"
  ],
- "BeamUP": [
-  "greenhouse",
-  "beamup"
- ],
  "Beewise": [
   "comeet",
   "beewise/0B.001"
@@ -508,8 +504,8 @@
   "spacial"
  ],
  "StageOne Ventures": [
-  "workable",
-  "diagnostic-robotics"
+  "greenhouse",
+  "beamup"
  ],
  "Stampli": [
   "comeet",
