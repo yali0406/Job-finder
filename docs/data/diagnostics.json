@@ -1,9 +1,9 @@
 {
- "run": "2026-11-09T19:17:21+00:00",
+ "run": "2026-11-09T20:17:19+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
-  "greenhouse": 646,
-  "workday": 428,
+  "greenhouse": 642,
+  "workday": 438,
   "lever": 191,
   "comeet": 1223,
   "workable": 24,
@@ -35,7 +35,7 @@
   "ashby": 37,
   "vc:jobs.tlv.partners": 14,
   "vc:careers.grovevc.com": 16,
-  "vc:jobs.ibexinvestors.com": 6,
+  "vc:jobs.ibexinvestors.com": 7,
   "vc:careers.viola-group.com": 27,
   "vc:jobs.vertexventures.co.il": 16,
   "vc:jobs.innovationendeavors.com": 8,
@@ -50,7 +50,6 @@
   "remote:weworkremotely": 8
  },
  "log": [
-  "WARNING Marvell Israel: workday/marvell|wd1|MarvellCareers stopped responding",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.tlv.partners org stages: {'series_c': 57, 'series_e': 38, 'other': 23, 'series_b': 23, 'series_d': 14, 'series_a': 7, 'seed': 2, 'series_unknown': 2}",
@@ -113,9 +112,9 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2178 collected, 388 open to Israel",
-  "INFO Collected 5686 jobs in Israel",
-  "INFO 668 pass the title filter",
-  "INFO New: 29, total kept: 261"
+  "INFO Remote: 2180 collected, 388 open to Israel",
+  "INFO Collected 5692 jobs in Israel",
+  "INFO 669 pass the title filter",
+  "INFO New: 25, total kept: 261"
  ]
 }
