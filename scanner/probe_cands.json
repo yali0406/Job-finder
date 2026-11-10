@@ -1,0 +1,698 @@
+[
+{
+"name": "CyberArk",
+"section": "companies",
+"ats": "workday",
+"slug": "paloaltonetworks|wd5|panwexternalcareers"
+},
+{
+"name": "SAP Labs Israel",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://jobs.sap.com/en/?locale=en_US"
+},
+{
+"name": "Red Hat Israel",
+"section": "companies",
+"ats": "workday",
+"slug": "redhat|wd5|jobs"
+},
+{
+"name": "Magic Software",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.magicsoftware.com/careers/"
+},
+{
+"name": "monday.com",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://monday.com/careers"
+},
+{
+"name": "Hippo",
+"section": "companies",
+"ats": "greenhouse",
+"slug": "hippo70"
+},
+{
+"name": "Aqua Security",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.aquasec.com/careers/"
+},
+{
+"name": "Komodor",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://komodor.com/careers/"
+},
+{
+"name": "Zesty",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://zesty.co/careers/"
+},
+{
+"name": "Tipalti",
+"section": "companies",
+"ats": "greenhouse",
+"slug": "tipaltisolutions"
+},
+{
+"name": "Moovit",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://moovit.com/careers/"
+},
+{
+"name": "Explorium",
+"section": "companies",
+"ats": "comeet",
+"slug": "explorium/B4.00E"
+},
+{
+"name": "Tufin",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.tufin.com/careers"
+},
+{
+"name": "Perion",
+"section": "companies",
+"ats": "greenhouse",
+"slug": "perionnetworkltd"
+},
+{
+"name": "Mastercard Israel",
+"section": "companies",
+"ats": "workday",
+"slug": "mastercard|wd1|CorporateCareers"
+},
+{
+"name": "Lusha",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.lusha.com/careers/co/tel-aviv/27.475/pmm-team-lead/"
+},
+{
+"name": "Visa Israel",
+"section": "companies",
+"ats": "workday",
+"slug": "visa|wd5|Visa"
+},
+{
+"name": "Navan Israel",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://navan.com/careers"
+},
+{
+"name": "Tikal",
+"section": "companies",
+"ats": "comeet",
+"slug": "tikalk/68.00C"
+},
+{
+"name": "Bizzabo",
+"section": "companies",
+"ats": "comeet",
+"slug": "bizzabo/A5.000"
+},
+{
+"name": "Elementor",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://elementor.careers/explore/"
+},
+{
+"name": "Gloat",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://gloat.com/careers/"
+},
+{
+"name": "Legit Security",
+"section": "companies",
+"ats": "comeet",
+"slug": "legitsecurity.com/37.004"
+},
+{
+"name": "Innoviz",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://innoviz.tech/join-us"
+},
+{
+"name": "Mesh Payments",
+"section": "companies",
+"ats": "greenhouse",
+"slug": "mesh"
+},
+{
+"name": "Placer.ai",
+"section": "companies",
+"ats": "greenhouse",
+"slug": "placerlabs"
+},
+{
+"name": "Riverside",
+"section": "companies",
+"ats": "comeet",
+"slug": "riverside-fm/66.009"
+},
+{
+"name": "Earnix",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://earnix.com/our-story/careers/"
+},
+{
+"name": "Vayyar",
+"section": "companies",
+"ats": "workable",
+"slug": "vayyar"
+},
+{
+"name": "Tailor Brands",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.tailorbrands.com/careers"
+},
+{
+"name": "Dynamic Yield",
+"section": "companies",
+"ats": "workday",
+"slug": "mastercard|wd1|CorporateCareers"
+},
+{
+"name": "Sunbit",
+"section": "companies",
+"ats": "comeet",
+"slug": "sunbit/37.001"
+},
+{
+"name": "Arbe",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://arberobotics.com/career/"
+},
+{
+"name": "Valens",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.valens.com/positions/feed/"
+},
+{
+"name": "Nexite",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://nexite.io/careers/"
+},
+{
+"name": "Taranis",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.taranis.com/careers/"
+},
+{
+"name": "XM Cyber",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://xmcyber.com/job-listing-old/"
+},
+{
+"name": "Grip Security",
+"section": "companies",
+"ats": "comeet",
+"slug": "grip/A8.001"
+},
+{
+"name": "Personetics",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://personetics.com/careers/"
+},
+{
+"name": "Ox Security",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.ox.security/careers/"
+},
+{
+"name": "Coro",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.coro.net/careers"
+},
+{
+"name": "Playtika",
+"section": "gaming",
+"ats": "careers_page",
+"slug": "https://www.playtika.com/careers/"
+},
+{
+"name": "Trigo",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.trigoretail.com/career/#join-us"
+},
+{
+"name": "REE",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://ree.auto/careers/"
+},
+{
+"name": "Viz.ai",
+"section": "companies",
+"ats": "ashby",
+"slug": "Viz.ai"
+},
+{
+"name": "Insightec",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://insightec.com/careers/"
+},
+{
+"name": "AudioCodes",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.audiocodes.com/careers"
+},
+{
+"name": "Allot",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.allot.com/careers/"
+},
+{
+"name": "Priority Software",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.priority-software.com/careers/"
+},
+{
+"name": "Scytale",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://scytale.ai/scytale-careers/"
+},
+{
+"name": "Lili",
+"section": "companies",
+"ats": "comeet",
+"slug": "lili/A6.009"
+},
+{
+"name": "Ex.co",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://ex.co/careers/"
+},
+{
+"name": "365Scores",
+"section": "companies",
+"ats": "comeet",
+"slug": "SportsArena/B3.006"
+},
+{
+"name": "Pixellot",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.pixellot.tv/career/"
+},
+{
+"name": "Trax",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://traxretail.com/careers/"
+},
+{
+"name": "Digital Turbine",
+"section": "companies",
+"ats": "workday",
+"slug": "digitalturbine|wd501|Digital_Turbine_External_Careers"
+},
+{
+"name": "Anyclip",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://anyclip.com/careers/"
+},
+{
+"name": "SciPlay",
+"section": "companies",
+"ats": "workday",
+"slug": "lnw|wd5|SciPlayExternalCareersSite"
+},
+{
+"name": "K Health",
+"section": "companies",
+"ats": "greenhouse",
+"slug": "khealthcareers"
+},
+{
+"name": "Glassbox",
+"section": "companies",
+"ats": "greenhouse",
+"slug": "glassboxltd"
+},
+{
+"name": "Buyme",
+"section": "companies",
+"ats": "comeet",
+"slug": "buyme/B2.008"
+},
+{
+"name": "Playstudios",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://jobs.jobvite.com/playstudios-inc/jobs"
+},
+{
+"name": "Perion Network",
+"section": "companies",
+"ats": "greenhouse",
+"slug": "perionnetworkltd"
+},
+{
+"name": "Azrieli Group",
+"section": "companies",
+"ats": "bamboohr",
+"slug": "azrielifoundation"
+},
+{
+"name": "Logz.io",
+"section": "companies",
+"ats": "lever",
+"slug": "logz"
+},
+{
+"name": "Seemplicity",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://seemplicity.ai/careers"
+},
+{
+"name": "Cast AI",
+"section": "companies",
+"ats": "greenhouse",
+"slug": "castaigroupinc"
+},
+{
+"name": "Akeyless",
+"section": "companies",
+"ats": "comeet",
+"slug": "akeyless/27.006"
+},
+{
+"name": "Pliops",
+"section": "companies",
+"ats": "comeet",
+"slug": "pliops/05.004"
+},
+{
+"name": "NeuReality",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.neureality.ai/careers/"
+},
+{
+"name": "Qedma",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://qedma.wpenginepowered.com/careers/"
+},
+{
+"name": "Blockaid",
+"section": "companies",
+"ats": "comeet",
+"slug": "blockaid/69.00B"
+},
+{
+"name": "Chainalysis",
+"section": "companies",
+"ats": "ashby",
+"slug": "chainalysis-careers"
+},
+{
+"name": "AllCloud",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://allcloud.io/careers/"
+},
+{
+"name": "Aman Group",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.aman-global.com/careers/bi-big-data-dba/"
+},
+{
+"name": "Mend",
+"section": "companies",
+"ats": "ashby",
+"slug": "mend-io"
+},
+{
+"name": "Lasso Security",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.lasso.io/careers/"
+},
+{
+"name": "Cloudride",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.cloudride.co.il/careers/"
+},
+{
+"name": "Terasky",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.terasky.com/careers/"
+},
+{
+"name": "Hypernative",
+"section": "companies",
+"ats": "comeet",
+"slug": "hypernative/8A.00E"
+},
+{
+"name": "Atidot",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.atidot.com/careers-post/"
+},
+{
+"name": "Analyst IMS",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.analyst.co.il/join/"
+},
+{
+"name": "Glassix",
+"section": "companies",
+"ats": "recruitee",
+"slug": "glassix"
+},
+{
+"name": "LSEG Israel",
+"section": "companies",
+"ats": "workday",
+"slug": "lseg|wd3|Careers"
+},
+{
+"name": "Trustmi",
+"section": "companies",
+"ats": "workable",
+"slug": "trustmi"
+},
+{
+"name": "Lightico",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.lightico.com/careers/"
+},
+{
+"name": "Balance",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.getbalance.com/careers/"
+},
+{
+"name": "Bestow",
+"section": "companies",
+"ats": "ashby",
+"slug": "bestow"
+},
+{
+"name": "NeoGames",
+"section": "companies",
+"ats": "workday",
+"slug": "aristocrat|wd3|AristocratExternalCareersSite"
+},
+{
+"name": "Aristocrat Interactive",
+"section": "companies",
+"ats": "workday",
+"slug": "aristocrat|wd3|AristocratExternalCareersSite"
+},
+{
+"name": "Huuuge Games",
+"section": "companies",
+"ats": "recruitee",
+"slug": "huuuge"
+},
+{
+"name": "Product Madness",
+"section": "companies",
+"ats": "workday",
+"slug": "aristocrat|wd3|AristocratExternalCareersSite"
+},
+{
+"name": "Arbe Robotics",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://arberobotics.com/career/"
+},
+{
+"name": "Base44",
+"section": "companies",
+"ats": "smartrecruiters",
+"slug": "Wix2"
+},
+{
+"name": "Airobotics",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.airoboticsdrones.com/careers/"
+},
+{
+"name": "Qodo",
+"section": "companies",
+"ats": "comeet_site",
+"slug": "https://www.qodo.ai/careers/"
+},
+{
+"name": "7AI",
+"section": "companies",
+"ats": "ashby",
+"slug": "sevenai"
+},
+{
+"name": "Mentee Robotics",
+"section": "companies",
+"ats": "comeet",
+"slug": "mentee_robotics/6A.002"
+},
+{
+"name": "Healthy.io",
+"section": "companies",
+"ats": "comeet",
+"slug": "healthy/B4.004"
+},
+{
+"name": "Ibex Medical",
+"section": "companies",
+"ats": "recruitee",
+"slug": "ib1"
+},
+{
+"name": "REE Automotive",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://ree.auto/careers/"
+},
+{
+"name": "Gauzy",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://www.gauzy.com/careers/"
+},
+{
+"name": "Rail Vision",
+"section": "companies",
+"ats": "comeet_uid",
+"slug": "https://railvision.io/careers/"
+},
+{
+"name": "Senstar",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://senstar.com/careers/"
+},
+{
+"name": "Mobilicom",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://mobilicom.com/careers/feed/"
+},
+{
+"name": "Elspec",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.elspec-ltd.com/careers/"
+},
+{
+"name": "ParaZero",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://parazero.com/careers/"
+},
+{
+"name": "TAT Technologies",
+"section": "companies",
+"ats": "workable",
+"slug": "tat-technologies-ltd"
+},
+{
+"name": "Unitronics",
+"section": "companies",
+"ats": "careers_page",
+"slug": "https://www.unitronicsplc.com/careers/"
+},
+{
+"name": "Neo Security",
+"section": "companies",
+"ats": "greenhouse",
+"slug": "neosecurityinc"
+},
+{
+"name": "Glow Security",
+"section": "companies",
+"ats": "ashby",
+"slug": "glow"
+},
+{
+"name": "Playstudios Israel",
+"section": "gaming",
+"ats": "careers_page",
+"slug": "https://jobs.jobvite.com/playstudios-inc/jobs"
+},
+{
+"name": "Huuuge Israel",
+"section": "gaming",
+"ats": "recruitee",
+"slug": "huuuge"
+},
+{
+"name": "Product Madness Israel",
+"section": "gaming",
+"ats": "workday",
+"slug": "aristocrat|wd3|AristocratExternalCareersSite"
+},
+{
+"name": "TabTale",
+"section": "gaming",
+"ats": "comeet_uid",
+"slug": "https://www.crazylabs.com/careers/israel/"
+},
+{
+"name": "CodeMonkey",
+"section": "gaming",
+"ats": "careers_page",
+"slug": "https://www.codemonkey.com/jobs/"
+}
+]

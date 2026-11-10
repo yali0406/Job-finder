@@ -9,7 +9,7 @@ import re
 import requests
 from datetime import datetime, timezone, timedelta
 
-from ..common import Job, get, in_israel, log, post, strip_html
+from ..common import ISRAEL_HINTS as ISRAEL_IN_TEXT, Job, get, in_israel, log, post, strip_html
 
 
 def _greenhouse(slug, company):
@@ -208,6 +208,118 @@ def _comeet_site(slug, company):
     return jobs
 
 
+def _comeet_api(slug, company):
+    """Companies whose careers page embeds Comeet's widget: slug is '<uid>|<token>' taken from that page
+    (the widget's public careers API; the token is published in the page itself)."""
+    uid, _, token = slug.partition("|")
+    r = get(f"https://www.comeet.co/careers-api/2.0/company/{uid}/positions",
+            params={"token": token, "details": "true"})
+    if not r or r.status_code != 200:
+        return None
+    try:
+        rows = r.json()
+    except ValueError:
+        return None
+    jobs = []
+    for x in rows if isinstance(rows, list) else []:
+        loc = x.get("location") or {}
+        details = " ".join(strip_html(d.get("value") or "") for d in x.get("details") or [])
+        jobs.append(Job(title=x.get("name", ""), company=company,
+                        url=x.get("url_active_page") or x.get("url_comeet_hosted_page") or "",
+                        location=", ".join(v for v in [loc.get("city"), "Israel" if loc.get("country") == "IL" else loc.get("country")] if v) or loc.get("name") or "",
+                        description=details, posted=x.get("time_updated", ""), source="comeet"))
+    return jobs
+
+
+def _bamboohr(slug, company):
+    r = get(f"https://{slug}.bamboohr.com/careers/list", headers={"Accept": "application/json"})
+    if not r or r.status_code != 200:
+        return None
+    try:
+        rows = r.json().get("result", [])
+    except ValueError:
+        return None
+    jobs = []
+    for x in rows:
+        loc = x.get("location") or {}
+        jobs.append(Job(title=x.get("jobOpeningName", ""), company=company,
+                        url=f"https://{slug}.bamboohr.com/careers/{x.get('id')}",
+                        location=", ".join(v for v in [loc.get("city"), loc.get("state"), loc.get("country")] if v) or "Israel",
+                        source="bamboohr"))
+    return jobs
+
+
+def _breezy(slug, company):
+    r = get(f"https://{slug}.breezy.hr/json")
+    if not r or r.status_code != 200:
+        return None
+    try:
+        rows = r.json()
+    except ValueError:
+        return None
+    return [Job(title=x.get("name", ""), company=company, url=x.get("url", ""),
+                location=((x.get("location") or {}).get("name") or "Israel"), source="breezy")
+            for x in rows if isinstance(x, dict)]
+
+
+def _recruitee(slug, company):
+    r = get(f"https://{slug}.recruitee.com/api/offers/")
+    if not r or r.status_code != 200:
+        return None
+    try:
+        rows = r.json().get("offers", [])
+    except ValueError:
+        return None
+    return [Job(title=x.get("title", ""), company=company, url=x.get("careers_url", ""),
+                location=x.get("location") or x.get("country") or "Israel",
+                description=strip_html(x.get("description") or ""), source="recruitee")
+            for x in rows]
+
+
+# Links that lead to a single job posting, on a company's own careers page.
+_JOB_HREF = re.compile(r"job|career|position|opening|vacanc|apply|/role|/co/|comeet|greenhouse|lever\.co|ashbyhq|"
+                       r"workable|bamboohr|breezy|recruitee|teamtailor|hibob|jobvite|icims|personio|pinpoint|"
+                       r"rippling|smartrecruiters|myworkdayjobs|משר|דרוש", re.I)
+_JOB_TITLE = re.compile(r"\b(engineer|analyst|manager|developer|specialist|representative|designer|lead|director|"
+                        r"associate|coordinator|executive|scientist|architect|consultant|administrator|intern|"
+                        r"student|officer|devops|sre|accountant|controller|recruiter|writer|artist|producer|"
+                        r"researcher|technician|agent|partner|owner|head|vp|bdr|sdr|pmo)\b|"
+                        r"מפתח|מנהל|אנליסט|רכז|נציג|מהנדס|סטודנט|דרוש|ראש צוות|מתאם|יועץ", re.I)
+_NOT_JOB = re.compile(r"blog|news|read more|learn more|webinar|case stud|podcast|press|tour|pricing|contact|"
+                      r"talk to|book a|request|sign ?up|log ?in|privacy|terms|cookie|about us|our team|"
+                      r"meet the|all jobs|view all|open positions|see all|careers?$|join us", re.I)
+
+
+def _careers_page(slug, company):
+    """Generic reader for a company's own careers page that lists jobs as plain links
+    (no job-board system we know). slug is the careers page URL. Descriptions are read
+    from each job's page later, only for jobs that pass the title pre-filter."""
+    r = get(slug)
+    if not r or r.status_code != 200:
+        return None
+    jobs, seen = [], set()
+    for m in re.finditer(r'<a\b[^>]*href="([^"#]+)"[^>]*>([\s\S]{2,300}?)</a>', r.text, re.I):
+        href, inner = m.groups()
+        text = re.sub(r"\s+", " ", strip_html(inner)).strip()
+        parts = [re.sub(r"\s+", " ", p).strip() for p in re.split(r"<[^>]+>", inner)]
+        title = next((p for p in parts if _JOB_TITLE.search(p)), text)[:120]
+        if not (4 < len(title) < 100) or len(title.split()) < 2:
+            continue
+        if not _JOB_TITLE.search(title) or _NOT_JOB.search(title):
+            continue
+        url = requests.compat.urljoin(r.url, _unescape(href))
+        if url.rstrip("/") == r.url.rstrip("/") or not _JOB_HREF.search(url):
+            continue
+        if url in seen or re.search(r"linkedin\.|indeed\.|glassdoor\.|facebook\.", url):
+            continue
+        seen.add(url)
+        loc = ""
+        lm = ISRAEL_IN_TEXT.search(text)
+        jobs.append(Job(title=title, company=company, url=url,
+                        location=lm.group(0) if lm else "Israel", source="careers_page"))
+    return jobs
+
+
 FETCHERS = {
     "greenhouse": _greenhouse,
     "lever": _lever,
@@ -218,6 +330,11 @@ FETCHERS = {
     "lever_eu": _lever_eu,
     "workday": _workday,
     "comeet_site": _comeet_site,
+    "bamboohr": _bamboohr,
+    "breezy": _breezy,
+    "recruitee": _recruitee,
+    "careers_page": _careers_page,
+    "comeet_api": _comeet_api,
 }
 AUTODETECT_ORDER = ["greenhouse", "lever", "ashby", "workable", "smartrecruiters"]
 
