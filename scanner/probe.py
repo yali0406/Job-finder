@@ -41,19 +41,21 @@ JOBWORD = re.compile(r"\b(engineer|analyst|manager|developer|specialist|represen
                      r"operations|devops|sre|product|marketing|sales|support|success|accountant|controller|recruiter)\b|"
                      r"מפתח|מנהל|אנליסט|רכז|נציג|מהנדס|סטודנט|דרוש", re.I)
 
-def search(q):
+def domains(name):
+    q = re.sub(r"\s*\((.*?)\)|\b(israel|ltd|inc)\b", "", name, flags=re.I).strip()
     out = []
-    r = get("https://html.duckduckgo.com/html/", params={"q": q}, timeout=20, retries=1)
+    r = get("https://api.brandfetch.io/v2/search/" + urllib.parse.quote(q), timeout=10, retries=1)
     if r is not None and r.status_code == 200:
-        for m in re.finditer(r'class="result__a" href="([^"]+)"', r.text):
-            u = m.group(1)
-            mm = re.search(r"uddg=([^&]+)", u)
-            out.append(urllib.parse.unquote(mm.group(1)) if mm else u)
-    if not out:
-        r = get("https://www.bing.com/search", params={"q": q}, timeout=20, retries=1)
-        if r is not None and r.status_code == 200:
-            out = re.findall(r'<h2[^>]*><a[^>]+href="(https?://[^"]+)"', r.text)
-    return out[:8]
+        try: out += [x["domain"] for x in r.json()[:2] if x.get("domain")]
+        except Exception: pass
+    r = get("https://autocomplete.clearbit.com/v1/companies/suggest", params={"query": q}, timeout=10, retries=1)
+    if r is not None and r.status_code == 200:
+        try: out += [x["domain"] for x in r.json()[:2] if x.get("domain")]
+        except Exception: pass
+    seen = []
+    for d in out:
+        if d not in seen: seen.append(d)
+    return seen[:3]
 
 def analyze(html, base):
     hits = []
@@ -69,7 +71,7 @@ def analyze(html, base):
     return hits, sorted(jobs)[:40]
 
 def explore(url):
-    r = get(url, timeout=20, retries=1)
+    r = get(url, timeout=12, retries=0)
     if r is None or r.status_code != 200:
         return {"url": url, "status": r.status_code if r is not None else None}
     hits, jobs = analyze(r.text, r.url)
@@ -81,7 +83,7 @@ def explore(url):
             if re.search(r"career|jobs|positions|join|open-roles|openings|vacanc|דרושים|משרות|iframe", u, re.I) and u != r.url and u not in subs:
                 subs.append(u)
         for u in subs[:4]:
-            r2 = get(u, timeout=20, retries=0)
+            r2 = get(u, timeout=12, retries=0)
             if r2 is not None and r2.status_code == 200:
                 h2, j2 = analyze(r2.text, r2.url)
                 if h2 or len(j2) > len(res["joblinks"]):
@@ -91,30 +93,33 @@ def explore(url):
 
 miss = json.load(open("scanner/probe_miss.json"))
 results = {}
-# phase 1: searches (sequential, polite)
-for sec, name, careers in miss:
-    q = f"{name} careers jobs"
-    urls = search(q)
-    results[name] = {"section": sec, "given": careers, "search": urls}
-    time.sleep(1.2)
-print("searched", sum(1 for v in results.values() if v["search"]), "of", len(results), flush=True)
-
-def work(name):
-    v = results[name]
-    cands = ([v["given"]] if v["given"] else []) + [u for u in v["search"] if not BAD.search(u)][:3]
-    # ATS urls directly in search results
-    direct = [u for u in v["search"] if any(re.search(rx, u, re.I) for _, rx in ATS_RX)]
-    v["direct"] = direct
-    v["pages"] = [explore(u) for u in cands]
+def work(item):
+    sec, name, careers = item
+    v = {"section": sec, "given": careers}
+    ds = domains(name)
+    v["domains"] = ds
+    cands = ([careers] if careers else [])
+    for d in ds[:2]:
+        cands += [f"https://{d}/careers", f"https://www.{d}/"]
+    pages = []
+    for u in cands:
+        p = explore(u)
+        pages.append(p)
+        if p.get("ats") or len(p.get("joblinks", [])) >= 3:
+            break
+    v["pages"] = pages
+    results[name] = v
     return name
 
-with ThreadPoolExecutor(8) as ex:
-    for n in ex.map(work, list(results)):
-        pass
+with ThreadPoolExecutor(10) as ex:
+    for i, n in enumerate(ex.map(work, miss)):
+        if i % 50 == 0:
+            print("progress", i, flush=True)
+            json.dump(results, open("probe_out.json", "w"), ensure_ascii=False, indent=1)
 # comeet slug test
 for s in ("superplay/28.003", "anything/28.003"):
     r = get(f"https://www.comeet.com/jobs/{s}")
     print("COMEET", s, r.status_code if r is not None else None, "COMPANY_POSITIONS_DATA" in (r.text if r is not None else ""), flush=True)
 json.dump(results, open("probe_out.json", "w"), ensure_ascii=False, indent=1)
-found = [n for n, v in results.items() if v["direct"] or any(p.get("ats") for p in v["pages"]) or any(len(p.get("joblinks", [])) >= 3 for p in v["pages"])]
+found = [n for n, v in results.items() if any(p.get("ats") for p in v["pages"]) or any(len(p.get("joblinks", [])) >= 3 for p in v["pages"])]
 print("FOUND", len(found), flush=True)
