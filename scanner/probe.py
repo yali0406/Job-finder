@@ -93,6 +93,8 @@ def explore(url):
 
 miss = json.load(open("scanner/probe_miss.json"))
 results = {}
+import threading
+LOCK = threading.Lock()
 def work(item):
     sec, name, careers = item
     v = {"section": sec, "given": careers}
@@ -108,14 +110,14 @@ def work(item):
         if p.get("ats") or len(p.get("joblinks", [])) >= 3:
             break
     v["pages"] = pages
-    results[name] = v
+    with LOCK:
+        results[name] = v
     return name
 
 with ThreadPoolExecutor(10) as ex:
     for i, n in enumerate(ex.map(work, miss)):
         if i % 50 == 0:
             print("progress", i, flush=True)
-            json.dump(results, open("probe_out.json", "w"), ensure_ascii=False, indent=1)
 # comeet slug test
 for s in ("superplay/28.003", "anything/28.003"):
     r = get(f"https://www.comeet.com/jobs/{s}")
