@@ -12,7 +12,7 @@ import yaml
 from .common import log
 from .match import MAX_YEARS, Scorer, prefilter, required_years, STARTUP_OPEN_CATEGORY, STARTUP_OPEN_MIN_SCORE
 from .notify import send_digest
-from .sources import ats, getro, linkedin, remote
+from .sources import ats, getro, linkedin, remote, workable_search
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "docs" / "data"
@@ -49,6 +49,12 @@ def collect(cfg, with_linkedin: bool):
     cache = load_json(CACHE_FILE, {})
 
     jobs += ats.fetch_companies(cfg.get("companies", []), cache)
+    # Boards found by the weekly discovery run (scanner/discover.py) that have openings in Israel.
+    jobs += ats.fetch_companies(load_json(ROOT / "discovered_boards.json", []), cache)
+    try:
+        jobs += workable_search.fetch()
+    except Exception as e:  # a search hiccup shouldn't stop the scan
+        log.warning("Workable search failed: %s", e)
 
     broad = ats.fetch_companies(cfg.get("gaming", []), cache)
     for j in broad:
