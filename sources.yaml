@@ -41,6 +41,18 @@ linkedin_queries:
   - Operations Manager
   - Payment Operations
   - 365Scores
+  - Geckos Games
+  - FTX Games
+  - We Create Stuff
+  - Gavra Games
+  - TabTale
+  - Pazu Games
+  - Bengigi
+  - Kooply
+  - Keewano
+  - Duel gaming
+  - Tilting Point Tel Aviv
+  - Jelly Button Games
   - WSC Sports
   - Pixellot
   - Anyclip
@@ -817,6 +829,29 @@ gaming:
   - Optimove
   - Huuuge Israel
   - Product Madness Israel
+  # smaller Israeli studios (mostly hire via LinkedIn; also searched there by name)
+  - Geckos Games
+  - FTX Games
+  - We Create Stuff
+  - Gavra Games
+  - TabTale
+  - Pazu Games
+  - Bengigi
+  - Gliding Deer
+  - Kooply
+  - EyeClick
+  - Diversion
+  - Kinetix
+  - Sloyd
+  - Persona.ly
+  - Keewano
+  - Zengaming
+  - CodeMonkey
+  - Tilting Point Israel
+  - Duel
+  - Mojiworks
+  - Imagine Games
+  - GameBoost
 
 # Small / early-stage startups: any role that could be a way in (ops, support, CS, QA, implementation...)
 startups:
