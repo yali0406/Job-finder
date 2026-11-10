@@ -47,6 +47,10 @@
   "comeet",
   "askai/1A.00C"
  ],
+ "Augury": [
+  "greenhouse",
+  "augury"
+ ],
  "Axonius": [
   "greenhouse",
   "axonius"
@@ -90,10 +94,6 @@
  "Canopy": [
   "greenhouse",
   "canopycare"
- ],
- "Capitolis": [
-  "greenhouse",
-  "capitolis"
  ],
  "Cast AI": [
   "greenhouse",
@@ -450,10 +450,6 @@
  "SAM Seamless Network": [
   "comeet",
   "securingsam/D4.000"
- ],
- "Sauce": [
-  "lever",
-  "Sauce"
  ],
  "ScaleOps": [
   "greenhouse",
