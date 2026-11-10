@@ -12,13 +12,14 @@ ROLE_PATTERNS = {
     "Analyst": r"analyst|אנליסט|analytics|\bbi\b|business intelligence|data analyst|מנתח",
     "Project Manager": r"project manager|program manager|\bpmo\b|project management office|project (coordinator|administrator|specialist|analyst|controller)|program (coordinator|specialist|analyst)|portfolio (coordinator|analyst)|רכז[ת]? פרויקט|רכז[ת]? תוכני|delivery manager|implementation manager|מנהל[ת]? פרויקט",
     "Operations": r"payments?\b|settlement|reconciliation|chargeback|acquiring|merchant (ops|operations|support|onboarding)|operations|\bops\b|bizops|biz ops|revops|revenue ops|sales ops|תפעול|אופרציה",
-    "Business Development": r"business development|\bbdr\b|\bsdr\b|sales development|account development|lead generation|inside sales|partnerships? (associate|coordinator|specialist|representative)|פיתוח עסקי",
+    "Business Development": r"business development|\bbdr\b|account development|lead generation|inside sales|partnerships? (associate|coordinator|specialist|representative)|פיתוח עסקי",
     "Product Manager": r"product manager|product owner|\bapm\b|associate product|מנהל[ת]? מוצר",
 }
 EXCLUDE = re.compile(
     r"\b(senior|sr\.?|lead|leader|head|director|principal|staff|vp|chief|architect|manager of|group manager)\b|"
     r"\bnoc\b|\bsoc\b|security operations|network operations|cyber|security analyst|threat|\bmdr\b|monitoring analyst|"
-    r"intern\b|student|סטודנט|בכיר",
+    r"intern\b|student|סטודנט|בכיר|"
+    r"\bsdr\b|sales development",  # the candidate doesn't want SDR roles (BDR stays)
     re.I,
 )
 # At gaming companies and early-stage startups, roles outside the target titles are also
@@ -82,7 +83,7 @@ Candidate profile and CV summary:
 
 Scoring guide:
 Target role types: DevOps/Cloud/SRE, analyst roles of any domain (data, BI, business, marketing, product,
-financial, risk, fraud, payments, operations, etc.; the domain alone is never a reason to lower the score), Project Manager / PMO (incl. project coordinator / PMO analyst), Product Manager, Business Development (BDR/SDR, sales development, BD associate, partnerships associate), and Operations
+financial, risk, fraud, payments, operations, etc.; the domain alone is never a reason to lower the score), Project Manager / PMO (incl. project coordinator / PMO analyst), Product Manager, Business Development (BDR, BD associate, partnerships associate; NOT SDR / sales development representative, which the candidate doesn't want: score those 0-15), and Operations
 (business/revenue/sales/payment/customer operations, ops analyst/specialist/manager). Payments operations
 (payments ops analyst/specialist, settlements, reconciliation, chargebacks, merchant onboarding) is an especially
 strong match for this candidate's background.
@@ -96,7 +97,7 @@ get hired with their background (ops, payments, incident handling, CRM, SQL/Pyth
 not on whether the title is a target.
 At an early-stage startup ("Foot in the door: yes (early-stage startup)") any role is in scope, and the
 candidate especially wants generalist roles there: operations / bizops, customer success or support,
-onboarding / implementation, sales or business development (SDR/BDR), people / office / HR ops, chief of
+onboarding / implementation, business development (BDR; not SDR), people / office / HR ops, chief of
 staff, QA, data or content operations, community, marketing ops. For such roles score 45-75 when the posting
 doesn't demand a specialist background the CV lacks; small startups hire generalists on attitude and
 transferable skills (ops, payments, incident handling, CRM, SQL/Python). Only roles that need a specialist
