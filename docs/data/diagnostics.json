@@ -1,14 +1,14 @@
 {
- "run": "2026-11-10T14:55:20+00:00",
+ "run": "2026-11-10T15:17:17+00:00",
  "collected_by_source": {
   "smartrecruiters": 154,
   "workday": 711,
-  "greenhouse": 761,
+  "greenhouse": 762,
   "careers_page": 82,
-  "lever": 194,
+  "lever": 191,
   "comeet": 1381,
   "workable": 28,
-  "ashby": 236,
+  "ashby": 235,
   "recruitee": 3,
   "vc:jobs.tlv.partners": 166,
   "vc:careers.grovevc.com": 82,
@@ -25,14 +25,15 @@
   "remote:remoteok": 61,
   "remote:himalayas": 31,
   "remote:jobicy": 62,
-  "remote:weworkremotely": 51
+  "remote:weworkremotely": 51,
+  "linkedin": 456
  },
  "relevant_by_source": {
   "smartrecruiters": 30,
   "workday": 29,
   "greenhouse": 78,
-  "lever": 17,
-  "comeet": 250,
+  "lever": 15,
+  "comeet": 249,
   "workable": 6,
   "ashby": 43,
   "careers_page": 9,
@@ -46,12 +47,13 @@
   "vc:jobs.accel.com": 20,
   "vc:careers.greenfield-growth.com": 7,
   "vc:jobs.nfx.com": 3,
-  "vc:israelvcforum.getro.com": 90,
+  "vc:israelvcforum.getro.com": 91,
   "remote:remotive": 1,
   "remote:remoteok": 9,
   "remote:himalayas": 5,
   "remote:jobicy": 5,
-  "remote:weworkremotely": 8
+  "remote:weworkremotely": 8,
+  "linkedin": 99
  },
  "log": [
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
@@ -116,11 +118,11 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2639 collected, 477 open to Israel",
-  "INFO Collected 6397 jobs in Israel",
-  "INFO 737 pass the title filter",
-  "INFO No description for careers_page job: https://www.codemonkey.com/jobs/sales/",
-  "INFO No description for careers_page job: https://www.codemonkey.com/jobs/customer-success-support/",
-  "INFO New: 18, total kept: 291"
+  "INFO Remote: 2637 collected, 476 open to Israel",
+  "INFO LinkedIn: 367 jobs",
+  "INFO LinkedIn remote: 89 jobs",
+  "INFO Collected 6850 jobs in Israel",
+  "INFO 834 pass the title filter",
+  "INFO New: 7, total kept: 292"
  ]
 }
