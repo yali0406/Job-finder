@@ -178,6 +178,12 @@
   "checked": "2026-11-08T17:17:18.330736+00:00",
   "slug": null
  },
+ "Angel One": {
+  "ats": null,
+  "careers": "https://www.angelone.in/careers",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
  "Anodot": {
   "ats": null,
   "careers": null,
@@ -260,6 +266,12 @@
   "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
+ "Arkency": {
+  "ats": null,
+  "careers": "https://arkency.com/join-our-team/",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
  "Arkia": {
   "ats": null,
   "careers": null,
@@ -299,6 +311,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Atlassian": {
+  "ats": null,
+  "careers": "https://www.atlassian.com/company/careers/all-jobs",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
   "slug": null
  },
  "AudioCodes": {
@@ -392,6 +410,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-10T09:02:31.172825+00:00",
+  "slug": null
+ },
+ "Beekeeper": {
+  "ats": null,
+  "careers": "https://www.beekeeper.io/careers/",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
   "slug": null
  },
  "Behalf": {
@@ -624,6 +648,18 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-08T17:17:18.330736+00:00",
+  "slug": null
+ },
+ "Cengage Group": {
+  "ats": null,
+  "careers": "https://www.cengagegroup.com/careers/",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
+ "Census": {
+  "ats": null,
+  "careers": "https://www.getcensus.com/careers",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
   "slug": null
  },
  "Ceragon": {
@@ -859,6 +895,12 @@
   "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": "daylight"
  },
+ "DealHub": {
+  "ats": null,
+  "careers": "https://dealhub.io/careers/",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
  "Decart": {
   "ats": null,
   "careers": null,
@@ -949,6 +991,12 @@
   "checked": "2026-10-25T18:58:58.588675+00:00",
   "slug": "docker"
  },
+ "DocuSign": {
+  "ats": null,
+  "careers": "https://careers.docusign.com/",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
  "DoiT": {
   "ats": null,
   "careers": null,
@@ -957,8 +1005,8 @@
  },
  "Doist": {
   "ats": null,
-  "careers": null,
-  "checked": "2026-11-08T19:20:46.598674+00:00",
+  "careers": "https://doist.com/careers/",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
   "slug": null
  },
  "Dreamplay": {
@@ -1354,6 +1402,12 @@
   "checked": "2026-11-08T17:17:18.330736+00:00",
   "slug": null
  },
+ "Goinstacare": {
+  "ats": null,
+  "careers": "https://goinstacare.com",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
  "Gong": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
@@ -1481,6 +1535,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-08T17:17:18.330736+00:00",
+  "slug": null
+ },
+ "Hims & Hers": {
+  "ats": null,
+  "careers": "https://www.hims.com/careers",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
   "slug": null
  },
  "Hippo": {
@@ -1644,6 +1704,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Intrado": {
+  "ats": null,
+  "careers": "https://www.intrado.com/careers",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
  "Intuit Israel": {
   "ats": null,
   "careers": null,
@@ -1720,6 +1786,12 @@
   "checked": "2026-11-09T12:17:19.077044+00:00",
   "slug": null
  },
+ "Jenius Bank": {
+  "ats": null,
+  "careers": "https://www.jeniusbank.com/careers",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
  "Jit": {
   "ats": null,
   "careers": null,
@@ -1783,6 +1855,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-10T12:41:33.929060+00:00",
+  "slug": null
+ },
+ "Kemecon": {
+  "ats": null,
+  "careers": "http://kemecon.com",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
   "slug": null
  },
  "Kidoz": {
@@ -2020,6 +2098,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
+  "slug": null
+ },
+ "McGraw Hill": {
+  "ats": null,
+  "careers": "https://careers.mheducation.com/",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
   "slug": null
  },
  "Medal.tv": {
@@ -2818,6 +2902,12 @@
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": null
  },
+ "Quest Software": {
+  "ats": null,
+  "careers": "https://careers.quest.com/",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
  "REE": {
   "ats": null,
   "careers": null,
@@ -2869,6 +2959,12 @@
  "Rapyd": {
   "ats": null,
   "checked": "2026-10-23T01:07:16.169709+00:00",
+  "slug": null
+ },
+ "Rec Room": {
+  "ats": null,
+  "careers": "https://recroom.com/careers",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
   "slug": null
  },
  "Red Hat Israel": {
@@ -3071,6 +3167,12 @@
   "checked": "2026-11-08T13:21:51.572615+00:00",
   "slug": null
  },
+ "Shopify": {
+  "ats": null,
+  "careers": "https://www.shopify.com/careers",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
  "Shufersal": {
   "ats": null,
   "careers": null,
@@ -3143,6 +3245,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Sorcero": {
+  "ats": null,
+  "careers": "https://www.sorcero.com/careers",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
   "slug": null
  },
  "Sourcegraph": {
@@ -3298,6 +3406,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-08T17:17:18.330736+00:00",
+  "slug": null
+ },
+ "Symetra": {
+  "ats": null,
+  "careers": "https://www.symetra.com/about-us/careers",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
   "slug": null
  },
  "Synopsys": {
@@ -3573,6 +3687,12 @@
   "checked": "2026-11-08T15:12:48.960886+00:00",
   "slug": null
  },
+ "Uplers": {
+  "ats": null,
+  "careers": "https://www.uplers.com/careers/",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
+ },
  "Valens": {
   "ats": null,
   "careers": null,
@@ -3778,6 +3898,12 @@
   "careers": null,
   "checked": "2026-10-25T16:43:51.422374+00:00",
   "slug": "wolt"
+ },
+ "Workiva": {
+  "ats": null,
+  "careers": "https://www.workiva.com/careers",
+  "checked": "2026-11-10T17:19:56.467247+00:00",
+  "slug": null
  },
  "XLMedia": {
   "ats": null,
