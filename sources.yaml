@@ -40,7 +40,7 @@ linkedin_queries:
   - Operations Manager
   - Payment Operations
   - 365Scores
-  - Geckos Games
+  - {name: "Geckos Games", ats: linkedin_links, slug: "https://www.geckos-games.com/"}
   - FTX Games
   - We Create Stuff
   - Gavra Games
@@ -828,7 +828,7 @@ gaming:
   - {name: "Huuuge Israel", ats: recruitee, slug: "huuuge"}
   - {name: "Product Madness Israel", ats: workday, slug: "aristocrat|wd3|AristocratExternalCareersSite"}
   # smaller Israeli studios (mostly hire via LinkedIn; also searched there by name)
-  - Geckos Games
+  - {name: "Geckos Games", ats: linkedin_links, slug: "https://www.geckos-games.com/"}
   - FTX Games
   - We Create Stuff
   - Gavra Games

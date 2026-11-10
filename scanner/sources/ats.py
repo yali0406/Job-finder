@@ -320,6 +320,32 @@ def _careers_page(slug, company):
     return jobs
 
 
+def _linkedin_links(slug, company):
+    """Careers pages that just link each opening to its LinkedIn post (e.g. Geckos Games): slug is the page URL.
+    Each post is read through LinkedIn's public job page."""
+    from bs4 import BeautifulSoup
+    r = get(slug)
+    if not r or r.status_code != 200:
+        return None
+    jobs = []
+    for li_id in dict.fromkeys(re.findall(r"linkedin\.com/jobs/view/(?:[\w-]*-)?(\d{8,})", r.text)):
+        d = get(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{li_id}")
+        if not d or d.status_code != 200:
+            continue
+        soup = BeautifulSoup(d.text, "html.parser")
+        title = soup.select_one(".top-card-layout__title, h2")
+        if not title:
+            continue
+        loc = soup.select_one(".topcard__flavor--bullet")
+        body = soup.select_one(".show-more-less-html__markup")
+        jobs.append(Job(title=title.get_text(strip=True), company=company,
+                        url=f"https://www.linkedin.com/jobs/view/{li_id}/",
+                        location=loc.get_text(strip=True) if loc else "Israel",
+                        description=strip_html(str(body))[:6000] if body else "",
+                        source="careers_page", extra={"li_id": li_id}))
+    return jobs
+
+
 FETCHERS = {
     "greenhouse": _greenhouse,
     "lever": _lever,
@@ -335,6 +361,7 @@ FETCHERS = {
     "recruitee": _recruitee,
     "careers_page": _careers_page,
     "comeet_api": _comeet_api,
+    "linkedin_links": _linkedin_links,
 }
 AUTODETECT_ORDER = ["greenhouse", "lever", "ashby", "workable", "smartrecruiters"]
 
