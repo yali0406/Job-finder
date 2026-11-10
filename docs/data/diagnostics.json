@@ -1,11 +1,11 @@
 {
- "run": "2026-11-10T05:17:18+00:00",
+ "run": "2026-11-10T06:17:19+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
-  "greenhouse": 683,
-  "workday": 824,
+  "greenhouse": 684,
+  "workday": 823,
   "lever": 191,
-  "comeet": 1236,
+  "comeet": 1235,
   "workable": 24,
   "ashby": 196,
   "vc:jobs.tlv.partners": 166,
@@ -21,9 +21,10 @@
   "vc:israelvcforum.getro.com": 1094,
   "remote:remotive": 8,
   "remote:remoteok": 59,
-  "remote:himalayas": 31,
-  "remote:jobicy": 58,
-  "remote:weworkremotely": 51
+  "remote:himalayas": 35,
+  "remote:jobicy": 64,
+  "remote:weworkremotely": 51,
+  "linkedin": 428
  },
  "relevant_by_source": {
   "smartrecruiters": 18,
@@ -47,7 +48,8 @@
   "remote:remoteok": 8,
   "remote:himalayas": 7,
   "remote:jobicy": 4,
-  "remote:weworkremotely": 8
+  "remote:weworkremotely": 8,
+  "linkedin": 96
  },
  "log": [
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
@@ -112,9 +114,15 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2192 collected, 391 open to Israel",
-  "INFO Collected 6149 jobs in Israel",
-  "INFO 681 pass the title filter",
-  "INFO New: 25, total kept: 262"
+  "INFO Remote: 2192 collected, 401 open to Israel",
+  "WARNING LinkedIn search 'Payments Operations Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search 'Business Development Representative' blocked or failed (none)",
+  "WARNING LinkedIn search 'Operations Specialist' blocked or failed (none)",
+  "WARNING LinkedIn search 'Product Analyst' blocked or failed (none)",
+  "INFO LinkedIn: 339 jobs",
+  "INFO LinkedIn remote: 89 jobs",
+  "INFO Collected 6586 jobs in Israel",
+  "INFO 777 pass the title filter",
+  "INFO New: 37, total kept: 264"
  ]
 }
