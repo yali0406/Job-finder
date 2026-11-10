@@ -171,6 +171,7 @@ def main():
     log.info("%d pass the title filter", len(relevant))
 
     rejected = load_json(REJECTED_FILE, {})
+    direct_companies = {j.company.lower() for j in found if not j.source.startswith("vc:") and j.source != "linkedin"}
     scorer = Scorer(profile)
     new_count = scored = 0
     new_jobs = []
@@ -196,6 +197,8 @@ def main():
             continue
         if j.id in rejected:
             continue
+        if (j.source.startswith("vc:") or j.source == "linkedin") and j.company.lower() in direct_companies:
+            continue  # the company's own board has it (or it's closed); see below
         if scored >= MAX_SCORE_PER_RUN:
             continue  # picked up next run
         if j.source == "linkedin" and not j.description:
@@ -235,6 +238,12 @@ def main():
     jobs = [j for j in jobs if not ((j.get("source", "").startswith("vc:") or j.get("source") == "linkedin")
                                     and (j.get("company") or "").lower() in direct)]
     jobs = _dedupe(jobs)
+    # Remember the copies dropped above as seen, so the next run doesn't score them again as "new".
+    kept = {j["id"] for j in jobs}
+    for d in existing.values():
+        if d["id"] not in kept and d.get("first_seen") == now_s:
+            rejected[d["id"]] = {"title": d.get("title"), "company": d.get("company"),
+                                 "reason": "duplicate of another listing", "at": now_s}
     for j in jobs:
         j.pop("description", None)  # keep the published file small
     jobs.sort(key=lambda j: (j.get("first_seen", ""), j.get("score") or 0), reverse=True)
