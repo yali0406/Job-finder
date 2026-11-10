@@ -288,8 +288,16 @@ def detect(name: str, careers: str | None = None):
     return None, None, []
 
 
+# Looking up an unknown company's job board tries many URLs and can take ~30s, so cap how many
+# lookups one run does; the rest wait for the next run (otherwise a big batch of new companies
+# pushes the run past its time limit before anything is saved).
+MAX_DETECT_PER_RUN = 25
+_detected_this_run = 0
+
+
 def fetch_companies(companies, cache: dict, israel_only=True):
     """companies: list of str or {name, ats, slug} or {name, careers}. cache: mutated in place."""
+    global _detected_this_run
     now = datetime.now(timezone.utc)
     all_jobs = []
     for entry in companies:
@@ -313,6 +321,9 @@ def fetch_companies(companies, cache: dict, israel_only=True):
             new_page = entry.get("careers") and cached.get("careers") != entry.get("careers")
             if last and not new_page and now - datetime.fromisoformat(last) < timedelta(days=7):
                 continue
+            if _detected_this_run >= MAX_DETECT_PER_RUN:
+                continue
+            _detected_this_run += 1
             ats, slug, jobs = detect(name, entry.get("careers"))
             cache[name] = {"ats": ats, "slug": slug, "checked": now.isoformat(), "careers": entry.get("careers")}
             if ats:
