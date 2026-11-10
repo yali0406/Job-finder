@@ -287,7 +287,7 @@ _JOB_TITLE = re.compile(r"\b(engineer|analyst|manager|developer|specialist|repre
                         r"מפתח|מנהל|אנליסט|רכז|נציג|מהנדס|סטודנט|דרוש|ראש צוות|מתאם|יועץ", re.I)
 _NOT_JOB = re.compile(r"blog|news|read more|learn more|webinar|case stud|podcast|press|tour|pricing|contact|"
                       r"talk to|book a|request|sign ?up|log ?in|privacy|terms|cookie|about us|our team|"
-                      r"meet the|all jobs|view all|open positions|see all|careers?$|join us", re.I)
+                      r"meet the|all jobs|view all|open positions|see all|careers?$|join us|explore|report|leadership$", re.I)
 
 
 def _careers_page(slug, company):
@@ -302,7 +302,7 @@ def _careers_page(slug, company):
         href, inner = m.groups()
         text = re.sub(r"\s+", " ", strip_html(inner)).strip()
         parts = [re.sub(r"\s+", " ", p).strip() for p in re.split(r"<[^>]+>", inner)]
-        title = next((p for p in parts if _JOB_TITLE.search(p)), text)[:120]
+        title = _unescape(next((p for p in parts if _JOB_TITLE.search(p)), text))[:120]
         if not (4 < len(title) < 100) or len(title.split()) < 2:
             continue
         if not _JOB_TITLE.search(title) or _NOT_JOB.search(title):

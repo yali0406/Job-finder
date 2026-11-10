@@ -45,7 +45,7 @@ linkedin_queries:
   - FTX Games
   - We Create Stuff
   - Gavra Games
-  - TabTale
+  - {name: "TabTale", ats: comeet_api, slug: "32.00E|23E8F811F0B360FB20142E8F8142E"}
   - Pazu Games
   - Bengigi
   - Kooply
@@ -54,9 +54,9 @@ linkedin_queries:
   - Tilting Point Tel Aviv
   - Jelly Button Games
   - WSC Sports
-  - Pixellot
+  - {name: "Pixellot", ats: comeet_api, slug: "BA.00B|ABB4B1D4062203155D855D8203155D815762031"}
   - Anyclip
-  - Glassbox
+  - {name: "Glassbox", ats: greenhouse, slug: "glassboxltd"}
   - Trax Retail
   - DevOps Engineer
   - Junior DevOps
@@ -81,7 +81,7 @@ companies:
   - {name: "Wix", ats: smartrecruiters, slug: "Wix2"}
   - monday.com
   - {name: "Check Point", ats: smartrecruiters, slug: "CheckPointSoftwareTechnologies2"}
-  - CyberArk
+  - {name: "CyberArk", ats: workday, slug: "paloaltonetworks|wd5|panwexternalcareers"}
   - NICE
   - Amdocs
   - Microsoft Israel
@@ -93,14 +93,14 @@ companies:
   - {name: "Intel Israel", ats: workday, slug: "intel|wd1|External"}
   - {name: "Salesforce Israel", ats: workday, slug: "salesforce|wd12|External_Career_Site"}
   - Oracle Israel
-  - SAP Labs Israel
+  - {name: "SAP Labs Israel", ats: careers_page, slug: "https://jobs.sap.com/en/?locale=en_US"}
   - Dell Israel
   - HP Israel
   - IBM Israel
   - Cisco Israel
   - {name: "Palo Alto Networks (incl. CyberArk)", ats: workday, slug: "paloaltonetworks|wd5|panwexternalcareers"}
   - Akamai Israel
-  - Red Hat Israel
+  - {name: "Red Hat Israel", ats: workday, slug: "redhat|wd5|jobs"}
   - {name: "Mobileye", ats: lever_eu, slug: "mobileye"}
   - Elbit Systems
   - Rafael
@@ -110,7 +110,7 @@ companies:
   - Malam Team
   - Formula Systems
   - Sapiens
-  - Magic Software
+  - {name: "Magic Software", ats: comeet_api, slug: "19.00F|91F36BA52172D9B0247C247C5217247C2D9B"}
   - Verint
   - {name: "Cognyte", ats: comeet, slug: "cognyte/F2.009"}
   - {name: "Ceragon", ats: comeet, slug: "ceragon/D3.003"}
@@ -125,13 +125,13 @@ companies:
   - {name: "Armis", ats: smartrecruiters, slug: "armis"}
   - Axonius
   - Island
-  - Aqua Security
+  - {name: "Aqua Security", ats: comeet_api, slug: "91.001|191644966966644E194B3191644644"}
   - JFrog
   - Taboola
   - Outbrain
   - {name: "Fiverr", ats: comeet, slug: "fiverr/60.002"}
   - {name: "Lemonade", ats: ashby, slug: "lemonade"}
-  - Hippo
+  - {name: "Hippo", ats: greenhouse, slug: "hippo70"}
   - Next Insurance
   - {name: "Gong", ats: greenhouse, slug: "gongio"}
   - Yotpo
@@ -142,7 +142,7 @@ companies:
   - Payoneer
   - Nuvei
   - {name: "Rapyd", ats: comeet, slug: "rapyd/73.00E"}
-  - Tipalti
+  - {name: "Tipalti", ats: greenhouse, slug: "tipaltisolutions"}
   - Melio
   - {name: "Papaya Global", ats: comeet, slug: "papayaglobal/16.005"}
   - Pagaya
@@ -161,13 +161,13 @@ companies:
   - {name: "Port", ats: comeet, slug: "port/59.004"}
   - env0
   - Spot by NetApp
-  - Zesty
+  - {name: "Zesty", ats: comeet_api, slug: "06.000|600240001E00030003000300024001E00"}
   - Firefly
   - Kubiya
   - Lightrun
   - Augury
   - Via
-  - Moovit
+  - {name: "Moovit", ats: comeet_api, slug: "63.007|36711036CE11031E9F146A1B38367A356CE"}
   - Waze
   - Innovid
   - Perion
@@ -176,12 +176,12 @@ companies:
   - {name: "WalkMe", ats: lever, slug: "walkme"}
   - {name: "Sisense", ats: ashby, slug: "sisense"}
   - Pecan
-  - Explorium
+  - {name: "Explorium", ats: comeet, slug: "explorium/B4.00E"}
   - {name: "Next Silicon", ats: comeet, slug: "nextsilicon/18.007"}
   - Run:ai
   - {name: "AI21 Labs", ats: comeet, slug: "ai21/E6.001"}
   - Hailo
-  - Lusha
+  - {name: "Lusha", ats: comeet_api, slug: "73.00B|37B11676F61F53DEC6F606F61BD8185D"}
   - {name: "Guesty", ats: comeet, slug: "guesty/10.000"}
   - Bringg
   - Walnut
@@ -222,7 +222,7 @@ companies:
   - KPMG Israel
   - Accenture Israel
   - Develeap
-  - Tikal
+  - {name: "Tikal", ats: comeet, slug: "tikalk/68.00C"}
   - Sela
 
   # Added from known Comeet / ATS boards (Israel)
@@ -276,39 +276,39 @@ companies:
   - {name: "Aidoc", ats: greenhouse, slug: "aidocmedical"}
   - Atera
   - BigID
-  - Bizzabo
+  - {name: "Bizzabo", ats: comeet, slug: "bizzabo/A5.000"}
   - Cellebrite
   - Classiq
   - Cybereason
   - Cycode
   - Descope
-  - Earnix
-  - Elementor
+  - {name: "Earnix", ats: careers_page, slug: "https://earnix.com/our-story/careers/"}
+  - {name: "Elementor", ats: comeet_api, slug: "A3.00F|3AF126BB0D161A3AF161A00B0D126B"}
   - Fireblocks
   - Fundbox
-  - Gloat
+  - {name: "Gloat", ats: comeet_api, slug: "E5.000|5E02340002F0017800234011A01780"}
   - HoneyBook
   - Hunters
-  - Innoviz
-  - Legit Security
-  - Mesh Payments
+  - {name: "Innoviz", ats: comeet_api, slug: "52.004|25495012A0104C012A0104C6FCBA40"}
+  - {name: "Legit Security", ats: comeet, slug: "legitsecurity.com/37.004"}
+  - {name: "Mesh Payments", ats: greenhouse, slug: "mesh"}
   - Noma Security
   - Obligo
   - OpenWeb
-  - Placer.ai
-  - Riverside
+  - {name: "Placer.ai", ats: greenhouse, slug: "placerlabs"}
+  - {name: "Riverside", ats: comeet, slug: "riverside-fm/66.009"}
   - Sentra
-  - Sunbit
+  - {name: "Sunbit", ats: comeet, slug: "sunbit/37.001"}
   - Sygnia
-  - Tailor Brands
+  - {name: "Tailor Brands", ats: comeet_api, slug: "94.009|49916FD16FD24C89320DCB296116FD2961"}
   - Unit
-  - Vayyar
+  - {name: "Vayyar", ats: workable, slug: "vayyar"}
   - Zencity
   - Aim Security
   - Prompt Security
   - Arbe
-  - Valens
-  - Dynamic Yield
+  - {name: "Valens", ats: careers_page, slug: "https://www.valens.com/positions/feed/"}
+  - {name: "Dynamic Yield", ats: workday, slug: "mastercard|wd1|CorporateCareers"}
   - Fundguard
   - Rewire
   - Ness Technologies
@@ -320,17 +320,17 @@ companies:
   - Playtika
   - Moon Active
   - Plarium
-  - Taranis
+  - {name: "Taranis", ats: careers_page, slug: "https://www.taranis.com/careers/"}
   - Pecan AI
   - Optimove
-  - Nexite
-  - XM Cyber
-  - Grip Security
-  - Ox Security
-  - Coro
-  - Personetics
+  - {name: "Nexite", ats: comeet_api, slug: "37.000|7302B201590159023F040B01CC0730040B0"}
+  - {name: "XM Cyber", ats: comeet_api, slug: "15.005|51519692393A2A1454A2A145423930F3F"}
+  - {name: "Grip Security", ats: comeet, slug: "grip/A8.001"}
+  - {name: "Ox Security", ats: comeet_api, slug: "F8.006|8F635C447B035C42CCE2CCE23D83EBA35C48F6"}
+  - {name: "Coro", ats: comeet_api, slug: "08.00A|80A303C28320181E2028485A485A4050181E"}
+  - {name: "Personetics", ats: comeet_api, slug: "83.00A|38A11B2A9E018C60153C714A9E38A"}
   - Justt
-  - Trigo
+  - {name: "Trigo", ats: careers_page, slug: "https://www.trigoretail.com/career/#join-us"}
   - Shufersal
   - Partner
   - Zap Group
@@ -342,13 +342,13 @@ companies:
   - Bigabid
   - Hour One
   - D-ID
-  - Viz.ai
+  - {name: "Viz.ai", ats: ashby, slug: "Viz.ai"}
   - Tytocare
   - Sight Diagnostics
   - REE
   - StoreDot
   - Nanox
-  - Insightec
+  - {name: "Insightec", ats: comeet_api, slug: "4A.004|A4447DC2910A44148829105C6452201ECC3354"}
   - Harel
   - Migdal
   - Menora
@@ -357,14 +357,14 @@ companies:
   - Gilat
   - Silicom
   - Hilan
-  - Priority Software
+  - {name: "Priority Software", ats: careers_page, slug: "https://www.priority-software.com/careers/"}
   - Tabit
   - Zscaler
   - Jit
   - Configu
   - Anecdotes
-  - Scytale
-  - Lili
+  - {name: "Scytale", ats: comeet_api, slug: "2A.009|A29471F1E7B5B7128A432CDA2928A45B711452"}
+  - {name: "Lili", ats: comeet, slug: "lili/A6.009"}
   - Novidea
   - Hyp
   - One Zero
@@ -379,22 +379,22 @@ companies:
   - {name: "Minute Media", careers: "https://www.minutemedia.com/careers"}
   - {name: "WSC Sports", careers: "https://wsc-sports.com/careers/"}
   - {name: "Pixellot", careers: "https://www.pixellot.tv/careers/"}
-  - {name: "Ex.co", careers: "https://ex.co/careers/"}
+  - {name: "Ex.co", ats: comeet_api, slug: "F0.005|F53D41EA5BE5BE89D1EA2DF7A8F5"}
   - Yango
-  - SciPlay
+  - {name: "SciPlay", ats: workday, slug: "lnw|wd5|SciPlayExternalCareersSite"}
   - Voodoo
-  - {name: "Trax", careers: "https://traxretail.com/careers/"}
+  - {name: "Trax", ats: comeet_api, slug: "22.007|22789C113844E227AC301138AC3227"}
   - Nexxen
-  - Digital Turbine
+  - {name: "Digital Turbine", ats: workday, slug: "digitalturbine|wd501|Digital_Turbine_External_Careers"}
   - Singular
   - {name: "Anyclip", careers: "https://anyclip.com/careers/"}
   - {name: "Glassbox", careers: "https://www.glassbox.com/careers/"}
   - {name: "Madlan", careers: "https://www.madlan.co.il/careers"}
   - Homie
-  - Buyme
+  - {name: "Buyme", ats: comeet, slug: "buyme/B2.008"}
   - 10bis
   - Hello Heart
-  - K Health
+  - {name: "K Health", ats: greenhouse, slug: "khealthcareers"}
   - Dario Health
   - Playtech
   - Playstudios
@@ -406,7 +406,7 @@ companies:
   - Spinoco
   - Kubient
   - {name: "Zoomd", careers: "https://zoomd.com/careers/"}
-  - Perion Network
+  - {name: "Perion Network", ats: greenhouse, slug: "perionnetworkltd"}
   - Vonage
   # round 3 (2026-11-08): fintech, banking/investment, insurance, retail/consumer, mobility, infra/security
   - Chargeflow
@@ -437,7 +437,7 @@ companies:
   - Israir
   - Electra
   - Shikun & Binui
-  - Azrieli Group
+  - {name: "Azrieli Group", ats: bamboohr, slug: "azrielifoundation"}
   - Ituran
   - Pointer
   - Perrigo Israel
@@ -446,24 +446,24 @@ companies:
   - Foretellix
   - Autotalks
   - ScaleOps
-  - Logz.io
-  - Cast AI
+  - {name: "Logz.io", ats: lever, slug: "logz"}
+  - {name: "Cast AI", ats: greenhouse, slug: "castaigroupinc"}
   - Spacelift
-  - Akeyless
+  - {name: "Akeyless", ats: comeet, slug: "akeyless/27.006"}
   - Pynt
   - Frontegg
   - Permit.io
-  - Seemplicity
+  - {name: "Seemplicity", ats: comeet_api, slug: "67.00D|76D2C8E164733FB33FB1DB442D5042D5EDA"}
   - Vulcan Cyber
   - Nucleus
   # round 4 (2026-11-08): infra/AI chips, crypto, payments, IT services & cloud consultancies, data, security
   - Pliops
-  - NeuReality
+  - {name: "NeuReality", ats: comeet_api, slug: "89.002|982428E9820428E390C55924C101C861C86"}
   - Speedata
-  - Qedma
+  - {name: "Qedma", ats: comeet_api, slug: "7A.006|A76493A344E14EC029D853B01F621F62A76"}
   - StarkWare
-  - Chainalysis
-  - Blockaid
+  - {name: "Chainalysis", ats: ashby, slug: "chainalysis-careers"}
+  - {name: "Blockaid", ats: comeet, slug: "blockaid/69.00B"}
   - Eco
   - Coinmama
   - Bits of Gold
@@ -486,16 +486,16 @@ companies:
   - Taldor
   - We-Sec
   - Elad Systems
-  - Aman Group
+  - {name: "Aman Group", ats: careers_page, slug: "https://www.aman-global.com/careers/bi-big-data-dba/"}
   - John Bryce
   - Commit
   - Gini-Apps
   - Moveo
   - Opsfleet
   - DoiT
-  - AllCloud
-  - Cloudride
-  - Terasky
+  - {name: "AllCloud", ats: comeet_api, slug: "71.008|1785E0758A482F01785E01782F05E0"}
+  - {name: "Cloudride", ats: careers_page, slug: "https://www.cloudride.co.il/careers/"}
+  - {name: "Terasky", ats: careers_page, slug: "https://www.terasky.com/careers/"}
   - CloudZone
   - Anodot
   - Datarails
@@ -507,7 +507,7 @@ companies:
   - Astrix
   - Lasso Security
   - Pillar Security
-  - Mend
+  - {name: "Mend", ats: ashby, slug: "mend-io"}
   - Arnica
   # round 5 (2026-11-08): companies whose own job board was found through VC job board links
   - {name: "Adaptive6", ats: comeet, slug: "adaptive6/AA.000"}
@@ -583,7 +583,7 @@ companies:
   - {name: "mPrest", ats: comeet, slug: "mprest/38.005"}
   # round 6 (2026-11-08): fintech, gaming/igaming and more high-tech
   - "Behalf"
-  - "Hypernative"
+  - {name: "Hypernative", ats: comeet, slug: "hypernative/8A.00E"}
   - "Ironblocks"
   - "Kirobo"
   - "Zengo"
@@ -599,17 +599,17 @@ companies:
   - "Lendbuzz"
   - "Credi"
   - "Tribal Credit"
-  - "Glassix"
+  - {name: "Glassix", ats: recruitee, slug: "glassix"}
   - "JP Morgan Israel"
   - "LSEG Israel"
   - "S&P Global Israel"
   - "Lightico"
-  - "Trustmi"
+  - {name: "Trustmi", ats: workable, slug: "trustmi"}
   - "Liquidity Group"
   - "Paygilant"
   - "BondIT"
   - "XLMedia"
-  - "Balance"
+  - {name: "Balance", ats: comeet_api, slug: "67.008|7682C70163833D81DA042A833D876842A8ED0"}
   - "Spring"
   - "Ladder"
   - "Yaada"
@@ -677,34 +677,33 @@ companies:
   - "Seebo"
   - "Kando"
   - "Prospera"
-  - "Arbe Robotics"
+  - {name: "Arbe Robotics", ats: comeet_api, slug: "C6.001|6C12886D821B0414432886144328862F472F47"}
   - "Eviation"
   - "IAI"
   - "Elta"
   - "Aeronautics"
   - "Xtend"
   - "Percepto"
-  - "Airobotics"
-  - "Base44"
+  - {name: "Base44", ats: smartrecruiters, slug: "Wix2"}
   - "Lovable Israel"
-  - "Qodo"
+  - {name: "Qodo", ats: comeet_site, slug: "https://www.qodo.ai/careers/"}
   - "Sola Security"
   - "Cyata"
-  - "7AI"
+  - {name: "7AI", ats: ashby, slug: "sevenai"}
   - "Pangea"
   - "Daylight"
   - "Mate Security"
   - "Decart"
   - "Hai Robotics Israel"
-  - "Mentee Robotics"
+  - {name: "Mentee Robotics", ats: comeet, slug: "mentee_robotics/6A.002"}
   - "Unlimited Robotics"
   - "Theator"
   - "Tyto Care"
   - "Eleos"
   - "Diagnostic Robotics"
   - "Datos Health"
-  - "Healthy.io"
-  - "Ibex Medical"
+  - {name: "Healthy.io", ats: comeet, slug: "healthy/B4.004"}
+  - {name: "Ibex Medical", ats: recruitee, slug: "ib1"}
   - "Zebra Medical"
   - {name: "Echo", ats: ashby, slug: "echo.ai"}
   # round 7 (2026-11-10): publicly traded Israeli tech/fintech/medtech companies (NASDAQ, NYSE, TASE)
@@ -726,21 +725,21 @@ companies:
   - "Alarum"
   - "Beamr"
   - "Maris-Tech"
-  - "Rail Vision"
+  - {name: "Rail Vision", ats: comeet_api, slug: "84.000|4801680168016802880D800D800480"}
   - "Foresight Autonomous"
   - "Actelis"
   - "Wearable Devices"
   - "SaverOne"
   - "Steakholder Foods"
-  - "ParaZero"
-  - "Mobilicom"
+  - {name: "ParaZero", ats: careers_page, slug: "https://parazero.com/careers/"}
+  - {name: "Mobilicom", ats: careers_page, slug: "https://mobilicom.com/careers/feed/"}
   - "Senstar"
-  - "Elspec"
+  - {name: "Elspec", ats: careers_page, slug: "https://www.elspec-ltd.com/careers/"}
   - "Priortech"
   - "PCB Technologies"
   - "Unitronics"
   - "MTS Mer Telemanagement"
-  - "TAT Technologies"
+  - {name: "TAT Technologies", ats: workable, slug: "tat-technologies-ltd"}
   - "Aryt Industries"
   - "Nextvision"
   - "Rapac"
@@ -778,8 +777,8 @@ companies:
   - {name: Loora, careers: "https://www.loora.ai/careers"}
   - {name: Zafran Security, careers: "https://zafran.io/open-positions"}
   - {name: AITAN, careers: "https://www.aitan.ai/careers"}
-  - {name: Glow Security, careers: "https://www.glow.security/careers"}
-  - {name: Neo Security, careers: "https://www.neo.security/careers"}
+  - {name: "Glow Security", ats: ashby, slug: "glow"}
+  - {name: "Neo Security", ats: greenhouse, slug: "neosecurityinc"}
   - {name: Enso, careers: "https://www.enso.ai/careers"}
   # grown past early stage: target titles only, no 🐣
   - {name: "Dream", ats: comeet, slug: "dreamgroup/99.002"}
@@ -827,8 +826,8 @@ gaming:
   - Evoke (888)
   - Playtech Israel
   - Optimove
-  - Huuuge Israel
-  - Product Madness Israel
+  - {name: "Huuuge Israel", ats: recruitee, slug: "huuuge"}
+  - {name: "Product Madness Israel", ats: workday, slug: "aristocrat|wd3|AristocratExternalCareersSite"}
   # smaller Israeli studios (mostly hire via LinkedIn; also searched there by name)
   - Geckos Games
   - FTX Games
@@ -846,7 +845,7 @@ gaming:
   - Persona.ly
   - Keewano
   - Zengaming
-  - CodeMonkey
+  - {name: "CodeMonkey", ats: careers_page, slug: "https://www.codemonkey.com/jobs/"}
   - Tilting Point Israel
   - Duel
   - Mojiworks
