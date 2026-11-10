@@ -965,6 +965,37 @@ remote_companies:
   - {name: "Angel One", careers: "https://www.angelone.in/careers"}
   - {name: "Sorcero", careers: "https://www.sorcero.com/careers"}
   - {name: "Census", careers: "https://www.getcensus.com/careers"}
+  # Second remote-first list from the candidate (Nov 2026)
+  - {name: "Wealthsimple", ats: ashby, slug: "wealthsimple"}
+  - {name: "Affirm", ats: greenhouse, slug: "affirm"}
+  - {name: "Horizon3.ai", ats: ashby, slug: "horizon3ai"}
+  - {name: "Second Front", ats: ashby, slug: "Second-Front-Systems"}
+  - {name: "Fieldguide", ats: ashby, slug: "fieldguide"}
+  - {name: "1Password", ats: ashby, slug: "1password"}
+  - {name: "Vanta", ats: ashby, slug: "vanta"}
+  - {name: "Chainguard", ats: greenhouse, slug: "chainguard"}
+  - {name: "Tailscale", ats: greenhouse, slug: "tailscale"}
+  - {name: "Deepgram", ats: ashby, slug: "Deepgram"}
+  - {name: "Pantheon", ats: greenhouse, slug: "pantheon"}
+  - {name: "Fleetio", ats: greenhouse, slug: "fleetio"}
+  - {name: "Render", ats: ashby, slug: "render"}
+  - {name: "Reddit", ats: greenhouse, slug: "reddit"}
+  - {name: "Engine", ats: greenhouse, slug: "engine"}
+  - {name: "Carrot Fertility", ats: greenhouse, slug: "carrotfertility"}
+  - {name: "Maven Clinic", ats: greenhouse, slug: "mavenclinic"}
+  - {name: "Rightway", ats: greenhouse, slug: "rightway"}
+  - {name: "Arcadia", ats: lever, slug: "arcadia"}
+  - {name: "Thatch", ats: greenhouse, slug: "thatch"}
+  - {name: "NetDocuments", ats: greenhouse, slug: "netdocuments"}
+  - {name: "Spellbook", ats: ashby, slug: "spellbook.com"}
+  - {name: "Mitratech", ats: greenhouse, slug: "mitratech"}
+  - {name: "Nava PBC", ats: greenhouse, slug: "navapbc"}
+  - {name: "Atticus", ats: ashby, slug: "atticus"}
+  - {name: "Oddball", ats: greenhouse, slug: "oddball"}
+  - {name: "Zero Hash", careers: "https://zerohash.com/careers"}
+  - {name: "Marqeta", careers: "https://www.marqeta.com/company/careers"}
+  - {name: "Runway Financial", careers: "https://runway.com/careers"}
+  - {name: "Flex (flex.one)", careers: "https://flex.one/careers"}
 
 # LinkedIn searches limited to fully remote jobs open to candidates in Israel (run with the LinkedIn scan).
 linkedin_remote_queries:
