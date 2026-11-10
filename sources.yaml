@@ -418,6 +418,7 @@ companies:
   - Pepper
   - Bank Jerusalem
   - Meitav
+  - {name: "Lucid Capital", ats: careers_page, slug: "https://www.lucidcap.net/about/"}
   - Altshuler Shaham
   - More Investment
   - Psagot
