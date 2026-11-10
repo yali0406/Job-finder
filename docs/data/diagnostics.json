@@ -1,5 +1,5 @@
 {
- "run": "2026-11-10T04:17:18+00:00",
+ "run": "2026-11-10T05:17:18+00:00",
  "collected_by_source": {
   "smartrecruiters": 110,
   "greenhouse": 683,
@@ -21,7 +21,7 @@
   "vc:israelvcforum.getro.com": 1094,
   "remote:remotive": 8,
   "remote:remoteok": 59,
-  "remote:himalayas": 40,
+  "remote:himalayas": 31,
   "remote:jobicy": 58,
   "remote:weworkremotely": 51
  },
@@ -35,7 +35,7 @@
   "ashby": 41,
   "vc:jobs.tlv.partners": 14,
   "vc:careers.grovevc.com": 16,
-  "vc:jobs.ibexinvestors.com": 6,
+  "vc:jobs.ibexinvestors.com": 7,
   "vc:careers.viola-group.com": 27,
   "vc:jobs.vertexventures.co.il": 16,
   "vc:jobs.innovationendeavors.com": 8,
@@ -45,7 +45,7 @@
   "vc:jobs.nfx.com": 3,
   "vc:israelvcforum.getro.com": 95,
   "remote:remoteok": 8,
-  "remote:himalayas": 5,
+  "remote:himalayas": 7,
   "remote:jobicy": 4,
   "remote:weworkremotely": 8
  },
@@ -112,9 +112,9 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 2192 collected, 400 open to Israel",
-  "INFO Collected 6158 jobs in Israel",
-  "INFO 678 pass the title filter",
-  "INFO New: 25, total kept: 261"
+  "INFO Remote: 2192 collected, 391 open to Israel",
+  "INFO Collected 6149 jobs in Israel",
+  "INFO 681 pass the title filter",
+  "INFO New: 25, total kept: 262"
  ]
 }
