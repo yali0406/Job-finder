@@ -849,22 +849,33 @@ startups:
 # Remote-first companies abroad: only their fully remote jobs are kept, and only when the location
 # allows working from Israel (worldwide / EMEA / Israel). Remote job boards are scanned too.
 remote_companies:
+  - {name: "Datadog", ats: greenhouse, slug: "datadog"}
+  - {name: "Cloudflare", ats: greenhouse, slug: "cloudflare"}
+  - {name: "Brex", ats: greenhouse, slug: "brex"}
+  - {name: "Turing", ats: greenhouse, slug: "turing"}
+  - {name: "Nethermind", ats: ashby, slug: "nethermind"}
+  - {name: "Phantom", ats: ashby, slug: "phantom"}
+  - {name: "Polygon Labs", ats: ashby, slug: "polygon-labs"}
+  - {name: "Coinbase", ats: greenhouse, slug: "coinbase"}
+  - {name: "OKX", ats: greenhouse, slug: "okx"}
+  - {name: "Circle", ats: ashby, slug: "circle"}
+  - {name: "Consensys", ats: greenhouse, slug: "consensys"}
   - GitLab
   - Canonical
-  - Automattic
+  - {name: "Automattic", ats: greenhouse, slug: "automatticcareers"}
   - Zapier
   - Doist
   - Remote.com
   - Deel
-  - Wikimedia Foundation
+  - {name: "Wikimedia Foundation", ats: greenhouse, slug: "wikimedia"}
   - Grafana Labs
   - Elastic
   - Mozilla
-  - DuckDuckGo
+  - {name: "DuckDuckGo", ats: ashby, slug: "duck-duck-go"}
   - Bitwarden
   - Toggl
   - Hotjar
-  - Sourcegraph
+  - {name: "Sourcegraph", ats: greenhouse, slug: "sourcegraph91"}
   - Kraken
   - Toptal
   - Oyster
