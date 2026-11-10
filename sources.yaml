@@ -897,7 +897,7 @@ remote_companies:
   - Canonical
   - {name: "Automattic", ats: greenhouse, slug: "automatticcareers"}
   - Zapier
-  - Doist
+  - {name: "Doist", careers: "https://doist.com/careers/"}
   - Remote.com
   - Deel
   - {name: "Wikimedia Foundation", ats: greenhouse, slug: "wikimedia"}
@@ -923,6 +923,48 @@ remote_companies:
   - Docker
   - Proton
   - Chainlink Labs
+  # From the remote-hiring list the candidate sent (Nov 2026)
+  - {name: "Appcues", ats: ashby, slug: "Appcues"}
+  - {name: "Abnormal Security", ats: greenhouse, slug: "abnormalsecurity"}
+  - {name: "Renaissance Learning", ats: greenhouse, slug: "renaissancelearning-nam"}
+  - {name: "Awesome Motive", ats: workable, slug: "awesomemotive"}
+  - {name: "UserGems", ats: greenhouse, slug: "usergems"}
+  - {name: "Constructor", ats: ashby, slug: "constructor"}
+  - {name: "LogicGate", ats: greenhouse, slug: "logicgate"}
+  - {name: "Bold", ats: greenhouse, slug: "bold"}
+  - {name: "Workera", ats: greenhouse, slug: "workera"}
+  - {name: "Upstart", ats: greenhouse, slug: "upstart"}
+  - {name: "VGS (Very Good Security)", ats: lever, slug: "verygoodsecurity"}
+  - {name: "Contra", ats: ashby, slug: "contra"}
+  - {name: "Block (Cash App)", ats: greenhouse, slug: "block"}
+  - {name: "Funded.club", ats: greenhouse, slug: "fundedclub"}
+  - {name: "Patreon", ats: ashby, slug: "patreon"}
+  - {name: "Faire", ats: greenhouse, slug: "faire"}
+  - {name: "Upwork", ats: greenhouse, slug: "upwork"}
+  - {name: "MissionWired", ats: lever, slug: "MissionWired"}
+  - {name: "DigitalOcean", ats: greenhouse, slug: "digitalocean98"}
+  # No public job board found yet; the weekly lookup retries them from their careers pages
+  - {name: "Workiva", careers: "https://www.workiva.com/careers"}
+  - {name: "Quest Software", careers: "https://careers.quest.com/"}
+  - {name: "DealHub", careers: "https://dealhub.io/careers/"}
+  - {name: "Symetra", careers: "https://www.symetra.com/about-us/careers"}
+  - {name: "Beekeeper", careers: "https://www.beekeeper.io/careers/"}
+  - {name: "Jenius Bank", careers: "https://www.jeniusbank.com/careers"}
+  - {name: "Cengage Group", careers: "https://www.cengagegroup.com/careers/"}
+  - {name: "Atlassian", careers: "https://www.atlassian.com/company/careers/all-jobs"}
+  - {name: "McGraw Hill", careers: "https://careers.mheducation.com/"}
+  - {name: "Arkency", careers: "https://arkency.com/join-our-team/"}
+  - {name: "Kemecon", careers: "http://kemecon.com"}
+  - {name: "DocuSign", careers: "https://careers.docusign.com/"}
+  - {name: "Shopify", careers: "https://www.shopify.com/careers"}
+  - {name: "Rec Room", careers: "https://recroom.com/careers"}
+  - {name: "Goinstacare", careers: "https://goinstacare.com"}
+  - {name: "Hims & Hers", careers: "https://www.hims.com/careers"}
+  - {name: "Intrado", careers: "https://www.intrado.com/careers"}
+  - {name: "Uplers", careers: "https://www.uplers.com/careers/"}
+  - {name: "Angel One", careers: "https://www.angelone.in/careers"}
+  - {name: "Sorcero", careers: "https://www.sorcero.com/careers"}
+  - {name: "Census", careers: "https://www.getcensus.com/careers"}
 
 # LinkedIn searches limited to fully remote jobs open to candidates in Israel (run with the LinkedIn scan).
 linkedin_remote_queries:
