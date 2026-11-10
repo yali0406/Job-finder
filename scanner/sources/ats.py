@@ -346,6 +346,54 @@ def _linkedin_links(slug, company):
     return jobs
 
 
+def _jibe(base, company):
+    """iCIMS "Jibe" career sites (careers.<company>.com) expose their openings at /api/jobs."""
+    base = base.rstrip("/")
+    jobs, page = [], 1
+    while page <= 30:
+        r = get(f"{base}/api/jobs", params={"page": page, "limit": 100})
+        if not r or r.status_code != 200:
+            return None if page == 1 else jobs
+        try:
+            data = r.json()
+        except ValueError:
+            return None if page == 1 else jobs
+        rows = data.get("jobs") or []
+        for row in rows:
+            x = row.get("data", row)
+            loc = x.get("full_location") or x.get("location_name") or ", ".join(
+                v for v in (x.get("city"), x.get("country")) if v)
+            url = x.get("apply_url") or (f"{base}/jobs/{x.get('slug') or x.get('req_id')}" if x.get("slug") or x.get("req_id") else base)
+            jobs.append(Job(title=x.get("title", ""), company=company, url=url, location=loc or "",
+                            description=strip_html(x.get("description") or ""), source="jibe"))
+        if len(rows) < 100 or len(jobs) >= int(data.get("totalCount") or data.get("count") or 0):
+            break
+        page += 1
+    return jobs
+
+
+def _atlassian(_slug, company):
+    """Atlassian lists all openings as JSON behind its careers page."""
+    r = get("https://www.atlassian.com/endpoint/careers/listings")
+    if not r or r.status_code != 200:
+        return None
+    try:
+        rows = r.json()
+    except ValueError:
+        return None
+    if isinstance(rows, dict):
+        rows = rows.get("listings") or rows.get("jobs") or []
+    jobs = []
+    for x in rows:
+        locs = x.get("locations") or []
+        loc = "; ".join(l if isinstance(l, str) else (l.get("name") or "") for l in locs)
+        url = (x.get("portalJobPost") or {}).get("portalUrl") or x.get("applyUrl") or \
+            f"https://www.atlassian.com/company/careers/details/{x.get('id')}"
+        jobs.append(Job(title=x.get("title", ""), company=company, url=url, location=loc,
+                        description=strip_html(x.get("overview") or x.get("description") or ""), source="atlassian"))
+    return jobs
+
+
 FETCHERS = {
     "greenhouse": _greenhouse,
     "lever": _lever,
@@ -362,6 +410,8 @@ FETCHERS = {
     "careers_page": _careers_page,
     "comeet_api": _comeet_api,
     "linkedin_links": _linkedin_links,
+    "jibe": _jibe,
+    "atlassian": _atlassian,
 }
 AUTODETECT_ORDER = ["greenhouse", "lever", "ashby", "workable", "smartrecruiters"]
 
