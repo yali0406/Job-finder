@@ -88,7 +88,11 @@ def main():
                 known.add((e["ats"], str(e["slug"]).lower()))
     cache = json.loads((ROOT / "docs" / "data" / "ats_cache.json").read_text())
     known |= {(v["ats"], str(v["slug"]).lower()) for v in cache.values() if v.get("ats")}
-    boards = [b for b in harvest() if (b[0], b[1].lower()) not in known]
+    boards, seen = [], set(known)
+    for b in harvest():  # Ashby slugs keep their case, so the same board can appear twice
+        if (b[0], b[1].lower()) not in seen:
+            seen.add((b[0], b[1].lower()))
+            boards.append(b)
     log.info("Checking %d boards for openings in Israel", len(boards))
     with ThreadPoolExecutor(16) as ex:
         hits = [h for h in ex.map(check, boards) if h]
