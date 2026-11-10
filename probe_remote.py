@@ -16,8 +16,13 @@ D = [("Lucid Capital","lucidcap.net",["/about/"]),("OurCrowd","ourcrowd.com",[])
 
 def one(c):
     name, dom, extra = c
-    paths = extra + ["/careers", "/careers/", "/jobs", "/about", "/en/careers", "/"]
-    for host in (f"https://www.{dom}", f"https://{dom}"):
+    paths = extra + ["/careers", "/jobs", "/about", "/"]
+    from scanner.common import get
+    host = f"https://www.{dom}"
+    r = get(host + "/", retries=0, timeout=10)
+    if r is None or r.status_code >= 400:
+        host = f"https://{dom}"
+    for host in (host,):
         for p in paths:
             u = host + p
             try:
@@ -31,6 +36,7 @@ def one(c):
                 pass
     return name, None, None, None, 0, []
 
-with ThreadPoolExecutor(12) as ex:
-    for r in ex.map(one, D):
-        print("RESULT", json.dumps(r, ensure_ascii=False))
+from concurrent.futures import as_completed
+with ThreadPoolExecutor(20) as ex:
+    for f in as_completed([ex.submit(one, d) for d in D]):
+        print("RESULT", json.dumps(f.result(), ensure_ascii=False), flush=True)
