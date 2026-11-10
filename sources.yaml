@@ -74,6 +74,11 @@ linkedin_queries:
   - Technical Project Manager
   - Product Manager
   - Associate Product Manager
+  # investment funds / VC (analyst and associate roles)
+  - Investment Analyst
+  - Equity Research Analyst
+  - Venture Capital Analyst
+  - Investment Associate
 
 companies:
   # Big tech / enterprise in Israel
@@ -944,18 +949,19 @@ remote_companies:
   - {name: "MissionWired", ats: lever, slug: "MissionWired"}
   - {name: "DigitalOcean", ats: greenhouse, slug: "digitalocean98"}
   # No public job board found yet; the weekly lookup retries them from their careers pages
-  - {name: "Workiva", careers: "https://www.workiva.com/careers"}
+  - {name: "Workiva", ats: workday, slug: "workiva|wd503|careers"}
   - {name: "Quest Software", careers: "https://careers.quest.com/"}
   - {name: "DealHub", careers: "https://dealhub.io/careers/"}
   - {name: "Symetra", careers: "https://www.symetra.com/about-us/careers"}
   - {name: "Beekeeper", careers: "https://www.beekeeper.io/careers/"}
   - {name: "Jenius Bank", careers: "https://www.jeniusbank.com/careers"}
-  - {name: "Cengage Group", careers: "https://www.cengagegroup.com/careers/"}
-  - {name: "Atlassian", careers: "https://www.atlassian.com/company/careers/all-jobs"}
-  - {name: "McGraw Hill", careers: "https://careers.mheducation.com/"}
+  - {name: "Cengage Group", ats: workday, slug: "cengage|wd5|CengageEMEACareers"}
+  - {name: "Cengage Group (US)", ats: workday, slug: "cengage|wd5|CengageNorthAmericaCareers"}
+  - {name: "Atlassian", ats: atlassian, slug: "atlassian"}
+  - {name: "McGraw Hill", ats: jibe, slug: "https://careers.mheducation.com"}
   - {name: "Arkency", careers: "https://arkency.com/join-our-team/"}
   - {name: "Kemecon", careers: "http://kemecon.com"}
-  - {name: "DocuSign", careers: "https://careers.docusign.com/"}
+  - {name: "DocuSign", ats: jibe, slug: "https://careers.docusign.com"}
   - {name: "Shopify", careers: "https://www.shopify.com/careers"}
   - {name: "Rec Room", careers: "https://recroom.com/careers"}
   - {name: "Goinstacare", careers: "https://goinstacare.com"}
@@ -964,7 +970,7 @@ remote_companies:
   - {name: "Uplers", careers: "https://www.uplers.com/careers/"}
   - {name: "Angel One", careers: "https://www.angelone.in/careers"}
   - {name: "Sorcero", careers: "https://www.sorcero.com/careers"}
-  - {name: "Census", careers: "https://www.getcensus.com/careers"}
+  - {name: "Fivetran (Census)", ats: greenhouse, slug: "fivetran"}
   # Second remote-first list from the candidate (Nov 2026)
   - {name: "Wealthsimple", ats: ashby, slug: "wealthsimple"}
   - {name: "Affirm", ats: greenhouse, slug: "affirm"}
@@ -992,9 +998,9 @@ remote_companies:
   - {name: "Nava PBC", ats: greenhouse, slug: "navapbc"}
   - {name: "Atticus", ats: ashby, slug: "atticus"}
   - {name: "Oddball", ats: greenhouse, slug: "oddball"}
-  - {name: "Zero Hash", careers: "https://zerohash.com/careers"}
+  - {name: "Zero Hash", ats: breezy, slug: "zero-hash"}
   - {name: "Marqeta", careers: "https://www.marqeta.com/company/careers"}
-  - {name: "Runway Financial", careers: "https://runway.com/careers"}
+  - {name: "Runway", ats: ashby, slug: "runway-ml"}
   - {name: "Flex (flex.one)", careers: "https://flex.one/careers"}
 
 # LinkedIn searches limited to fully remote jobs open to candidates in Israel (run with the LinkedIn scan).

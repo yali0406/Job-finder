@@ -9,7 +9,7 @@ from .common import Job, log
 
 ROLE_PATTERNS = {
     "DevOps / Cloud": r"devops|devsecops|cloud\s*(engineer|ops|operations)|site reliability|\bsre\b|platform engineer|infrastructure engineer|kubernetes|aws engineer",
-    "Analyst": r"analyst|אנליסט|analytics|\bbi\b|business intelligence|data analyst|מנתח",
+    "Analyst": r"analyst|אנליסט|analytics|\bbi\b|business intelligence|data analyst|מנתח|investments? associate|venture associate|equity research",
     "Project Manager": r"project manager|program manager|\bpmo\b|project management office|project (coordinator|administrator|specialist|analyst|controller)|program (coordinator|specialist|analyst)|portfolio (coordinator|analyst)|רכז[ת]? פרויקט|רכז[ת]? תוכני|delivery manager|implementation manager|מנהל[ת]? פרויקט",
     "Operations": r"payments?\b|settlement|reconciliation|chargeback|acquiring|merchant (ops|operations|support|onboarding)|operations|\bops\b|bizops|biz ops|revops|revenue ops|sales ops|תפעול|אופרציה",
     "Business Development": r"business development|\bbdr\b|account development|lead generation|inside sales|partnerships? (associate|coordinator|specialist|representative)|פיתוח עסקי",
