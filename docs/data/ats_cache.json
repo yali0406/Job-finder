@@ -1224,6 +1224,12 @@
   "checked": "2026-10-23T01:07:16.169709+00:00",
   "slug": null
  },
+ "Flex (flex.one)": {
+  "ats": null,
+  "careers": "https://flex.one/careers",
+  "checked": "2026-11-10T19:52:21.124581+00:00",
+  "slug": null
+ },
  "Flexi": {
   "ats": null,
   "careers": null,
@@ -2045,6 +2051,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-10T09:02:31.172825+00:00",
+  "slug": null
+ },
+ "Marqeta": {
+  "ats": null,
+  "careers": "https://www.marqeta.com/company/careers",
+  "checked": "2026-11-10T19:52:21.124581+00:00",
   "slug": null
  },
  "Marvell": {
@@ -3024,6 +3036,12 @@
   "careers": null,
   "checked": "2026-11-06T04:17:20.794980+00:00",
   "slug": null
+ },
+ "Runway Financial": {
+  "ats": "ashby",
+  "careers": "https://runway.com/careers",
+  "checked": "2026-11-10T19:52:21.124581+00:00",
+  "slug": "runway-ml"
  },
  "S&P Global Israel": {
   "ats": null,
@@ -4016,6 +4034,12 @@
   "ats": null,
   "careers": null,
   "checked": "2026-11-08T15:12:48.960886+00:00",
+  "slug": null
+ },
+ "Zero Hash": {
+  "ats": null,
+  "careers": "https://zerohash.com/careers",
+  "checked": "2026-11-10T19:52:21.124581+00:00",
   "slug": null
  },
  "Zesty": {
