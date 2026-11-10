@@ -1,11 +1,11 @@
 {
- "run": "2026-11-10T08:17:16+00:00",
+ "run": "2026-11-10T09:02:31+00:00",
  "collected_by_source": {
   "smartrecruiters": 111,
-  "greenhouse": 684,
-  "workday": 821,
+  "greenhouse": 685,
+  "workday": 875,
   "lever": 189,
-  "comeet": 1230,
+  "comeet": 1233,
   "workable": 24,
   "ashby": 195,
   "vc:jobs.tlv.partners": 166,
@@ -30,12 +30,12 @@
   "greenhouse": 74,
   "workday": 22,
   "lever": 14,
-  "comeet": 228,
+  "comeet": 230,
   "workable": 5,
   "ashby": 41,
   "vc:jobs.tlv.partners": 14,
   "vc:careers.grovevc.com": 16,
-  "vc:jobs.ibexinvestors.com": 7,
+  "vc:jobs.ibexinvestors.com": 6,
   "vc:careers.viola-group.com": 27,
   "vc:jobs.vertexventures.co.il": 16,
   "vc:jobs.innovationendeavors.com": 8,
@@ -113,8 +113,8 @@
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
   "INFO Remote: 2192 collected, 406 open to Israel",
-  "INFO Collected 6154 jobs in Israel",
-  "INFO 682 pass the title filter",
-  "INFO New: 24, total kept: 265"
+  "INFO Collected 6212 jobs in Israel",
+  "INFO 683 pass the title filter",
+  "INFO New: 23, total kept: 265"
  ]
 }
