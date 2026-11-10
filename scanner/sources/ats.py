@@ -290,6 +290,18 @@ _NOT_JOB = re.compile(r"blog|news|read more|learn more|webinar|case stud|podcast
                       r"meet the|all jobs|view all|open positions|see all|careers?$|join us|explore|report|leadership$", re.I)
 
 
+_GENERIC_LINK = re.compile(r"^(view|see|read)?\s*(role|job|position|details|more)\b.{0,15}$", re.I)
+_ROLE_PAGE = re.compile(r"/(careers?|jobs?|positions?|roles?|openings?)/[\w-]{3,}/?$", re.I)
+
+
+def _page_title(url):
+    r = get(url, retries=0, timeout=15)
+    if not r or r.status_code != 200:
+        return None
+    m = re.search(r"<h1\b[^>]*>([\s\S]{2,300}?)</h1>", r.text, re.I) or re.search(r"<title>([^<]{2,200})</title>", r.text, re.I)
+    return _unescape(re.sub(r"\s+", " ", strip_html(m.group(1))).strip()) if m else None
+
+
 def _careers_page(slug, company):
     """Generic reader for a company's own careers page that lists jobs as plain links
     (no job-board system we know). slug is the careers page URL. Descriptions are read
@@ -303,6 +315,9 @@ def _careers_page(slug, company):
         text = re.sub(r"\s+", " ", strip_html(inner)).strip()
         parts = [re.sub(r"\s+", " ", p).strip() for p in re.split(r"<[^>]+>", inner)]
         title = _unescape(next((p for p in parts if _JOB_TITLE.search(p)), text))[:120]
+        if _GENERIC_LINK.match(text) and _ROLE_PAGE.search(href) and len(jobs) < 40:
+            # cards whose link just says "View role": the title is on the job's own page
+            title = _page_title(requests.compat.urljoin(r.url, _unescape(href))) or title
         if not (4 < len(title) < 100) or len(title.split()) < 2:
             continue
         if not _JOB_TITLE.search(title) or _NOT_JOB.search(title):
