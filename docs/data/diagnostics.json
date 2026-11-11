@@ -1,12 +1,12 @@
 {
- "run": "2026-11-10T21:33:07+00:00",
+ "run": "2026-11-11T04:17:15+00:00",
  "collected_by_source": {
   "smartrecruiters": 154,
-  "workday": 710,
-  "greenhouse": 850,
-  "careers_page": 86,
+  "workday": 711,
+  "greenhouse": 847,
+  "careers_page": 83,
   "lever": 247,
-  "comeet": 1380,
+  "comeet": 1381,
   "workable": 151,
   "ashby": 391,
   "recruitee": 3,
@@ -22,11 +22,10 @@
   "vc:jobs.nfx.com": 55,
   "vc:israelvcforum.getro.com": 1082,
   "remote:remotive": 9,
-  "remote:remoteok": 63,
+  "remote:remoteok": 61,
   "remote:himalayas": 34,
   "remote:jobicy": 62,
-  "remote:weworkremotely": 50,
-  "linkedin": 453
+  "remote:weworkremotely": 50
  },
  "relevant_by_source": {
   "smartrecruiters": 30,
@@ -39,7 +38,7 @@
   "careers_page": 11,
   "vc:jobs.tlv.partners": 13,
   "vc:careers.grovevc.com": 16,
-  "vc:jobs.ibexinvestors.com": 6,
+  "vc:jobs.ibexinvestors.com": 7,
   "vc:careers.viola-group.com": 26,
   "vc:jobs.vertexventures.co.il": 16,
   "vc:jobs.innovationendeavors.com": 10,
@@ -49,13 +48,14 @@
   "vc:jobs.nfx.com": 3,
   "vc:israelvcforum.getro.com": 84,
   "remote:remotive": 1,
-  "remote:remoteok": 9,
-  "remote:himalayas": 2,
+  "remote:remoteok": 8,
+  "remote:himalayas": 1,
   "remote:jobicy": 5,
-  "remote:weworkremotely": 8,
-  "linkedin": 91
+  "remote:weworkremotely": 9
  },
  "log": [
+  "WARNING ParaZero: careers_page/https://parazero.com/careers/ stopped responding",
+  "WARNING Elspec: careers_page/https://www.elspec-ltd.com/careers/ stopped responding",
   "INFO Workable search: 123 jobs in Israel",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -119,12 +119,9 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 4425 collected, 629 open to Israel",
-  "WARNING LinkedIn search 'PMO Analyst' blocked or failed (none)",
-  "INFO LinkedIn: 365 jobs",
-  "INFO LinkedIn remote: 88 jobs",
-  "INFO Collected 7306 jobs in Israel",
-  "INFO 842 pass the title filter",
-  "INFO New: 2, total kept: 265"
+  "INFO Remote: 4422 collected, 624 open to Israel",
+  "INFO Collected 6847 jobs in Israel",
+  "INFO 751 pass the title filter",
+  "INFO New: 0, total kept: 265"
  ]
 }
