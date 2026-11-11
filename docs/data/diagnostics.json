@@ -1,12 +1,12 @@
 {
- "run": "2026-11-11T06:17:21+00:00",
+ "run": "2026-11-11T07:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 154,
-  "workday": 711,
+  "workday": 712,
   "greenhouse": 847,
   "careers_page": 86,
-  "lever": 247,
-  "comeet": 1381,
+  "lever": 253,
+  "comeet": 1383,
   "workable": 151,
   "ashby": 391,
   "recruitee": 3,
@@ -17,7 +17,7 @@
   "vc:jobs.vertexventures.co.il": 105,
   "vc:jobs.innovationendeavors.com": 60,
   "vc:jobs.insightpartners.com": 326,
-  "vc:jobs.accel.com": 478,
+  "vc:jobs.accel.com": 477,
   "vc:careers.greenfield-growth.com": 131,
   "vc:jobs.nfx.com": 55,
   "vc:israelvcforum.getro.com": 1082,
@@ -25,14 +25,13 @@
   "remote:remoteok": 61,
   "remote:himalayas": 30,
   "remote:jobicy": 55,
-  "remote:weworkremotely": 50,
-  "linkedin": 452
+  "remote:weworkremotely": 50
  },
  "relevant_by_source": {
   "smartrecruiters": 30,
-  "workday": 29,
+  "workday": 30,
   "greenhouse": 81,
-  "lever": 25,
+  "lever": 26,
   "comeet": 241,
   "workable": 16,
   "ashby": 57,
@@ -52,8 +51,7 @@
   "remote:remoteok": 8,
   "remote:himalayas": 1,
   "remote:jobicy": 5,
-  "remote:weworkremotely": 9,
-  "linkedin": 92
+  "remote:weworkremotely": 9
  },
  "log": [
   "INFO Workable search: 123 jobs in Israel",
@@ -94,10 +92,10 @@
   "INFO Getro https://jobs.insightpartners.com early-stage orgs: {'Slice | Global Equity': ('series_a', 2), 'Hypercore': ('series_a', 1), 'Datafy': ('seed', 2), 'theator': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Prelude': ('series_a', 2), 'Briya': ('series_a', 2), 'Canditech Ltd.': ('seed', 2)}",
   "INFO Getro https://jobs.insightpartners.com: 326 Israel jobs",
   "INFO Getro https://jobs.accel.com: collection_id=8672 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://jobs.accel.com org stages: {'acquisition': 225, 'ipo': 103, 'other': 49, 'series_a': 32, 'series_g': 31, 'series_c': 13, 'series_b': 11, 'series_e': 7, 'series_d': 4, 'series_unknown': 3}",
-  "INFO Getro https://jobs.accel.com org head counts: {'4': 181, '2': 85, '6': 75, '3': 48, '1': 45, '5': 44}",
+  "INFO Getro https://jobs.accel.com org stages: {'acquisition': 225, 'ipo': 102, 'other': 49, 'series_a': 32, 'series_g': 31, 'series_c': 13, 'series_b': 11, 'series_e': 7, 'series_d': 4, 'series_unknown': 3}",
+  "INFO Getro https://jobs.accel.com org head counts: {'4': 181, '2': 85, '6': 74, '3': 48, '1': 45, '5': 44}",
   "INFO Getro https://jobs.accel.com early-stage orgs: {'ZyG': ('series_a', 2), 'Legion Security': ('series_a', 2), 'Vega Ventures': ('series_a', 1), 'Surf AI': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Vorlon': ('series_a', 2)}",
-  "INFO Getro https://jobs.accel.com: 478 Israel jobs",
+  "INFO Getro https://jobs.accel.com: 477 Israel jobs",
   "INFO Getro https://careers.greenfield-growth.com: collection_id=1534 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://careers.greenfield-growth.com org stages: {'series_f': 49, 'series_b': 30, 'series_c': 23, 'series_d': 10, 'other': 8, 'series_c_plus': 6, 'series_a': 4, 'seed': 1}",
   "INFO Getro https://careers.greenfield-growth.com org head counts: {'4': 88, '3': 38, '2': 5}",
@@ -119,11 +117,9 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 4421 collected, 613 open to Israel",
-  "INFO LinkedIn: 364 jobs",
-  "INFO LinkedIn remote: 88 jobs",
-  "INFO Collected 7291 jobs in Israel",
-  "INFO 843 pass the title filter",
-  "INFO New: 0, total kept: 264"
+  "INFO Remote: 4423 collected, 613 open to Israel",
+  "INFO Collected 6847 jobs in Israel",
+  "INFO 753 pass the title filter",
+  "INFO New: 2, total kept: 266"
  ]
 }
