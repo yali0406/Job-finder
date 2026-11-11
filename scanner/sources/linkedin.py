@@ -18,7 +18,9 @@ def _pause():
 def search(keywords, location="Israel", hours=24, pages=2, remote=False):
     jobs = []
     for page in range(pages):
-        params = {"keywords": keywords, "location": location, "f_TPR": f"r{hours * 3600}", "start": page * 25}
+        # newest first: by relevance, a fresh (or reposted) job can sit beyond the pages we read for hours
+        params = {"keywords": keywords, "location": location, "f_TPR": f"r{hours * 3600}", "start": page * 25,
+                  "sortBy": "DD"}
         if remote:
             params["f_WT"] = 2  # LinkedIn's "Remote" workplace filter
         r = get(SEARCH, params=params)

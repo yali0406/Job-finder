@@ -152,7 +152,8 @@ def main():
     profile = os.environ.get("CANDIDATE_PROFILE") or (ROOT / "profile.md").read_text()
     now = datetime.now(timezone.utc)
     il_hour = (now + timedelta(hours=3)).hour  # close enough to Israel time for scheduling
-    with_li = args.linkedin == "yes" or (args.linkedin == "auto" and il_hour % 3 == 0)
+    # LinkedIn every run (Actions minutes are free on the public repo); "no" skips it for quick manual runs
+    with_li = args.linkedin != "no"
 
     DATA.mkdir(parents=True, exist_ok=True)
     existing = {}

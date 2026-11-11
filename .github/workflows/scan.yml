@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       linkedin:
-        description: "Scan LinkedIn this run (auto = every 3 hours)"
+        description: "Scan LinkedIn this run (auto = every run)"
         default: auto
         type: choice
         options: [auto, "yes", "no"]
