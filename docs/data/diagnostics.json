@@ -1,12 +1,12 @@
 {
- "run": "2026-11-12T06:17:17+00:00",
+ "run": "2026-11-12T07:17:21+00:00",
  "collected_by_source": {
   "smartrecruiters": 154,
-  "workday": 993,
+  "workday": 991,
   "greenhouse": 831,
   "careers_page": 88,
   "lever": 248,
-  "comeet": 1383,
+  "comeet": 1384,
   "workable": 153,
   "ashby": 389,
   "recruitee": 3,
@@ -23,8 +23,8 @@
   "vc:israelvcforum.getro.com": 1085,
   "remote:remotive": 9,
   "remote:remoteok": 62,
-  "remote:himalayas": 13,
-  "remote:jobicy": 57,
+  "remote:himalayas": 15,
+  "remote:jobicy": 56,
   "remote:weworkremotely": 45,
   "linkedin": 467
  },
@@ -53,7 +53,7 @@
   "remote:himalayas": 1,
   "remote:jobicy": 5,
   "remote:weworkremotely": 8,
-  "linkedin": 88
+  "linkedin": 86
  },
  "log": [
   "INFO Workable search: 124 jobs in Israel",
@@ -114,17 +114,16 @@
   "INFO Getro https://israelvcforum.getro.com org head counts: {'4': 392, '3': 384, '2': 198, '5': 99, '1': 10, '6': 2}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Bites': ('seed', 2), 'Ledge': ('seed', 2), 'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Nagish': ('series_a', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'WireX Cube': ('series_a', 2), 'Scala Biodesign': ('series_a', 2), 'Cypago': ('seed', 2), 'BioRaptor': ('seed', 1), 'Regatta': ('seed', 2), 'env0': ('series_a', 2), 'Kipp': ('seed', 2), 'Omnix Medical': ('pre_seed', 2), 'Creednz': ('seed', 1), 'Alta': ('series_a', 2), 'ITsMine': ('seed', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 1085 Israel jobs",
-  "INFO Remote board remotive: 13 jobs",
+  "INFO Remote board remotive: 14 jobs",
   "INFO Remote board remoteok: 98 jobs",
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 4427 collected, 595 open to Israel",
-  "WARNING LinkedIn search 'Bengigi' blocked or failed (none)",
+  "INFO Remote: 4427 collected, 596 open to Israel",
   "INFO LinkedIn: 379 jobs",
   "INFO LinkedIn remote: 88 jobs",
   "INFO Collected 7579 jobs in Israel",
-  "INFO 840 pass the title filter",
+  "INFO 838 pass the title filter",
   "INFO New: 0, total kept: 271"
  ]
 }
