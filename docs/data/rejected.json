@@ -10036,5 +10036,41 @@
   "company": "NVIDIA",
   "reason": "duplicate of another listing",
   "at": "2026-11-12T19:17:17+00:00"
+ },
+ "a124318cedc05e2c": {
+  "title": "DevSecOps Engineer",
+  "company": "Fullpath",
+  "reason": "4+ years",
+  "at": "2026-11-12T20:17:19+00:00"
+ },
+ "1f97c91331ab6173": {
+  "title": "Product Manager - Auth",
+  "company": "Supabase",
+  "reason": "5+ years",
+  "at": "2026-11-12T20:17:19+00:00"
+ },
+ "29ef3f4f0285a159": {
+  "title": "Software Engineering Manager, Cloud Engineering",
+  "company": "Mozilla",
+  "reason": "10+ years",
+  "at": "2026-11-12T20:17:19+00:00"
+ },
+ "b9cd0c22ec3813de": {
+  "title": "Delivery/Project Manager",
+  "company": "Oddball",
+  "reason": "3+ years",
+  "at": "2026-11-12T20:17:19+00:00"
+ },
+ "7ee8580d2ca76fed": {
+  "title": "Business Development Representative, Pressable",
+  "company": "Automattic",
+  "reason": "duplicate of another listing",
+  "at": "2026-11-12T20:17:19+00:00"
+ },
+ "85a89de932929248": {
+  "title": "Regional BDR Team Manager",
+  "company": "Canonical",
+  "reason": "duplicate of another listing",
+  "at": "2026-11-12T20:17:19+00:00"
  }
 }
