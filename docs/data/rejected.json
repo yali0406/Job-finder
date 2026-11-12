@@ -10012,5 +10012,29 @@
   "company": "MSD",
   "reason": "4+ years",
   "at": "2026-11-12T18:17:23+00:00"
+ },
+ "81412178f3e24557": {
+  "title": "Lab Operations Manager",
+  "company": "Cisco",
+  "reason": "7+ years",
+  "at": "2026-11-12T19:17:17+00:00"
+ },
+ "7371a8d9ab7601dc": {
+  "title": "Product Manager",
+  "company": "Candex",
+  "reason": "3+ years",
+  "at": "2026-11-12T19:17:17+00:00"
+ },
+ "113ada9866ba1cb6": {
+  "title": "Multi-Layer C-UAS - Product Manager",
+  "company": "D-Fend Solutions",
+  "reason": "5+ years",
+  "at": "2026-11-12T19:17:17+00:00"
+ },
+ "41018f951381def9": {
+  "title": "HPC Operations Engineer",
+  "company": "NVIDIA",
+  "reason": "duplicate of another listing",
+  "at": "2026-11-12T19:17:17+00:00"
  }
 }
