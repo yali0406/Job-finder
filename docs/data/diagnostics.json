@@ -1,9 +1,9 @@
 {
- "run": "2026-11-13T15:17:14+00:00",
+ "run": "2026-11-13T16:17:19+00:00",
  "collected_by_source": {
   "smartrecruiters": 155,
   "workday": 996,
-  "greenhouse": 835,
+  "greenhouse": 834,
   "careers_page": 86,
   "lever": 257,
   "comeet": 1382,
@@ -22,11 +22,11 @@
   "vc:jobs.nfx.com": 54,
   "vc:israelvcforum.getro.com": 1079,
   "remote:remotive": 9,
-  "remote:remoteok": 62,
+  "remote:remoteok": 61,
   "remote:himalayas": 24,
   "remote:jobicy": 55,
-  "remote:weworkremotely": 48,
-  "linkedin": 392
+  "remote:weworkremotely": 45,
+  "linkedin": 381
  },
  "relevant_by_source": {
   "smartrecruiters": 35,
@@ -49,17 +49,16 @@
   "vc:jobs.nfx.com": 3,
   "vc:israelvcforum.getro.com": 89,
   "remote:remotive": 1,
-  "remote:remoteok": 9,
+  "remote:remoteok": 8,
   "remote:himalayas": 5,
   "remote:jobicy": 6,
   "remote:weworkremotely": 10,
-  "linkedin": 84
+  "linkedin": 77
  },
  "log": [
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
   "WARNING Tavily: ashby/tavily stopped responding",
   "INFO Workable search: 124 jobs in Israel",
-  "WARNING Huuuge Israel: recruitee/huuuge stopped responding",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.tlv.partners org stages: {'series_c': 55, 'series_e': 44, 'other': 23, 'series_b': 22, 'series_d': 12, 'series_a': 4, 'series_unknown': 3, 'seed': 2}",
@@ -113,20 +112,20 @@
   "INFO Getro https://jobs.nfx.com: 54 Israel jobs",
   "INFO Getro https://israelvcforum.getro.com: collection_id=10949 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://israelvcforum.getro.com: hit the 600 cap, 1079 jobs after keyword searches",
-  "INFO Getro https://israelvcforum.getro.com org stages: {'other': 182, 'series_unknown': 173, 'acquisition': 172, 'series_c': 143, 'series_b': 89, 'ipo': 80, 'series_f': 51, 'series_d': 39, 'series_e': 35, 'seed': 30, 'series_a': 30, 'pre_seed': 24}",
+  "INFO Getro https://israelvcforum.getro.com org stages: {'other': 181, 'series_unknown': 173, 'acquisition': 172, 'series_c': 143, 'series_b': 89, 'ipo': 80, 'series_f': 51, 'series_d': 39, 'series_e': 35, 'series_a': 31, 'seed': 30, 'pre_seed': 24}",
   "INFO Getro https://israelvcforum.getro.com org head counts: {'4': 387, '3': 384, '2': 195, '5': 101, '1': 10, '6': 2}",
-  "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Bites': ('seed', 2), 'Ledge': ('seed', 2), 'Quantum Source': ('series_a', 2), 'Qedma': ('series_a', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'WireX Cube': ('series_a', 2), 'Scala Biodesign': ('series_a', 2), 'Cypago': ('seed', 2), 'Nagish': ('series_a', 2), 'BioRaptor': ('seed', 1), 'Regatta': ('seed', 2), 'env0': ('series_a', 2), 'Kipp': ('seed', 2), 'Omnix Medical': ('pre_seed', 2), 'Creednz': ('seed', 1), 'Alta': ('series_a', 2), 'ITsMine': ('seed', 2)}",
+  "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Ledge': ('seed', 2), 'Quantum Source': ('series_a', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'WireX Cube': ('series_a', 2), 'Scala Biodesign': ('series_a', 2), 'Cypago': ('seed', 2), 'Nagish': ('series_a', 2), 'BioRaptor': ('seed', 1), 'Regatta': ('seed', 2), 'env0': ('series_a', 2), 'Kipp': ('seed', 2), 'Omnix Medical': ('pre_seed', 2), 'Creednz': ('seed', 1), 'Alta': ('series_a', 2), 'ITsMine': ('seed', 2)}",
   "INFO Getro https://israelvcforum.getro.com: 1079 Israel jobs",
   "INFO Remote board remotive: 16 jobs",
   "INFO Remote board remoteok: 98 jobs",
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 4407 collected, 615 open to Israel",
-  "INFO LinkedIn: 303 jobs",
+  "INFO Remote: 4390 collected, 610 open to Israel",
+  "INFO LinkedIn: 292 jobs",
   "INFO LinkedIn remote: 89 jobs",
-  "INFO Collected 7490 jobs in Israel",
-  "INFO 849 pass the title filter",
-  "INFO New: 1, total kept: 284"
+  "INFO Collected 7474 jobs in Israel",
+  "INFO 841 pass the title filter",
+  "INFO New: 0, total kept: 282"
  ]
 }
