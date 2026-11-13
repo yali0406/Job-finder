@@ -1,14 +1,14 @@
 {
- "run": "2026-11-12T21:17:21+00:00",
+ "run": "2026-11-13T04:17:17+00:00",
  "collected_by_source": {
   "smartrecruiters": 154,
-  "workday": 997,
+  "workday": 995,
   "greenhouse": 835,
-  "careers_page": 85,
+  "careers_page": 87,
   "lever": 251,
   "comeet": 1382,
   "workable": 153,
-  "ashby": 390,
+  "ashby": 391,
   "recruitee": 3,
   "vc:jobs.tlv.partners": 164,
   "vc:careers.grovevc.com": 88,
@@ -23,10 +23,10 @@
   "vc:israelvcforum.getro.com": 1082,
   "remote:remotive": 8,
   "remote:remoteok": 62,
-  "remote:himalayas": 18,
+  "remote:himalayas": 20,
   "remote:jobicy": 67,
-  "remote:weworkremotely": 49,
-  "linkedin": 448
+  "remote:weworkremotely": 47,
+  "linkedin": 451
  },
  "relevant_by_source": {
   "smartrecruiters": 35,
@@ -35,7 +35,7 @@
   "lever": 28,
   "comeet": 250,
   "workable": 17,
-  "ashby": 53,
+  "ashby": 54,
   "careers_page": 11,
   "vc:jobs.tlv.partners": 12,
   "vc:careers.grovevc.com": 16,
@@ -50,10 +50,10 @@
   "vc:israelvcforum.getro.com": 88,
   "remote:remotive": 1,
   "remote:remoteok": 9,
-  "remote:himalayas": 2,
+  "remote:himalayas": 5,
   "remote:jobicy": 6,
   "remote:weworkremotely": 10,
-  "linkedin": 101
+  "linkedin": 105
  },
  "log": [
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
@@ -120,11 +120,11 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 4457 collected, 617 open to Israel",
-  "INFO LinkedIn: 360 jobs",
+  "INFO Remote: 4489 collected, 618 open to Israel",
+  "INFO LinkedIn: 363 jobs",
   "INFO LinkedIn remote: 88 jobs",
-  "INFO Collected 7577 jobs in Israel",
-  "INFO 865 pass the title filter",
-  "INFO New: 1, total kept: 283"
+  "INFO Collected 7581 jobs in Israel",
+  "INFO 873 pass the title filter",
+  "INFO New: 3, total kept: 286"
  ]
 }
