@@ -1,13 +1,13 @@
 {
- "run": "2026-11-13T08:17:14+00:00",
+ "run": "2026-11-13T09:17:14+00:00",
  "collected_by_source": {
   "smartrecruiters": 154,
   "workday": 995,
   "greenhouse": 837,
-  "careers_page": 85,
+  "careers_page": 87,
   "lever": 255,
   "comeet": 1382,
-  "workable": 153,
+  "workable": 152,
   "ashby": 381,
   "recruitee": 3,
   "vc:jobs.tlv.partners": 164,
@@ -23,10 +23,10 @@
   "vc:israelvcforum.getro.com": 1082,
   "remote:remotive": 8,
   "remote:remoteok": 62,
-  "remote:himalayas": 18,
+  "remote:himalayas": 22,
   "remote:jobicy": 68,
   "remote:weworkremotely": 47,
-  "linkedin": 445
+  "linkedin": 441
  },
  "relevant_by_source": {
   "smartrecruiters": 35,
@@ -39,7 +39,7 @@
   "careers_page": 11,
   "vc:jobs.tlv.partners": 12,
   "vc:careers.grovevc.com": 5,
-  "vc:jobs.ibexinvestors.com": 7,
+  "vc:jobs.ibexinvestors.com": 6,
   "vc:careers.viola-group.com": 24,
   "vc:jobs.vertexventures.co.il": 16,
   "vc:jobs.innovationendeavors.com": 10,
@@ -53,12 +53,12 @@
   "remote:himalayas": 5,
   "remote:jobicy": 6,
   "remote:weworkremotely": 10,
-  "linkedin": 103
+  "linkedin": 100
  },
  "log": [
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
   "WARNING Tavily: ashby/tavily stopped responding",
-  "INFO Workable search: 124 jobs in Israel",
+  "INFO Workable search: 123 jobs in Israel",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.tlv.partners org stages: {'series_c': 54, 'series_e': 43, 'other': 23, 'series_b': 22, 'series_d': 12, 'series_a': 4, 'series_unknown': 4, 'seed': 2}",
@@ -121,11 +121,11 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 4486 collected, 619 open to Israel",
-  "INFO LinkedIn: 357 jobs",
+  "INFO Remote: 4459 collected, 623 open to Israel",
+  "INFO LinkedIn: 353 jobs",
   "INFO LinkedIn remote: 88 jobs",
-  "INFO Collected 7552 jobs in Israel",
-  "INFO 858 pass the title filter",
+  "INFO Collected 7553 jobs in Israel",
+  "INFO 854 pass the title filter",
   "INFO New: 0, total kept: 286"
  ]
 }
