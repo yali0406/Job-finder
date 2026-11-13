@@ -10162,5 +10162,35 @@
   "company": "Roche",
   "reason": "5+ years",
   "at": "2026-11-13T11:17:17+00:00"
+ },
+ "9eb09335cd763666": {
+  "title": "Product Manager - AI SDK / Model-Serving Product Manager - IL",
+  "company": "Majestic Labs ai",
+  "reason": "8+ years",
+  "at": "2026-11-13T12:17:15+00:00"
+ },
+ "83f5c5c797868a1a": {
+  "title": "Product Manager - AI Infrastructure (Server HW) - US",
+  "company": "Majestic Labs ai",
+  "reason": "10+ years",
+  "at": "2026-11-13T12:17:15+00:00"
+ },
+ "948e43e127f5a237": {
+  "title": "Pre-Silicon Verification Engineer for AI",
+  "company": "Majestic Labs ai",
+  "reason": "startup role, weak fit (3)",
+  "at": "2026-11-13T12:17:15+00:00"
+ },
+ "aac82178ff1ef5fb": {
+  "title": "LLM Inference Engineer",
+  "company": "Majestic Labs ai",
+  "reason": "startup role, weak fit (8)",
+  "at": "2026-11-13T12:17:15+00:00"
+ },
+ "1382fc2ecfb7fb34": {
+  "title": "Compiler Engineer (PyTorch / Triton / LLVM / MLIR)",
+  "company": "Majestic Labs ai",
+  "reason": "startup role, weak fit (3)",
+  "at": "2026-11-13T12:17:15+00:00"
  }
 }
