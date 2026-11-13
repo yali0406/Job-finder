@@ -1,10 +1,10 @@
 {
- "run": "2026-11-13T20:17:18+00:00",
+ "run": "2026-11-13T21:17:17+00:00",
  "collected_by_source": {
   "smartrecruiters": 155,
   "workday": 778,
-  "greenhouse": 833,
-  "careers_page": 86,
+  "greenhouse": 834,
+  "careers_page": 87,
   "lever": 253,
   "comeet": 1382,
   "workable": 153,
@@ -39,7 +39,7 @@
   "careers_page": 11,
   "vc:jobs.tlv.partners": 12,
   "vc:careers.grovevc.com": 18,
-  "vc:jobs.ibexinvestors.com": 7,
+  "vc:jobs.ibexinvestors.com": 6,
   "vc:careers.viola-group.com": 24,
   "vc:jobs.vertexventures.co.il": 16,
   "vc:jobs.innovationendeavors.com": 9,
@@ -56,6 +56,7 @@
   "linkedin": 67
  },
  "log": [
+  "WARNING Nvidia Israel: workday/nvidia|wd5|NVIDIAExternalCareerSite stopped responding",
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
   "WARNING Tavily: ashby/tavily stopped responding",
   "INFO Workable search: 124 jobs in Israel",
@@ -97,7 +98,7 @@
   "INFO Getro https://jobs.insightpartners.com: 324 Israel jobs",
   "INFO Getro https://jobs.accel.com: collection_id=8672 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.accel.com org stages: {'acquisition': 222, 'ipo': 107, 'other': 46, 'series_g': 33, 'series_a': 30, 'series_c': 14, 'series_b': 10, 'series_e': 7, 'series_unknown': 4, 'series_d': 4}",
-  "INFO Getro https://jobs.accel.com org head counts: {'4': 175, '2': 85, '6': 77, '3': 48, '1': 47, '5': 45}",
+  "INFO Getro https://jobs.accel.com org head counts: {'4': 176, '2': 84, '6': 77, '3': 48, '1': 47, '5': 45}",
   "INFO Getro https://jobs.accel.com early-stage orgs: {'ZyG': ('series_a', 2), 'Legion Security': ('series_a', 2), 'Vega Ventures': ('series_a', 1), 'Surf AI': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Vorlon': ('series_a', 2)}",
   "INFO Getro https://jobs.accel.com: 477 Israel jobs",
   "INFO Getro https://careers.greenfield-growth.com: collection_id=1534 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -121,11 +122,11 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 4388 collected, 598 open to Israel",
+  "INFO Remote: 4396 collected, 599 open to Israel",
   "INFO LinkedIn: 264 jobs",
   "INFO LinkedIn remote: 89 jobs",
-  "INFO Collected 7223 jobs in Israel",
-  "INFO 828 pass the title filter",
-  "INFO New: 1, total kept: 285"
+  "INFO Collected 7225 jobs in Israel",
+  "INFO 827 pass the title filter",
+  "INFO New: 1, total kept: 286"
  ]
 }
