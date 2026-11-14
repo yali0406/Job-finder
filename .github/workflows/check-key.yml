@@ -1,0 +1,22 @@
+name: check claude key
+# Manual check that the ANTHROPIC_API_KEY secret works (one tiny request).
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q anthropic
+      - env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python - <<'PY'
+          import anthropic
+          r = anthropic.Anthropic().messages.create(model="claude-haiku-5-5", max_tokens=5,
+                                                     messages=[{"role": "user", "content": "Say OK"}])
+          print("KEY OK:", r.content[0].text)
+          PY
