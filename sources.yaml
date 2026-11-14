@@ -1003,6 +1003,33 @@ remote_companies:
   - {name: "Marqeta", careers: "https://www.marqeta.com/company/careers"}
   - {name: "Runway", ats: ashby, slug: "runway-ml"}
   - {name: "Flex (flex.one)", careers: "https://flex.one/careers"}
+  # Companies hiring remotely across Europe, from a recruiter's list (Nov 2026)
+  - {name: "Algolia", ats: greenhouse, slug: "algolia"}
+  - {name: "Typeform", ats: greenhouse, slug: "typeform"}
+  - {name: "JetBrains", ats: greenhouse, slug: "jetbrains"}
+  - {name: "Dropbox", ats: greenhouse, slug: "dropbox"}
+  - {name: "Neo4j", ats: greenhouse, slug: "neo4j"}
+  - {name: "Snyk", ats: ashby, slug: "snyk"}
+  - {name: "Sanity", ats: ashby, slug: "sanity"}
+  - {name: "Twilio", ats: greenhouse, slug: "twilio"}
+  - {name: "InfluxData", ats: ashby, slug: "influxdata"}
+  - {name: "Temporal Technologies", ats: ashby, slug: "temporal"}
+  - {name: "Linear", ats: ashby, slug: "linear"}
+  - {name: "n8n", ats: ashby, slug: "n8n"}
+  - {name: "Redis", ats: ashby, slug: "redis"}
+  - {name: "ElevenLabs", ats: ashby, slug: "elevenlabs"}
+  - {name: "Poolside", ats: ashby, slug: "poolside"}
+  - {name: "PlanetScale", ats: greenhouse, slug: "planetscale"}
+  - {name: "Customer.io", ats: greenhouse, slug: "customerio"}
+  - {name: "Synthesia", ats: ashby, slug: "synthesia"}
+  - {name: "GitBook", ats: ashby, slug: "gitbook"}
+  - {name: "CircleCI", ats: greenhouse, slug: "circleci"}
+  - {name: "Alan", ats: ashby, slug: "alan"}
+  - {name: "ClickHouse", ats: ashby, slug: "clickhouse"}
+  - {name: "Pennylane", ats: ashby, slug: "pennylane"}
+  - {name: "Samsara", ats: greenhouse, slug: "samsara"}
+  - {name: "Celonis", ats: greenhouse, slug: "celonis"}
+  - {name: "Databricks", ats: greenhouse, slug: "databricks"}
 
 # LinkedIn searches limited to fully remote jobs open to candidates in Israel (run with the LinkedIn scan).
 linkedin_remote_queries:
