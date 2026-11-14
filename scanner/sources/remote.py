@@ -19,6 +19,8 @@ def eligible(location: str) -> bool:
     loc = (location or "").strip()
     if not loc or re.fullmatch(r"remote", loc, re.I):
         return True  # no restriction stated; Claude reads the description and scores eligibility
+    # "Anywhere in Belgium" means anywhere inside that country, not anywhere in the world
+    loc = re.sub(r"anywhere in (?!the world|world|emea|israel|middle east)[^,;/|]+", "", loc, flags=re.I)
     if ELIGIBLE.search(loc):
         return True
     return False
