@@ -1,8 +1,8 @@
 {
- "run": "2026-11-14T16:17:16+00:00",
+ "run": "2026-11-14T17:17:17+00:00",
  "collected_by_source": {
   "smartrecruiters": 153,
-  "workday": 390,
+  "workday": 465,
   "greenhouse": 849,
   "careers_page": 87,
   "lever": 251,
@@ -25,12 +25,12 @@
   "remote:remoteok": 61,
   "remote:himalayas": 12,
   "remote:jobicy": 52,
-  "remote:weworkremotely": 48,
-  "linkedin": 279
+  "remote:weworkremotely": 50,
+  "linkedin": 276
  },
  "relevant_by_source": {
   "smartrecruiters": 33,
-  "workday": 16,
+  "workday": 27,
   "greenhouse": 78,
   "lever": 27,
   "comeet": 250,
@@ -39,7 +39,7 @@
   "careers_page": 11,
   "vc:jobs.tlv.partners": 12,
   "vc:careers.grovevc.com": 18,
-  "vc:jobs.ibexinvestors.com": 7,
+  "vc:jobs.ibexinvestors.com": 6,
   "vc:careers.viola-group.com": 24,
   "vc:jobs.vertexventures.co.il": 16,
   "vc:jobs.innovationendeavors.com": 9,
@@ -53,15 +53,13 @@
   "remote:himalayas": 1,
   "remote:jobicy": 6,
   "remote:weworkremotely": 10,
-  "linkedin": 42
+  "linkedin": 41
  },
  "log": [
   "WARNING Nvidia Israel: workday/nvidia|wd5|NVIDIAExternalCareerSite stopped responding",
   "WARNING Intel Israel: workday/intel|wd1|External stopped responding",
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
   "WARNING HPE Israel: workday/hpe|wd5|Jobsathpe stopped responding",
-  "WARNING Applied Materials Israel: workday/amat|wd1|External stopped responding",
-  "WARNING Dynamic Yield: workday/mastercard|wd1|CorporateCareers stopped responding",
   "WARNING Tavily: ashby/tavily stopped responding",
   "INFO Workable search: 124 jobs in Israel",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
@@ -126,11 +124,11 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 5258 collected, 623 open to Israel",
-  "INFO LinkedIn: 190 jobs",
-  "INFO LinkedIn remote: 89 jobs",
-  "INFO Collected 6792 jobs in Israel",
-  "INFO 789 pass the title filter",
-  "INFO New: 0, total kept: 283"
+  "INFO Remote: 5233 collected, 625 open to Israel",
+  "INFO LinkedIn: 188 jobs",
+  "INFO LinkedIn remote: 88 jobs",
+  "INFO Collected 6866 jobs in Israel",
+  "INFO 798 pass the title filter",
+  "INFO New: 1, total kept: 284"
  ]
 }
