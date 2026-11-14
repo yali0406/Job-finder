@@ -1,5 +1,5 @@
 {
- "run": "2026-11-14T04:17:15+00:00",
+ "run": "2026-11-14T05:17:14+00:00",
  "collected_by_source": {
   "smartrecruiters": 155,
   "greenhouse": 833,
@@ -23,10 +23,10 @@
   "vc:israelvcforum.getro.com": 1081,
   "remote:remotive": 9,
   "remote:remoteok": 61,
-  "remote:himalayas": 11,
+  "remote:himalayas": 9,
   "remote:jobicy": 55,
   "remote:weworkremotely": 48,
-  "linkedin": 327
+  "linkedin": 328
  },
  "relevant_by_source": {
   "smartrecruiters": 35,
@@ -50,6 +50,7 @@
   "vc:israelvcforum.getro.com": 90,
   "remote:remotive": 1,
   "remote:remoteok": 8,
+  "remote:himalayas": 1,
   "remote:jobicy": 6,
   "remote:weworkremotely": 10,
   "linkedin": 59
@@ -112,7 +113,7 @@
   "INFO Getro https://jobs.insightpartners.com: 324 Israel jobs",
   "INFO Getro https://jobs.accel.com: collection_id=8672 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.accel.com org stages: {'acquisition': 222, 'ipo': 107, 'other': 46, 'series_g': 33, 'series_a': 30, 'series_c': 14, 'series_b': 10, 'series_e': 7, 'series_unknown': 4, 'series_d': 4}",
-  "INFO Getro https://jobs.accel.com org head counts: {'4': 174, '2': 86, '6': 77, '3': 48, '1': 47, '5': 45}",
+  "INFO Getro https://jobs.accel.com org head counts: {'4': 176, '2': 84, '6': 77, '3': 48, '1': 47, '5': 45}",
   "INFO Getro https://jobs.accel.com early-stage orgs: {'ZyG': ('series_a', 2), 'Legion Security': ('series_a', 2), 'Vega Ventures': ('series_a', 1), 'Surf AI': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Vorlon': ('series_a', 2)}",
   "INFO Getro https://jobs.accel.com: 477 Israel jobs",
   "INFO Getro https://careers.greenfield-growth.com: collection_id=1534 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -138,11 +139,11 @@
   "INFO Remote board weworkremotely: 100 jobs",
   "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
   "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
-  "INFO Remote: 4414 collected, 603 open to Israel",
-  "INFO LinkedIn: 238 jobs",
+  "INFO Remote: 4389 collected, 601 open to Israel",
+  "INFO LinkedIn: 239 jobs",
   "INFO LinkedIn remote: 89 jobs",
-  "INFO Collected 6469 jobs in Israel",
-  "INFO 793 pass the title filter",
-  "INFO New: 3, total kept: 285"
+  "INFO Collected 6468 jobs in Israel",
+  "INFO 794 pass the title filter",
+  "INFO New: 2, total kept: 287"
  ]
 }
