@@ -1,7 +1,7 @@
 {
- "run": "2026-11-14T05:17:14+00:00",
+ "run": "2026-11-14T06:17:16+00:00",
  "collected_by_source": {
-  "smartrecruiters": 155,
+  "smartrecruiters": 153,
   "greenhouse": 833,
   "workday": 45,
   "careers_page": 87,
@@ -20,16 +20,16 @@
   "vc:jobs.accel.com": 477,
   "vc:careers.greenfield-growth.com": 132,
   "vc:jobs.nfx.com": 55,
-  "vc:israelvcforum.getro.com": 1081,
+  "vc:israelvcforum.getro.com": 1080,
   "remote:remotive": 9,
   "remote:remoteok": 61,
   "remote:himalayas": 9,
-  "remote:jobicy": 55,
+  "remote:jobicy": 53,
   "remote:weworkremotely": 48,
-  "linkedin": 328
+  "linkedin": 329
  },
  "relevant_by_source": {
-  "smartrecruiters": 35,
+  "smartrecruiters": 33,
   "greenhouse": 78,
   "lever": 27,
   "comeet": 250,
@@ -113,7 +113,7 @@
   "INFO Getro https://jobs.insightpartners.com: 324 Israel jobs",
   "INFO Getro https://jobs.accel.com: collection_id=8672 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.accel.com org stages: {'acquisition': 222, 'ipo': 107, 'other': 46, 'series_g': 33, 'series_a': 30, 'series_c': 14, 'series_b': 10, 'series_e': 7, 'series_unknown': 4, 'series_d': 4}",
-  "INFO Getro https://jobs.accel.com org head counts: {'4': 176, '2': 84, '6': 77, '3': 48, '1': 47, '5': 45}",
+  "INFO Getro https://jobs.accel.com org head counts: {'4': 175, '2': 85, '6': 77, '3': 48, '1': 47, '5': 45}",
   "INFO Getro https://jobs.accel.com early-stage orgs: {'ZyG': ('series_a', 2), 'Legion Security': ('series_a', 2), 'Vega Ventures': ('series_a', 1), 'Surf AI': ('series_a', 2), 'PhaseV': ('series_a', 2), 'Vorlon': ('series_a', 2)}",
   "INFO Getro https://jobs.accel.com: 477 Israel jobs",
   "INFO Getro https://careers.greenfield-growth.com: collection_id=1534 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -127,11 +127,11 @@
   "INFO Getro https://jobs.nfx.com early-stage orgs: {}",
   "INFO Getro https://jobs.nfx.com: 55 Israel jobs",
   "INFO Getro https://israelvcforum.getro.com: collection_id=10949 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
-  "INFO Getro https://israelvcforum.getro.com: hit the 600 cap, 1081 jobs after keyword searches",
-  "INFO Getro https://israelvcforum.getro.com org stages: {'other': 180, 'series_unknown': 175, 'acquisition': 172, 'series_c': 144, 'series_b': 89, 'ipo': 80, 'series_f': 51, 'series_d': 39, 'series_e': 35, 'series_a': 31, 'seed': 30, 'pre_seed': 24}",
-  "INFO Getro https://israelvcforum.getro.com org head counts: {'4': 390, '3': 384, '2': 194, '5': 101, '1': 10, '6': 2}",
+  "INFO Getro https://israelvcforum.getro.com: hit the 600 cap, 1080 jobs after keyword searches",
+  "INFO Getro https://israelvcforum.getro.com org stages: {'other': 180, 'series_unknown': 175, 'acquisition': 172, 'series_c': 143, 'series_b': 89, 'ipo': 80, 'series_f': 51, 'series_d': 39, 'series_e': 35, 'series_a': 31, 'seed': 30, 'pre_seed': 24}",
+  "INFO Getro https://israelvcforum.getro.com org head counts: {'4': 389, '3': 384, '2': 194, '5': 101, '1': 10, '6': 2}",
   "INFO Getro https://israelvcforum.getro.com early-stage orgs: {'Qedma': ('series_a', 2), 'Bites': ('seed', 2), 'Ledge': ('seed', 2), 'Quantum Source': ('series_a', 2), 'Vocai': ('pre_seed', 1), 'UNIPaaS': ('seed', 2), 'Particula': ('series_a', 2), 'WireX Cube': ('series_a', 2), 'Scala Biodesign': ('series_a', 2), 'Cypago': ('seed', 2), 'Nagish': ('series_a', 2), 'BioRaptor': ('seed', 1), 'Regatta': ('seed', 2), 'env0': ('series_a', 2), 'Kipp': ('seed', 2), 'Omnix Medical': ('pre_seed', 2), 'Creednz': ('seed', 1), 'Alta': ('series_a', 2), 'ITsMine': ('seed', 2)}",
-  "INFO Getro https://israelvcforum.getro.com: 1081 Israel jobs",
+  "INFO Getro https://israelvcforum.getro.com: 1080 Israel jobs",
   "INFO Remote board remotive: 16 jobs",
   "INFO Remote board remoteok: 97 jobs",
   "INFO Remote board himalayas: 1200 jobs",
@@ -139,11 +139,11 @@
   "INFO Remote board weworkremotely: 100 jobs",
   "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
   "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
-  "INFO Remote: 4389 collected, 601 open to Israel",
-  "INFO LinkedIn: 239 jobs",
+  "INFO Remote: 4389 collected, 599 open to Israel",
+  "INFO LinkedIn: 240 jobs",
   "INFO LinkedIn remote: 89 jobs",
-  "INFO Collected 6468 jobs in Israel",
-  "INFO 794 pass the title filter",
-  "INFO New: 2, total kept: 287"
+  "INFO Collected 6464 jobs in Israel",
+  "INFO 792 pass the title filter",
+  "INFO New: 0, total kept: 286"
  ]
 }
