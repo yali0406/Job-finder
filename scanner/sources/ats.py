@@ -72,7 +72,10 @@ def _workday(slug, company):
                  json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": "Israel"})
         if not r or r.status_code != 200:
             return jobs or None
-        posts = r.json().get("jobPostings") or []
+        try:
+            posts = r.json().get("jobPostings") or []
+        except ValueError:  # Workday sometimes answers with an HTML maintenance page
+            return jobs or None
         for j in posts:
             jobs.append(Job(
                 title=j.get("title", ""),
@@ -520,7 +523,11 @@ def fetch_companies(companies, cache: dict, israel_only=True):
 
         jobs = None
         if ats:
-            jobs = FETCHERS[ats](slug, name)
+            try:
+                jobs = FETCHERS[ats](slug, name)
+            except Exception as e:  # one company's odd answer must never stop the whole scan
+                log.warning("%s: %s/%s failed: %s", name, ats, slug, e)
+                jobs = None
             if jobs is None:
                 log.warning("%s: %s/%s stopped responding", name, ats, slug)
         else:
@@ -533,7 +540,11 @@ def fetch_companies(companies, cache: dict, israel_only=True):
             if _detected_this_run >= MAX_DETECT_PER_RUN:
                 continue
             _detected_this_run += 1
-            ats, slug, jobs = detect(name, entry.get("careers"))
+            try:
+                ats, slug, jobs = detect(name, entry.get("careers"))
+            except Exception as e:
+                log.warning("%s: job-board lookup failed: %s", name, e)
+                ats, slug, jobs = None, None, []
             cache[name] = {"ats": ats, "slug": slug, "checked": now.isoformat(), "careers": entry.get("careers")}
             if ats:
                 log.info("%s: detected %s/%s", name, ats, slug)

@@ -44,6 +44,15 @@ class _Collector(logging.Handler):
 DIAG = _Collector()
 
 
+def _safe(label, fn, *args):
+    """Run one source; if it breaks, log it and carry on with the others."""
+    try:
+        return fn(*args) or []
+    except Exception as e:
+        log.warning("%s failed: %s", label, e)
+        return []
+
+
 def collect(cfg, with_linkedin: bool):
     jobs = []
     cache = load_json(CACHE_FILE, {})
@@ -69,14 +78,13 @@ def collect(cfg, with_linkedin: bool):
     for b in cfg.get("vc_boards", []):
         b = b if isinstance(b, dict) else {"url": b}
         # The 🐣 tag comes from each company's own stage and size, not from which VC board listed it.
-        jobs += getro.fetch_board(b["url"].rstrip("/"))
+        jobs += _safe(f"VC board {b['url']}", getro.fetch_board, b["url"].rstrip("/"))
 
-    jobs += remote.fetch_all(cfg.get("remote_companies", []), cache)
+    jobs += _safe("Remote companies", remote.fetch_all, cfg.get("remote_companies", []), cache)
 
     if with_linkedin:
-        li = linkedin.fetch_queries(cfg.get("linkedin_queries", []))
-        li += linkedin.fetch_remote_queries(cfg.get("linkedin_remote_queries", []))
-        jobs += li
+        jobs += _safe("LinkedIn", linkedin.fetch_queries, cfg.get("linkedin_queries", []))
+        jobs += _safe("LinkedIn remote", linkedin.fetch_remote_queries, cfg.get("linkedin_remote_queries", []))
 
     CACHE_FILE.write_text(json.dumps(cache, indent=1, ensure_ascii=False, sort_keys=True))
     (CACHE_FILE.parent / "discovered.json").write_text(
