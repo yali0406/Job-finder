@@ -1,13 +1,13 @@
 {
- "run": "2026-11-15T09:30:41+00:00",
+ "run": "2026-11-15T09:39:31+00:00",
  "collected_by_source": {
   "smartrecruiters": 152,
   "workday": 713,
   "greenhouse": 847,
-  "careers_page": 87,
+  "careers_page": 63,
   "lever": 249,
   "comeet": 1379,
-  "workable": 153,
+  "workable": 149,
   "ashby": 392,
   "recruitee": 2,
   "vc:jobs.tlv.partners": 165,
@@ -33,7 +33,7 @@
   "greenhouse": 78,
   "lever": 27,
   "comeet": 247,
-  "workable": 17,
+  "workable": 16,
   "ashby": 50,
   "careers_page": 11,
   "vc:jobs.tlv.partners": 12,
@@ -56,8 +56,10 @@
  "log": [
   "WARNING eToro: comeet/etoro/41.009 stopped responding",
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
+  "WARNING ParaZero: careers_page/https://parazero.com/careers/ stopped responding",
+  "WARNING Elspec: careers_page/https://www.elspec-ltd.com/careers/ stopped responding",
   "WARNING Tavily: ashby/tavily stopped responding",
-  "INFO Workable search: 124 jobs in Israel",
+  "INFO Workable search: 122 jobs in Israel",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.tlv.partners org stages: {'series_c': 55, 'series_e': 44, 'other': 23, 'series_b': 22, 'series_d': 12, 'series_a': 4, 'series_unknown': 3, 'seed': 2}",
@@ -120,9 +122,9 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 5287 collected, 638 open to Israel",
-  "INFO Collected 6836 jobs in Israel",
-  "INFO 759 pass the title filter",
-  "INFO New: 0, total kept: 279"
+  "INFO Remote: 5262 collected, 638 open to Israel",
+  "INFO Collected 6808 jobs in Israel",
+  "INFO 758 pass the title filter",
+  "INFO New: 0, total kept: 278"
  ]
 }
