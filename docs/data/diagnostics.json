@@ -1,10 +1,10 @@
 {
- "run": "2026-11-15T09:39:31+00:00",
+ "run": "2026-11-15T09:43:48+00:00",
  "collected_by_source": {
   "smartrecruiters": 152,
   "workday": 713,
-  "greenhouse": 847,
-  "careers_page": 63,
+  "greenhouse": 846,
+  "careers_page": 88,
   "lever": 249,
   "comeet": 1379,
   "workable": 149,
@@ -56,8 +56,6 @@
  "log": [
   "WARNING eToro: comeet/etoro/41.009 stopped responding",
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
-  "WARNING ParaZero: careers_page/https://parazero.com/careers/ stopped responding",
-  "WARNING Elspec: careers_page/https://www.elspec-ltd.com/careers/ stopped responding",
   "WARNING Tavily: ashby/tavily stopped responding",
   "INFO Workable search: 122 jobs in Israel",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
@@ -123,7 +121,7 @@
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
   "INFO Remote: 5262 collected, 638 open to Israel",
-  "INFO Collected 6808 jobs in Israel",
+  "INFO Collected 6832 jobs in Israel",
   "INFO 758 pass the title filter",
   "INFO New: 0, total kept: 278"
  ]
