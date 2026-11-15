@@ -1,15 +1,15 @@
 {
- "run": "2026-11-15T08:17:19+00:00",
+ "run": "2026-11-15T09:17:13+00:00",
  "collected_by_source": {
   "smartrecruiters": 153,
-  "workday": 995,
+  "workday": 712,
   "greenhouse": 847,
-  "careers_page": 84,
-  "lever": 248,
-  "comeet": 1380,
+  "careers_page": 87,
+  "lever": 249,
+  "comeet": 1379,
   "workable": 153,
-  "ashby": 391,
-  "recruitee": 3,
+  "ashby": 392,
+  "recruitee": 2,
   "vc:jobs.tlv.partners": 165,
   "vc:careers.grovevc.com": 89,
   "vc:jobs.ibexinvestors.com": 42,
@@ -26,13 +26,13 @@
   "remote:himalayas": 21,
   "remote:jobicy": 54,
   "remote:weworkremotely": 52,
-  "linkedin": 307
+  "linkedin": 321
  },
  "relevant_by_source": {
   "smartrecruiters": 33,
   "workday": 30,
   "greenhouse": 78,
-  "lever": 26,
+  "lever": 27,
   "comeet": 247,
   "workable": 17,
   "ashby": 50,
@@ -53,13 +53,11 @@
   "remote:himalayas": 2,
   "remote:jobicy": 9,
   "remote:weworkremotely": 10,
-  "linkedin": 46
+  "linkedin": 54
  },
  "log": [
   "WARNING eToro: comeet/etoro/41.009 stopped responding",
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
-  "WARNING ParaZero: careers_page/https://parazero.com/careers/ stopped responding",
-  "WARNING Elspec: careers_page/https://www.elspec-ltd.com/careers/ stopped responding",
   "WARNING Tavily: ashby/tavily stopped responding",
   "INFO Workable search: 124 jobs in Israel",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
@@ -124,11 +122,11 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 5286 collected, 638 open to Israel",
-  "INFO LinkedIn: 219 jobs",
+  "INFO Remote: 5262 collected, 638 open to Israel",
+  "INFO LinkedIn: 233 jobs",
   "INFO LinkedIn remote: 88 jobs",
-  "INFO Collected 7423 jobs in Israel",
-  "INFO 805 pass the title filter",
-  "INFO New: 0, total kept: 279"
+  "INFO Collected 7157 jobs in Israel",
+  "INFO 814 pass the title filter",
+  "INFO New: 2, total kept: 280"
  ]
 }
