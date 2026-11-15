@@ -1,13 +1,13 @@
 {
- "run": "2026-11-15T19:17:14+00:00",
+ "run": "2026-11-15T20:17:19+00:00",
  "collected_by_source": {
   "smartrecruiters": 146,
   "workday": 1413,
-  "greenhouse": 988,
+  "greenhouse": 989,
   "careers_page": 89,
-  "lever": 249,
+  "lever": 246,
   "comeet": 1370,
-  "workable": 150,
+  "workable": 151,
   "ashby": 416,
   "recruitee": 3,
   "vc:jobs.tlv.partners": 164,
@@ -26,7 +26,7 @@
   "remote:himalayas": 29,
   "remote:jobicy": 52,
   "remote:weworkremotely": 49,
-  "linkedin": 436
+  "linkedin": 429
  },
  "relevant_by_source": {
   "smartrecruiters": 35,
@@ -34,7 +34,7 @@
   "greenhouse": 89,
   "lever": 27,
   "comeet": 244,
-  "workable": 15,
+  "workable": 16,
   "ashby": 52,
   "careers_page": 11,
   "vc:jobs.tlv.partners": 12,
@@ -53,13 +53,14 @@
   "remote:himalayas": 1,
   "remote:jobicy": 9,
   "remote:weworkremotely": 9,
-  "linkedin": 71
+  "linkedin": 72
  },
  "log": [
   "WARNING eToro: comeet/etoro/41.009 stopped responding",
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
   "WARNING SAM Seamless Network: comeet/securingsam/D4.000 stopped responding",
-  "INFO Workable search: 122 jobs in Israel",
+  "INFO Bestow: detected ashby/bestow",
+  "INFO Workable search: 123 jobs in Israel",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
   "INFO Getro https://jobs.tlv.partners org stages: {'series_c': 55, 'series_e': 43, 'other': 23, 'series_b': 22, 'series_d': 12, 'series_a': 4, 'series_unknown': 3, 'seed': 2}",
@@ -122,11 +123,11 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 5258 collected, 641 open to Israel",
-  "INFO LinkedIn: 348 jobs",
+  "INFO Remote: 5282 collected, 641 open to Israel",
+  "INFO LinkedIn: 341 jobs",
   "INFO LinkedIn remote: 88 jobs",
-  "INFO Collected 8156 jobs in Israel",
-  "INFO 843 pass the title filter",
-  "INFO New: 0, total kept: 284"
+  "INFO Collected 8148 jobs in Israel",
+  "INFO 845 pass the title filter",
+  "INFO New: 2, total kept: 285"
  ]
 }
