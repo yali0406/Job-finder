@@ -63,6 +63,37 @@
   .bulk.on { display: flex; }
   .bulk button { border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 8px; padding: 5px 10px; cursor: pointer; font: inherit; font-size: 13px; }
   .tag.opened, .tag.unopened { cursor: pointer; }
+  .dash { max-width: 980px; margin: 0 auto; padding: 4px 16px 4px; }
+  .dash-head { display: flex; align-items: center; justify-content: space-between; margin: 6px 0; }
+  .dash-head h2 { margin: 0; font-size: 15px; color: var(--muted); font-weight: 600; }
+  .dash-head button { border: 1px solid var(--line); background: var(--card); color: var(--muted); border-radius: 8px;
+    padding: 3px 10px; cursor: pointer; font: inherit; font-size: 12px; }
+  .dash.closed .dash-body { display: none; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; }
+  .kpi { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+  .kpi .v { font-size: 24px; font-weight: 700; line-height: 1.2; font-variant-numeric: tabular-nums; }
+  .kpi .l { color: var(--muted); font-size: 12px; }
+  .panels { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+  @media (max-width: 640px) { .panels { grid-template-columns: 1fr; } }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; min-width: 0; }
+  .panel h3 { margin: 0 0 8px; font-size: 13px; font-weight: 600; }
+  .panel .hint { color: var(--muted); font-weight: 400; font-size: 12px; }
+  .cols { display: flex; align-items: flex-end; gap: 2px; height: 110px; border-bottom: 1px solid var(--line); }
+  .cols .c { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; cursor: default; }
+  .cols .c span { display: block; background: var(--accent); border-radius: 4px 4px 0 0; min-height: 0; }
+  .cols .c:hover span { opacity: .75; }
+  .cols-x { display: flex; justify-content: space-between; color: var(--muted); font-size: 11px; margin-top: 3px; }
+  .hbars { display: grid; gap: 5px; }
+  .hb { display: grid; grid-template-columns: minmax(70px, 38%) 1fr 30px; gap: 8px; align-items: center; font-size: 12px;
+    background: none; border: 0; padding: 2px 0; color: var(--text); font: inherit; font-size: 12px; text-align: start; cursor: pointer; }
+  .hb:hover .track span { opacity: .75; }
+  .hb .n { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .hb .track { height: 10px; }
+  .hb .track span { display: block; height: 100%; background: var(--accent); border-start-end-radius: 4px; border-end-end-radius: 4px; }
+  .hb.on .n { color: var(--accent); font-weight: 600; }
+  .hb .num { color: var(--muted); font-variant-numeric: tabular-nums; text-align: end; }
+  .tip { position: fixed; z-index: 20; pointer-events: none; background: var(--text); color: var(--bg); font-size: 12px;
+    padding: 4px 8px; border-radius: 6px; display: none; white-space: nowrap; }
   .empty { color: var(--muted); padding: 30px 0; text-align: center; }
   @media (max-width: 560px) {
     .job { grid-template-columns: 44px 1fr; }
@@ -76,6 +107,20 @@
   <h1>המשרות שלי</h1>
   <div class="sub" id="status">טוען…</div>
 </header>
+
+<section class="dash" id="dash">
+  <div class="dash-head"><h2>📊 דשבורד <span class="hint" id="dashScope"></span></h2><button id="dashToggle">הסתר</button></div>
+  <div class="dash-body">
+    <div class="kpis" id="kpis"></div>
+    <div class="panels">
+      <div class="panel"><h3>משרות חדשות ב-14 הימים האחרונים</h3><div class="cols" id="chartDays"></div><div class="cols-x" id="chartDaysX"></div></div>
+      <div class="panel"><h3>לפי סוג תפקיד <span class="hint">· לחיצה מסננת</span></h3><div class="hbars" id="chartCats"></div></div>
+      <div class="panel"><h3>חברות מובילות <span class="hint">· לחיצה מחפשת</span></h3><div class="hbars" id="chartCos"></div></div>
+      <div class="panel"><h3>פיזור ציוני התאמה <span class="hint">· כל הציונים</span></h3><div class="hbars" id="chartScores"></div></div>
+    </div>
+  </div>
+</section>
+<div class="tip" id="tip"></div>
 
 <div class="controls" id="sections">
   <button class="chip" data-section="il">🇮🇱 בישראל <span id="countIl"></span></button>
@@ -227,6 +272,7 @@ function render() {
   const fresh = jobs.filter(isNew).sort(cmp);
   const older = jobs.filter(j => !isNew(j)).sort(cmp);
 
+  renderDash();
   $("summary").textContent = `${fresh.length} חדשות מאז הביקור הקודם · ${jobs.length} מוצגות מתוך ${data.jobs.length}`;
   let html = "";
   if (fresh.length) html += `<div class="section-title">חדש מאז ${lastVisit ? fmt(lastVisit) : "הביקור הראשון"}</div>` + fresh.map(jobHtml).join("");
@@ -263,6 +309,78 @@ function render() {
     render();
   });
 }
+
+// ---- Dashboard: stats for the current section (Israel / remote) at the chosen minimum score ----
+const tip = $("tip");
+function bindTips(root) {
+  root.querySelectorAll("[data-tip]").forEach(el => {
+    el.onmousemove = (e) => { tip.textContent = el.dataset.tip; tip.style.display = "block";
+      tip.style.left = Math.min(e.clientX + 12, innerWidth - tip.offsetWidth - 8) + "px"; tip.style.top = (e.clientY - 34) + "px"; };
+    el.onmouseleave = () => { tip.style.display = "none"; };
+  });
+}
+const hbars = (rows, max, onAttr) => rows.map(([name, n, on]) =>
+  `<button class="hb ${on ? "on" : ""}" ${onAttr(name)} data-tip="${esc(name)}: ${n}">
+    <span class="n">${esc(name)}</span><span class="track"><span style="width:${max ? Math.max(2, n / max * 100) : 0}%"></span></span><span class="num">${n}</span></button>`).join("");
+
+function renderDash() {
+  const min = +$("minScore").value;
+  const inSec = data.jobs.filter(j => (section === "remote") === !!j.remote);
+  const live = inSec.filter(j => marks[j.id] !== "hidden");
+  const good = live.filter(j => (j.score ?? 0) >= min);
+  const day = 864e5, now = Date.now();
+  const since = (ms) => good.filter(j => now - Date.parse(j.first_seen) < ms).length;
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const avg = good.length ? Math.round(good.reduce((a, j) => a + (j.score ?? 0), 0) / good.length) : 0;
+  const cnt = (m) => inSec.filter(j => marks[j.id] === m).length;
+  $("dashScope").textContent = `· ${section === "remote" ? "מרחוק מחו״ל" : "בישראל"} · ציון ${min}+`;
+  const kpis = [
+    [good.length, "משרות מתאימות"],
+    [good.filter(j => Date.parse(j.first_seen) >= today.getTime()).length, "חדשות היום"],
+    [since(7 * day), "חדשות ב-7 ימים"],
+    [avg || "–", "ציון ממוצע"],
+    [good.filter(j => !opened[j.id]).length, "עוד לא נכנסתי"],
+    [cnt("saved"), "שמורות"],
+    [cnt("applied"), "הגשתי"],
+  ];
+  $("kpis").innerHTML = kpis.map(([v, l]) => `<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join("");
+
+  // new jobs per day, last 14 days
+  const days = [...Array(14)].map((_, i) => { const d = new Date(today.getTime() - (13 - i) * day); return d; });
+  const perDay = days.map(d => good.filter(j => { const t = Date.parse(j.first_seen); return t >= d.getTime() && t < d.getTime() + day; }).length);
+  const maxD = Math.max(1, ...perDay);
+  const dl = (d) => d.toLocaleDateString("he-IL", { day: "numeric", month: "numeric" });
+  $("chartDays").innerHTML = perDay.map((n, i) =>
+    `<div class="c" data-tip="${dl(days[i])}: ${n} משרות"><span style="height:${n / maxD * 100}%"></span></div>`).join("");
+  $("chartDaysX").innerHTML = `<span>${dl(days[0])}</span><span>${dl(days[7])}</span><span>היום</span>`;
+
+  const tally = (key) => { const m = {}; good.forEach(j => { const k = key(j); if (k) m[k] = (m[k] || 0) + 1; }); return Object.entries(m).sort((a, b) => b[1] - a[1]); };
+  const cats = tally(j => j.category).slice(0, 8);
+  $("chartCats").innerHTML = hbars(cats.map(([c, n]) => [c, n, activeCats.has(c)]), cats[0]?.[1], c => `data-dcat="${esc(c)}"`) || '<div class="hint">אין נתונים</div>';
+  const cos = tally(j => j.company).slice(0, 8);
+  const q = $("q").value.trim().toLowerCase();
+  $("chartCos").innerHTML = hbars(cos.map(([c, n]) => [c, n, q && c.toLowerCase() === q]), cos[0]?.[1], c => `data-dco="${esc(c)}"`) || '<div class="hint">אין נתונים</div>';
+
+  const bins = [[80, 101, "80–100"], [60, 80, "60–79"], [40, 60, "40–59"], [0, 40, "מתחת ל-40"]];
+  const sb = bins.map(([a, b, l]) => [l, live.filter(j => (j.score ?? 0) >= a && (j.score ?? 0) < b).length, min >= a && min < b]);
+  $("chartScores").innerHTML = hbars(sb, Math.max(...sb.map(r => r[1])), l => `data-dscore="${bins.find(b => b[2] === l)[0]}"`);
+
+  document.querySelectorAll("[data-dcat]").forEach(b => b.onclick = () => {
+    const c = b.dataset.dcat; activeCats.has(c) ? activeCats.delete(c) : activeCats.add(c);
+    store.set("cats", [...activeCats]); renderCats(); render();
+  });
+  document.querySelectorAll("[data-dco]").forEach(b => b.onclick = () => {
+    $("q").value = $("q").value.trim().toLowerCase() === b.dataset.dco.toLowerCase() ? "" : b.dataset.dco; render();
+  });
+  document.querySelectorAll("[data-dscore]").forEach(b => b.onclick = () => {
+    const v = b.dataset.dscore; if ([...$("minScore").options].some(o => o.value === v)) { $("minScore").value = v; render(); }
+  });
+  bindTips($("dash"));
+}
+let dashOpen = store.get("dashOpen", true);
+const applyDash = () => { $("dash").classList.toggle("closed", !dashOpen); $("dashToggle").textContent = dashOpen ? "הסתר" : "הצג"; };
+$("dashToggle").onclick = () => { dashOpen = !dashOpen; store.set("dashOpen", dashOpen); applyDash(); };
+applyDash();
 
 $("markSeen").onclick = () => {
   lastVisit = data.updated || new Date().toISOString();
