@@ -412,6 +412,28 @@ def _atlassian(_slug, company):
     return jobs
 
 
+def _ppltx(base, company):
+    """ppltx Jobs (jobs.ppltx.co.il): a recruiter's board; each card is a link with the title, 📍 city and work mode.
+    The client company isn't named, so jobs carry the board's name."""
+    base = base.rstrip("/")
+    r = get(base + "/")
+    if not r or r.status_code != 200:
+        return None
+    jobs, seen = [], set()
+    for m in re.finditer(r'<a\b[^>]*href="(/[^"#?/]+)"[^>]*>([\s\S]{5,1500}?)</a>', r.text, re.I):
+        href, inner = m.groups()
+        text = re.sub(r"\s+", " ", strip_html(inner)).strip()
+        if "📍" not in text or href in seen:
+            continue
+        seen.add(href)
+        title, _, rest = text.partition("📍")
+        title = re.sub(r"\s*\[[A-Z]{1,3}\]\s*$", "", title.strip())  # drop the recruiter's internal code, e.g. [S]
+        loc = re.split(r"[🏢🏠🏡💻←]", rest)[0].strip()
+        jobs.append(Job(title=_unescape(title), company=company, url=base + href,
+                        location=(loc + ", Israel") if loc else "Israel", source="ppltx"))
+    return jobs
+
+
 FETCHERS = {
     "greenhouse": _greenhouse,
     "lever": _lever,
@@ -430,6 +452,7 @@ FETCHERS = {
     "linkedin_links": _linkedin_links,
     "jibe": _jibe,
     "atlassian": _atlassian,
+    "ppltx": _ppltx,
 }
 AUTODETECT_ORDER = ["greenhouse", "lever", "ashby", "workable", "smartrecruiters"]
 
