@@ -1,14 +1,14 @@
 {
- "run": "2026-11-16T08:23:18+00:00",
+ "run": "2026-11-16T09:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 143,
-  "greenhouse": 983,
-  "workday": 44,
-  "careers_page": 86,
-  "lever": 254,
-  "comeet": 1372,
+  "greenhouse": 981,
+  "careers_page": 88,
+  "lever": 255,
+  "comeet": 1371,
   "workable": 151,
-  "ashby": 418,
+  "ashby": 419,
+  "workday": 7,
   "recruitee": 3,
   "vc:jobs.tlv.partners": 164,
   "vc:careers.grovevc.com": 88,
@@ -26,7 +26,7 @@
   "remote:himalayas": 29,
   "remote:jobicy": 55,
   "remote:weworkremotely": 50,
-  "linkedin": 424
+  "linkedin": 423
  },
  "relevant_by_source": {
   "smartrecruiters": 35,
@@ -52,18 +52,21 @@
   "remote:himalayas": 2,
   "remote:jobicy": 9,
   "remote:weworkremotely": 8,
-  "linkedin": 77
+  "linkedin": 78
  },
  "log": [
   "WARNING CyberArk: workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
   "WARNING Nvidia Israel: workday/nvidia|wd5|NVIDIAExternalCareerSite stopped responding",
   "WARNING Intel Israel: workday/intel|wd1|External stopped responding",
+  "WARNING Salesforce Israel: workday/salesforce|wd12|External_Career_Site stopped responding",
   "WARNING Palo Alto Networks (incl. CyberArk): workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
   "WARNING Red Hat Israel: workday/redhat|wd5|jobs stopped responding",
   "WARNING Imperva (Thales Israel): workday/thales|wd3|Careers stopped responding",
   "WARNING eToro: comeet/etoro/41.009 stopped responding",
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
   "WARNING Marvell Israel: workday/marvell|wd1|MarvellCareers stopped responding",
+  "WARNING HPE Israel: workday/hpe|wd5|Jobsathpe stopped responding",
+  "WARNING Motorola Solutions Israel: workday/motorolasolutions|wd5|Careers stopped responding",
   "WARNING KLA Israel: workday/kla|wd1|Search stopped responding",
   "WARNING Applied Materials Israel: workday/amat|wd1|External stopped responding",
   "WARNING CrowdStrike Israel: workday/crowdstrike|wd5|crowdstrikecareers stopped responding",
@@ -72,7 +75,6 @@
   "WARNING Citi Israel: workday/citi|wd5|2 stopped responding",
   "WARNING eBay Israel: workday/ebay|wd5|apply stopped responding",
   "WARNING SciPlay: workday/lnw|wd5|SciPlayExternalCareersSite stopped responding",
-  "WARNING Digital Turbine: workday/digitalturbine|wd501|Digital_Turbine_External_Careers stopped responding",
   "WARNING SAM Seamless Network: comeet/securingsam/D4.000 stopped responding",
   "INFO Workable search: 123 jobs in Israel",
   "WARNING Product Madness Israel: workday/aristocrat|wd3|AristocratExternalCareersSite stopped responding",
@@ -138,14 +140,13 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "WARNING Workiva: workday/workiva|wd503|careers stopped responding",
   "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
   "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
-  "INFO Remote: 5258 collected, 645 open to Israel",
-  "INFO LinkedIn: 337 jobs",
+  "INFO Remote: 5273 collected, 645 open to Israel",
+  "INFO LinkedIn: 336 jobs",
   "INFO LinkedIn remote: 87 jobs",
-  "INFO Collected 6783 jobs in Israel",
-  "INFO 815 pass the title filter",
-  "INFO New: 0, total kept: 287"
+  "INFO Collected 6746 jobs in Israel",
+  "INFO 816 pass the title filter",
+  "INFO New: 1, total kept: 288"
  ]
 }
