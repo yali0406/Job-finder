@@ -7,4 +7,4 @@ for x in j or []:
     print("RESULT", x.title, "|", x.location, "|", x.url, "|", in_israel(x.location))
 if j:
     ats.fetch_description(j[2]) if hasattr(ats, "fetch_description") else None
-    print("RESULT desc", len(j[2].description or ""), (j[2].description or "")[:1200])
+    print("RESULT desc", len(j[2].description or ""), repr((j[2].description or "")[:1800]))
