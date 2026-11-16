@@ -589,7 +589,10 @@ def fetch_description(job: Job):
         if job.url:
             r = get(job.url)
             if r and r.status_code == 200 and "html" in r.headers.get("content-type", ""):
-                job.description = (_embedded_details(r.text) or strip_html(r.text))[:8000]
+                desc = _embedded_details(r.text)
+                if len(desc or "") < 200:  # a bare title in the page's metadata isn't a description
+                    desc = strip_html(r.text)
+                job.description = desc[:8000]
         if len(job.description or "") < 300 and job.extra.get("getro_page"):
             # Many company career sites render client-side; the VC board keeps its own copy of the text.
             r = get(job.extra["getro_page"])
