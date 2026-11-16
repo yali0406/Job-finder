@@ -1,14 +1,15 @@
 {
- "run": "2026-11-16T16:17:18+00:00",
+ "run": "2026-11-16T16:33:33+00:00",
  "collected_by_source": {
   "smartrecruiters": 142,
   "greenhouse": 980,
-  "careers_page": 88,
+  "careers_page": 86,
   "lever": 259,
   "comeet": 1371,
   "workable": 150,
   "ashby": 416,
-  "workday": 7,
+  "workday": 44,
+  "ppltx": 25,
   "recruitee": 3,
   "vc:jobs.tlv.partners": 165,
   "vc:careers.grovevc.com": 88,
@@ -23,10 +24,9 @@
   "vc:israelvcforum.getro.com": 1104,
   "remote:remotive": 9,
   "remote:remoteok": 59,
-  "remote:himalayas": 27,
+  "remote:himalayas": 25,
   "remote:jobicy": 53,
-  "remote:weworkremotely": 53,
-  "linkedin": 451
+  "remote:weworkremotely": 53
  },
  "relevant_by_source": {
   "smartrecruiters": 34,
@@ -36,6 +36,7 @@
   "workable": 16,
   "ashby": 51,
   "careers_page": 12,
+  "ppltx": 6,
   "vc:jobs.tlv.partners": 12,
   "vc:careers.grovevc.com": 17,
   "vc:jobs.ibexinvestors.com": 7,
@@ -51,8 +52,7 @@
   "remote:remoteok": 9,
   "remote:himalayas": 2,
   "remote:jobicy": 9,
-  "remote:weworkremotely": 10,
-  "linkedin": 98
+  "remote:weworkremotely": 10
  },
  "log": [
   "WARNING CyberArk: workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
@@ -64,9 +64,6 @@
   "WARNING Imperva (Thales Israel): workday/thales|wd3|Careers stopped responding",
   "WARNING eToro: comeet/etoro/41.009 stopped responding",
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
-  "WARNING Marvell Israel: workday/marvell|wd1|MarvellCareers stopped responding",
-  "WARNING HPE Israel: workday/hpe|wd5|Jobsathpe stopped responding",
-  "WARNING Motorola Solutions Israel: workday/motorolasolutions|wd5|Careers stopped responding",
   "WARNING KLA Israel: workday/kla|wd1|Search stopped responding",
   "WARNING Applied Materials Israel: workday/amat|wd1|External stopped responding",
   "WARNING CrowdStrike Israel: workday/crowdstrike|wd5|crowdstrikecareers stopped responding",
@@ -140,15 +137,9 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
-  "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
-  "INFO Remote: 5264 collected, 642 open to Israel",
-  "WARNING LinkedIn search '{'name': 'TabTale', 'ats': 'comeet_api', 'slug': '32.00E|23E8F811F0B360FB20142E8F8142E'}' blocked or failed (none)",
-  "WARNING LinkedIn search 'BI Analyst' blocked or failed (none)",
-  "INFO LinkedIn: 362 jobs",
-  "INFO LinkedIn remote: 89 jobs",
-  "INFO Collected 6758 jobs in Israel",
-  "INFO 838 pass the title filter",
-  "INFO New: 2, total kept: 300"
+  "INFO Remote: 5238 collected, 640 open to Israel",
+  "INFO Collected 6365 jobs in Israel",
+  "INFO 746 pass the title filter",
+  "INFO New: 2, total kept: 302"
  ]
 }
