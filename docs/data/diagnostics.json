@@ -1,10 +1,10 @@
 {
- "run": "2026-11-16T18:17:17+00:00",
+ "run": "2026-11-16T19:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 142,
-  "greenhouse": 979,
-  "careers_page": 86,
-  "lever": 259,
+  "greenhouse": 975,
+  "careers_page": 89,
+  "lever": 258,
   "comeet": 1372,
   "workable": 150,
   "ashby": 416,
@@ -23,10 +23,10 @@
   "vc:israelvcforum.getro.com": 1104,
   "remote:remotive": 9,
   "remote:remoteok": 59,
-  "remote:himalayas": 10,
+  "remote:himalayas": 18,
   "remote:jobicy": 53,
-  "remote:weworkremotely": 52,
-  "linkedin": 433
+  "remote:weworkremotely": 54,
+  "linkedin": 458
  },
  "relevant_by_source": {
   "smartrecruiters": 34,
@@ -51,8 +51,8 @@
   "remote:remotive": 1,
   "remote:remoteok": 9,
   "remote:jobicy": 9,
-  "remote:weworkremotely": 10,
-  "linkedin": 99
+  "remote:weworkremotely": 9,
+  "linkedin": 101
  },
  "log": [
   "WARNING CyberArk: workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
@@ -142,19 +142,14 @@
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
   "WARNING Workiva: workday/workiva|wd503|careers stopped responding",
-  "INFO Remote: 5234 collected, 624 open to Israel",
-  "WARNING LinkedIn search 'Business Development Associate' blocked or failed (none)",
-  "WARNING LinkedIn search 'PMO' blocked or failed (none)",
-  "WARNING LinkedIn search 'PMO Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Operations Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'WSC Sports' blocked or failed (none)",
-  "WARNING LinkedIn search 'Anyclip' blocked or failed (none)",
-  "WARNING LinkedIn search 'Trax Retail' blocked or failed (none)",
-  "WARNING LinkedIn search 'Systems Analyst' blocked or failed (none)",
-  "INFO LinkedIn: 345 jobs",
+  "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
+  "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
+  "INFO Remote: 5208 collected, 634 open to Israel",
+  "WARNING LinkedIn search 'Junior DevOps' blocked or failed (none)",
+  "INFO LinkedIn: 370 jobs",
   "INFO LinkedIn remote: 88 jobs",
-  "INFO Collected 6738 jobs in Israel",
-  "INFO 841 pass the title filter",
-  "INFO New: 2, total kept: 302"
+  "INFO Collected 6771 jobs in Israel",
+  "INFO 842 pass the title filter",
+  "INFO New: 0, total kept: 302"
  ]
 }
