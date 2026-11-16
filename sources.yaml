@@ -419,6 +419,8 @@ companies:
   - Bank Jerusalem
   - Meitav
   - {name: "Lucid Capital", ats: careers_page, slug: "https://www.lucidcap.net/about/"}
+  # Recruiter board (the hiring company is named only inside each posting)
+  - {name: "ppltx (השמה)", ats: ppltx, slug: "https://jobs.ppltx.co.il"}
   - Altshuler Shaham
   - More Investment
   - Psagot
