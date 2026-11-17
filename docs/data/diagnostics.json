@@ -1,13 +1,13 @@
 {
- "run": "2026-11-17T20:17:15+00:00",
+ "run": "2026-11-17T21:17:18+00:00",
  "collected_by_source": {
   "smartrecruiters": 148,
-  "greenhouse": 971,
-  "careers_page": 88,
+  "greenhouse": 973,
+  "careers_page": 83,
   "lever": 249,
-  "comeet": 1365,
+  "comeet": 1366,
   "workable": 142,
-  "ashby": 410,
+  "ashby": 411,
   "ppltx": 25,
   "recruitee": 3,
   "vc:jobs.tlv.partners": 168,
@@ -23,19 +23,19 @@
   "vc:israelvcforum.getro.com": 1119,
   "remote:remotive": 8,
   "remote:remoteok": 58,
-  "remote:himalayas": 19,
+  "remote:himalayas": 21,
   "remote:jobicy": 53,
-  "remote:weworkremotely": 48,
-  "linkedin": 457
+  "remote:weworkremotely": 49,
+  "linkedin": 458
  },
  "relevant_by_source": {
   "smartrecruiters": 28,
-  "greenhouse": 88,
+  "greenhouse": 89,
+  "careers_page": 12,
   "lever": 25,
   "comeet": 235,
   "workable": 16,
   "ashby": 54,
-  "careers_page": 12,
   "ppltx": 6,
   "vc:jobs.tlv.partners": 13,
   "vc:careers.grovevc.com": 17,
@@ -50,10 +50,9 @@
   "vc:israelvcforum.getro.com": 91,
   "remote:remotive": 1,
   "remote:remoteok": 9,
-  "remote:himalayas": 1,
   "remote:jobicy": 8,
   "remote:weworkremotely": 8,
-  "linkedin": 102
+  "linkedin": 104
  },
  "log": [
   "WARNING CyberArk: workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
@@ -142,16 +141,13 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 99 jobs",
-  "WARNING Workiva: workday/workiva|wd503|careers stopped responding",
   "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
   "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
-  "INFO Marqeta: no known job board linked from https://www.marqeta.com/company/careers",
-  "INFO Flex (flex.one): careers page https://flex.one/careers unreachable (no response)",
-  "INFO Remote: 5184 collected, 620 open to Israel",
-  "INFO LinkedIn: 368 jobs",
+  "INFO Remote: 5191 collected, 625 open to Israel",
+  "INFO LinkedIn: 369 jobs",
   "INFO LinkedIn remote: 89 jobs",
-  "INFO Collected 6769 jobs in Israel",
-  "INFO 832 pass the title filter",
-  "INFO New: 3, total kept: 299"
+  "INFO Collected 6772 jobs in Israel",
+  "INFO 834 pass the title filter",
+  "INFO New: 2, total kept: 301"
  ]
 }
