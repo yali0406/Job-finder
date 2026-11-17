@@ -268,7 +268,7 @@ def main():
     JOBS_FILE.write_text(json.dumps({
         "updated": now_s,
         "linkedin_scanned": with_li,
-        "new_this_run": new_count,
+        "new_this_run": sum(1 for j in new_jobs if j in jobs and j.get("first_seen") == now_s),
         "jobs": jobs,
     }, ensure_ascii=False, indent=1))
     log.info("New: %d, total kept: %d", new_count, len(jobs))
@@ -279,7 +279,10 @@ def main():
         "relevant_by_source": Counter(j.source for j in relevant),
         "log": DIAG.lines[-300:],
     }, ensure_ascii=False, indent=1))
-    send_digest([j for j in new_jobs if j in jobs], os.environ.get("SITE_URL", ""))
+    # A new copy that merged with a job already listed (e.g. LinkedIn yesterday, a VC board today) keeps the
+    # older first_seen in _dedupe, so it isn't news and isn't emailed again.
+    fresh = [j for j in new_jobs if j in jobs and j.get("first_seen") == now_s]
+    send_digest(fresh, os.environ.get("SITE_URL", ""))
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
             f.write(f"new_jobs={new_count}\n")
