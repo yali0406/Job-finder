@@ -271,10 +271,6 @@
   "comeet",
   "incredibuild/66.00F"
  ],
- "Innoviz Technologies": [
-  "comeet",
-  "innoviz/52.004"
- ],
  "Insightec": [
   "comeet",
   "insightec/4A.004"
@@ -467,6 +463,10 @@
   "comeet",
   "scylladb/E4.006"
  ],
+ "Seeking Alpha": [
+  "comeet",
+  "seekingalpha/46.006"
+ ],
  "Semperis": [
   "ashby",
   "semperis"
@@ -622,6 +622,10 @@
  "Wiliot": [
   "comeet",
   "wiliot/F6.003"
+ ],
+ "XTEND ": [
+  "comeet",
+  "xtend/85.00A"
  ],
  "Yotpo": [
   "greenhouse",
