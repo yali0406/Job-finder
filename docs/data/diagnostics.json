@@ -1,14 +1,13 @@
 {
- "run": "2026-11-18T20:17:33+00:00",
+ "run": "2026-11-18T21:17:30+00:00",
  "collected_by_source": {
   "smartrecruiters": 152,
-  "greenhouse": 969,
+  "greenhouse": 968,
   "careers_page": 59,
   "lever": 246,
-  "comeet": 1359,
+  "comeet": 1360,
   "workable": 148,
-  "ashby": 413,
-  "workday": 7,
+  "ashby": 412,
   "ppltx": 25,
   "recruitee": 4,
   "vc:jobs.tlv.partners": 166,
@@ -24,10 +23,10 @@
   "vc:israelvcforum.getro.com": 1110,
   "remote:remotive": 8,
   "remote:remoteok": 59,
-  "remote:himalayas": 10,
+  "remote:himalayas": 28,
   "remote:jobicy": 65,
   "remote:weworkremotely": 47,
-  "linkedin": 456
+  "linkedin": 434
  },
  "relevant_by_source": {
   "smartrecruiters": 28,
@@ -51,10 +50,10 @@
   "vc:israelvcforum.getro.com": 91,
   "remote:remotive": 1,
   "remote:remoteok": 8,
-  "remote:himalayas": 2,
+  "remote:himalayas": 3,
   "remote:jobicy": 7,
   "remote:weworkremotely": 6,
-  "linkedin": 88
+  "linkedin": 76
  },
  "log": [
   "WARNING CyberArk: workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
@@ -77,6 +76,7 @@
   "WARNING Citi Israel: workday/citi|wd5|2 stopped responding",
   "WARNING eBay Israel: workday/ebay|wd5|apply stopped responding",
   "WARNING SciPlay: workday/lnw|wd5|SciPlayExternalCareersSite stopped responding",
+  "WARNING Digital Turbine: workday/digitalturbine|wd501|Digital_Turbine_External_Careers stopped responding",
   "WARNING SAM Seamless Network: comeet/securingsam/D4.000 stopped responding",
   "WARNING ParaZero: careers_page/https://parazero.com/careers/ stopped responding",
   "WARNING Elspec: careers_page/https://www.elspec-ltd.com/careers/ stopped responding",
@@ -144,15 +144,20 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 93 jobs",
-  "WARNING Workiva: workday/workiva|wd503|careers stopped responding",
   "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
   "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
-  "INFO Remote: 5187 collected, 621 open to Israel",
-  "WARNING LinkedIn search 'BI Analyst' blocked or failed (none)",
-  "INFO LinkedIn: 368 jobs",
-  "INFO LinkedIn remote: 88 jobs",
-  "INFO Collected 6742 jobs in Israel",
-  "INFO 814 pass the title filter",
-  "INFO New: 1, total kept: 307"
+  "INFO Remote: 5183 collected, 638 open to Israel",
+  "WARNING LinkedIn search 'We Create Stuff' blocked or failed (none)",
+  "WARNING LinkedIn search 'Gavra Games' blocked or failed (none)",
+  "WARNING LinkedIn search 'Trax Retail' blocked or failed (none)",
+  "WARNING LinkedIn search 'Associate Product Manager' blocked or failed (none)",
+  "WARNING LinkedIn search 'Venture Capital Analyst' blocked or failed (none)",
+  "INFO LinkedIn: 366 jobs",
+  "WARNING LinkedIn search 'Operations' blocked or failed (none)",
+  "WARNING LinkedIn search 'Project Manager' blocked or failed (none)",
+  "INFO LinkedIn remote: 68 jobs",
+  "INFO Collected 6730 jobs in Israel",
+  "INFO 803 pass the title filter",
+  "INFO New: 0, total kept: 299"
  ]
 }
