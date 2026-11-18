@@ -1,11 +1,11 @@
 {
- "run": "2026-11-18T04:17:19+00:00",
+ "run": "2026-11-18T05:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 148,
-  "workday": 122,
+  "workday": 26,
   "greenhouse": 971,
   "careers_page": 83,
-  "lever": 249,
+  "lever": 251,
   "comeet": 1366,
   "workable": 142,
   "ashby": 411,
@@ -24,16 +24,16 @@
   "vc:israelvcforum.getro.com": 1118,
   "remote:remotive": 8,
   "remote:remoteok": 59,
-  "remote:himalayas": 27,
+  "remote:himalayas": 29,
   "remote:jobicy": 53,
   "remote:weworkremotely": 50,
-  "linkedin": 455
+  "linkedin": 457
  },
  "relevant_by_source": {
   "smartrecruiters": 28,
-  "workday": 5,
+  "workday": 1,
   "greenhouse": 89,
-  "lever": 26,
+  "lever": 27,
   "comeet": 235,
   "workable": 16,
   "ashby": 54,
@@ -52,12 +52,13 @@
   "vc:israelvcforum.getro.com": 91,
   "remote:remotive": 1,
   "remote:remoteok": 8,
-  "remote:himalayas": 4,
+  "remote:himalayas": 5,
   "remote:jobicy": 8,
   "remote:weworkremotely": 8,
-  "linkedin": 103
+  "linkedin": 104
  },
  "log": [
+  "WARNING Nvidia Israel: workday/nvidia|wd5|NVIDIAExternalCareerSite stopped responding",
   "WARNING Intel Israel: workday/intel|wd1|External stopped responding",
   "WARNING Salesforce Israel: workday/salesforce|wd12|External_Career_Site stopped responding",
   "WARNING Palo Alto Networks (incl. CyberArk): workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
@@ -141,11 +142,14 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "INFO Remote: 5200 collected, 632 open to Israel",
-  "INFO LinkedIn: 366 jobs",
+  "WARNING Workiva: workday/workiva|wd503|careers stopped responding",
+  "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
+  "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
+  "INFO Remote: 5198 collected, 634 open to Israel",
+  "INFO LinkedIn: 368 jobs",
   "INFO LinkedIn remote: 89 jobs",
-  "INFO Collected 6896 jobs in Israel",
-  "INFO 841 pass the title filter",
-  "INFO New: 3, total kept: 303"
+  "INFO Collected 6806 jobs in Israel",
+  "INFO 840 pass the title filter",
+  "INFO New: 1, total kept: 304"
  ]
 }
