@@ -19,6 +19,8 @@ DATA = ROOT / "docs" / "data"
 JOBS_FILE = DATA / "jobs.json"
 CACHE_FILE = DATA / "ats_cache.json"
 REJECTED_FILE = DATA / "rejected.json"  # ids dropped after scoring (e.g. 3+ years), so they aren't re-scored
+ARCHIVE_FIELDS = ("title", "company", "url", "location", "score", "first_seen", "last_seen", "category", "remote")
+ARCHIVE_FILE = DATA / "archive.json"  # every job ever listed, so marks like "applied" outlive the listing
 KEEP_DAYS = 30          # drop jobs not seen for this long
 MAX_SCORE_PER_RUN = 300  # safety cap on Claude calls per run
 RECHECK_PER_RUN = 200    # stored jobs re-read for a years requirement per run
@@ -259,6 +261,10 @@ def main():
         if d["id"] not in kept and d.get("first_seen") == now_s:
             rejected[d["id"]] = {"title": d.get("title"), "company": d.get("company"),
                                  "reason": "duplicate of another listing", "at": now_s}
+    archive = load_json(ARCHIVE_FILE, {})
+    for j in list(existing.values()) + jobs:
+        archive[j["id"]] = {k: j.get(k) for k in ARCHIVE_FIELDS if j.get(k) not in (None, "")}
+    ARCHIVE_FILE.write_text(json.dumps(archive, ensure_ascii=False, separators=(",", ":")))
     for j in jobs:
         j.pop("description", None)  # keep the published file small
     jobs.sort(key=lambda j: (j.get("first_seen", ""), j.get("score") or 0), reverse=True)

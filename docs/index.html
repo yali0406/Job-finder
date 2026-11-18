@@ -194,6 +194,48 @@ const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmt = (iso) => iso ? new Date(iso).toLocaleString("he-IL", { dateStyle: "short", timeStyle: "short" }) : "";
 const isNew = (j) => !lastVisit || Date.parse(j.first_seen) > Date.parse(lastVisit);
+// Every job ever listed (data/archive.json), so a mark outlives the listing: a job that closed, aged out,
+// or came back under another id (same company + title, e.g. a VC-board copy replacing the LinkedIn one).
+let archive = {};
+const norm = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9\u0590-\u05ff]+/g, "");
+const keyOf = (j) => norm(j.company) + "|" + norm(j.title);
+let markByKey = {};
+function indexMarks() {
+  const byId = Object.fromEntries(data.jobs.map(j => [j.id, j]));
+  markByKey = {};
+  for (const [id, m] of Object.entries(marks)) {
+    const info = byId[id] || archive[id];
+    if (info) markByKey[keyOf(info)] = m;
+  }
+}
+const markOf = (j) => marks[j.id] || markByKey[keyOf(j)];
+function setMark(j, mark) {
+  const k = keyOf(j), off = markOf(j) === mark;
+  for (const id of Object.keys(marks)) {  // clear every id this job has had, then set the new mark once
+    const info = data.jobs.find(x => x.id === id) || archive[id];
+    if (id === j.id || (info && keyOf(info) === k)) delete marks[id];
+  }
+  if (!off) marks[j.id] = mark;
+  store.set("marks", marks);
+  indexMarks();
+}
+// Marked jobs (saved / applied / hidden) that are no longer on the site, from the archive.
+function goneMarked(view) {
+  const live = new Set(data.jobs.map(keyOf));
+  const ids = new Set(data.jobs.map(j => j.id));
+  const out = [], seen = new Set();
+  let unknown = 0;
+  for (const [id, m] of Object.entries(marks)) {
+    if (m !== view || ids.has(id)) continue;
+    const info = archive[id];
+    if (!info) { unknown++; continue; }
+    const k = keyOf(info);
+    if (live.has(k) || seen.has(k)) continue;
+    seen.add(k);
+    out.push({ ...info, id, gone: true });
+  }
+  return { out, unknown };
+}
 
 function renderCats() {
   const cats = [...new Set(data.jobs.map(j => j.category).filter(Boolean))].sort();
@@ -223,7 +265,7 @@ function setOpened(ids, on) {
 function jobHtml(j) {
   const s = j.score ?? 0;
   const cls = s >= 75 ? "hi" : s >= 55 ? "mid" : "";
-  const m = marks[j.id];
+  const m = markOf(j);
   return `<article class="job ${isNew(j) ? "is-new" : ""}">
     <div class="score ${cls}" title="ציון התאמה">${j.score ?? "–"}</div>
     <div>
@@ -231,10 +273,10 @@ function jobHtml(j) {
       <a class="title" data-open="${j.id}" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
       ${j.broad === "early-stage startup" ? '<span class="tag chick" title="סטארטאפ בשלב מוקדם">🐣 סטארטאפ צעיר</span>' : ""}
       ${j.remote ? '<span class="tag" title="עבודה מלאה מרחוק מישראל">🌍 מרחוק</span>' : ""}
-      ${isNew(j) ? '<span class="tag new">חדש</span>' : ""}
+      ${j.gone ? '<span class="tag" title="המשרה כבר לא מופיעה בסריקה (נסגרה או ישנה)">ירדה מהאתר</span>' : isNew(j) ? '<span class="tag new">חדש</span>' : ""}
       ${openedTag(j)}
       ${j.category ? `<span class="tag ${j.broad ? "broad" : ""}">${esc(j.category)}</span>` : ""}
-      <div class="meta">${esc(j.company)} · ${esc(j.location)} · נמצא ${fmt(j.first_seen)} · ${esc(j.source)}</div>
+      <div class="meta">${esc(j.company)} · ${esc(j.location)} · נמצא ${fmt(j.first_seen)}${j.source ? " · " + esc(j.source) : ""}</div>
       ${j.reason ? `<div class="reason">${esc(j.reason)}</div>` : ""}
     </div>
     <div class="actions">
@@ -249,12 +291,14 @@ function render() {
   const q = $("q").value.trim().toLowerCase();
   const min = +$("minScore").value;
   const view = $("view").value;
-  const jobs = data.jobs.filter(j => {
-    const m = marks[j.id];
+  const marked = view !== "active";  // saved / applied / hidden show every marked job, whatever the other filters
+  const gone = marked ? goneMarked(view) : { out: [], unknown: 0 };
+  const jobs = data.jobs.concat(gone.out).filter(j => {
+    const m = markOf(j);
     if (view === "active" ? m === "hidden" : m !== view) return false;
-    if ((j.score ?? 0) < min) return false;
-    if (activeCats.size && !activeCats.has(j.category)) return false;
-    if ((section === "remote") !== !!j.remote) return false;
+    if (!marked && (j.score ?? 0) < min) return false;
+    if (!marked && activeCats.size && !activeCats.has(j.category)) return false;
+    if (!marked && (section === "remote") !== !!j.remote) return false;
     if (chickOnly && j.broad !== "early-stage startup") return false;
     const of = $("openedFilter").value;
     if (of && (of === "yes") !== !!opened[j.id]) return false;
@@ -270,14 +314,16 @@ function render() {
     company: (a, b) => (a.company || "").localeCompare(b.company || "", "he") || byScore(a, b),
   }[$("sort").value] || byScore;
   store.set("sort", $("sort").value);
-  const fresh = jobs.filter(isNew).sort(cmp);
-  const older = jobs.filter(j => !isNew(j)).sort(cmp);
+  const fresh = marked ? [] : jobs.filter(isNew).sort(cmp);
+  const older = marked ? jobs.sort(cmp) : jobs.filter(j => !isNew(j)).sort(cmp);
 
   renderDash();
-  $("summary").textContent = `${fresh.length} חדשות מאז הביקור הקודם · ${jobs.length} מוצגות מתוך ${data.jobs.length}`;
+  $("summary").textContent = marked
+    ? `${jobs.length} משרות${gone.out.length ? ` (${gone.out.length} מהן כבר ירדו מהאתר)` : ""}${gone.unknown ? ` · עוד ${gone.unknown} סומנו במשרות ישנות שאין עליהן פרטים` : ""}`
+    : `${fresh.length} חדשות מאז הביקור הקודם · ${jobs.length} מוצגות מתוך ${data.jobs.length}`;
   let html = "";
   if (fresh.length) html += `<div class="section-title">חדש מאז ${lastVisit ? fmt(lastVisit) : "הביקור הראשון"}</div>` + fresh.map(jobHtml).join("");
-  if (older.length) html += `<div class="section-title">כבר ראית</div>` + older.map(jobHtml).join("");
+  if (older.length) html += (marked ? "" : `<div class="section-title">כבר ראית</div>`) + older.map(jobHtml).join("");
   $("list").innerHTML = html || `<div class="empty">אין משרות שמתאימות לסינון הנוכחי</div>`;
   // Left, middle or ctrl-click on the title all count as opening the job.
   $("list").querySelectorAll("a[data-open]").forEach(a => {
@@ -305,8 +351,8 @@ function render() {
   renderBulk();
   $("list").querySelectorAll("button[data-mark]").forEach(b => b.onclick = () => {
     const { id, mark } = b.dataset;
-    marks[id] === mark ? delete marks[id] : (marks[id] = mark);
-    store.set("marks", marks);
+    const j = data.jobs.find(x => x.id === id) || { id, ...(archive[id] || {}) };
+    setMark(j, mark);
     render();
   });
 }
@@ -327,13 +373,18 @@ const hbars = (rows, max, onAttr) => rows.map(([name, n, on]) =>
 function renderDash() {
   const min = +$("minScore").value;
   const inSec = data.jobs.filter(j => (section === "remote") === !!j.remote);
-  const live = inSec.filter(j => marks[j.id] !== "hidden");
+  const live = inSec.filter(j => markOf(j) !== "hidden");
   const good = live.filter(j => (j.score ?? 0) >= min);
   const day = 864e5, now = Date.now();
   const since = (ms) => good.filter(j => now - Date.parse(j.first_seen) < ms).length;
   const today = new Date(); today.setHours(0, 0, 0, 0);
   const avg = good.length ? Math.round(good.reduce((a, j) => a + (j.score ?? 0), 0) / good.length) : 0;
-  const cnt = (m) => inSec.filter(j => marks[j.id] === m).length;
+  // saved / applied count every marked job, in both sections and including ones no longer listed
+  const cnt = (m) => { const ks = new Set(); let n = 0;
+    for (const [id, v] of Object.entries(marks)) { if (v !== m) continue;
+      const info = data.jobs.find(x => x.id === id) || archive[id];
+      if (!info) { n++; continue; } ks.add(keyOf(info)); }
+    return ks.size + n; };
   $("dashScope").textContent = `· ${section === "remote" ? "מרחוק מחו״ל" : "בישראל"} · ציון ${min}+`;
   const kpis = [
     [good.length, "משרות מתאימות"],
@@ -420,10 +471,15 @@ fetch("data/jobs.json", { cache: "no-store" })
   .then(r => r.ok ? r.json() : Promise.reject(r.status))
   .then(d => {
     data = d;
+    indexMarks();
     $("status").textContent = `עודכן לאחרונה: ${fmt(d.updated)} · ${d.new_this_run ?? 0} משרות חדשות בסריקה האחרונה`;
     renderSections(); renderCats(); render();
   })
   .catch(() => { $("status").textContent = "עדיין אין נתונים. הסריקה הראשונה תרוץ בקרוב."; });
+fetch("data/archive.json", { cache: "no-store" })
+  .then(r => r.ok ? r.json() : {})
+  .then(a => { archive = a || {}; if (data.jobs.length) { indexMarks(); render(); } })
+  .catch(() => {});
 </script>
 </body>
 </html>
