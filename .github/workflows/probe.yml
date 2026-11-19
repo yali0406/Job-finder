@@ -4,11 +4,17 @@ jobs:
   p:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q -r requirements.txt
       - run: |
-          curl -sL -m 30 -A "Mozilla/5.0" https://www.sciplay.com/careers | grep -oiE 'https?://[^"'"'"' ]*(workday|greenhouse|lever|comeet|smartrecruiters|icims|jobvite|ashby|workable)[^"'"'"' ]*' | sort -u | head -20
-          for s in "lnw/wd5/SciPlayExternalCareersSite" "lnw/wd5/LightWonderExternalCareers" "lnw/wd5/LnW_Careers" "lnw/wd5/LightandWonder" "lnw/wd5/External" "lnw/wd5/LW_External_Careers"; do
-            IFS=/ read t w site <<<"$s"
-            echo "== $s"; curl -s -m 20 -X POST -H 'Content-Type: application/json' -d '{"limit":20,"offset":0,"searchText":"","appliedFacets":{}}' "https://$t.$w.myworkdayjobs.com/wday/cxs/$t/$site/jobs" | head -c 300; echo
-          done
-          curl -sL -m 30 -A "Mozilla/5.0" https://lnw.wd5.myworkdayjobs.com/ | grep -oiE 'myworkdayjobs.com/[A-Za-z_/-]+' | sort -u | head
-          curl -sL -m 30 -A "Mozilla/5.0" https://igaming.lnw.com/careers https://explore.lnw.com/careers https://www.lnw.com/careers/ | grep -oiE 'https?://[^"'"'"' ]*(myworkdayjobs|greenhouse|comeet)[^"'"'"' ]*' | sort -u | head
+          python - <<'PY'
+          from scanner.common import post
+          from scanner.sources.ats import _workday
+          u="https://lnw.wd5.myworkdayjobs.com/wday/cxs/lnw/SciPlayExternalCareersSite/jobs"
+          for st in ("Israel",""):
+              r=post(u,json={"appliedFacets":{},"limit":20,"offset":0,"searchText":st})
+              print(repr(st), r and r.status_code, r and r.text[:200])
+          j=_workday("lnw|wd5|SciPlayExternalCareersSite","SciPlay"); print(j and len(j), j and [x.title for x in j])
+          PY
