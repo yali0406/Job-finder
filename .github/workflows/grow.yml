@@ -1,0 +1,40 @@
+name: grow company list
+
+# Daily: find new high-tech / fintech / gaming companies with openings in Israel (or remote open to
+# Israel) and add them to the scan (scanner/grow.py). The day's list lands in growth/<date>.json.
+on:
+  schedule:
+    - cron: "10 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: grow
+  cancel-in-progress: false
+
+jobs:
+  grow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m scanner.grow
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: claude-haiku-5-5
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "job-scanner"
+          git config user.email "job-scanner@users.noreply.github.com"
+          git add added_companies.json growth/
+          git diff --cached --quiet && exit 0
+          git commit -m "grow company list $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4; do git pull --rebase origin main && git push && break; sleep 10; done

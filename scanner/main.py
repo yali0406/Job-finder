@@ -55,6 +55,32 @@ def _safe(label, fn, *args):
         return []
 
 
+def _added_companies(cache):
+    """Companies added by the daily growth run (scanner/grow.py). There are many, so fetch in parallel."""
+    from concurrent.futures import ThreadPoolExecutor
+    added = load_json(ROOT / "added_companies.json", [])
+    entries = [{"name": a["name"], "ats": a["ats"], "slug": a["slug"]} for a in added]
+    remote_names = {a["name"] for a in added if a.get("remote_only")}
+
+    def one(e):
+        try:
+            return ats.fetch_companies([e], cache, israel_only=e["name"] not in remote_names)
+        except Exception as ex:
+            log.warning("%s failed: %s", e["name"], ex)
+            return []
+    with ThreadPoolExecutor(12) as ex:
+        got = [j for part in ex.map(one, entries) for j in part]
+    out = []
+    for j in got:
+        if j.company in remote_names:
+            if not (re.search(r"remote|anywhere|worldwide|distributed", j.location or "", re.I) and remote.eligible(j.location)):
+                continue
+            j.extra["remote"] = True
+        out.append(j)
+    log.info("Daily added companies: %d boards, %d jobs", len(entries), len(out))
+    return out
+
+
 def collect(cfg, with_linkedin: bool):
     jobs = []
     cache = load_json(CACHE_FILE, {})
@@ -62,6 +88,7 @@ def collect(cfg, with_linkedin: bool):
     jobs += ats.fetch_companies(cfg.get("companies", []), cache)
     # Boards found by the weekly discovery run (scanner/discover.py) that have openings in Israel.
     jobs += ats.fetch_companies(load_json(ROOT / "discovered_boards.json", []), cache)
+    jobs += _safe("Daily added companies", _added_companies, cache)
     try:
         jobs += workable_search.fetch()
     except Exception as e:  # a search hiccup shouldn't stop the scan
