@@ -74,6 +74,23 @@ linkedin_queries:
   - Technical Project Manager
   - Product Manager
   - Associate Product Manager
+  # startups without a public job board: found through their LinkedIn posts
+  - "Corma"
+  - "Ramon.Space"
+  - "Edelbyte"
+  - "Pluto Security"
+  - "Bites"
+  - "Dreeze"
+  - "Zenzap"
+  - "Mave"
+  - "Rein Security"
+  - "Undecimal Bio"
+  - "Modelyo"
+  - "High Lander"
+  - "BloomX"
+  - "Plurai"
+  - "Phantom GI"
+  - "Two Delta"
   # investment funds / VC (analyst and associate roles)
   - Investment Analyst
   - Equity Research Analyst
@@ -533,6 +550,10 @@ companies:
   - {name: "Camunda", ats: ashby, slug: "camunda"}
   - {name: "Canopy", ats: greenhouse, slug: "canopycare"}
   - {name: "Capitolis", ats: greenhouse, slug: "capitolis"}
+  - {name: "Daylight Security", ats: greenhouse, slug: "daylightsecurity"}
+  - {name: "Bay", ats: ashby, slug: "bay"}
+  - {name: "Spines", ats: comeet, slug: "spines/2B.001"}
+  - {name: "Brava Security", ats: careers_page, slug: "https://brava.security/careers"}
   - {name: "Clinch", ats: comeet, slug: "clinch/42.007"}
   - {name: "CropX", ats: workable, slug: "cropx"}
   - {name: "Cylus", ats: greenhouse, slug: "cyluscybersecurity"}
