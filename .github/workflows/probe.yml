@@ -10,13 +10,17 @@ jobs:
       - run: pip install -q -r requirements.txt
       - run: |
           python - <<'PY'
-          import yaml
-          from scanner.sources.ats import _workday, fetch_description
+          import requests, time, yaml
+          from scanner.common import UA
           cfg=yaml.safe_load(open("sources.yaml"))
-          for c in cfg["companies"]+cfg.get("gaming",[]):
-              if isinstance(c,dict) and c.get("ats")=="workday":
-                  j=_workday(c["slug"],c["name"])
-                  print(c["name"], None if j is None else len(j), [x.title for x in (j or [])][:3], flush=True)
-                  if j and c["name"]=="SciPlay":
-                      fetch_description(j[0]); print("  desc len", len(j[0].description or ""))
+          wd=[c for c in cfg["companies"]+cfg.get("gaming",[]) if isinstance(c,dict) and c.get("ats")=="workday"]
+          body={"appliedFacets":{},"limit":20,"offset":0,"searchText":"Israel"}
+          variants={"bare":{},"json":{"Accept":"application/json","Accept-Language":"en-US"},"ua":{"User-Agent":UA},"ua+json":{"User-Agent":UA,"Accept":"application/json","Accept-Language":"en-US"}}
+          for vn,h in variants.items():
+              out=[]
+              for c in wd:
+                  t,w,s=c["slug"].split("|")
+                  r=requests.post(f"https://{t}.{w}.myworkdayjobs.com/wday/cxs/{t}/{s}/jobs",json=body,headers=h,timeout=20)
+                  out.append(r.status_code)
+              print(vn,out,flush=True)
           PY
