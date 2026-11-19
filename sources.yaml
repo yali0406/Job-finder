@@ -92,6 +92,25 @@ linkedin_queries:
   - "Phantom GI"
   - "Two Delta"
   - "SciPlay"
+  # Workday blocks the scan runners, so these Workday companies are read from LinkedIn instead
+  - "CyberArk"
+  - "Nvidia"
+  - "Intel"
+  - "Salesforce"
+  - "Palo Alto Networks"
+  - "Red Hat"
+  - "Imperva"
+  - "Marvell"
+  - "Hewlett Packard Enterprise"
+  - "Motorola Solutions"
+  - "KLA"
+  - "Applied Materials"
+  - "CrowdStrike"
+  - "Dynamic Yield"
+  - "Cadence"
+  - "Citi"
+  - "eBay"
+  - "Product Madness"
   # investment funds / VC (analyst and associate roles)
   - Investment Analyst
   - Equity Research Analyst
