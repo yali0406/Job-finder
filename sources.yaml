@@ -1053,6 +1053,21 @@ remote_companies:
   - {name: "Samsara", ats: greenhouse, slug: "samsara"}
   - {name: "Celonis", ats: greenhouse, slug: "celonis"}
   - {name: "Databricks", ats: greenhouse, slug: "databricks"}
+  # "100% remote" list (Nov 2026)
+  - {name: "Kit", ats: ashby, slug: "kit"}
+  - {name: "Ashby", ats: ashby, slug: "ashby"}
+  - {name: "Close", ats: ashby, slug: "close"}
+  - {name: "Brave Software", ats: greenhouse, slug: "brave"}
+  - {name: "Trail of Bits", ats: workable, slug: "trailofbits"}
+  - {name: "MailerLite", ats: recruitee, slug: "mailerlite"}
+  - {name: "RevenueCat", ats: ashby, slug: "revenuecat"}
+  - {name: "Cloudbeds", ats: greenhouse, slug: "cloudbeds"}
+  - {name: "VAST Data (remote)", ats: comeet, slug: "vastdata/43.001"}
+  - {name: "Akamai", careers: "https://www.akamai.com/careers"}
+  - {name: "BairesDev", careers: "https://www.bairesdev.com/join-us/"}
+  - {name: "SafetyWing", careers: "https://safetywing.com/careers"}
+  - {name: "Deltek", careers: "https://www.deltek.com/en/careers"}
+  - {name: "Xapo Bank", careers: "https://www.xapobank.com/en/careers"}
 
 # LinkedIn searches limited to fully remote jobs open to candidates in Israel (run with the LinkedIn scan).
 linkedin_remote_queries:
