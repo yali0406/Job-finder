@@ -18,7 +18,6 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timezone
 from pathlib import Path
-from typing import Literal
 
 import yaml
 from pydantic import BaseModel
@@ -138,7 +137,7 @@ def check(item):
 
 
 class Sectors(BaseModel):
-    sectors: list[Literal["hightech", "fintech", "gaming", "other"]]
+    sectors: list[str]  # hightech / fintech / gaming / other (kept loose; anything else counts as other)
 
 
 def classify(hits):
@@ -162,13 +161,15 @@ def classify(hits):
                         "semiconductors, health tech, e-commerce tech, marketing tech). "
                         "other = not a technology company: staffing/recruiting agencies, retail, restaurants, "
                         "NGOs, schools, government, real estate, manufacturing without a tech product, or unclear. "
-                        "Return exactly one label per company, in order."),
+                        "Return exactly one label per company, in order, each one of: hightech, fintech, gaming, other."),
                 messages=[{"role": "user", "content": lines}],
                 output_format=Sectors,
             )
             labels = resp.parsed_output.sectors if resp.parsed_output else []
-        except anthropic.APIError as e:
-            log.warning("Classification failed: %s", e)
+            labels = [re.sub(r"[^a-z]", "", str(l).lower()) for l in labels]
+            labels = [l if l in ("hightech", "fintech", "gaming") else "other" for l in labels]
+        except Exception as e:  # API error or an answer that doesn't fit the schema
+            log.warning("Classification failed: %s", str(e)[:300])
             labels = []
         if len(labels) != len(batch):
             labels = ["other"] * len(batch)  # can't tell: leave them for a later day
@@ -188,6 +189,7 @@ def main():
         if fresh:
             pool["candidates"] = sorted({tuple(c) for c in pool["candidates"]} | set(fresh))
             pool["harvested"] = today
+            POOL.write_text(json.dumps(pool, ensure_ascii=False))  # an hour of crawling; keep it even if a later step fails
     vc = [(v[0], v[1], n) for n, v in _load(ROOT / "docs" / "data" / "discovered.json", {}).items()]
 
     boards, names = _known()
@@ -212,9 +214,11 @@ def main():
         results = list(ex.map(check, todo))
     for kind, slug, _ in todo:
         checked[f"{kind}:{slug.lower()}"] = today
-
+    # Qualifying boards not classified on an earlier day (more than the daily target) come first.
     hits, used = [], set(names)
-    for h in results:
+    for h in pool.get("pending", []) + [r for r in results if r]:
+        if (h["ats"], h["slug"].lower()) in boards:
+            continue
         if h and norm(h["name"]) not in used:
             used.add(norm(h["name"]))
             hits.append(h)
@@ -222,14 +226,16 @@ def main():
     hits.sort(key=lambda h: (-min(h["israel_jobs"], 20), -h["remote_jobs"], h["name"].lower()))
     log.info("%d boards qualify; classifying", len(hits))
 
-    picked = []
-    for i in range(0, len(hits), 50):
+    picked, i = [], 0
+    while i < len(hits) and len(picked) < DAILY_TARGET:
         chunk = hits[i:i + 50]
+        i += len(chunk)
         for h, s in zip(chunk, classify(chunk)):
             if s != "other":
                 picked.append({**h, "sector": s})
-        if len(picked) >= DAILY_TARGET:
-            break
+    pool["pending"] = picked[DAILY_TARGET:] + hits[i:]  # tomorrow's head start
+    for p in pool["pending"]:
+        p.pop("sector", None)
     picked = picked[:DAILY_TARGET]
 
     added = _load(ADDED, [])
@@ -242,6 +248,7 @@ def main():
     POOL.write_text(json.dumps(pool, ensure_ascii=False))
     (GROWTH / f"{today}.json").write_text(json.dumps({
         "date": today, "checked": len(todo), "qualified": len(hits), "added": picked,
+        "pending": len(pool["pending"]),
         "pool_left": sum(1 for c in pool["candidates"] if due(c[0], c[1]) and (c[0], c[1].lower()) not in boards),
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }, indent=1, ensure_ascii=False))
