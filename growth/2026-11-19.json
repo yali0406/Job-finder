@@ -1,0 +1,1092 @@
+{
+ "date": "2026-11-19",
+ "checked": 4000,
+ "qualified": 611,
+ "added": [
+  {
+   "name": "WeSki",
+   "ats": "comeet",
+   "slug": "weski/F8.00C",
+   "israel_jobs": 5,
+   "remote_jobs": 0,
+   "titles": [
+    "Finance Operations Specialist",
+    "Product Manager",
+    "Senior Backend Engineer",
+    "Senior Full Stack Engineer",
+    "Senior Product Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "A Security",
+   "ats": "comeet",
+   "slug": "a_security/EA.007",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Research Data Analyst",
+    "Senior Product Manager",
+    "Senior Software Engineer",
+    "Technical Account Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Aitech",
+   "ats": "comeet",
+   "slug": "aitechsystems/88.004",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Configuration Control Engineer",
+    "Director of AI Enablement",
+    "Hardware Verification & Validation Engineer",
+    "Testing Technician"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Directeam",
+   "ats": "comeet",
+   "slug": "directeam/29.008",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Assistant Controller",
+    "Head of Operations",
+    "Senior Agentic AI Engineer (AWS/DevOps)",
+    "Senior Solutions Architect"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Elsight",
+   "ats": "comeet",
+   "slug": "elsight/B9.006",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Director of Business Development - Israel",
+    "Networking Senior Software Engineer",
+    "Sales Operations",
+    "Senior Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Flo-Optics",
+   "ats": "comeet",
+   "slug": "flo_optics/EA.00E",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Integration engineer",
+    "Mechanical Engineering Manager",
+    "New Product Introduction (NPI) Engineer",
+    "Senior Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "ForSight Robotics",
+   "ats": "comeet",
+   "slug": "forsightrobotics/E9.008",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Clinical Product Manager",
+    "Senior Verification Engineer",
+    "System Engineer",
+    "System Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "GeoEdge",
+   "ats": "comeet",
+   "slug": "geoedge.com/82.00A",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Customer Success Manager - AppHarbr",
+    "Head of Security & Research",
+    "Senior Security Researcher – Web Threats",
+    "VP Marketing"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Istra LLC",
+   "ats": "comeet",
+   "slug": "istra/59.009",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Algorithm Developer",
+    "Quantitative Data Scientist",
+    "Senior VLSI Design Engineer",
+    "Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "LiveU",
+   "ats": "comeet",
+   "slug": "liveu/90.00C",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Bookkeeper",
+    "Director of Data & AI",
+    "Senior Business Development – Public Safety & HLS",
+    "Software Team Lead – Streaming"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Newcore",
+   "ats": "comeet",
+   "slug": "newcore/4B.00D",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Brand & Marketing Designer",
+    "Frontend Developer",
+    "Senior Security Researcher",
+    "Senior Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Nym Health",
+   "ats": "comeet",
+   "slug": "nymhealth/46.005",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "NLP Research Engineer",
+    "Product Manager - Clinical Coding, Revenue Cycle, AI",
+    "Senior DevOps Engineer",
+    "Software Engineer, Data & Platform"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "penlink",
+   "ats": "comeet",
+   "slug": "penlink/E5.002",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Data Analyst",
+    "Osint Trainer",
+    "Software Agentic Engineer",
+    "Web Intelligence Analyst"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "4M Analytics",
+   "ats": "ashby",
+   "slug": "4M",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Full Stack Engineer",
+    "Staff Algorithm Engineer",
+    "Senior Algorithm Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Bounce AI",
+   "ats": "comeet",
+   "slug": "finbounce/E9.00C",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Data Science Team Lead",
+    "Director of Security",
+    "Product Designer (Maternity Leave Replacement)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Rounds",
+   "ats": "comeet",
+   "slug": "rounds/59.005",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Head of DevOps",
+    "IT Specialist",
+    "Technical Product Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Sedric.ai",
+   "ats": "comeet",
+   "slug": "sedric/0A.00F",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Engineering Tech Lead – Hands-on",
+    "Product Manager",
+    "Senior Backend Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "TailorMed",
+   "ats": "comeet",
+   "slug": "tailormed/E5.009",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Agents Engineer",
+    "Head Of Product",
+    "Sr Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "AKA Food",
+   "ats": "comeet",
+   "slug": "aka_food/79.00D",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Account Executive",
+    "Senior Backend and AI Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Commbox",
+   "ats": "comeet",
+   "slug": "commbox/0A.001",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "DevOps Engineer",
+    "Director of Customer Success & Support"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Grain",
+   "ats": "comeet",
+   "slug": "grain/4A.000",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Global HR Manager - Maternity Leave Cover",
+    "Senior Backend Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "BarkleyOKRP",
+   "ats": "greenhouse",
+   "slug": "barkleyokrp",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "FREELANCE | Programmatic Supervisor",
+    "FREELANCE | Senior Paid Search Specialist",
+    "Senior Software Engineer (Java Backend)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "BitGo",
+   "ats": "greenhouse",
+   "slug": "bitgo",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Business Development Representative - MENA (Cyprus or Israel)",
+    "Business Development Representative - MENA (Saudi Arabia)",
+    "Business Development Representative - MENA(South Africa or Kenya)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Boldin",
+   "ats": "greenhouse",
+   "slug": "boldin",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Performance Marketing Lead",
+    "Senior Brand Designer",
+    "Senior Performance Marketing Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Brigit",
+   "ats": "ashby",
+   "slug": "brigit",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Software Engineer - Fullstack, US Remote",
+    "Senior Software Engineer - Fullstack, US Remote",
+    "CRM Lifecycle Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "C1",
+   "ats": "ashby",
+   "slug": "C1",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Solutions Architect (Customer Success)",
+    "Sr. Solutions Engineer",
+    "Channel Account Manager "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cardflight",
+   "ats": "ashby",
+   "slug": "cardflight",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Sales Manager",
+    "Field Account Executive",
+    "Business Development Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cayuse",
+   "ats": "greenhouse",
+   "slug": "cayuse",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Account Executive ",
+    "Senior Account Executive ",
+    "VP of Product Management"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Chartbeat, Inc.",
+   "ats": "greenhouse",
+   "slug": "chartbeatinc",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Sales Director, International",
+    "Sales Director, North America",
+    "Sales Solutions Consultant (Tubular Labs) "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Chilipiper",
+   "ats": "ashby",
+   "slug": "chilipiper",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "General Interest",
+    "Sr. Customer Success Manager - EMEA",
+    "Enterprise Sales Director"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cofertility",
+   "ats": "greenhouse",
+   "slug": "cofertility",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Growth Experimentation - Contractor",
+    "Member Advocate (Manager Level)",
+    "Member Outreach Specialist"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Counterpart",
+   "ats": "greenhouse",
+   "slug": "counterpart",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Engineering Lead",
+    "Product Operations Lead, Insurance Platform",
+    "VP of Engineering"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Datavations",
+   "ats": "greenhouse",
+   "slug": "datavations",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Enterprise Account Executive",
+    "Sales Engineer",
+    "Solutions Architect"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Daymark Health",
+   "ats": "greenhouse",
+   "slug": "daymarkhealth",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "50 State Licensed Per Diem Registered Nurse, On-Call",
+    "Director, Clinical Operations (Provider Operations)",
+    "IT Manager "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Decagon",
+   "ats": "ashby",
+   "slug": "decagon",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Strategic Account Director - West",
+    "Director, Strategic Accounts - Toronto",
+    "Business Systems Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Digible",
+   "ats": "greenhouse",
+   "slug": "digible",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Account Executive - Digital Marketing ",
+    "Group Product Manager ",
+    "Senior Manager, Product Design "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Disc Medicine",
+   "ats": "greenhouse",
+   "slug": "discmedicine",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Medical Science Liaison (MSL) - Mid-Atlantic",
+    "Medical Science Liaison (MSL) - Northeast",
+    "Medical Science Liaison (MSL) - Southwest"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Diverge Health",
+   "ats": "greenhouse",
+   "slug": "divergehealth",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Chief Commercial Officer",
+    "If our current job openings do not match your skillset, click here!",
+    "Senior Associate, Network Analytics"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "DonorsChoose",
+   "ats": "greenhouse",
+   "slug": "donorschoose",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Senior Foundation Partnerships Manager",
+    "Strategic Finance Director",
+    "VP, Marketplace Growth"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Dualentry",
+   "ats": "ashby",
+   "slug": "dualentry",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Technical Recruiter (Remote EU, LATAM, NAMER)",
+    "Senior/Staff Backend Engineer",
+    "GTM Recruiter (Remote EU, LATAM, NAMER)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "ecoATM | Gazelle",
+   "ats": "greenhouse",
+   "slug": "ecoatmgazelle",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Finance Director, Revenue & Margin ",
+    "Paid Search Manager ",
+    "Sr. Account Manager "
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Electrosoft",
+   "ats": "greenhouse",
+   "slug": "electrosoft",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Director, Business Development/Capture",
+    "Senior Technical Writer / Executive Administrative & Governance Specialist",
+    "ServiceNow Business Analyst"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Ava Labs",
+   "ats": "ashby",
+   "slug": "ava-labs",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Staff Engineer, AvalancheGo",
+    "Senior Engineering Manager, Fortary Platform"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Aven",
+   "ats": "ashby",
+   "slug": "Aven",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Mortgage Loan Officer",
+    "Partner Success Specialist"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Avra",
+   "ats": "ashby",
+   "slug": "avra",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Head of Research",
+    "Member of Technical Staff, Research — Relational Foundation Models"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Bayesianhealth",
+   "ats": "ashby",
+   "slug": "bayesianhealth",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Enterprise Growth Lead",
+    "Staff Machine Learning Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Beacon Biosignals",
+   "ats": "greenhouse",
+   "slug": "beaconbiosignals",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Clinical Study Operations Associate",
+    "Sleep Scoring Technologist DC, LA, DE – RPSGT (PRN – Remote) "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Bedrock Robotics",
+   "ats": "ashby",
+   "slug": "bedrock-robotics",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Fleet Operations Regional Manager - Central Region  ",
+    "Fleet Operations Regional Manager - Eastern Region "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Box",
+   "ats": "greenhouse",
+   "slug": "boxinc",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "GRC Controls Automation Engineer",
+    "Let's stay in touch.  Join our Talent Community!"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Buildout",
+   "ats": "ashby",
+   "slug": "buildout",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Senior Product Manager, AI",
+    "Content Marketing Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cake",
+   "ats": "greenhouse",
+   "slug": "cakeai",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Solutions Engineer, AI/ML",
+    "Staff Software Engineer, Platform"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cala Health",
+   "ats": "greenhouse",
+   "slug": "calahealth",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Customer Success Specialist",
+    "Therapy Access Specialist"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Campfire",
+   "ats": "ashby",
+   "slug": "campfire",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Enterprise Account Executive",
+    "Lifecycle Marketing Manager"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Canopy Connect",
+   "ats": "greenhouse",
+   "slug": "canopyconnect",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Automotive SaaS Enterprise Account Executive (Remote)",
+    "Real Estate SaaS Enterprise Account Executive (Remote)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Canopy Works",
+   "ats": "greenhouse",
+   "slug": "canopyworks",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Customer Implementation Manager",
+    "Solutions Reliability Specialist"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Chronograph",
+   "ats": "greenhouse",
+   "slug": "chronograph",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Senior Software Engineer, Data Platform",
+    "Tech Lead, Product Engineering"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Clipboard",
+   "ats": "ashby",
+   "slug": "clipboard",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "S&O Senior Associate",
+    "Account Executive - Dental - International "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "CloudSEK",
+   "ats": "greenhouse",
+   "slug": "cloudsek",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Channel Sales Manager - SEA ",
+    "Enterprise Account Executive - USA "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cobot",
+   "ats": "ashby",
+   "slug": "cobot",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Sr Deployment Program Manager, Robotics ",
+    "Site Operation Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Codat",
+   "ats": "ashby",
+   "slug": "codat",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Senior AI Engineer",
+    "Software Engineer (Data)"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Coderabbit",
+   "ats": "ashby",
+   "slug": "coderabbit",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Account Executive, Enterprise - Miami ",
+    "Head of Event Marketing"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Braeburn ",
+   "ats": "greenhouse",
+   "slug": "braeburn",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Manager, Sales Operations "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Britive",
+   "ats": "greenhouse",
+   "slug": "britive",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Strategic Account Executive"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Buynomics",
+   "ats": "greenhouse",
+   "slug": "buynomics",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Open Application (m/f/d)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "C3 AI",
+   "ats": "greenhouse",
+   "slug": "c3iot",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Forward Deployed Engineer, Federal (Onsite - Lexington Park, MD)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cambium",
+   "ats": "ashby",
+   "slug": "cambium",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Capital on Tap",
+   "ats": "greenhouse",
+   "slug": "capitalontap",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Business Development Manager"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Capsule",
+   "ats": "ashby",
+   "slug": "capsule",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Customer Success Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Carefeed",
+   "ats": "greenhouse",
+   "slug": "carefeed",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "EVP, Enterprise Sales (West)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cargomatic",
+   "ats": "greenhouse",
+   "slug": "cargomatic",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Inside Sales Representative"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "CHAOS Industries",
+   "ats": "greenhouse",
+   "slug": "chaosindustries",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Principal Configuration Management Specialist"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "CharterUP",
+   "ats": "greenhouse",
+   "slug": "charterup",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior Enterprise Sourcing Specialist"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Checkly",
+   "ats": "ashby",
+   "slug": "checkly",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior Product Engineer (Incident Response, remote)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cinder",
+   "ats": "ashby",
+   "slug": "cinder",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Cinder Expert Network"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Citizen",
+   "ats": "ashby",
+   "slug": "Citizen",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Account Executive"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Citizen%20Health",
+   "ats": "ashby",
+   "slug": "Citizen%20Health",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Clinical Data Abstractor"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Clarasight",
+   "ats": "ashby",
+   "slug": "clarasight",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Customer Success Manager "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cluely",
+   "ats": "ashby",
+   "slug": "cluely",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Customer Support Specialist"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Cobalt",
+   "ats": "greenhouse",
+   "slug": "cobaltio",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Staff AI Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Revecore",
+   "ats": "ashby",
+   "slug": "Revecore",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "EPIC Architect"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Rillet",
+   "ats": "ashby",
+   "slug": "rillet",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Solution Consulting Manager"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Salient",
+   "ats": "ashby",
+   "slug": "salient",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Member of Technical Staff, Applied AI – Speech"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Scale%20Army%20Careers",
+   "ats": "ashby",
+   "slug": "Scale%20Army%20Careers",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior AI Software Engineer, Agent Systems"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Serval",
+   "ats": "ashby",
+   "slug": "Serval",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior Field Marketing Manager, Public Sector"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Sfcompute",
+   "ats": "ashby",
+   "slug": "sfcompute",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "HPC/ GPU Cluster Architect"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Tonal",
+   "ats": "ashby",
+   "slug": "tonal",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Talent Brand and Partnership Lead"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Treeswift",
+   "ats": "ashby",
+   "slug": "treeswift",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior Account Executive"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Wetravel",
+   "ats": "ashby",
+   "slug": "wetravel",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior Product Engineer - Payments Risk "
+   ],
+   "sector": "fintech"
+  }
+ ],
+ "pending": 0,
+ "pool_left": 2584,
+ "generated": "2026-11-19T15:38:08+00:00"
+}

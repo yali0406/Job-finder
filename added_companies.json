@@ -1,0 +1,706 @@
+[
+ {
+  "name": "WeSki",
+  "ats": "comeet",
+  "slug": "weski/F8.00C",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "A Security",
+  "ats": "comeet",
+  "slug": "a_security/EA.007",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Aitech",
+  "ats": "comeet",
+  "slug": "aitechsystems/88.004",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Directeam",
+  "ats": "comeet",
+  "slug": "directeam/29.008",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Elsight",
+  "ats": "comeet",
+  "slug": "elsight/B9.006",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Flo-Optics",
+  "ats": "comeet",
+  "slug": "flo_optics/EA.00E",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "ForSight Robotics",
+  "ats": "comeet",
+  "slug": "forsightrobotics/E9.008",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "GeoEdge",
+  "ats": "comeet",
+  "slug": "geoedge.com/82.00A",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Istra LLC",
+  "ats": "comeet",
+  "slug": "istra/59.009",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "LiveU",
+  "ats": "comeet",
+  "slug": "liveu/90.00C",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Newcore",
+  "ats": "comeet",
+  "slug": "newcore/4B.00D",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Nym Health",
+  "ats": "comeet",
+  "slug": "nymhealth/46.005",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "penlink",
+  "ats": "comeet",
+  "slug": "penlink/E5.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "4M Analytics",
+  "ats": "ashby",
+  "slug": "4M",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Bounce AI",
+  "ats": "comeet",
+  "slug": "finbounce/E9.00C",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Rounds",
+  "ats": "comeet",
+  "slug": "rounds/59.005",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Sedric.ai",
+  "ats": "comeet",
+  "slug": "sedric/0A.00F",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "TailorMed",
+  "ats": "comeet",
+  "slug": "tailormed/E5.009",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "AKA Food",
+  "ats": "comeet",
+  "slug": "aka_food/79.00D",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Commbox",
+  "ats": "comeet",
+  "slug": "commbox/0A.001",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Grain",
+  "ats": "comeet",
+  "slug": "grain/4A.000",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "BarkleyOKRP",
+  "ats": "greenhouse",
+  "slug": "barkleyokrp",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "BitGo",
+  "ats": "greenhouse",
+  "slug": "bitgo",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Boldin",
+  "ats": "greenhouse",
+  "slug": "boldin",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Brigit",
+  "ats": "ashby",
+  "slug": "brigit",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "C1",
+  "ats": "ashby",
+  "slug": "C1",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cardflight",
+  "ats": "ashby",
+  "slug": "cardflight",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cayuse",
+  "ats": "greenhouse",
+  "slug": "cayuse",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Chartbeat, Inc.",
+  "ats": "greenhouse",
+  "slug": "chartbeatinc",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Chilipiper",
+  "ats": "ashby",
+  "slug": "chilipiper",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cofertility",
+  "ats": "greenhouse",
+  "slug": "cofertility",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Counterpart",
+  "ats": "greenhouse",
+  "slug": "counterpart",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Datavations",
+  "ats": "greenhouse",
+  "slug": "datavations",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Daymark Health",
+  "ats": "greenhouse",
+  "slug": "daymarkhealth",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Decagon",
+  "ats": "ashby",
+  "slug": "decagon",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Digible",
+  "ats": "greenhouse",
+  "slug": "digible",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Disc Medicine",
+  "ats": "greenhouse",
+  "slug": "discmedicine",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Diverge Health",
+  "ats": "greenhouse",
+  "slug": "divergehealth",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "DonorsChoose",
+  "ats": "greenhouse",
+  "slug": "donorschoose",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Dualentry",
+  "ats": "ashby",
+  "slug": "dualentry",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "ecoATM | Gazelle",
+  "ats": "greenhouse",
+  "slug": "ecoatmgazelle",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Electrosoft",
+  "ats": "greenhouse",
+  "slug": "electrosoft",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Ava Labs",
+  "ats": "ashby",
+  "slug": "ava-labs",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Aven",
+  "ats": "ashby",
+  "slug": "Aven",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Avra",
+  "ats": "ashby",
+  "slug": "avra",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Bayesianhealth",
+  "ats": "ashby",
+  "slug": "bayesianhealth",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Beacon Biosignals",
+  "ats": "greenhouse",
+  "slug": "beaconbiosignals",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Bedrock Robotics",
+  "ats": "ashby",
+  "slug": "bedrock-robotics",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Box",
+  "ats": "greenhouse",
+  "slug": "boxinc",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Buildout",
+  "ats": "ashby",
+  "slug": "buildout",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cake",
+  "ats": "greenhouse",
+  "slug": "cakeai",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cala Health",
+  "ats": "greenhouse",
+  "slug": "calahealth",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Campfire",
+  "ats": "ashby",
+  "slug": "campfire",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Canopy Connect",
+  "ats": "greenhouse",
+  "slug": "canopyconnect",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Canopy Works",
+  "ats": "greenhouse",
+  "slug": "canopyworks",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Chronograph",
+  "ats": "greenhouse",
+  "slug": "chronograph",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Clipboard",
+  "ats": "ashby",
+  "slug": "clipboard",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "CloudSEK",
+  "ats": "greenhouse",
+  "slug": "cloudsek",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cobot",
+  "ats": "ashby",
+  "slug": "cobot",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Codat",
+  "ats": "ashby",
+  "slug": "codat",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Coderabbit",
+  "ats": "ashby",
+  "slug": "coderabbit",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Braeburn ",
+  "ats": "greenhouse",
+  "slug": "braeburn",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Britive",
+  "ats": "greenhouse",
+  "slug": "britive",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Buynomics",
+  "ats": "greenhouse",
+  "slug": "buynomics",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "C3 AI",
+  "ats": "greenhouse",
+  "slug": "c3iot",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cambium",
+  "ats": "ashby",
+  "slug": "cambium",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Capital on Tap",
+  "ats": "greenhouse",
+  "slug": "capitalontap",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Capsule",
+  "ats": "ashby",
+  "slug": "capsule",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Carefeed",
+  "ats": "greenhouse",
+  "slug": "carefeed",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cargomatic",
+  "ats": "greenhouse",
+  "slug": "cargomatic",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "CHAOS Industries",
+  "ats": "greenhouse",
+  "slug": "chaosindustries",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "CharterUP",
+  "ats": "greenhouse",
+  "slug": "charterup",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Checkly",
+  "ats": "ashby",
+  "slug": "checkly",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cinder",
+  "ats": "ashby",
+  "slug": "cinder",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Citizen",
+  "ats": "ashby",
+  "slug": "Citizen",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Citizen%20Health",
+  "ats": "ashby",
+  "slug": "Citizen%20Health",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Clarasight",
+  "ats": "ashby",
+  "slug": "clarasight",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cluely",
+  "ats": "ashby",
+  "slug": "cluely",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cobalt",
+  "ats": "greenhouse",
+  "slug": "cobaltio",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Revecore",
+  "ats": "ashby",
+  "slug": "Revecore",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Rillet",
+  "ats": "ashby",
+  "slug": "rillet",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Salient",
+  "ats": "ashby",
+  "slug": "salient",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Scale%20Army%20Careers",
+  "ats": "ashby",
+  "slug": "Scale%20Army%20Careers",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Serval",
+  "ats": "ashby",
+  "slug": "Serval",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Sfcompute",
+  "ats": "ashby",
+  "slug": "sfcompute",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Tonal",
+  "ats": "ashby",
+  "slug": "tonal",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Treeswift",
+  "ats": "ashby",
+  "slug": "treeswift",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Wetravel",
+  "ats": "ashby",
+  "slug": "wetravel",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ }
+]
