@@ -1,11 +1,11 @@
 {
- "run": "2026-11-19T05:17:16+00:00",
+ "run": "2026-11-19T06:17:29+00:00",
  "collected_by_source": {
   "smartrecruiters": 152,
-  "greenhouse": 966,
-  "careers_page": 81,
-  "lever": 247,
-  "comeet": 1360,
+  "greenhouse": 967,
+  "careers_page": 58,
+  "lever": 249,
+  "comeet": 1361,
   "workable": 146,
   "ashby": 411,
   "workday": 7,
@@ -24,10 +24,10 @@
   "vc:israelvcforum.getro.com": 1110,
   "remote:remotive": 8,
   "remote:remoteok": 60,
-  "remote:himalayas": 26,
+  "remote:himalayas": 24,
   "remote:jobicy": 64,
-  "remote:weworkremotely": 47,
-  "linkedin": 451
+  "remote:weworkremotely": 71,
+  "linkedin": 443
  },
  "relevant_by_source": {
   "smartrecruiters": 28,
@@ -53,8 +53,8 @@
   "remote:remoteok": 9,
   "remote:himalayas": 1,
   "remote:jobicy": 7,
-  "remote:weworkremotely": 5,
-  "linkedin": 91
+  "remote:weworkremotely": 6,
+  "linkedin": 90
  },
  "log": [
   "WARNING CyberArk: workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
@@ -78,6 +78,8 @@
   "WARNING eBay Israel: workday/ebay|wd5|apply stopped responding",
   "WARNING SciPlay: workday/lnw|wd5|SciPlayExternalCareersSite stopped responding",
   "WARNING SAM Seamless Network: comeet/securingsam/D4.000 stopped responding",
+  "WARNING ParaZero: careers_page/https://parazero.com/careers/ stopped responding",
+  "WARNING Elspec: careers_page/https://www.elspec-ltd.com/careers/ stopped responding",
   "INFO Workable search: 117 jobs in Israel",
   "WARNING Product Madness Israel: workday/aristocrat|wd3|AristocratExternalCareersSite stopped responding",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
@@ -141,17 +143,18 @@
   "INFO Remote board remoteok: 97 jobs",
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
-  "INFO Remote board weworkremotely: 93 jobs",
+  "INFO Remote board weworkremotely: 95 jobs",
   "WARNING Workiva: workday/workiva|wd503|careers stopped responding",
   "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
   "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
-  "INFO Remote: 5197 collected, 633 open to Israel",
-  "WARNING LinkedIn search 'BDR' blocked or failed (none)",
-  "WARNING LinkedIn search 'Systems Analyst' blocked or failed (none)",
-  "INFO LinkedIn: 363 jobs",
+  "INFO Remote: 5198 collected, 655 open to Israel",
+  "WARNING LinkedIn search 'Business Development Associate' blocked or failed (none)",
+  "WARNING LinkedIn search 'Payment Operations' blocked or failed (none)",
+  "WARNING LinkedIn search 'WSC Sports' blocked or failed (none)",
+  "INFO LinkedIn: 355 jobs",
   "INFO LinkedIn remote: 88 jobs",
-  "INFO Collected 6770 jobs in Israel",
+  "INFO Collected 6765 jobs in Israel",
   "INFO 816 pass the title filter",
-  "INFO New: 0, total kept: 299"
+  "INFO New: 2, total kept: 301"
  ]
 }
