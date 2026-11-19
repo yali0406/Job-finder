@@ -4,23 +4,15 @@ jobs:
   p:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
-      - run: pip install -q -r requirements.txt
       - run: |
-          python - <<'PY'
-          import requests, time, yaml
-          from scanner.common import UA
-          cfg=yaml.safe_load(open("sources.yaml"))
-          wd=[c for c in cfg["companies"]+cfg.get("gaming",[]) if isinstance(c,dict) and c.get("ats")=="workday"]
-          body={"appliedFacets":{},"limit":20,"offset":0,"searchText":"Israel"}
-          variants={"bare":{},"json":{"Accept":"application/json","Accept-Language":"en-US"},"ua":{"User-Agent":UA},"ua+json":{"User-Agent":UA,"Accept":"application/json","Accept-Language":"en-US"}}
-          for vn,h in variants.items():
-              out=[]
-              for c in wd:
-                  t,w,s=c["slug"].split("|")
-                  r=requests.post(f"https://{t}.{w}.myworkdayjobs.com/wday/cxs/{t}/{s}/jobs",json=body,headers=h,timeout=20)
-                  out.append(r.status_code)
-              print(vn,out,flush=True)
+          python3 - <<'PY'
+          import urllib.request, json, time
+          def go(t,w,s):
+              req=urllib.request.Request(f"https://{t}.{w}.myworkdayjobs.com/wday/cxs/{t}/{s}/jobs",data=json.dumps({"appliedFacets":{},"limit":20,"offset":0,"searchText":"Israel"}).encode(),headers={"Content-Type":"application/json","Accept":"application/json"})
+              try:
+                  r=urllib.request.urlopen(req,timeout=20); return r.status, None
+              except urllib.error.HTTPError as e: return e.code, dict(e.headers)
+          st,h=go("nvidia","wd5","NVIDIAExternalCareerSite"); print("first",st,h,flush=True)
+          for d in (2,5,10,20,40):
+              time.sleep(d); st,h=go("nvidia","wd5","NVIDIAExternalCareerSite"); print("after",d,st,flush=True)
           PY
