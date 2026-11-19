@@ -166,5 +166,581 @@
   "sector": "hightech",
   "remote_only": false,
   "added": "2026-11-19"
+ },
+ {
+  "name": "Kela Technologies",
+  "ats": "comeet",
+  "slug": "kelasys/2A.007",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Medison Pharma",
+  "ats": "comeet",
+  "slug": "medison/67.00A",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Netafim",
+  "ats": "comeet",
+  "slug": "netafim/B7.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Paragon",
+  "ats": "comeet",
+  "slug": "paragon/76.006",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Vishay Precision Group",
+  "ats": "comeet",
+  "slug": "vpgsensors/C8.009",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Fetcherr",
+  "ats": "comeet",
+  "slug": "fetcherr/68.006",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Passportcard",
+  "ats": "comeet",
+  "slug": "passportcard/92.00A",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Orbit Communication Systems",
+  "ats": "comeet",
+  "slug": "orbit_communication_systems/2B.008",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Magal Solutions",
+  "ats": "comeet",
+  "slug": "magalsolutions/7A.005",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Enercon Technologies Group",
+  "ats": "comeet",
+  "slug": "enercon/A4.00D",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Magenta Medical",
+  "ats": "comeet",
+  "slug": "magentamed/F9.003",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Bright Data",
+  "ats": "comeet",
+  "slug": "brightdata/88.007",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Oriient",
+  "ats": "comeet",
+  "slug": "oriient/EA.005",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Alma Lasers",
+  "ats": "comeet",
+  "slug": "almalasers/67.006",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Eitan Medical",
+  "ats": "comeet",
+  "slug": "eitanmedical/C6.00F",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Fluent Trade Technologies",
+  "ats": "comeet",
+  "slug": "fluenttech/E5.00E",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Mami",
+  "ats": "comeet",
+  "slug": "mami/BA.008",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Final",
+  "ats": "comeet",
+  "slug": "final/C0.009",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Frame Security",
+  "ats": "comeet",
+  "slug": "framesecurity/FA.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Jazz",
+  "ats": "comeet",
+  "slug": "jazz/6A.009",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Utila",
+  "ats": "comeet",
+  "slug": "utila/D9.00F",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Viber",
+  "ats": "comeet",
+  "slug": "viber/04.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Webselenese",
+  "ats": "comeet",
+  "slug": "webselenese/84.005",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Imagry",
+  "ats": "comeet",
+  "slug": "imagry/B7.00F",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Minimus",
+  "ats": "comeet",
+  "slug": "minimus/19.00B",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Mitiga",
+  "ats": "comeet",
+  "slug": "mitiga/26.00B",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Moonshot",
+  "ats": "comeet",
+  "slug": "moonshot/87.005",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Nagomi Security",
+  "ats": "comeet",
+  "slug": "nagomisecurity/89.00B",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Notch",
+  "ats": "comeet",
+  "slug": "notch/CA.003",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "OurCrowd",
+  "ats": "comeet",
+  "slug": "ourcrowd/D3.00A",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Qubex",
+  "ats": "comeet",
+  "slug": "zesty/06.000",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Seeking Alpha",
+  "ats": "comeet",
+  "slug": "seekingalpha/46.006",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Supercom",
+  "ats": "comeet",
+  "slug": "supercom/46.00A",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "U.P.PRO",
+  "ats": "comeet",
+  "slug": "uppro/18.003",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "8fig",
+  "ats": "comeet",
+  "slug": "8fig/08.004",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Allied Universal Electronic Monitoring",
+  "ats": "comeet",
+  "slug": "allied-universal-em/C2.00D",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Black Duck Software, Inc.",
+  "ats": "greenhouse",
+  "slug": "blackduck",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "CHEQ",
+  "ats": "comeet",
+  "slug": "cheq/65.005",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Coinflow",
+  "ats": "ashby",
+  "slug": "Coinflow",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Cribl",
+  "ats": "greenhouse",
+  "slug": "cribl",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Draftt",
+  "ats": "comeet",
+  "slug": "draftt/3A.00F",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "DUVE",
+  "ats": "comeet",
+  "slug": "duve/58.00D",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Hyro",
+  "ats": "comeet",
+  "slug": "hyro/B9.00A",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "K2view",
+  "ats": "comeet",
+  "slug": "k2view/D5.000",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Lumus",
+  "ats": "comeet",
+  "slug": "lumus/62.00F",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Mirato",
+  "ats": "greenhouse",
+  "slug": "sayari",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Morphisec",
+  "ats": "comeet",
+  "slug": "morphisec/65.00C",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Panorays",
+  "ats": "comeet",
+  "slug": "panorays/97.00D",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Vectorious Medical Technologies Ltd",
+  "ats": "comeet",
+  "slug": "vectoriousmedtech/68.003",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Youappi",
+  "ats": "comeet",
+  "slug": "youappi/C9.00B",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "K2 Space",
+  "ats": "greenhouse",
+  "slug": "k2spacecorporation",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Alpaca",
+  "ats": "greenhouse",
+  "slug": "alpaca",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Skelar",
+  "ats": "ashby",
+  "slug": "skelar",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Dash0",
+  "ats": "ashby",
+  "slug": "dash0",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Anagram",
+  "ats": "ashby",
+  "slug": "Anagram",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Gradient",
+  "ats": "ashby",
+  "slug": "gradient",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Andromeda",
+  "ats": "ashby",
+  "slug": "andromeda",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "FirstPrinciples",
+  "ats": "greenhouse",
+  "slug": "firstprinciples",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Enveritas",
+  "ats": "greenhouse",
+  "slug": "enveritas",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Flex",
+  "ats": "greenhouse",
+  "slug": "flex",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Secfix",
+  "ats": "ashby",
+  "slug": "secfix",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Amplemarket",
+  "ats": "greenhouse",
+  "slug": "amplemarket",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Answerthis",
+  "ats": "ashby",
+  "slug": "answerthis",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Ava Labs",
+  "ats": "ashby",
+  "slug": "ava-labs",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "DriveWealth",
+  "ats": "greenhouse",
+  "slug": "drivewealth",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Eightsleep",
+  "ats": "ashby",
+  "slug": "eightsleep",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Element Biosciences",
+  "ats": "greenhouse",
+  "slug": "elementbiosciences",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Halter",
+  "ats": "ashby",
+  "slug": "halter",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Mimica",
+  "ats": "ashby",
+  "slug": "mimica",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Notabene",
+  "ats": "ashby",
+  "slug": "notabene",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Rasa",
+  "ats": "ashby",
+  "slug": "rasa",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-19"
+ },
+ {
+  "name": "Wetravel",
+  "ats": "ashby",
+  "slug": "wetravel",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-19"
  }
 ]
