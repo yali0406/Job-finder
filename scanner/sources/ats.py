@@ -59,11 +59,6 @@ def _lever_eu(slug, company):
     return _lever(slug, company, host="api.eu.lever.co")
 
 
-# Workday answers 429 to the scanner's default headers (the Hebrew Accept-Language),
-# so its API calls send plain JSON headers instead.
-_WD_HEADERS = {"Accept": "application/json", "Accept-Language": "en-US"}
-
-
 def _workday(slug, company):
     """slug format: 'tenant|wdN|site', e.g. 'nvidia|wd5|NVIDIAExternalCareerSite'."""
     try:
@@ -74,8 +69,7 @@ def _workday(slug, company):
     jobs = []
     for offset in range(0, 400, 20):
         r = post(f"{base}/wday/cxs/{tenant}/{site}/jobs",
-                 json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": "Israel"},
-                 headers=_WD_HEADERS)
+                 json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": "Israel"})
         if not r or r.status_code != 200:
             return jobs or None
         try:
@@ -607,13 +601,10 @@ def fetch_description(job: Job):
                 if desc:
                     job.description = desc[:8000]
         return
-    r = get(url, headers=_WD_HEADERS) if job.source == "workday" else get(url)
+    r = get(url)
     if not r or r.status_code != 200:
         return
-    try:
-        data = r.json()
-    except ValueError:
-        return
+    data = r.json()
     if job.source == "smartrecruiters":
         sections = (data.get("jobAd") or {}).get("sections") or {}
         job.description = strip_html(" ".join((v or {}).get("text", "") for v in sections.values()))
