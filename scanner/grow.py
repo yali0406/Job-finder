@@ -18,6 +18,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timezone
 from pathlib import Path
+from urllib.parse import unquote
 
 import yaml
 from pydantic import BaseModel
@@ -25,7 +26,7 @@ from pydantic import BaseModel
 from .common import get, in_israel, log, norm
 from .discover import SKIP, _cc
 from .sources import ats
-from .sources.remote import eligible
+from .sources.remote import ELIGIBLE, eligible
 
 ROOT = Path(__file__).resolve().parent.parent
 GROWTH = ROOT / "growth"
@@ -121,6 +122,16 @@ def _name(kind, slug):
     return None
 
 
+NOT_ISRAEL = re.compile(r"\b(us|usa|u\.s\.|united states|canada|latam|americas?|uk only|india|apac|philippines|brazil|mexico)\b", re.I)
+
+
+def _open_to_israel(loc):
+    """Stricter than the scan's own check: a bare "Remote" (often US-only) is not enough to add a
+    company; the location has to say worldwide / EMEA / Israel / a nearby time zone."""
+    loc = loc or ""
+    return bool(REMOTE_WORDS.search(loc) and eligible(loc) and ELIGIBLE.search(loc) and not NOT_ISRAEL.search(loc))
+
+
 def check(item):
     kind, slug, name = item
     try:
@@ -128,10 +139,11 @@ def check(item):
     except Exception:
         return None
     il = [j for j in jobs if in_israel(j.location)]
-    rem = [j for j in jobs if REMOTE_WORDS.search(j.location or "") and eligible(j.location) and not in_israel(j.location)]
+    rem = [j for j in jobs if _open_to_israel(j.location) and not in_israel(j.location)]
     if not il and not rem:
         return None
-    name = name or _name(kind, slug) or re.sub(r"[-_]+", " ", slug.split("/")[0]).title()
+    name = name or _name(kind, slug) or re.sub(r"[-_]+", " ", unquote(slug.split("/")[0])).title()
+    name = re.sub(r"\s+(careers|jobs)$", "", unquote(name).strip(), flags=re.I)
     return {"name": name, "ats": kind, "slug": slug, "israel_jobs": len(il), "remote_jobs": len(rem),
             "titles": [j.title for j in (il or rem)][:8]}
 
@@ -153,7 +165,8 @@ def classify(hits):
         try:
             resp = client.messages.parse(
                 model=os.environ.get("CLAUDE_MODEL", "claude-haiku-5-5"),
-                max_tokens=1000,
+                max_tokens=4000,
+                output_config={"effort": "low"},
                 system=("Classify each company by what it does, judging from its name and open roles. "
                         "fintech = payments, banking, lending, insurance tech, trading, crypto, accounting software. "
                         "gaming = game studios, game publishers, iGaming/betting tech, game tools. "
@@ -231,8 +244,11 @@ def main():
         chunk = hits[i:i + 50]
         i += len(chunk)
         for h, s in zip(chunk, classify(chunk)):
-            if s != "other":
-                picked.append({**h, "sector": s})
+            if s == "other":
+                continue
+            if h["israel_jobs"] == 0 and sum(p["israel_jobs"] == 0 for p in picked) >= DAILY_TARGET * 0.3:
+                continue  # keep most of each day's additions Israeli
+            picked.append({**h, "sector": s})
     pool["pending"] = picked[DAILY_TARGET:] + hits[i:]  # tomorrow's head start
     for p in pool["pending"]:
         p.pop("sector", None)
