@@ -10,11 +10,11 @@ jobs:
       - run: pip install -q -r requirements.txt
       - run: |
           python - <<'PY'
-          from scanner.common import post
-          from scanner.sources.ats import _workday
+          import requests
+          from scanner.common import UA
           u="https://lnw.wd5.myworkdayjobs.com/wday/cxs/lnw/SciPlayExternalCareersSite/jobs"
-          for st in ("Israel",""):
-              r=post(u,json={"appliedFacets":{},"limit":20,"offset":0,"searchText":st})
-              print(repr(st), r and r.status_code, r and r.text[:200])
-          j=_workday("lnw|wd5|SciPlayExternalCareersSite","SciPlay"); print(j and len(j), j and [x.title for x in j])
+          body={"appliedFacets":{},"limit":20,"offset":0,"searchText":""}
+          for name,h in [("none",{}),("scannerUA",{"User-Agent":UA}),("lang",{"Accept-Language":"en-US,en;q=0.9,he;q=0.8"}),("both",{"User-Agent":UA,"Accept-Language":"en-US,en;q=0.9,he;q=0.8"}),("both+accept",{"User-Agent":UA,"Accept-Language":"en-US","Accept":"application/json"})]:
+              r=requests.post(u,json=body,headers=h,timeout=20); print(name,r.status_code)
+          r=requests.post(u,json=dict(body,searchText="Israel"),timeout=20); print("Israel",r.status_code,r.text[:150])
           PY
