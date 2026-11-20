@@ -1,0 +1,168 @@
+{
+ "date": "2026-11-20",
+ "checked": 2563,
+ "qualified": 23,
+ "added": [
+  {
+   "name": "Autofleet",
+   "ats": "workable",
+   "slug": "autofleet",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Applied Researcher",
+    "Senior Data Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Core-VA Solutions",
+   "ats": "workable",
+   "slug": "core-va-solutions",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Finance and Operations Specialist - Remote"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "D Ploy",
+   "ats": "workable",
+   "slug": "d-ploy",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Onsite Support Engineer (Tel Aviv, 1/2L Support, English/Hebrew)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Plata Card",
+   "ats": "greenhouse",
+   "slug": "platacard",
+   "israel_jobs": 0,
+   "remote_jobs": 30,
+   "titles": [
+    "2LoD Credit Risk Lead",
+    "Applied AI Engineer",
+    "Business Analyst Junior+ [Antifraud & Disputes]",
+    "Business Analyst Junior+ [Identity]",
+    "Business System Analyst Middle+ [Core Banking Systems]",
+    "DataBase Administrator",
+    "Data Scientist Senior [Integrated Risk Management]",
+    "Data Security Architect - Senior"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Process Street",
+   "ats": "greenhouse",
+   "slug": "processstreet",
+   "israel_jobs": 0,
+   "remote_jobs": 17,
+   "titles": [
+    "Senior Software Engineer | Remote | AI SaaS Software Role",
+    "Senior Software Engineer | Remote | AI SaaS Software Role",
+    "Senior Software Engineer | Remote | AI SaaS Software Role",
+    "Senior Software Engineer | Remote | AI SaaS Software Role",
+    "Senior Software Engineer | Remote | AI SaaS Software Role",
+    "Senior Software Engineer | Remote | AI SaaS Software Role",
+    "Senior Software Engineer | Remote | AI SaaS Software Role",
+    "Senior Software Engineer | Remote | AI SaaS Software Role"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "LeoLabs, Inc.",
+   "ats": "greenhouse",
+   "slug": "leolabsinc",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Pre-Sales & Solutions Manager, EMEA,"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "LP Careers Page",
+   "ats": "greenhouse",
+   "slug": "launchpotato",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Head of Paid Social, Insurance"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Lyft",
+   "ats": "greenhouse",
+   "slug": "lyft",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Data Engineer, Marketplace"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "MinIO",
+   "ats": "greenhouse",
+   "slug": "minio",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Director of Marketing, Europe, the Middle East and Africa"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "OpenZeppelin",
+   "ats": "greenhouse",
+   "slug": "openzeppelin",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Blockchain Security Researcher "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Orderly",
+   "ats": "greenhouse",
+   "slug": "orderly",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Liquidity Operations Analyst"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Qube Research & Technologies",
+   "ats": "greenhouse",
+   "slug": "quberesearchandtechnologies",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Quant Signals External Contributors"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Radformation",
+   "ats": "lever",
+   "slug": "radformation",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Clinical Success Manager, EMEA"
+   ],
+   "sector": "hightech"
+  }
+ ],
+ "pending": 0,
+ "pool_left": 0,
+ "generated": "2026-11-20T06:58:19+00:00"
+}

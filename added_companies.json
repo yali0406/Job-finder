@@ -742,5 +742,109 @@
   "sector": "fintech",
   "remote_only": true,
   "added": "2026-11-19"
+ },
+ {
+  "name": "Autofleet",
+  "ats": "workable",
+  "slug": "autofleet",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Core-VA Solutions",
+  "ats": "workable",
+  "slug": "core-va-solutions",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "D Ploy",
+  "ats": "workable",
+  "slug": "d-ploy",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Plata Card",
+  "ats": "greenhouse",
+  "slug": "platacard",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Process Street",
+  "ats": "greenhouse",
+  "slug": "processstreet",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "LeoLabs, Inc.",
+  "ats": "greenhouse",
+  "slug": "leolabsinc",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "LP Careers Page",
+  "ats": "greenhouse",
+  "slug": "launchpotato",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Lyft",
+  "ats": "greenhouse",
+  "slug": "lyft",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "MinIO",
+  "ats": "greenhouse",
+  "slug": "minio",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "OpenZeppelin",
+  "ats": "greenhouse",
+  "slug": "openzeppelin",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Orderly",
+  "ats": "greenhouse",
+  "slug": "orderly",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Qube Research & Technologies",
+  "ats": "greenhouse",
+  "slug": "quberesearchandtechnologies",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Radformation",
+  "ats": "lever",
+  "slug": "radformation",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
  }
 ]
