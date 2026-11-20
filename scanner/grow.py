@@ -145,7 +145,10 @@ def check(item):
         jobs = ats.FETCHERS[kind](slug, name or slug) or []
     except Exception:
         return None
-    il = [j for j in jobs if in_israel(j.location)]
+    # BambooHR / Breezy / Recruitee fetchers fill an empty location with "Israel" (they were written
+    # for known Israeli companies), so for discovery a bare "Israel" there proves nothing.
+    vague = kind in ("bamboohr", "breezy", "recruitee")
+    il = [j for j in jobs if in_israel(j.location) and not (vague and j.location.strip() == "Israel")]
     rem = [j for j in jobs if _open_to_israel(j.location) and not in_israel(j.location)]
     if not il and not rem:
         return None
