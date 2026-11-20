@@ -6,6 +6,10 @@ on:
   schedule:
     - cron: "10 3 * * *"
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Run even if today's run already happened"
+        default: ""
 
 permissions:
   contents: write
@@ -29,6 +33,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_MODEL: claude-haiku-5-5
+          GROW_FORCE: ${{ inputs.force }}
       - name: Commit results
         if: always()
         run: |

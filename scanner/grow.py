@@ -36,15 +36,22 @@ DAILY_TARGET = int(os.environ.get("GROW_TARGET", "120"))
 CHECKS_PER_DAY = int(os.environ.get("GROW_CHECKS", "4000"))
 RECHECK_DAYS = 21  # a board with nothing relevant today may have openings in three weeks
 
-# Common Crawl URL prefix -> (ats, regex turning a crawled URL into that ATS's slug)
+# Common Crawl query -> (ats, regex turning a crawled URL into that ATS's slug)
 HOSTS = {
-    "www.comeet.com/jobs/": ("comeet", re.compile(r"comeet\.com/jobs/([\w.-]+)/([0-9A-F]{2}\.[0-9A-F]{3})", re.I), lambda m: f"{m[1].lower()}/{m[2].upper()}"),
-    "apply.workable.com/": ("workable", re.compile(r"apply\.workable\.com/([\w-]+)", re.I), lambda m: m[1].lower()),
-    "boards.greenhouse.io/": ("greenhouse", re.compile(r"greenhouse\.io/([\w-]+)", re.I), lambda m: m[1].lower()),
-    "job-boards.greenhouse.io/": ("greenhouse", re.compile(r"greenhouse\.io/([\w-]+)", re.I), lambda m: m[1].lower()),
-    "jobs.lever.co/": ("lever", re.compile(r"lever\.co/([\w-]+)", re.I), lambda m: m[1].lower()),
-    "jobs.ashbyhq.com/": ("ashby", re.compile(r"ashbyhq\.com/([\w.%-]+)", re.I), lambda m: m[1]),
+    "www.comeet.com/jobs/*": ("comeet", re.compile(r"comeet\.com/jobs/([\w.-]+)/([0-9A-F]{2}\.[0-9A-F]{3})", re.I), lambda m: f"{m[1].lower()}/{m[2].upper()}"),
+    "apply.workable.com/*": ("workable", re.compile(r"apply\.workable\.com/([\w-]+)", re.I), lambda m: m[1].lower()),
+    "boards.greenhouse.io/*": ("greenhouse", re.compile(r"greenhouse\.io/([\w-]+)", re.I), lambda m: m[1].lower()),
+    "job-boards.greenhouse.io/*": ("greenhouse", re.compile(r"greenhouse\.io/([\w-]+)", re.I), lambda m: m[1].lower()),
+    "jobs.lever.co/*": ("lever", re.compile(r"lever\.co/([\w-]+)", re.I), lambda m: m[1].lower()),
+    "jobs.ashbyhq.com/*": ("ashby", re.compile(r"ashbyhq\.com/([\w.%-]+)", re.I), lambda m: m[1]),
+    "jobs.smartrecruiters.com/*": ("smartrecruiters", re.compile(r"smartrecruiters\.com/([\w-]+)", re.I), lambda m: m[1]),
+    "careers.smartrecruiters.com/*": ("smartrecruiters", re.compile(r"smartrecruiters\.com/([\w-]+)", re.I), lambda m: m[1]),
+    "*.breezy.hr": ("breezy", re.compile(r"//([\w-]+)\.breezy\.hr", re.I), lambda m: m[1].lower()),
+    "*.bamboohr.com": ("bamboohr", re.compile(r"//([\w-]+)\.bamboohr\.com/careers", re.I), lambda m: m[1].lower()),
+    "*.recruitee.com": ("recruitee", re.compile(r"//([\w-]+)\.recruitee\.com", re.I), lambda m: m[1].lower()),
 }
+SUBDOMAIN_SKIP = {"www", "api", "app", "careers", "jobs", "help", "support", "status", "blog", "marketing", "assets", "static"}
+CRAWLS = 4  # how many recent Common Crawl snapshots to read
 REMOTE_WORDS = re.compile(r"remote|anywhere|worldwide|distributed", re.I)
 
 
@@ -57,20 +64,20 @@ def _load(path, default):
 
 def harvest():
     r = get("https://index.commoncrawl.org/collinfo.json", timeout=60)
-    apis = [c["cdx-api"] for c in r.json()[:2]] if r is not None and r.status_code == 200 else []
+    apis = [c["cdx-api"] for c in r.json()[:CRAWLS]] if r is not None and r.status_code == 200 else []
     found = set()
     for api in apis:
         for prefix, (kind, rx, to_slug) in HOSTS.items():
-            r = _cc(api, {"url": prefix + "*", "output": "json", "showNumPages": "true"})
+            r = _cc(api, {"url": prefix, "output": "json", "showNumPages": "true"})
             pages = r.json().get("pages", 0) if r else 0
             for p in range(pages):
                 time.sleep(2)
-                r = _cc(api, {"url": prefix + "*", "output": "json", "fl": "url", "page": p})
+                r = _cc(api, {"url": prefix, "output": "json", "fl": "url", "page": p})
                 if not r:
                     continue
                 for m in rx.finditer(r.text):
                     slug = to_slug(m)
-                    if slug.split("/")[0].lower() not in SKIP and not slug.lower().endswith((".js", ".css", ".png")):
+                    if slug.split("/")[0].lower() not in SKIP | SUBDOMAIN_SKIP and not slug.lower().endswith((".js", ".css", ".png")):
                         found.add((kind, slug))
             log.info("Common Crawl %s %s: %d boards so far", api.split("/")[-1], prefix, len(found))
     return sorted(found)
