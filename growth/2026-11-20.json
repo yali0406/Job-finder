@@ -1,23 +1,133 @@
 {
  "date": "2026-11-20",
  "checked": 4000,
- "qualified": 545,
+ "qualified": 39,
  "added": [
   {
-   "name": "Aios",
-   "ats": "ashby",
-   "slug": "aios",
-   "israel_jobs": 3,
-   "remote_jobs": 0,
+   "name": "Freeeup",
+   "ats": "breezy",
+   "slug": "freeeup",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
    "titles": [
-    "Product Growth Lead (Referrals & Viral Loops) at AIOS — Remote, $200k-$400k/yr + 0.15%-0.50%",
-    "Head of Funnel Conversion (CRO) at AIOS — Remote, $200k-$400k/yr + up to 0.3%",
-    "Funnel Conversion (CRO) Lead at AIOS — Remote, $150k-$300k/yr (including equity)"
+    "Certified SuiteDash Expert Needed",
+    "Link Building Specialist"
    ],
-   "sector": "fintech"
+   "sector": "hightech"
+  },
+  {
+   "name": "Jibble Group",
+   "ats": "breezy",
+   "slug": "jibble-group",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Sales Account Executive - US/Europe",
+    "Senior Back-End Developer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Bettersource",
+   "ats": "breezy",
+   "slug": "bettersource",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Business Development Executive"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Blenderbox",
+   "ats": "breezy",
+   "slug": "blenderbox",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior Software Engineer - Python / Django"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Contentstack",
+   "ats": "greenhouse",
+   "slug": "contentstack",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Partner Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Emplifi FR",
+   "ats": "greenhouse",
+   "slug": "emplififr",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Rejoignez notre pool de talents"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Entermotion",
+   "ats": "breezy",
+   "slug": "entermotion",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Marketing Copywriter"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "RetailNext",
+   "ats": "greenhouse",
+   "slug": "retailnext",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Talent Acquisition Partner  "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "saas.group",
+   "ats": "greenhouse",
+   "slug": "saasgroup",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Staff Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Signifyd",
+   "ats": "greenhouse",
+   "slug": "signifyd95",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Talent Community"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Upsun",
+   "ats": "greenhouse",
+   "slug": "platformsh",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Director, Product-Led Growth"
+   ],
+   "sector": "hightech"
   }
  ],
- "pending": 109,
- "pool_left": 2745,
- "generated": "2026-11-20T10:30:18+00:00"
+ "pending": 0,
+ "pool_left": 1905,
+ "generated": "2026-11-20T10:34:20+00:00"
 }

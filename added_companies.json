@@ -854,5 +854,93 @@
   "sector": "fintech",
   "remote_only": false,
   "added": "2026-11-20"
+ },
+ {
+  "name": "Freeeup",
+  "ats": "breezy",
+  "slug": "freeeup",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Jibble Group",
+  "ats": "breezy",
+  "slug": "jibble-group",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Bettersource",
+  "ats": "breezy",
+  "slug": "bettersource",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Blenderbox",
+  "ats": "breezy",
+  "slug": "blenderbox",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Contentstack",
+  "ats": "greenhouse",
+  "slug": "contentstack",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Emplifi FR",
+  "ats": "greenhouse",
+  "slug": "emplififr",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Entermotion",
+  "ats": "breezy",
+  "slug": "entermotion",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "RetailNext",
+  "ats": "greenhouse",
+  "slug": "retailnext",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "saas.group",
+  "ats": "greenhouse",
+  "slug": "saasgroup",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Signifyd",
+  "ats": "greenhouse",
+  "slug": "signifyd95",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Upsun",
+  "ats": "greenhouse",
+  "slug": "platformsh",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-20"
  }
 ]
