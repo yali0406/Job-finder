@@ -17,7 +17,7 @@
    "category": "Operations",
    "last_seen": "2026-11-20T12:17:14+00:00",
    "broad": "",
-   "remote": true,
+   "remote": false,
    "years_checked": true
   },
   {
@@ -34,7 +34,7 @@
    "category": "Analyst",
    "last_seen": "2026-11-20T12:17:14+00:00",
    "broad": "",
-   "remote": true,
+   "remote": false,
    "years_checked": true
   },
   {
@@ -51,7 +51,7 @@
    "category": "Analyst",
    "last_seen": "2026-11-20T12:17:14+00:00",
    "broad": "",
-   "remote": true,
+   "remote": false,
    "years_checked": true
   },
   {
@@ -289,7 +289,7 @@
    "category": "Project Manager",
    "last_seen": "2026-11-20T12:17:14+00:00",
    "broad": "",
-   "remote": true,
+   "remote": false,
    "years_checked": true
   },
   {
@@ -1105,7 +1105,7 @@
    "category": "Operations",
    "last_seen": "2026-11-19T12:17:15+00:00",
    "broad": "",
-   "remote": true,
+   "remote": false,
    "years_checked": true
   },
   {

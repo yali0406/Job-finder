@@ -5,7 +5,7 @@ import time
 
 from bs4 import BeautifulSoup
 
-from ..common import Job, get, log, strip_html
+from ..common import in_israel, Job, get, log, strip_html
 
 SEARCH = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
 DETAIL = "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{id}"
@@ -82,6 +82,9 @@ def fetch_remote_queries(queries):
     out, seen = [], set()
     for q in queries:
         for j in search(q, hours=72, pages=1, remote=True):
+            if in_israel(j.location):
+                # an Israeli company's remote/hybrid job: it belongs with the jobs in Israel, not the abroad tab
+                j.extra.pop("remote", None)
             if j.id not in seen:
                 seen.add(j.id)
                 out.append(j)
