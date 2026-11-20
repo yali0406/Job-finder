@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: write  # to start the daily company-list growth run
 
 concurrency:
   group: scan
@@ -40,6 +41,15 @@ jobs:
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
           SITE_URL: https://job-finder-d29.pages.dev
         run: python -m scanner.main --linkedin "${{ inputs.linkedin || 'auto' }}"
+      # GitHub's own schedule for grow.yml is delayed by hours, so the first scan of the day starts it.
+      - name: Start today's company-list growth run
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          today=$(date -u +%Y-%m-%d)
+          ran=$(gh run list -R "$GITHUB_REPOSITORY" -w grow.yml -L 20 --json createdAt -q "[.[] | select(.createdAt >= \"${today}T00:00:00Z\")] | length")
+          if [ "${ran:-0}" = "0" ] && [ ! -f "growth/${today}.json" ]; then gh workflow run grow.yml -R "$GITHUB_REPOSITORY" --ref main; fi
       - name: Commit results
         run: |
           git config user.name "job-scanner"
