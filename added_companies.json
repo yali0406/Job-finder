@@ -846,5 +846,965 @@
   "sector": "hightech",
   "remote_only": true,
   "added": "2026-11-20"
+ },
+ {
+  "name": "Eventmobi",
+  "ats": "bamboohr",
+  "slug": "eventmobi",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Expedock",
+  "ats": "bamboohr",
+  "slug": "expedock",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Konfio",
+  "ats": "bamboohr",
+  "slug": "konfio",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Lurohealth",
+  "ats": "bamboohr",
+  "slug": "lurohealth",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Marrinadecisions",
+  "ats": "bamboohr",
+  "slug": "marrinadecisions",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Pharmdlive",
+  "ats": "bamboohr",
+  "slug": "pharmdlive",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Envitia",
+  "ats": "bamboohr",
+  "slug": "envitia",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Ewbinc",
+  "ats": "bamboohr",
+  "slug": "ewbinc",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Languagedoctors",
+  "ats": "bamboohr",
+  "slug": "languagedoctors",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Revpanda",
+  "ats": "bamboohr",
+  "slug": "revpanda",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Aras",
+  "ats": "bamboohr",
+  "slug": "aras",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "R2",
+  "ats": "bamboohr",
+  "slug": "r2",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Bluprintx",
+  "ats": "bamboohr",
+  "slug": "bluprintx",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Cornelisnetworks",
+  "ats": "bamboohr",
+  "slug": "cornelisnetworks",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Cubecare",
+  "ats": "bamboohr",
+  "slug": "cubecare",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Beehiiv",
+  "ats": "bamboohr",
+  "slug": "beehiiv",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Cxm",
+  "ats": "bamboohr",
+  "slug": "cxm",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Duradigital",
+  "ats": "bamboohr",
+  "slug": "duradigital",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Dysrupit",
+  "ats": "bamboohr",
+  "slug": "dysrupit",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Navsav",
+  "ats": "bamboohr",
+  "slug": "navsav",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "1Valet",
+  "ats": "bamboohr",
+  "slug": "1valet",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Agilityfeat",
+  "ats": "bamboohr",
+  "slug": "agilityfeat",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Gorillalogic",
+  "ats": "bamboohr",
+  "slug": "gorillalogic",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Holisticai",
+  "ats": "bamboohr",
+  "slug": "holisticai",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Isostech",
+  "ats": "bamboohr",
+  "slug": "isostech",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Jorieai",
+  "ats": "bamboohr",
+  "slug": "jorieai",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Mercuryo",
+  "ats": "bamboohr",
+  "slug": "mercuryo",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Quvia",
+  "ats": "bamboohr",
+  "slug": "quvia",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Selectorsoftware",
+  "ats": "bamboohr",
+  "slug": "selectorsoftware",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Anyon",
+  "ats": "bamboohr",
+  "slug": "anyon",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Ashburyglobal",
+  "ats": "bamboohr",
+  "slug": "ashburyglobal",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Benchmarkgensuite",
+  "ats": "bamboohr",
+  "slug": "benchmarkgensuite",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Caseiq",
+  "ats": "bamboohr",
+  "slug": "caseiq",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Cloudcarib",
+  "ats": "bamboohr",
+  "slug": "cloudcarib",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Dentalmonitoring",
+  "ats": "bamboohr",
+  "slug": "dentalmonitoring",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Domusglobal",
+  "ats": "bamboohr",
+  "slug": "domusglobal",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Dywidag",
+  "ats": "bamboohr",
+  "slug": "dywidag",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Fenix24",
+  "ats": "bamboohr",
+  "slug": "fenix24",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Geekplus",
+  "ats": "bamboohr",
+  "slug": "geekplus",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Parser",
+  "ats": "bamboohr",
+  "slug": "parser",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Bitrise",
+  "ats": "bamboohr",
+  "slug": "bitrise",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Chainstack",
+  "ats": "bamboohr",
+  "slug": "chainstack",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Collectiveacegmbh",
+  "ats": "bamboohr",
+  "slug": "collectiveacegmbh",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Connorconsulting",
+  "ats": "bamboohr",
+  "slug": "connorconsulting",
+  "sector": "gaming",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Cornelltechnicalservices",
+  "ats": "bamboohr",
+  "slug": "cornelltechnicalservices",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Eybna",
+  "ats": "bamboohr",
+  "slug": "eybna",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Gauvreaucpa",
+  "ats": "bamboohr",
+  "slug": "gauvreaucpa",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Gocharting",
+  "ats": "bamboohr",
+  "slug": "gocharting",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Jetfly",
+  "ats": "bamboohr",
+  "slug": "jetfly",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Macrobond",
+  "ats": "bamboohr",
+  "slug": "macrobond",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Marcopololearning",
+  "ats": "bamboohr",
+  "slug": "marcopololearning",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Prentkeromich",
+  "ats": "bamboohr",
+  "slug": "prentkeromich",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Fullbay",
+  "ats": "bamboohr",
+  "slug": "fullbay",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Gamingtec",
+  "ats": "bamboohr",
+  "slug": "gamingtec",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Inco",
+  "ats": "bamboohr",
+  "slug": "inco",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Ironsideinsurancegroup",
+  "ats": "bamboohr",
+  "slug": "ironsideinsurancegroup",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Kodem",
+  "ats": "bamboohr",
+  "slug": "kodem",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Masv",
+  "ats": "bamboohr",
+  "slug": "masv",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Mealticket",
+  "ats": "bamboohr",
+  "slug": "mealticket",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Mvrdigital",
+  "ats": "bamboohr",
+  "slug": "mvrdigital",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Rebel",
+  "ats": "bamboohr",
+  "slug": "rebel",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Aios",
+  "ats": "ashby",
+  "slug": "aios",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Azolver",
+  "ats": "bamboohr",
+  "slug": "azolver",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Barnstormvfx",
+  "ats": "bamboohr",
+  "slug": "barnstormvfx",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Brewcomarketing",
+  "ats": "bamboohr",
+  "slug": "brewcomarketing",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Buttonis",
+  "ats": "bamboohr",
+  "slug": "buttonis",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Clix",
+  "ats": "bamboohr",
+  "slug": "clix",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Cloudrange",
+  "ats": "bamboohr",
+  "slug": "cloudrange",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Compasselc",
+  "ats": "bamboohr",
+  "slug": "compasselc",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Coventek",
+  "ats": "bamboohr",
+  "slug": "coventek",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Dnastack",
+  "ats": "bamboohr",
+  "slug": "dnastack",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Earthoptics",
+  "ats": "bamboohr",
+  "slug": "earthoptics",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Flare",
+  "ats": "bamboohr",
+  "slug": "flare",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Flexionmobile",
+  "ats": "bamboohr",
+  "slug": "flexionmobile",
+  "sector": "gaming",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Introhive",
+  "ats": "bamboohr",
+  "slug": "introhive",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Katrisk",
+  "ats": "bamboohr",
+  "slug": "katrisk",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Leadexsystems",
+  "ats": "bamboohr",
+  "slug": "leadexsystems",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Lifebit",
+  "ats": "bamboohr",
+  "slug": "lifebit",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Marsello",
+  "ats": "bamboohr",
+  "slug": "marsello",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Mhc",
+  "ats": "bamboohr",
+  "slug": "mhc",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Millscnc",
+  "ats": "bamboohr",
+  "slug": "millscnc",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Dhacpas",
+  "ats": "bamboohr",
+  "slug": "dhacpas",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Eastpointenergy",
+  "ats": "bamboohr",
+  "slug": "eastpointenergy",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Ecmtek",
+  "ats": "bamboohr",
+  "slug": "ecmtek",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Eleven",
+  "ats": "bamboohr",
+  "slug": "eleven",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Flyingbark",
+  "ats": "bamboohr",
+  "slug": "flyingbark",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Gosaas",
+  "ats": "bamboohr",
+  "slug": "gosaas",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Internetsociety",
+  "ats": "bamboohr",
+  "slug": "internetsociety",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Ionunited",
+  "ats": "bamboohr",
+  "slug": "ionunited",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Recruitics",
+  "ats": "bamboohr",
+  "slug": "recruitics",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Reiutility",
+  "ats": "bamboohr",
+  "slug": "reiutility",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Rhubique",
+  "ats": "bamboohr",
+  "slug": "rhubique",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Roclub",
+  "ats": "bamboohr",
+  "slug": "roclub",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Semaphore",
+  "ats": "bamboohr",
+  "slug": "semaphore",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Semaphoresolutions",
+  "ats": "bamboohr",
+  "slug": "semaphoresolutions",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Smith",
+  "ats": "bamboohr",
+  "slug": "smith",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Socialdriver",
+  "ats": "bamboohr",
+  "slug": "socialdriver",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Adcomms",
+  "ats": "bamboohr",
+  "slug": "adcomms",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Aerobotics",
+  "ats": "bamboohr",
+  "slug": "aerobotics",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Ahkgroup",
+  "ats": "bamboohr",
+  "slug": "ahkgroup",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Altiaintel",
+  "ats": "bamboohr",
+  "slug": "altiaintel",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Antavo",
+  "ats": "bamboohr",
+  "slug": "antavo",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Clearspace",
+  "ats": "bamboohr",
+  "slug": "clearspace",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Clir",
+  "ats": "bamboohr",
+  "slug": "clir",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Constructdigital",
+  "ats": "bamboohr",
+  "slug": "constructdigital",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Crossroadshealth",
+  "ats": "bamboohr",
+  "slug": "crossroadshealth",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Datainscience",
+  "ats": "bamboohr",
+  "slug": "datainscience",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Digitainsoftware",
+  "ats": "bamboohr",
+  "slug": "digitainsoftware",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Digitalglobalconnectors",
+  "ats": "bamboohr",
+  "slug": "digitalglobalconnectors",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Diligentpharma",
+  "ats": "bamboohr",
+  "slug": "diligentpharma",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Ding",
+  "ats": "bamboohr",
+  "slug": "ding",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Dropit",
+  "ats": "breezy",
+  "slug": "dropit",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Embeddedinsurance",
+  "ats": "bamboohr",
+  "slug": "embeddedinsurance",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "F6Vc",
+  "ats": "bamboohr",
+  "slug": "f6vc",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Flchealth",
+  "ats": "bamboohr",
+  "slug": "flchealth",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Galvion",
+  "ats": "bamboohr",
+  "slug": "galvion",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Gentrack",
+  "ats": "bamboohr",
+  "slug": "gentrack",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Geosoftware",
+  "ats": "bamboohr",
+  "slug": "geosoftware",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Gigastar",
+  "ats": "bamboohr",
+  "slug": "gigastar",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
+ },
+ {
+  "name": "Gocognition",
+  "ats": "bamboohr",
+  "slug": "gocognition",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-20"
  }
 ]
