@@ -194,6 +194,9 @@ def main():
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     GROWTH.mkdir(exist_ok=True)
     today = date.today().isoformat()
+    if (GROWTH / f"{today}.json").exists() and not os.environ.get("GROW_FORCE"):
+        log.info("Today's growth run already happened")  # GitHub's delayed schedule can fire after the scan started it
+        return
     pool = _load(POOL, {"harvested": None, "candidates": [], "checked": {}})
 
     harvested = pool.get("harvested")
