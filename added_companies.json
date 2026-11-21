@@ -942,5 +942,109 @@
   "sector": "hightech",
   "remote_only": true,
   "added": "2026-11-20"
+ },
+ {
+  "name": "Wolt - Hebrew",
+  "ats": "greenhouse",
+  "slug": "woltisrael",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "Unconventional, Inc.",
+  "ats": "greenhouse",
+  "slug": "unconventionalinc",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "Renesaselectronics",
+  "ats": "smartrecruiters",
+  "slug": "RenesasElectronics",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "WorldQuant",
+  "ats": "greenhouse",
+  "slug": "worldquant",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "Jobsforhumanity",
+  "ats": "smartrecruiters",
+  "slug": "JobsForHumanity",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "Nielseniq",
+  "ats": "smartrecruiters",
+  "slug": "NielsenIQ",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "Aikidosecurity",
+  "ats": "recruitee",
+  "slug": "aikidosecurity",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "Verifone",
+  "ats": "greenhouse",
+  "slug": "verifone",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "Wise",
+  "ats": "smartrecruiters",
+  "slug": "Wise",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "TraceLink, Inc",
+  "ats": "greenhouse",
+  "slug": "tracelinkinc",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "Veo - Corporate",
+  "ats": "greenhouse",
+  "slug": "veocorporatecareers",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "Vectra",
+  "ats": "greenhouse",
+  "slug": "vectranetworks",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-21"
+ },
+ {
+  "name": "Workwize",
+  "ats": "greenhouse",
+  "slug": "workwize",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-21"
  }
 ]
