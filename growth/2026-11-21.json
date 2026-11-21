@@ -65,19 +65,6 @@
    "sector": "fintech"
   },
   {
-   "name": "Jobsforhumanity",
-   "ats": "smartrecruiters",
-   "slug": "JobsForHumanity",
-   "israel_jobs": 3,
-   "remote_jobs": 0,
-   "titles": [
-    "Personalized Internet Assessor - Hebrew (IL)",
-    "Online Data Analyst - Hebrew (IL)",
-    "Marketing Manager"
-   ],
-   "sector": "hightech"
-  },
-  {
    "name": "Nielseniq",
    "ats": "smartrecruiters",
    "slug": "NielsenIQ",

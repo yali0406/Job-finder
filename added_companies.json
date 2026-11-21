@@ -976,14 +976,6 @@
   "added": "2026-11-21"
  },
  {
-  "name": "Jobsforhumanity",
-  "ats": "smartrecruiters",
-  "slug": "JobsForHumanity",
-  "sector": "hightech",
-  "remote_only": false,
-  "added": "2026-11-21"
- },
- {
   "name": "Nielseniq",
   "ats": "smartrecruiters",
   "slug": "NielsenIQ",
