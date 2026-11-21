@@ -51,7 +51,8 @@ HOSTS = {
     "*.recruitee.com": ("recruitee", re.compile(r"//([\w-]+)\.recruitee\.com", re.I), lambda m: m[1].lower()),
 }
 SUBDOMAIN_SKIP = {"www", "api", "app", "careers", "jobs", "help", "support", "status", "blog", "marketing", "assets", "static"}
-CRAWLS = 4  # how many recent Common Crawl snapshots to read
+CRAWLS = 4  # Common Crawl snapshots read per harvest
+LOOKBACK = 14  # snapshots within reach (about a year; one comes out every few weeks)
 REMOTE_WORDS = re.compile(r"remote|anywhere|worldwide|distributed", re.I)
 
 
@@ -62,9 +63,12 @@ def _load(path, default):
         return default
 
 
-def harvest():
+def harvest(done):
+    """Read up to CRAWLS snapshots not read before, newest first, going back about a year.
+    A board that has been around for months is as good as a new one, so older snapshots count too."""
     r = get("https://index.commoncrawl.org/collinfo.json", timeout=60)
-    apis = [c["cdx-api"] for c in r.json()[:CRAWLS]] if r is not None and r.status_code == 200 else []
+    apis = [c["cdx-api"] for c in r.json()[:LOOKBACK]] if r is not None and r.status_code == 200 else []
+    apis = [a for a in apis if a.split("/")[-1].replace("-index", "") not in done][:CRAWLS]
     found = set()
     for api in apis:
         for prefix, (kind, rx, to_slug) in HOSTS.items():
@@ -80,7 +84,7 @@ def harvest():
                     if slug.split("/")[0].lower() not in SKIP | SUBDOMAIN_SKIP and not slug.lower().endswith((".js", ".css", ".png")):
                         found.add((kind, slug))
             log.info("Common Crawl %s %s: %d boards so far", api.split("/")[-1], prefix, len(found))
-    return sorted(found)
+    return sorted(found), [a.split("/")[-1].replace("-index", "") for a in apis]
 
 
 def _known():
@@ -213,12 +217,15 @@ def main():
         return
     pool = _load(POOL, {"harvested": None, "candidates": [], "checked": {}})
 
-    harvested = pool.get("harvested")
-    if not harvested or (date.today() - date.fromisoformat(harvested)).days >= 7:
-        fresh = harvest()
+    # Harvest whenever the pool is nearly used up and there are snapshots not read yet.
+    done = pool.setdefault("crawls_done", [])
+    unchecked = sum(1 for c in pool["candidates"] if f"{c[0]}:{c[1].lower()}" not in pool.get("checked", {}))
+    if unchecked < 1000:
+        fresh, read = harvest(set(done))
         if fresh:
             pool["candidates"] = sorted({tuple(c) for c in pool["candidates"]} | set(fresh))
             pool["harvested"] = today
+            done += read
             POOL.write_text(json.dumps(pool, ensure_ascii=False))  # an hour of crawling; keep it even if a later step fails
     vc = [(v[0], v[1], n) for n, v in _load(ROOT / "docs" / "data" / "discovered.json", {}).items()]
 
