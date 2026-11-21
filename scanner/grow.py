@@ -158,8 +158,13 @@ def check(item):
             "titles": [j.title for j in (il or rem)][:8]}
 
 
+class Label(BaseModel):
+    n: int  # the company's number in the list
+    sector: str  # hightech / fintech / gaming / other (kept loose; anything else counts as other)
+
+
 class Sectors(BaseModel):
-    sectors: list[str]  # hightech / fintech / gaming / other (kept loose; anything else counts as other)
+    labels: list[Label]
 
 
 def classify(hits):
@@ -184,18 +189,17 @@ def classify(hits):
                         "semiconductors, health tech, e-commerce tech, marketing tech). "
                         "other = not a technology company: staffing/recruiting agencies, retail, restaurants, "
                         "NGOs, schools, government, real estate, manufacturing without a tech product, or unclear. "
-                        "Return exactly one label per company, in order, each one of: hightech, fintech, gaming, other."),
+                        "Return one label per company with its number n, each sector one of: hightech, fintech, gaming, other."),
                 messages=[{"role": "user", "content": lines}],
                 output_format=Sectors,
             )
-            labels = resp.parsed_output.sectors if resp.parsed_output else []
-            labels = [re.sub(r"[^a-z]", "", str(l).lower()) for l in labels]
-            labels = [l if l in ("hightech", "fintech", "gaming") else "other" for l in labels]
+            got = {l.n: re.sub(r"[^a-z]", "", l.sector.lower()) for l in (resp.parsed_output.labels if resp.parsed_output else [])}
         except Exception as e:  # API error or an answer that doesn't fit the schema
             log.warning("Classification failed: %s", str(e)[:300])
-            labels = []
-        if len(labels) != len(batch):
-            labels = ["other"] * len(batch)  # can't tell: leave them for a later day
+            got = {}
+        labels = [got.get(n + 1, "unknown") for n in range(len(batch))]
+        labels = [l if l in ("hightech", "fintech", "gaming", "other") else "unknown" for l in labels]
+        log.info("Sectors: %s", ", ".join(f"{h['name']}={l}" for h, l in zip(batch, labels)))
         out += labels
     return out
 
@@ -252,17 +256,20 @@ def main():
     hits.sort(key=lambda h: (-min(h["israel_jobs"], 20), -h["remote_jobs"], h["name"].lower()))
     log.info("%d boards qualify; classifying", len(hits))
 
-    picked, i = [], 0
+    picked, i, unsure = [], 0, []
     while i < len(hits) and len(picked) < DAILY_TARGET:
         chunk = hits[i:i + 50]
         i += len(chunk)
         for h, s in zip(chunk, classify(chunk)):
+            if s == "unknown":
+                unsure.append(h)  # no answer for it: try again tomorrow
+                continue
             if s == "other":
                 continue
             if h["israel_jobs"] == 0 and sum(p["israel_jobs"] == 0 for p in picked) >= DAILY_TARGET * 0.3:
                 continue  # keep most of each day's additions Israeli
             picked.append({**h, "sector": s})
-    pool["pending"] = picked[DAILY_TARGET:] + hits[i:]  # tomorrow's head start
+    pool["pending"] = picked[DAILY_TARGET:] + unsure + hits[i:]  # tomorrow's head start
     for p in pool["pending"]:
         p.pop("sector", None)
     picked = picked[:DAILY_TARGET]
