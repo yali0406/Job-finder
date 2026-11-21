@@ -289,8 +289,12 @@ def main():
         checked[f"{p['ats']}:{p['slug'].lower()}"] = "9999-12-31"
     ADDED.write_text(json.dumps(added, indent=1, ensure_ascii=False))
     POOL.write_text(json.dumps(pool, ensure_ascii=False))
-    (GROWTH / f"{today}.json").write_text(json.dumps({
-        "date": today, "checked": len(todo), "qualified": len(hits), "added": picked,
+    day_file = GROWTH / f"{today}.json"
+    prev = json.loads(day_file.read_text()) if day_file.exists() else {}
+    day_file.write_text(json.dumps({
+        "date": today, "checked": prev.get("checked", 0) + len(todo),
+        "qualified": prev.get("qualified", 0) + len(hits),
+        "added": prev.get("added", []) + picked,
         "pending": len(pool["pending"]),
         "pool_left": sum(1 for c in pool["candidates"] if due(c[0], c[1]) and (c[0], c[1].lower()) not in boards),
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
