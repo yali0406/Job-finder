@@ -1,13 +1,13 @@
 {
- "run": "2026-11-22T14:17:14+00:00",
+ "run": "2026-11-22T14:50:56+00:00",
  "collected_by_source": {
   "smartrecruiters": 155,
-  "greenhouse": 1011,
-  "workday": 103,
+  "greenhouse": 1010,
+  "workday": 43,
   "careers_page": 79,
   "lever": 196,
-  "comeet": 1708,
-  "workable": 148,
+  "comeet": 1711,
+  "workable": 150,
   "ashby": 423,
   "ppltx": 24,
   "recruitee": 6,
@@ -27,8 +27,7 @@
   "remote:remoteok": 15,
   "remote:himalayas": 12,
   "remote:jobicy": 55,
-  "remote:weworkremotely": 90,
-  "linkedin": 546
+  "remote:weworkremotely": 90
  },
  "relevant_by_source": {
   "smartrecruiters": 25,
@@ -37,7 +36,6 @@
   "comeet": 260,
   "workable": 17,
   "ashby": 55,
-  "workday": 7,
   "careers_page": 11,
   "ppltx": 6,
   "breezy": 1,
@@ -56,8 +54,7 @@
   "remote:remoteok": 2,
   "remote:himalayas": 2,
   "remote:jobicy": 2,
-  "remote:weworkremotely": 5,
-  "linkedin": 82
+  "remote:weworkremotely": 5
  },
  "log": [
   "WARNING CyberArk: workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
@@ -68,19 +65,18 @@
   "WARNING Imperva (Thales Israel): workday/thales|wd3|Careers stopped responding",
   "WARNING eToro: comeet/etoro/41.009 stopped responding",
   "WARNING Tabnine: comeet/tabnine/39.006 stopped responding",
-  "WARNING Marvell Israel: workday/marvell|wd1|MarvellCareers stopped responding",
   "WARNING HPE Israel: workday/hpe|wd5|Jobsathpe stopped responding",
   "WARNING Motorola Solutions Israel: workday/motorolasolutions|wd5|Careers stopped responding",
+  "WARNING KLA Israel: workday/kla|wd1|Search stopped responding",
   "WARNING Applied Materials Israel: workday/amat|wd1|External stopped responding",
-  "WARNING CrowdStrike Israel: workday/crowdstrike|wd5|crowdstrikecareers stopped responding",
   "WARNING Dynamic Yield: workday/mastercard|wd1|CorporateCareers stopped responding",
-  "WARNING Cadence Israel: workday/cadence|wd1|External_Careers stopped responding",
   "WARNING Citi Israel: workday/citi|wd5|2 stopped responding",
   "WARNING eBay Israel: workday/ebay|wd5|apply stopped responding",
   "WARNING SciPlay: workday/lnw|wd5|SciPlayExternalCareersSite stopped responding",
+  "INFO Pepper: detected greenhouse/pepper",
   "WARNING SAM Seamless Network: comeet/securingsam/D4.000 stopped responding",
   "INFO Daily added companies: 142 boards, 677 jobs",
-  "INFO Workable search: 115 jobs in Israel",
+  "INFO Workable search: 116 jobs in Israel",
   "WARNING Product Madness Israel: workday/aristocrat|wd3|AristocratExternalCareersSite stopped responding",
   "WARNING Ask-AI: comeet/askai/1A.00C stopped responding",
   "INFO Getro https://jobs.tlv.partners: collection_id=190 pageProps keys=['httpReferrer', 'network', '_sentryTraceData', '_sentryBaggage', 'protocol', 'host', 'initialState']",
@@ -144,14 +140,10 @@
   "INFO Remote board himalayas: 1200 jobs",
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
-  "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
-  "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
-  "INFO Remote: 5238 collected, 623 open to Israel",
-  "WARNING LinkedIn search 'Mave' blocked or failed (none)",
-  "INFO LinkedIn: 463 jobs",
-  "INFO LinkedIn remote: 83 jobs",
-  "INFO Collected 7298 jobs in Israel",
-  "INFO 837 pass the title filter",
-  "INFO New: 4, total kept: 337"
+  "WARNING Workiva: workday/workiva|wd503|careers stopped responding",
+  "INFO Remote: 5239 collected, 623 open to Israel",
+  "INFO Collected 6696 jobs in Israel",
+  "INFO 748 pass the title filter",
+  "INFO New: 0, total kept: 337"
  ]
 }
