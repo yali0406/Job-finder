@@ -1,610 +1,4 @@
 {
- "ce4be373ef8e7346": {
-  "title": "AI-First QA Automation Engineer",
-  "company": "Unframe",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "7c41ce0405ea8a44": {
-  "title": "Customer Support Engineer",
-  "company": "Remedio",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "e5a180f1b6541494": {
-  "title": "Group Product Manager - Product Growth",
-  "company": "Unframe",
-  "reason": "7+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "9fd97437c29708a6": {
-  "title": "Product Manager",
-  "company": "Unframe",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "3ec0062a59ac4b61": {
-  "title": "Group Product Manager, Product Solutions",
-  "company": "Unframe",
-  "reason": "7+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "345606867eb12451": {
-  "title": "Strategic Product Analyst",
-  "company": "Aidoc",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "65fef36e56791f5e": {
-  "title": "Analytics Engineer",
-  "company": "Aidoc",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "4bfc3d2e38204bdf": {
-  "title": "*Technical Product Manager",
-  "company": "Buildots",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "fef9adf5ac782f39": {
-  "title": "*DevOps Engineer",
-  "company": "Buildots",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "c0201e23653d9947": {
-  "title": "QA Engineer",
-  "company": "Unframe",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "972c279658279aaa": {
-  "title": "QA Automation Engineer",
-  "company": "Remedio",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "f0001116fe779959": {
-  "title": "Software Technical Program Manager",
-  "company": "Majestic Labs ai",
-  "reason": "10+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "b3a61d848452b2be": {
-  "title": "Silicon Technical Program Manager - Backend & NPI focus",
-  "company": "Majestic Labs ai",
-  "reason": "8+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "2f89ca62dd006ae1": {
-  "title": "Program Manager",
-  "company": "Quantum Source",
-  "reason": "7+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "8c110450a614511e": {
-  "title": "Product Manager",
-  "company": "Wiliot",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "239fb2de12b760a3": {
-  "title": "Product Manager - AI SW Infrastructure (AI Software Stack / Compiler / Platform) - IL",
-  "company": "Majestic Labs ai",
-  "reason": "8+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "0f5f1b94f21a07fb": {
-  "title": "Product Manager - AI Infrastructure (Custom Silicon & Systems) - IL",
-  "company": "Majestic Labs ai",
-  "reason": "10+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "460fc0aec4925c6b": {
-  "title": "DevOps Engineer",
-  "company": "Wiliot",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "ba0bd59434e208bd": {
-  "title": "Product Manager - Book with AI",
-  "company": "Navan",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "9d577f6e9e93510f": {
-  "title": "Email & Lifecycle Operations Manager",
-  "company": "Guesty",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "83d9f38685bd7d27": {
-  "title": "Product Manager",
-  "company": "SimilarWeb",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "c29dc5a63f54db1d": {
-  "title": "Implementation Engineer (Customer-Facing)",
-  "company": "Chargeflow",
-  "reason": "6+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "5a0ce4b36129946f": {
-  "title": "Agent Platform Engineer",
-  "company": "SimilarWeb",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "f71eaba5a288e48b": {
-  "title": "Product Analyst",
-  "company": "Faye",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "435418359c49f70d": {
-  "title": "Data Infrastructure Engineer",
-  "company": "Speedata",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "782eff2b7cc515e4": {
-  "title": "DevOps Engineer- Avon",
-  "company": "Pagaya Investments",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "f98f63627d53c3cd": {
-  "title": "Amazon Account Manager",
-  "company": "ZyG",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "0c6fe71239feb97a": {
-  "title": "Devops Engineer",
-  "company": "ZyG",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "4b4cf31f9d82f820": {
-  "title": "Brand Revenue & Strategy Manager",
-  "company": "ZyG",
-  "reason": "6+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "8398b546ca773cf9": {
-  "title": "ML & Big Data Analyst",
-  "company": "SimilarWeb",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "1ecdc39a24456de6": {
-  "title": "Customer Success Manager- TLV",
-  "company": "EX.CO",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "b976703df2bcdd7c": {
-  "title": "SecOps Specialist",
-  "company": "Faye",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "c791d777e651650c": {
-  "title": "Technical Onboarding & Implementation Manager",
-  "company": "Chargeflow",
-  "reason": "6+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "01c84bf5af30b196": {
-  "title": "Product Manager",
-  "company": "MDClone",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "d2e94826a2c9b050": {
-  "title": "DevOps Engineer",
-  "company": "Personetics",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "c9dd690ba96b4a9b": {
-  "title": "Product Manager - Engage",
-  "company": "Personetics",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "c5bd40df782c94e9": {
-  "title": "DevOps Engineer",
-  "company": "SimilarWeb",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "1bbe1022ccb3352a": {
-  "title": "Big Data Analyst",
-  "company": "SimilarWeb",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "b0e60ff49f4aae57": {
-  "title": "Group Product Manager",
-  "company": "Classiq",
-  "reason": "7+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "c35e68f1049dc588": {
-  "title": "Technical Product Manager",
-  "company": "Trigo",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "a389d53eb380f62a": {
-  "title": "IT Automation",
-  "company": "Classiq",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "7b831912a6a6f289": {
-  "title": "IT Automation",
-  "company": "Classiq",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "7e5b6a5bf5436c3f": {
-  "title": "FP&A implementation Manager",
-  "company": "DataRails",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "9aba9e2f1ea2a52a": {
-  "title": "Product Manager",
-  "company": "SiteAware",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "c04412940ec0a50f": {
-  "title": "Customer Success Manager",
-  "company": "TensorLeap",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "28ec208c1cba1456": {
-  "title": "Data Analyst",
-  "company": "Atidot",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "43204a24fc6d3170": {
-  "title": "Technical Project Manager",
-  "company": "Tripledot Studios",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "cfc4d4e58e5bb6d2": {
-  "title": "Global Travel Coordinator - ML Replacement",
-  "company": "Coralogix",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "6e0b34c7e2d8ea9f": {
-  "title": "DevOps Engineer",
-  "company": "Claroty",
-  "reason": "6+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "fab41a7d663043c6": {
-  "title": "Customer Account Support Specialist",
-  "company": "LitePoint",
-  "reason": "10+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "a093b19f025fdad9": {
-  "title": "Operations & Automation Manager",
-  "company": "Team8",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "6d1f73e267bfdf1c": {
-  "title": "Product Manager (French-Speaking)",
-  "company": "Swish AI",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "f198cd36fcc154ef": {
-  "title": "Payments Product Manager",
-  "company": "Riskified",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "20c458da73371b9e": {
-  "title": "DevOps Engineer",
-  "company": "Claroty",
-  "reason": "6+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "05deed90cf2c838b": {
-  "title": "AI-First QA Automation Engineer",
-  "company": "Swish AI",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "b3ec8b1e74dccc54": {
-  "title": "Software Automation and DevOps Manager",
-  "company": "Insightec",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "e19ff81569885698": {
-  "title": "Integration Engineer",
-  "company": "Riskified",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "bc5ef32663059870": {
-  "title": "Project Manager",
-  "company": "mPrest",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "676e02de66d41b68": {
-  "title": "Junior Project Manager - Air Defense Systems",
-  "company": "mPrest",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "92518d5948a4b726": {
-  "title": "FP&A Analyst",
-  "company": "Team8",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "de2fcb2f6036c32d": {
-  "title": "Product Sales Specialist",
-  "company": "Riskified",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "b0a87c20cc598fb2": {
-  "title": "Technical Account Manager",
-  "company": "ScaleOps",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "5898f983a5c61607": {
-  "title": "Revenue Operations Manager",
-  "company": "ScaleOps",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "c2d7136a3b8c051b": {
-  "title": "IT Manager",
-  "company": "ScaleOps",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "5bab9f705db18ba7": {
-  "title": "Product Manager",
-  "company": "ScaleOps",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "eb14e080cc5182d1": {
-  "title": "DevOps Engineer",
-  "company": "ScaleOps",
-  "reason": "6+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "974ee6b52db0f0b1": {
-  "title": "Account Manager",
-  "company": "ScaleOps",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "21d8ddd9922483f3": {
-  "title": "QA Automation Engineer",
-  "company": "Claroty",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "67f2296793ce6a89": {
-  "title": "Integration Technician",
-  "company": "Beewise",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "586e3870f1922127": {
-  "title": "Team8 -Security & IT Manager",
-  "company": "Team8",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "66d987df03a1d13a": {
-  "title": "IT Manager",
-  "company": "Jennifer Airobotics",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "7d9afbe199ed44de": {
-  "title": "Product Manager",
-  "company": "UNIPaaS",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "4e2d7d8430c6dcdc": {
-  "title": "QA Automation Engineer",
-  "company": "Claroty",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "13e59eb17b6ddc66": {
-  "title": "Group Product Manager - Product Growth",
-  "company": "Swish AI",
-  "reason": "7+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "a99ef4068fdc89d6": {
-  "title": "AI Solutions Engineer",
-  "company": "Team8",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "30a1cb406ce6f280": {
-  "title": "QA Engineer",
-  "company": "Swish AI",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "91bbb9fcb7b2a040": {
-  "title": "FP&A Analyst-Maternity Leave Cover",
-  "company": "FloLIVE",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "d044e3b6c62599d9": {
-  "title": "Analytics Engineer",
-  "company": "Sensi.AI",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "13ebbf6715c970fd": {
-  "title": "Flight Operations Coordinator",
-  "company": "Jennifer Airobotics",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "843f989d12bf3b68": {
-  "title": "Product Manager",
-  "company": "Trullion",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "746ef0e4a7009166": {
-  "title": "Product Manager, MSP (AI Builder)",
-  "company": "IronScales",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "bf2a8e4997fef9ff": {
-  "title": "Customer Success Manager",
-  "company": "BIScience",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "35250a873d3fd689": {
-  "title": "Product Manager",
-  "company": "Swish AI",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "73e97f82fd20b95d": {
-  "title": "Technical Product Manager - Security",
-  "company": "Guardio",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "bd21eebb917929e6": {
-  "title": "SEO/GEO Specialist",
-  "company": "Team8",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "9f5604bfa30433e3": {
-  "title": "Associate Program Manager - Unmanned Systems",
-  "company": "Jennifer Airobotics",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "ba96f624c00bebd4": {
-  "title": "Paid Media Specialist",
-  "company": "Team8",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "79abfdf1052ff27b": {
-  "title": "Compliance Operations Expert - Infra",
-  "company": "Rapyd",
-  "reason": "8+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "dc754acfd205556f": {
-  "title": "Business Analyst",
-  "company": "AppsFlyer",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "0dae077cb8de1629": {
-  "title": "Data Analyst",
-  "company": "Qumra Capital",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "972ba87432879edd": {
-  "title": "Product Manager - Renter Growth & Conversion",
-  "company": "Obligo",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "ba059fc0cd9eb872": {
-  "title": "Solution Engineer (Pre-Sales)",
-  "company": "Coralogix",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "e69eb8a37e76dece": {
-  "title": "Commission Analyst",
-  "company": "AppsFlyer",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "e589cf0a58e87e69": {
-  "title": "Solid- Applied AI Solutions Engineer",
-  "company": "Team8",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "db2c6e88eae96764": {
-  "title": "Group Product Manager, Product Solutions",
-  "company": "Swish AI",
-  "reason": "7+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "b59af225124c2005": {
-  "title": "Hardware Product Manager -Deployment Kits & Configurations",
-  "company": "D-Fend Solutions",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "6ad4eb7434321230": {
-  "title": "Operations Finance Controller",
-  "company": "D-Fend Solutions",
-  "reason": "5+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "067ca4b41e1d01d6": {
-  "title": "Product Manager",
-  "company": "Tailor Brands",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "c1f2fd5efddbda0e": {
-  "title": "Product Analyst",
-  "company": "Torq ",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "2829710e3120fd49": {
-  "title": "QA & Automation Engineer",
-  "company": "Anchor",
-  "reason": "3+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
- "c13761cb0a35546c": {
-  "title": "Infrastructure Engineer (Kubernetes & Node.js)",
-  "company": "Oriient",
-  "reason": "4+ years",
-  "at": "2026-10-23T05:52:04+00:00"
- },
  "610400a55e42c3e2": {
   "title": "Enterprise Account Manager",
   "company": "SimilarWeb",
@@ -11254,5 +10648,431 @@
   "company": "Pentera",
   "reason": "6+ years",
   "at": "2026-11-22T05:17:15+00:00"
+ },
+ "de9dc58eec9cb88b": {
+  "title": "Product Manager",
+  "company": "Papaya Global",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "83d9162a07997dba": {
+  "title": "Technical Project Manager",
+  "company": "Global-e",
+  "reason": "6+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "d58c3c8510bc53b8": {
+  "title": "Trade Analyst - Temporary position",
+  "company": "Global-e",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "de86a651e7ad65ab": {
+  "title": "Product Manager",
+  "company": "Port",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "0f9a0b321cb2b8a7": {
+  "title": "Sales Analyst",
+  "company": "Port",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "7318246adad5b06d": {
+  "title": "Product Manager, Product-Led Growth",
+  "company": "Kaltura",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "281b8890e0d93ed2": {
+  "title": "Hardware Technical Program Manager",
+  "company": "Next Silicon",
+  "reason": "6+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "abc9c81cc9faaddd": {
+  "title": "Technical Program Manager",
+  "company": "Next Silicon",
+  "reason": "6+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "7f48e25c2107d258": {
+  "title": "Technical Project Manager - Post training",
+  "company": "AI21 Labs",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "f0951c22e2954f3e": {
+  "title": "Cloud Product Manager",
+  "company": "Pentera",
+  "reason": "6+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "aba0b286cd978065": {
+  "title": "DevOps Engineer",
+  "company": "Claroty",
+  "reason": "6+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "93672f16c46edc45": {
+  "title": "Product Manager",
+  "company": "Cyera",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "fae7f50e6cc96487": {
+  "title": "Product Manager - Enterprise Deployment Solutions",
+  "company": "Cyera",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "0119b6758ec5c877": {
+  "title": "Technical Competitive Intelligence Analyst",
+  "company": "Cyera",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "a698b2875c3d2181": {
+  "title": "Technical Competitive Intelligence Analyst - Cyera Identity",
+  "company": "Cyera",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "54f9d2ba76422ec5": {
+  "title": "Product Manager",
+  "company": "Silverfort",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "99f82e1f70774d92": {
+  "title": "DevOps Engineer",
+  "company": "Checkmarx",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "e516864c4e182e23": {
+  "title": "Hardware Project Manager – AI Data Center",
+  "company": "DriveNets",
+  "reason": "7+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "a007e7af5918affe": {
+  "title": "IT Devops Engineer",
+  "company": "DriveNets",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "cdd5f32c207a390b": {
+  "title": "IT DevOps Engineer",
+  "company": "DriveNets",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "c7ee20a2c5e0cb8b": {
+  "title": "Big Data & Data Infrastructure Engineer",
+  "company": "VAST Data",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "ed6aeae14ff00e39": {
+  "title": "Product Owner & Engineer",
+  "company": "VAST Data",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "eb245881da697d43": {
+  "title": "Product Manager",
+  "company": "One Zero Bank",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "7ff029313f7f4a68": {
+  "title": "Technical Delivery Project Manager",
+  "company": "Jifiti",
+  "reason": "8+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "5b64ef671e0a3729": {
+  "title": "Service Project Manager",
+  "company": "SolarEdge",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "a9ca3f1910fe7093": {
+  "title": "Devops",
+  "company": "Upwind",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "7306f40e52a5a7fa": {
+  "title": "Product Manager",
+  "company": "Upwind",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "db9cb15b7bb78367": {
+  "title": "Product Manager- Billing Platform",
+  "company": "Pango",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "d41abf584faa2c71": {
+  "title": "Product Data Analyst",
+  "company": "Arpeely",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "a782134bd37e2d39": {
+  "title": "Product Manager",
+  "company": "Nova",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "1b1f4691a442034e": {
+  "title": "SW Product Manager",
+  "company": "Nova",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "ff466b81c6a10d9c": {
+  "title": "Data / ML Platform Engineer",
+  "company": "Kela",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "0a0d3b122cea7c3f": {
+  "title": "Technical Program Manager",
+  "company": "Kela",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "bde79a1301c77d90": {
+  "title": "DevOps Engineer",
+  "company": "Comm-IT",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "6f8e734f6668089b": {
+  "title": "Product Manager",
+  "company": "Comm-IT",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "47893c464d043230": {
+  "title": "Software Project Manager",
+  "company": "Comm-IT",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "f0c8195870a25d8a": {
+  "title": "AI Transformation Product Manager",
+  "company": "Applied Materials Israel",
+  "reason": "8+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "4239732a43ae267a": {
+  "title": "AI Infrastructure Engineer",
+  "company": "Immunai",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "83f1d739bd544b12": {
+  "title": "Site Reliability Engineer (SRE) On-Prem",
+  "company": "Dream",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "72c4137a9a1116fe": {
+  "title": "CRM Project Manager",
+  "company": "Abra R&D",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "157ed04cef39993d": {
+  "title": "Digital Project Manager",
+  "company": "Abra R&D",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "57b56bb81f0155ba": {
+  "title": "Priority ERP Project Manager",
+  "company": "Abra R&D",
+  "reason": "7+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "b2e09130b4406571": {
+  "title": "Project Manager – Information Systems",
+  "company": "Abra R&D",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "fc30aa34a357062f": {
+  "title": "Salesforce Project Manager",
+  "company": "Abra R&D",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "1a3e939d4f76eb57": {
+  "title": "AI Platform Engineer",
+  "company": "Alice",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "0423b41ce85e2bb9": {
+  "title": "Product Manager",
+  "company": "Navina",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "bab606f40acafa6c": {
+  "title": "Logistics Specialist – Global Operations",
+  "company": "Xsight Labs",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "00a46718b61c9b3b": {
+  "title": "Product Manager ",
+  "company": "Apiiro",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "3c2fe4fd7b6655bf": {
+  "title": "People Operations Manager",
+  "company": "Eleos Health",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "f97d5fcb221d778a": {
+  "title": "FP&A Analyst",
+  "company": "SuperPlay",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "c703f7550455c860": {
+  "title": "Product Manager",
+  "company": "SuperPlay",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "e489858be29bc384": {
+  "title": "Customer Support Agent (Native-Level English)",
+  "company": "Papaya Gaming",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "4a09f5d48cee2f10": {
+  "title": "Fraud Analyst",
+  "company": "PlayPerfect",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "eb0d61e31484ee6a": {
+  "title": "Monetization Graphic Designer",
+  "company": "PlayPerfect",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "7a5d881291e6eba3": {
+  "title": "Reindeer- AI Solutions Engineer (IL)",
+  "company": "Team8 (stealth startups)",
+  "reason": "7+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "26d712f12df90f9c": {
+  "title": "Solid- Applied AI Solutions Engineer",
+  "company": "Team8 (stealth startups)",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "66a59dafc651baa2": {
+  "title": "Team8  -Security & IT Manager",
+  "company": "Team8 (stealth startups)",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "642737c5306d510d": {
+  "title": "Manual QA",
+  "company": "Integrity Labs",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "a784afb2fd056afe": {
+  "title": "Product Manager",
+  "company": "Integrity Labs",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "510f135fadcfb274": {
+  "title": "Product Manager - AI SW Infrastructure (AI Software Stack / Compiler / Platform) - IL",
+  "company": "Majestic Labs",
+  "reason": "10+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "33d4f0107f36552c": {
+  "title": "Silicon Technical Program Manager - Backend & NPI focus",
+  "company": "Majestic Labs",
+  "reason": "8+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "85770ddc565f8f54": {
+  "title": "Technical Customer Success Manager",
+  "company": "Oligo Security",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "8c6ef219961ffd71": {
+  "title": "FP&A Analyst",
+  "company": "Regulus",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "02e83314d37e2456": {
+  "title": "Platform / Dev Ops Engineer - Infrastructure & Automation",
+  "company": "Senai",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "c68f39515f7aee84": {
+  "title": "Data Analyst",
+  "company": "Zipher",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "30d2c8c5d846dcb1": {
+  "title": "Solution Engineer (FDE)",
+  "company": "Zipher",
+  "reason": "5+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "b643b70cc4bc9ad7": {
+  "title": "DevOps Engineer",
+  "company": "Zyg",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "f09450af806db358": {
+  "title": "Product Manager ",
+  "company": "Sweet Security",
+  "reason": "4+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "038fe2a345b7b2a5": {
+  "title": "Fraud Analyst, Secured Lending",
+  "company": "Upstart",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "bad2e42d153bbad3": {
+  "title": "Clearing Risk Analyst",
+  "company": "Coinbase",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
+ },
+ "11d5c637946fc620": {
+  "title": "Sales Commissions Analyst",
+  "company": "LaunchDarkly",
+  "reason": "3+ years",
+  "at": "2026-11-22T06:17:13+00:00"
  }
 }
