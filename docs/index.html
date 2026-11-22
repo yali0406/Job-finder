@@ -488,9 +488,11 @@ $("sort").value = store.get("sort", "score");
 ["q", "minScore", "view", "openedFilter", "sort"].forEach(id => $(id).addEventListener("input", render));
 
 // ---- Sync between devices: marks and "opened" go to /api/sync under a shared code ----
+// Every device syncs into one shared space by default (the site is personal), so nothing needs setting up.
+// A link (#sync=CODE) or a typed code can still move a device to a private space.
+const DEFAULT_SYNC = "JOBFINDERSHAREDSPACE01";
 let syncCode = store.get("syncCode", "");
-// A link from another device (#sync=CODE) joins its marks; otherwise every device gets its own code,
-// so syncing is always on and connecting a second device is just opening a link.
+if (!store.get("syncDefaultV2", false)) { syncCode = DEFAULT_SYNC; store.set("syncCode", syncCode); store.set("syncDefaultV2", true); }
 {
   const m = location.hash.match(/sync=([A-Za-z0-9-]{16,80})/);
   if (m) {
@@ -562,14 +564,14 @@ function renderSync() {
   $("syncPanel").classList.toggle("on", panelOpen);
   if (!panelOpen) return;
   $("syncPanel").innerHTML = syncCode ? `
-    <div>הסימונים נשמרים אוטומטית. כדי לחבר מכשיר נוסף (למשל הטלפון), שלח לעצמך את הקישור ופתח אותו שם פעם אחת:</div>
-    <div class="row"><button class="primary" id="syncShare">שלח קישור למכשיר אחר</button><button id="syncCopy">העתק קישור</button><span class="sync-note" id="syncMsg"></span></div>
+    <div>${syncCode === DEFAULT_SYNC ? "הסימונים מסונכרנים אוטומטית בין כל המכשירים שנכנסים לאתר." : "המכשיר הזה בקוד פרטי. כדי לחבר מכשיר נוסף, שלח לעצמך את הקישור ופתח אותו שם:"}</div>
+    <div class="row" ${syncCode === DEFAULT_SYNC ? 'style="display:none"' : ""}><button class="primary" id="syncShare">שלח קישור למכשיר אחר</button><button id="syncCopy">העתק קישור</button><span class="sync-note" id="syncMsg"></span></div>
     <details style="margin-top:8px"><summary class="sync-note">קוד ידני / חיבור לקוד אחר</summary>
       <div class="row"><span class="sync-code">${esc(pretty(syncCode))}</span></div>
       <div class="row"><input id="syncInput" placeholder="הכנס קוד ממכשיר אחר" autocomplete="off" autocapitalize="characters">
         <button id="syncJoin">חבר</button></div></details>
-    <div class="row"><span class="sync-note">${esc(st)}</span><button id="syncGo">סנכרן עכשיו</button><button id="syncOff">נתק את המכשיר</button></div>
-    <div class="sync-note" style="margin-top:6px">שמור על הקישור לעצמך: מי שיש לו אותו רואה ומשנה את הסימונים שלך.</div>` : `
+    <div class="row"><span class="sync-note">${esc(st)}</span><button id="syncGo">סנכרן עכשיו</button><button id="syncOff">${syncCode === DEFAULT_SYNC ? "עבור לקוד פרטי" : "חזור לסנכרון הרגיל"}</button></div>
+    ${syncCode === DEFAULT_SYNC ? "" : '<div class="sync-note" style="margin-top:6px">שמור על הקישור לעצמך: מי שיש לו אותו רואה ומשנה את הסימונים שלך.</div>'}` : `
     <div>סנכרון שומר את "שמור", "הגשתי", "הסתר" ו"נכנסתי" בין המחשב לטלפון.</div>
     <div class="row"><button class="primary" id="syncCreate">צור קוד חדש (במכשיר הראשון)</button></div>
     <div class="row"><input id="syncInput" placeholder="או הכנס קוד ממכשיר אחר" autocomplete="off" autocapitalize="characters">
@@ -594,10 +596,10 @@ function renderSync() {
     ? navigator.share({ title: "סנכרון משרות", url: link() }).catch(() => {})
     : navigator.clipboard?.writeText(link()).then(() => copied("הקישור הועתק ✓, שלח אותו לעצמך")));
   on("syncGo", syncNow);
-  on("syncOff", () => { syncCode = newCode(); store.set("syncCode", syncCode); syncNow(); renderSync(); });
+  on("syncOff", () => { syncCode = syncCode === DEFAULT_SYNC ? newCode() : DEFAULT_SYNC; store.set("syncCode", syncCode); syncNow(); renderSync(); });
 }
 $("syncBtn").onclick = () => { panelOpen = !panelOpen; renderSync(); };
-if (!syncCode) { syncCode = newCode(); store.set("syncCode", syncCode); }
+if (!syncCode) { syncCode = DEFAULT_SYNC; store.set("syncCode", syncCode); }
 renderSync();
 syncNow();
 setInterval(() => { if (!document.hidden) syncNow(); }, 120000);
