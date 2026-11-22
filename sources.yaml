@@ -111,6 +111,17 @@ linkedin_queries:
   - "Citi"
   - "eBay"
   - "Product Madness"
+  # large Israeli employers with no public job board of their own
+  - "comblack"
+  - "Logica-IT"
+  - "Medulla"
+  - "Yael Group"
+  - "allpha"
+  - "QualityAI"
+  - "Yael Korentec"
+  - "DRS RADA"
+  - "SQLink"
+  - "Bet Shemesh Engines"
   # investment funds / VC (analyst and associate roles)
   - Investment Analyst
   - Equity Research Analyst
