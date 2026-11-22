@@ -1,8 +1,76 @@
 {
- "updated": "2026-11-22T16:17:17+00:00",
+ "updated": "2026-11-22T17:17:15+00:00",
  "linkedin_scanned": true,
- "new_this_run": 3,
+ "new_this_run": 4,
  "jobs": [
+  {
+   "title": "Liquidity Operations Analyst",
+   "company": "Orderly Network",
+   "url": "https://himalayas.app/companies/orderly-network/jobs/liquidity-operations-analyst-8773127057?utm_source=api",
+   "location": "Worldwide",
+   "source": "remote:himalayas",
+   "posted": "1795366696",
+   "id": "045f5a80affc45aa",
+   "first_seen": "2026-11-22T17:17:15+00:00",
+   "score": 72,
+   "reason": "התפקיד Liquidity Operations Analyst תואם את רקע הניטור והאנליזה של המועמד ב-Nuvei ואת יכולות ה-SQL וה-Python, וכולל דוחות נתונים ומעקב אחר אנומליות. הסיבה להורדה: אין דרישה מפורשת לשנות ניסיון, והתפקיד דורש הבנה בקריפטו ו-trading שלא מופיעה בקורות החיים, ומדובר בעבודה מרחוק מחו\"ל לחברה זרה.",
+   "category": "Analyst",
+   "last_seen": "2026-11-22T17:17:15+00:00",
+   "broad": "",
+   "remote": true,
+   "years_checked": true
+  },
+  {
+   "title": "Growth Analyst (m/f/d)",
+   "company": "Kayzen",
+   "url": "https://himalayas.app/companies/kayzen/jobs/growth-analyst-m-f-d?utm_source=api",
+   "location": "Afghanistan, Albania, Algeria, Andorra, Angola, Anguilla, Antarctica, Antigua and Barbuda, Argentina, Armenia, Aruba, Austria, Azerbaijan, Bahamas, Bahrain, Barbados, Belarus, Belgium, Belize, Benin, Bermuda, Bolivia, Bonaire, Sint Eustatius and Saba, Bosnia and Herzegovina, Botswana, Bouvet Island, Brazil, Bulgaria, Burkina Faso, Burundi, Cabo Verde, Cameroon, Cayman Islands, Central African Republic, Chad, Chile, Colombia, Comoros, Congo, Congo, The Democratic Republic of the, Cook Islands, Costa Rica, Croatia, Cuba, Curaçao, Cyprus, Czechia, Côte d'Ivoire, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Eswatini, Ethiopia, Falkland Islands (Malvinas), Faroe Islands, Finland, France, French Guiana, French Southern Territories, Gabon, Gambia, Georgia, Germany, Ghana, Gibraltar, Greece, Greenland, Grenada, Guadeloupe, Guatemala, Guernsey, Guinea, Guinea-Bissau, Guyana, Haiti, Heard Island and McDonald Islands, Holy See (Vatican City State), Honduras, Hungary, Iceland, India, Iran, Iraq, Ireland, Isle of Man, Israel, Italy, Jamaica, Jersey, Jordan, Kazakhstan, Kenya, Kosovo, Kuwait, Kyrgyzstan, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Mali, Malta, Martinique, Mauritania, Mauritius, Mayotte, Mexico, Moldova, Monaco, Montenegro, Montserrat, Morocco, Mozambique, Namibia, Netherlands, Nicaragua, Niger, Nigeria, North Macedonia, Norway, Oman, Palestine, State of, Panama, Paraguay, Peru, Poland, Portugal, Puerto Rico, Qatar, Romania, Rwanda, Réunion, Saint Barthélemy, Saint Helena, Ascension and Tristan da Cunha, Saint Kitts and Nevis, Saint Lucia, Saint Martin (French part), Saint Pierre and Miquelon, Saint Vincent and the Grenadines, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Sint Maarten (Dutch part), Slovakia, Slovenia, Somalia, South Africa, South Georgia and the South Sandwich Islands, South Sudan, Spain, Sudan, Suriname, Svalbard and Jan Mayen, Sweden, Switzerland, Syrian Arab Republic, Tajikistan, Tanzania, Togo, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Turks and Caicos Islands, Uganda, Ukraine, United Arab Emirates, United Kingdom, Uruguay, Uzbekistan, Venezuela, Virgin Islands, British, Virgin Islands, U.S., Western Sahara, Yemen, Zambia, Zimbabwe, Åland Islands",
+   "source": "remote:himalayas",
+   "posted": "1795366393",
+   "id": "9a87f0badebe1873",
+   "first_seen": "2026-11-22T17:17:15+00:00",
+   "score": 42,
+   "reason": "התפקיד הוא Growth Analyst בתחום trading של פרסום programmatic, והוא נחשב אנליסט בתחום מטרה, אבל הדרישה המרכזית היא 1-3 שנות ניסיון ב-programmatic ad buying או ad ops, שאין ל-CV. יש התאמה ב-SQL, ניתוח נתונים, ו-Nuvei/monitoring, אבל אין ניסיון ב-MMP כמו AppsFlyer או Adjust.",
+   "category": "Analyst",
+   "last_seen": "2026-11-22T17:17:15+00:00",
+   "broad": "",
+   "remote": true,
+   "years_checked": true
+  },
+  {
+   "title": "DevOps Development Engineer",
+   "company": "Applied Materials Israel",
+   "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/RehovotISR/DevOps-Development-Engineer_R2626905",
+   "location": "Rehovot,ISR",
+   "source": "workday",
+   "posted": "Posted Today",
+   "id": "4f2cec3c5f886727",
+   "first_seen": "2026-11-22T17:17:15+00:00",
+   "score": 40,
+   "reason": "התפקיד הוא הנדסת תוכנה/Backend עם מיקוד ב-DevOps אוטומציה, Kubernetes ו-Python, והקורס DevSecOps שלך נותן בסיס רלוונטי ל-Kubernetes ו-CI/CD. אך הדרישה היא ניסיון הנדסת תוכנה חזקה ו-Linux בפועל, וחסר ניסיון פיתוח תוכנה מוכח ואוטומציית Ansible.",
+   "category": "DevOps / Cloud",
+   "last_seen": "2026-11-22T17:17:15+00:00",
+   "broad": "",
+   "remote": false,
+   "years_checked": true
+  },
+  {
+   "title": "Arabic Content Intelligence Analyst",
+   "company": "Shabak - Israeli Security Agency - Career",
+   "url": "https://il.linkedin.com/jobs/view/arabic-content-intelligence-analyst-at-shabak-israeli-security-agency-career-4492352408",
+   "location": "South District, Israel",
+   "source": "linkedin",
+   "posted": "2026-11-22",
+   "id": "69513208e22e7582",
+   "first_seen": "2026-11-22T17:17:15+00:00",
+   "score": 12,
+   "reason": "תפקיד מודיעין בשב\"כ עם הכשרה ארוכה של כשנתיים, לוחות זמנים לא שגרתיים ושליטה בערבית כיתרון, ואינו בתחומי היעד של המועמד (אנליסט דאטה, BI, תפקידי PM או DevOps). אין כאן התאמה למיומנויות המפתח ב-DevOps, ניתוח נתונים או ניהול פרויקטים.",
+   "category": "Analyst",
+   "last_seen": "2026-11-22T17:17:15+00:00",
+   "broad": "",
+   "remote": false,
+   "years_checked": true
+  },
   {
    "title": "Finance Operations Associate",
    "company": "Zota",
@@ -15,7 +83,7 @@
    "score": 62,
    "reason": "התפקיד הוא Finance Operations בחברת תשלומים (Zota), תחום קרוב לרקע הנוכחי שלך ב-Nuvei ולדרישות Operations וניהול חשבונות סוחרים. חסרים ניסיון מוגדר בפיננסים/חשבונאות, תואר בכלכלה או חשבונאות, ודרישה לעבודה בסופי שבוע וחגים שעשויה להקשות.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -32,7 +100,7 @@
    "score": 45,
    "reason": "התפקיד DevOps Engineer הוא יעד מרכזי של המועמד, וההכשרה ב-AWS, Kubernetes, Terraform ו-CI/CD מתאימה לו. עם זאת, אין תיאור משרה ולכן לא ניתן לאמת את רמת הוותק ואת הדרישות, והמיקום ברחובות רחוק ממרכז תל אביב.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -49,7 +117,7 @@
    "score": 15,
    "reason": "התפקיד הוא הנדסת תשתיות תוכנה במקום DevOps/Cloud מוכר, ואין תיאור שמאשר רמה או דרישות. בנוסף, המיקום ברחובות רחוק ממרכז הארץ והמועמד מחפש תפקידים במרכז ובתל אביב.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -66,7 +134,7 @@
    "score": 80,
    "reason": "תפקיד Business Data Analyst ברמת כניסה עם דרישה של 1-2 שנות ניסיון, בתחום אנליסט עסקי שהוא יעד מרכזי של המועמד. הדרישה ל-SQL מתקדם (CTEs ו-Window Functions) ולכלי BI כמו Looker מתאימה לרקע באוניברסיטת Ono ולניסיון ב-SQL, אך חסר ניסיון מוכח ב-Looker/Tableau וב-DWH, והוא נדרש לעבוד עם כלי AI כמו Claude.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -83,7 +151,7 @@
    "score": 30,
    "reason": "התפקיד דורש 2+ שנות ניסיון בניהול תשתיות ענן, שנה+ בפריסת שירותי AI ארגוניים כמו Amazon Bedrock ושנה+ עם Microsoft Copilot, וסרטיפיקציה מקצועית ב-AI, ואין לי ניסיון מעשי בכך. הרקע שלי ב-DevSecOps ו-AWS/EKS רלוונטי חלקית בלבד, לכן ההתאמה חלשה.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -100,7 +168,7 @@
    "score": 22,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון מעשי ב-programmatic demand/ad ops והבנה עמוקה של RTB, SPO, schain, ads.txt ו-sellers.json, שאין ל-CV. הרקע ב-Nuvei ובמוניטורינג תשלומים רלוונטי חלקית בלבד, ואין ניסיון ב-ad tech.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -117,7 +185,7 @@
    "score": 66,
    "reason": "התפקיד הוא תפעול וניהול לקוחות בחברה ישראלית, ויש בו התאמה טובה לרקע של המועמד: ניהול תהליכים, CRM, מוקד שירות ותיאום מול גורמים שונים דרך Max ו-Nuvei. הפער הוא שהמשרה דורשת ניסיון במכירות או בייעוץ לימודים, ולמועמד אין ניסיון ישיר בתחום החינוך, וגם המשרה מעורבת בעבודה פרילנסית בדיווח שעות.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -134,7 +202,7 @@
    "score": 55,
    "reason": "התפקיד הוא בעל אופי של Deployment/Implementation במשרה מורכבת עם אופי של ניהול פרויקטים ותקשורת מול לקוחות, והמועמד מתאים לחלקים מסוימים שלו (Agile, SAP, Python, Nuvei). עם זאת, לא נדרשת ניסיון בתחום AI או APIs/MCP מעמיק, והניסיון היישומי מכוון לעבודה פנימית ולא לעבודה מול לקוחות ארגוניים.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -151,7 +219,7 @@
    "score": 8,
    "reason": "התפקיד דורש שליטה טבעית בטורקית (קריאה וכתיבה) ורקע צבאי/שירות ביטחון, מה שאין לך כשפה מדוברת כשפת אם כמו בעברית; מעבר לכך אין התאמה לתפקידי יעד כמו DevOps, אנליסט דאטה או PM. יש גם דרישה לשעות לא סטנדרטיות, שמתנגשת עם העדפתך.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -185,7 +253,7 @@
    "score": 40,
    "reason": "התפקיד הוא אנליסט שיווק בחברת דיגיטל מדיה ותואם את תחום הניתוח והדשבורדים, אבל דורש לפחות שנתיים ניסיון בסוכנות פרסום ו-BigQuery כחובה, דבר שחסר ב-CV. יש גם דרישה לניסיון ניהול לקוחות ו-GTM/Google Analytics, כך שההתאמה חלקית בלבד.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -194,7 +262,7 @@
    "title": "Global operations Planner",
    "company": "KLA Israel",
    "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Yavne-Israel/Global-operations-Planner_2643769-1",
-   "location": "Yavne, Israel",
+   "location": "Yavne, Israel · Center District, Israel",
    "source": "workday",
    "posted": "Posted Today",
    "id": "6f761f1664126d5f",
@@ -219,7 +287,7 @@
    "score": 35,
    "reason": "התפקיד הוא Product Manager למכשירים רפואיים הדורש 2-5 שנות ניסיון ב-PM בחברה גלובלית וניסיון בתחום המכשירים הרפואיים, שאין למועמד ב-CV. יש התאמה חלקית בניהול פרויקטים ו-Agile, אך הפער בניסיון ייעודי כ-PM ובתחום הרפואי משמעותי.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -236,7 +304,7 @@
    "score": 25,
    "reason": "התפקיד דורש שנתיים ניסיון כאנליסט אשראי, תואר בכלכלה או חשבונאות וניסיון בניתוח מודלים פיננסיים ותיקי אשראי לא סחיר, שאין לי ברובם. הרקע שלי במוניטורינג תשלומים ו-SQL/Python אינו תואם לתחום האשראי התאגידי.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -253,7 +321,7 @@
    "score": 25,
    "reason": "התפקיד הוא הנדסת תשתיות Data Center, תחום שאינו ברשימת היעדים של המועמד ודורש ידע חומרה ותשתית שאין לו ב-CV. אין תיאור משרה, ולכן רמת הבכירות לא ידועה; יש חפיפה חלקית לרקע DevOps ו-AWS/Kubernetes.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -270,7 +338,7 @@
    "score": 40,
    "reason": "התפקיד מוגדר כ-Operations בחברה מקומית, אך התיאור כללי מאוד ולא מציין דרישות ברורות או ניסיון נדרש. הרקע בתפעול תשלומים ב-Nuvei ובניהול תהליכים עשוי להתאים, אבל אין כאן התאמה ברורה למס, תאימות או חשבונאות.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -338,7 +406,7 @@
    "score": 35,
    "reason": "התפקיד הוא בעיקר רכש, לוגיסטיקה ותפעול משרדי של מרכז R&D, שאינו מתאים לרקע הנוכחי של המועמד בתפעול תשלומים ו-DevSecOps. יש חפיפה חלקית במעקב אחר ספקים, תהליכי תפעול ו-Excel, אך אין ניסיון מוצהר ברכש, ייבוא/יצוא או שילוח.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -355,7 +423,7 @@
    "score": 20,
    "reason": "התפקיד הוא ניהולי (מנהל/ת מכירות ושיווק בכפיפות ישירה למנכ\"ל) ודורש ניסיון מוכח בהובלת אסטרטגיית שיווק ומכירות וניהול צוותים וספקים, שאין לך בקורות החיים. יש חפיפה חלקית בפיתוח עסקי ו-CRM, אך זו רמת בכירות גבוהה מדי עבורך.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -372,7 +440,7 @@
    "score": 8,
    "reason": "המשרה היא קצין מודיעין מבצעי בשב\"כ, תחום שאינו בתחומי היעד של המועמד, ודורשת עבודה במשמרות ובסופי שבוע ורקע מודיעיני שאין לו. ההתאמה לרקע הטכני וה-DevOps חלשה מאוד.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -389,7 +457,7 @@
    "score": 50,
    "reason": "התפקיד הוא Project & Business Development Associate מדרג כניסה ללא דרישת שנות ניסיון, וזה מתאים לתחום הפרויקטים והפיתוח העסקי שאתה מכוון אליו, וכן לניסיון שלך ב-Agile ובניתוח מערכות. עם זאת, המשרד בחיפה ולא במרכז, ואין ניסיון קודם באנרגיה, נדל\"ן או רגולציה, כך שהציון מתון.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -406,7 +474,7 @@
    "score": 45,
    "reason": "תפקיד אנליסט בתחום לוגיסטיקה ושילוח עם דרישת 1-2 שנות ניסיון, שמתאים לרמת הזוטר של המועמד. ההתאמה חלשה יחסית כי נדרש תואר בהנדסת תעשייה וניסיון בלוגיסטיקה יבשתית, שלא מופיעים בקורות החיים, אם כי כישורי Excel, מערכות ו-SQL רלוונטיים.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -423,7 +491,7 @@
    "score": 35,
    "reason": "התפקיד הוא ניהול תוכניות מחקר בתחום ה-AI הביו-רפואי, שמקביל חלקית לניהול פרויקטים שהמועמד מכיר, אך אין תיאור ואין דרישות ברורות. חסרה התמחות במחקר קליני וב-AI ביו-רפואי.",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -440,7 +508,7 @@
    "score": 42,
    "reason": "התפקיד הוא ניהול משרד ו-HR/תפעול בחברת סטארטאפ, והוא נחשב לאפשרות כניסה למועמד כי אין בו דרישה להתמחות טכנית. הדרישה היא 2-4 שנות ניסיון בתפעול או ניהול משרד, בעוד לרקע שלך אין ניסיון ישיר בניהול משרד או HR, ולכן ההתאמה חלקית.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -457,7 +525,7 @@
    "score": 5,
    "reason": "התפקיד הוא BDR מבוסס UK ואירלנד בלבד, ולכן הוא לא פתוח למועמד מישראל גם במסגרת עבודה מרחוק. בנוסף, זה תפקיד outbound של SDR/BDR שמחייב ניסיון קודם במכירות טכנולוגיה, וה-CV שלו לא כולל ניסיון כזה.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -474,7 +542,7 @@
    "score": 18,
    "reason": "התפקיד דורש 2+ שנות ניסיון בסביבת מסחר, רישיון FINRA Series 7 פעיל וכיסוי משמרות רוטטיות בשעות לא שגרתיות, כולל תפעול 24/7 שמזכיר NOC; לכותב אין ניסיון במסחר של ניירות ערך או רישיונות רגולטוריים, ולכן ההתאמה נמוכה.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -491,7 +559,7 @@
    "score": 22,
    "reason": "תפקיד BDR (SDR-like: יצירת לידים והעברה לפגישות) בתחום מכירות, שהמועמד לא מעוניין בו; דורש שנה ניסיון במכירות ו-Salesforce, שאין לו. יש חפיפה חלקית ב-CRM ותקשורת מול לקוחות מניסיון Max, אך זה תפקיד SDR ולכן ציון נמוך.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -508,7 +576,7 @@
    "score": 12,
    "reason": "התפקיד הוא SDR (outbound prospecting וcold calling), שהמועמד לא מעוניין בו, ולכן מקבל ציון נמוך. בנוסף נדרשת שפה גרמנית שוטפת שאינה מופיעה בפרופיל.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -525,7 +593,7 @@
    "score": 40,
    "reason": "התפקיד Business Operations Manager ברמת Mid-Senior הוא מסוג Operations שמתאים לרקע של הנדידט בתפעול ותשלומים (Nuvei) וב-CRM, אבל הרמה המסומנת כ-Mid-Senior גבוהה לניסיון שלו והמודעה לא מפרטת שנות ניסיון או דרישות מפורטות. הציון נמוך בגלל הרמה וחוסר מידע על הדרישות.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -593,7 +661,7 @@
    "score": 12,
    "reason": "התפקיד דורש ניסיון בטרידינג FX/CFD וניסיון במכירות, וכן שליטה שוטפת בערבית, שאין לי בה תמיכה בפרופיל. בנוסף, הוא מכוון לאזור MENA ולמכירה ולגיוס לקוחות ושותפים, ולא לתפקידי DevOps, אנליסט או PM, ולכן ההתאמה נמוכה מאוד.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -610,7 +678,7 @@
    "score": 10,
    "reason": "המשרה דורשת אזרחות או הרשאה לעבוד בארה\"ב ולכן אינה פתוחה למועמד מישראל, למרות שהתפקיד עצמו (DevOps עם GitHub Actions, Terraform, Docker, AWS) קרוב לרקע שלו מקורס DevSecOps. הגבלת הגיוס לתושבי ארה\"ב מורידה את הציון באופן משמעותי.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -627,7 +695,7 @@
    "score": 10,
    "reason": "המשרה דורשת אזרחות או הרשאה לעבוד בארה\"ב ואפשרות לקבל סיווג ביטחוני פדרלי, כך שאין לי גישה אליה מישראל. בנוסף, התפקיד SRE עם Kubernetes, Prometheus ו-Terraform דורש ניסיון ייצור מעשי שאינו קיים אצלי בעומק.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -644,7 +712,7 @@
    "score": 62,
    "reason": "התפקיד הוא אנליסט מתחיל בתחום שכר והטבות, ותואר BA במנהל עסקים ו-Excel מתאימים לדרישות. עם זאת, אין בקורות החיים ניסיון ישיר בתגמול או בסקרי שכר, והתפקיד דורש שליטה מעולה ב-PowerPoint והכנת מצגות להנהלות.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -661,7 +729,7 @@
    "score": 8,
    "reason": "תפקיד BDR אנטרפרייז (outbound) מול לקוחות ב-DACH, ודורש שליטה בגרמנית שוטפת ומטרות מכירה, ולכן לא תואם לרקע ולשפות של המועמד. הוא מחוץ לתפקידי היעד (SDR-like), וההגדרה Remote from abroad מוגבלת לגרמניה/EMEA בלבד.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -678,7 +746,7 @@
    "score": 42,
    "reason": "התפקיד הוא Program Manager טכני בגוגל/Waze ודורש שנתיים ניסיון בניהול פרויקטים וניתוח נתונים, שזה מעבר לרוב הניסיון של המועמד (מונטורינג תשלומים ומנהל משמרת). יש חפיפה בניתוח לוגים, טיפול באירועים, SQL ואוטומציה, אבל חסרה ניסיון בפיד נתונים גיאוגרפיים וניהול תוכניות מורכבות.",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -695,7 +763,7 @@
    "score": 35,
    "reason": "התיאור שהתקבל הוא של אתר Partnerize ולא של משרת Product Manager בקונקטו, ואין בו דרישות תפקיד, רמת ותק או תחומי אחריות. התפקיד מתאים לכיוון Product Manager של המועמד, אך אי אפשר לאמת את מידת ההתאמה בלי תיאור משרה אמיתי.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -712,7 +780,7 @@
    "score": 80,
    "reason": "תפקיד Payments Operations בתחום התשלומים, בדיוק הרקע של המועמד מ-Nuvei (OCC Monitoring, טיפול באירועים ותשלומים) ומ-Excel. הפער: לא מצוין ניסיון ישיר בבנקאות/SWIFT ומשרה מעולם לא כללה ניהול תשלומים בנקאיים בפועל. המשרה מסומנת Remote from abroad, והמיקום בפועל ברמת גן, כך שיש לוודא שהעבודה מרחוק מישראל מותרת.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -729,7 +797,7 @@
    "score": 25,
    "reason": "התפקיד מוגדר כ-Business Development אך בפועל הוא בעיקר prospecting, קוולפיקציה של לידים וסגירת עסקאות, קרוב ל-SDR/AE שהמועמד לא מעוניין בו. הרקע ב-Max וב-call center ו-CRM תואם חלקית, אך אין ניסיון מכירות ישיר, והדרישה היא שנה-שנתיים ניסיון במכירות או שירות לקוחות.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -763,7 +831,7 @@
    "score": 74,
    "reason": "תפקיד Business Analyst בתחום Antifraud ו-Disputes בתקופה של שנה לפחות ניסיון, שמתאים לרקע הניתוח והתשלומים של המועמד ב-Nuvei ול-SQL מתקדם מ-BA. הפער: אין ניסיון ישיר בכלי fraud/transaction monitoring, והמשרה מציינת Worldwide עם תמיכה ברילוקיישן ל-Georgia, ללא הגבלה מפורשת לתושבים.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -780,7 +848,7 @@
    "score": 68,
    "reason": "התפקיד Liquidity Operations Analyst מתאים לרקע של Nuvei בניטור מערכות תשלום ו-SQL ו-Python, וכולל דוחות, ניטור דשבורדים וזיהוי חריגות. הפער: אין דרישת שנים מוצהרת, אך אין ניסיון בקריפטו/DeFi ובנתוני מסחר, והמשרה מוצעת מרחוק מחו\"ל.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -797,7 +865,7 @@
    "score": 55,
    "reason": "התפקיד הוא אנליסט ג'וניור במחלקת Integrated Risk Management בתחום מאקרו ובנקאות, והוא נמצא בקטגוריית האנליסט הפיננסי שהמועמד מחפש. הפער: הדרישה לתואר בכלכלה או פיננסים ולניתוח דוחות כספיים ומדדי סיכון (NPL, cost of risk, ROE), בעוד שלמועמד יש תואר במנהל עסקים ומערכות מידע, Excel ו-SQL, ואין ניסיון מוכח בניתוח מאקרו.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -814,7 +882,7 @@
    "score": 50,
    "reason": "התפקיד Product Analyst ברמת Junior עד Middle הוא סוג תפקיד מתאים לרקע אנליטי ו-SQL/Python של המועמד, אבל המודעה מציעה העברה למקסיקו או גרוזיה ומשרד, ולכן יש ספק אם אפשר לעבוד מישראל. בנוסף, אין ניסיון ישיר בניתוח מוצר או במתמטיקה מתקדמת שהמודעה דורשת.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -831,7 +899,7 @@
    "score": 45,
    "reason": "התפקיד Risk Analyst הוא סוג תפקיד יעד (אנליסט סיכונים) ברמת כניסה, ללא דרישת ניסיון, והעבודה מרחוק מאזור GMT-2 עד GMT+5 מתאימה לישראל. עם זאת, הדרישה לרקע כמותי חזק במתמטיקה והסתברות וסטטיסטיקה מתמטית, וידע בשוק ההון, אינה מכוסה ב-CV, ולכן ההתאמה חלקית; SQL ו-Python בסיסיים קיימים, והניסיון ב-Nuvei בתחום הפיננסי רלוונטי.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -848,7 +916,7 @@
    "score": 42,
    "reason": "התפקיד הוא אנליסט FP&A ברמת Middle, סוג תפקיד שמתאים לרקע אנליטי ו-SQL/Python, אבל הוא דורש הבנה של P&L בנקאי ו-Excel מתקדם שאינם מופיעים בקורות החיים. המשרה פתוחה ל-Worldwide אך כוללת סיוע בהעברה למקסיקו ומשרד, ולכן יש סיכון שהעבודה מרחוק מישראל לא תתאפשר.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -865,7 +933,7 @@
    "score": 25,
    "reason": "התפקיד הוא תמיכת IT ואבטחת מידע (MDM, onboarding/offboarding, תאימות SOC 2) ולא תפקיד יעד. הדרישה היא שנה עד שלוש שנים של ניסיון IT/אבטחה ושנה-שנתיים ב-AWS או GCP, ואין לי ניסיון IT admin או MDM. יש חפיפה חלקית ב-AWS, IAM ו-Linux מקורס ה-DevSecOps וב-Nuvei.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -882,7 +950,7 @@
    "score": 12,
    "reason": "התפקיד הוא Business Analyst בתחום מידע לקוחות ו-KYC בבנק, והמועמד מתאים מבחינת SQL ורקע מערכות מידע, אך המודעה מחייבת אנגלית B2 ולעיתים משרה מבוססת מחוץ לישראל. המודעה מוגדרת Remote from abroad, והיא מגבילה את ההעסקה למיקומים בג'ורג'יה ומקסיקו או משרד, כך שאין אפשרות עבודה מלאה מישראל.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -899,7 +967,7 @@
    "score": 8,
    "reason": "המשרה נמצאת בפיליפינים ואינה מציעה עבודה מרחוק מישראל, כך שאין התאמה לאילוץ המיקום של המועמד. תפקיד הפיננסים והתפעול עצמו רלוונטי חלקית לרקע בתשלומים ובתפעול, אך חסר תיאור תפקיד מפורט.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -933,7 +1001,7 @@
    "score": 25,
    "reason": "התפקיד הוא שירות לקוחות מול משתמשים ב-Bybit, קרוב חלקית לניסיון שלך ב-Max ו-Nuvei, אבל הוא דורש שליטה בצרפתית ברמת דו-לשוניות, שאינה מופיעה בפרופיל, ומעדיף 2-4 שנות ניסיון בשירות לקוחות. משמרות רוטטיות כולל סופי שבוע ולילות מורידות את ההתאמה.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -950,7 +1018,7 @@
    "score": 12,
    "reason": "התפקיד דורש שליטה בשוודית ברמת שפת אם כמעט, ניסיון של 2-4 שנים בשירות לקוחות ועבודה במשמרות כולל סופי שבוע, בעוד שהמועמד לא דובר שוודית. מדובר בתפקיד שירות לקוחות מול צ'אט ומייל ולא בתפקיד אנליסט או DevOps מתאים, ולכן ההתאמה נמוכה מאוד.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -967,7 +1035,7 @@
    "score": 22,
    "reason": "התפקיד הוא BDR/SDR של מכירות outbound, שהמועמד לא מחפש ולא נמצא בתחום הניסיון שלו, והוא דורש לפחות שנת ניסיון במכירות B2B. יש התאמה חלקית דרך הכרת DevOps ו-Kubernetes מקורס DevSecOps, אבל אין ניסיון מכירתי אמיתי.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -984,7 +1052,7 @@
    "score": 62,
    "reason": "תפקיד Data Analyst הוא יעד מרכזי עבורך, והדרישות ל-SQL ול-Python תואמות לרקע ב-Ono ולקורס. הפער: הדרישה לשנתיים ניסיון כ-Data Analyst, בעוד שהניסיון המקצועי שלך כרגע הוא מוניטורינג תשלומים ב-Nuvei.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1001,7 +1069,7 @@
    "score": 62,
    "reason": "התפקיד Product Manager הוא יעד מוצהר של המועמד, והמשרה לא מציינת שנות ניסיון מחייבות, אך הדרישות לגבי ניסיון ב-business analysis או consulting הן רק \"Plus\". היתרון: ניסיון ב-SQL, Agile project management ו-systems analysis מתוך BA באונ' Ono. החיסרון: אין ניסיון מוכח כ-PM, והעבודה היא remote from abroad עבור חברה גלובלית, כך שיש לוודא שהמשרה פתוחה למועמדים מישראל.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -1018,7 +1086,7 @@
    "score": 55,
    "reason": "התפקיד הוא Sales/BizDev Operations, תחום קרוב לתפקידי Operations ו-Analyst, אך הוא דורש 2-3 שנות ניסיון ב-BizDev/Sales Ops וניסיון מעמיק עם HubSpot שאין לך בקורות החיים. יש חפיפה בבניית תהליכים, דיווח ו-SQL, אך הפער בניסיון ה-CRM והדרישה לניסיון ייעודי מורידים את ההתאמה.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1035,7 +1103,7 @@
    "score": 55,
    "reason": "התפקיד הוא Operations Analyst בתחום מסחר פיננסי ורישוי נתוני שוק, והוא מבקש 2 שנים לפחות של ניסיון תפעולי, שחלקו מתאים לרקע שלך מ-Nuvei ו-Max. הפער העיקרי הוא היעדר ניסיון ישיר ברישוי market data או ב-exchange policies, אך ניסיון ב-Excel ודיוק תפעולי מתאימים.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -1052,7 +1120,7 @@
    "score": 55,
    "reason": "התפקיד Project Manager הוא יעד מוצהר, ודורש 2 שנות ניסיון בניהול פרויקטים ארגוניים, שאין לך כרגע בצורה מלאה (יש לך Agile מ-Ono ו-OCC Monitoring ב-Nuvei). יתרון: ניסיון תפעולי בפיננסים/תשלומים ו-SQL, אבל חסרים ניסיון באינטגרציות API של ברוקראז' וקריפטו ו-KYC/AML.",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -1120,7 +1188,7 @@
    "score": 35,
    "reason": "התפקיד הוא Research Data Analyst, כלומר קרוב לתחום האנליסט, אך הדרישה ל-2+ שנות ניסיון וליבה של cybersecurity מול רקע שלך שאין בו ניסיון בתחום האבטחה. יש חפיפה ב-Python ובארגון נתונים לא מובנים, אבל הפער בתחום האבטחה משמעותי.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1137,7 +1205,7 @@
    "score": 35,
    "reason": "התפקיד הוא FP&A עם דרישה ל-2-4 שנות ניסיון מקצועי ב-FP&A ותקצוב פרויקטים, וזה לא תואם את הרקע של המועמד שאין לו ניסיון ישיר ב-FP&A. יש חפיפה חלקית בעבודה עם KPI, דשבורדים ו-SQL/Excel, אבל התפקיד אינו ברשימת היעדים שלו.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1154,7 +1222,7 @@
    "score": 35,
    "reason": "התפקיד הוא Project Manager, תפקיד יעד, אך דורש לפחות 2 שנות ניסיון ב-PMO או ניהול פרויקטים בתחום החומרה/אלקטרוניקה ותעשיית הביטחון, וכן בוגר הנדסת תעשייה וניהול, שאינו מהרקע של המועמד. ל-CV יש Agile ו-SAP, אך אין ניסיון בחומרה או ביטחון, ולכן ההתאמה חלשה.",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1171,7 +1239,7 @@
    "score": 22,
    "reason": "התפקיד הוא Product Manager בתחום הפארמה עם דרישה לבסיס מדעי/רפואי (תואר בתחום החיים או רוקחות) וניסיון קודם בפארמה/ביוטק, שאין ל-CV. הדרישה ל-2-3 שנות ניסיון כ-PM בחברה בינלאומית וההתמחות הרפואית מרחיקות את המועמד מהתפקיד למרות שתפקיד PM הוא יעד.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1188,7 +1256,7 @@
    "score": 22,
    "reason": "התפקיד הוא Product Manager בתחום corporate actions שדורש ניסיון מוכח בניהול מוצר בפינטק או בברוקראז' וידע מעמיק בעיבוד אירועי תאגיד, שאין ל-CV. הרקע ב-Nuvei (ניטור תשלומים) ו-SAP/Agile רלוונטי חלקית בלבד, אך חסר הניסיון הישיר בתחום ובניהול מוצר.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -1205,7 +1273,7 @@
    "score": 12,
    "reason": "התפקיד הוא עוזר/ת מנהל ותיק לסגן נשיא, דורש 2-5 שנות ניסיון בניהול משרד לבכירים ואינו מתאים לרקע הנוכחי של המועמד (ניטור תשתיות תשלומים, DevSecOps ו-BA). אין כאן מיומנויות טכניות או סוג תפקיד מהיעדים שהוגדרו.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1222,7 +1290,7 @@
    "score": 12,
    "reason": "התפקיד הוא מצוינות תפעולית ואיכות סביבה במפעל (Lean, Kaizen, OpEx, ניהול רעלים), תחום שאינו ברשימת היעד של המועמד וללא ניסיון ב-Lean או בהובלת שיפורים. הדרישה לניסיון בהובלת תהליכי שיפור היא חובה, והמועמד מכיר SAP ו-Excel בלבד בחלקית, כך שההתאמה נמוכה.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1239,7 +1307,7 @@
    "score": 10,
    "reason": "התפקיד הוא BDR לשוק ה-mid-market בגרמניה ו-DACH, וזה תחום יעד, אבל הוא דורש שפה גרמנית ברמת C2 שאינה קיימת בפרופיל, ומשרד היברידי במינכן. המשרה גם מגבילה גיוס לאזורי זמן של האיחוד האירופי, כך שעבודה מישראל כמעט בלתי אפשרית. בנוסף, הדרישה היא שנה ניסיון לפחות בסביבה מהירה, וכניסה מתאימה לרמת הבכירות.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -1256,7 +1324,7 @@
    "score": 8,
    "reason": "זו אינה משרה פתוחה אלא רשימת המתנה לקהילת הכישרונות של K2 Space, ללא תפקיד ספציפי או דרישות ברורות. בנוסף, המשרה דורשת אישור ITAR (אזרח אמריקאי או Green Card), והמועמד אינו עומד בדרישה זו.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -1273,7 +1341,7 @@
    "score": 5,
    "reason": "זו אינה משרה פתוחה אלא רשימת המתנה כללית (talent community) ללא תפקיד מוגדר, ולכן אין התאמה ממשית. בנוסף, המשרה דורשת עמידה בדרישות ITAR ו-U.S. person, מה שמצמצם מאוד את האפשרות להתקבל מישראל.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -1290,7 +1358,7 @@
    "score": 5,
    "reason": "זו הודעת רשימת המתנה/מאגר מועמדים ללא תפקיד ספציפי, והמשרה דורשת אזרחות אמריקאית או רישיון ייצוא (ITAR), מה שאינו תואם למועמד שאינו אמריקאי. בנוסף, התחום (הנדסת חלליות) רחוק מהרקע של המועמד ב-DevOps, ניתוח ותפעול תשלומים.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -1307,7 +1375,7 @@
    "score": 5,
    "reason": "התפקיד הוא BDR outbound מסוג SDR שהמועמד לא מחפש, ודורש C2 בגרמנית שאין בקורות החיים. המשרה גם מוגבלת לאזורי זמן של EU בלבד ואינה פתוחה לעבודה מישראל, ולכן ההתאמה נמוכה מאוד.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -1358,7 +1426,7 @@
    "score": 35,
    "reason": "התפקיד הוא Product Manager ב-AppSec, תחום שמתאים לתפקיד PM של הקנדידט, אך הוא דורש ידע מעמיק באבטחת אפליקציות ותהליכי AppSec שאין לו ברקע, והשנים הנדרשות והרמה לא מצוינות בבירור. הרקע ב-DevSecOps וב-Kubernetes עוזר, אבל אין ניסיון מוכח כ-PM.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1375,7 +1443,7 @@
    "score": 25,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון בניהול תשתית ענן, שנה ב-GitLab CI/CD, שנה בשירותי AI בענן ושנה מול צוותי DevSecOps, ואילו לך יש ניסיון מעשי בעיקר מקורס DevSecOps ומתפקיד Monitoring ב-Nuvei. חסר לך ניסיון מקצועי מתורגם בענן ו-GitLab, ולכן ההתאמה נמוכה.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1392,7 +1460,7 @@
    "score": 35,
    "reason": "התפקיד הוא אנליסט בתחום הפיננסי ולכן הוא בסוג תפקיד יעד, אך הוא דורש ניסיון ייעודי בטרזרי, ניהול FX ו-hedging, השקעות ו-SOX שאין ל-CV. בנוסף הוא מצפה לשפת אם באנגלית, בעוד שהמועמד דובר אנגלית ברמה טובה בלבד.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1409,7 +1477,7 @@
    "score": 12,
    "reason": "התפקיד הוא נציג מכירות פארמה עם רכב ורישיון נהיגה לשטח ותחום אימונולוגיה, מחוץ לתחומי היעד שלך (DevOps, אנליסט, PM, PM). אין לך ניסיון במכירות פארמה או בשטח, והתפקיד דורש ניסיון שטח ורישיון נהיגה שלא צוינו בקורות החיים.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1494,7 +1562,7 @@
    "score": 42,
    "reason": "התפקיד הוא Business Systems Analyst עם דגש על Salesforce, שהוא תחום שאין לי בו ניסיון מעשי מוכח, ודורש 2+ שנות ניסיון ב-Salesforce וב-system analysis. יש התאמה בניתוח מערכות (BA במערכות מידע, SQL, Agile) אבל הפער ב-Salesforce ופיתוח Apex/Triggers משמעותי.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1630,7 +1698,7 @@
    "score": 42,
    "reason": "התפקיד הוא BDR לאיתור לידים ותיאום פגישות, קרוב ל-SDR, ודורש 2+ שנות ניסיון במכירות או פיתוח עסקי בתחום הדיגיטלי או הפיננסי. לחברה אין ניסיון ישיר ב-BD או בקריפטו, אך יש ניסיון ב-CRM וב-Salesforce-like tools דרך Max ו-Genesys, וההיכרות עם מוצרים פיננסיים (Nuvei) עשויה לעזור.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -1664,7 +1732,7 @@
    "score": 55,
    "reason": "תפקיד Product Manager הוא יעד מוצהר של המועמד, אבל הדרישה היא 2–4 שנות ניסיון כ-PM ודורשת שליטה ב-AI בבניית מוצרים, שאין לה בסיס מוצג ב-CV. יש התאמה בחשיבה אנליטית (SQL, Python) ובניהול פרויקטים ב-Agile, אך חסר ניסיון מוצרי ישיר.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1681,7 +1749,7 @@
    "score": 12,
    "reason": "תפקיד תפעול מרכזי של Datacenter בתחום תשתיות פיזיות, שאינו תואם לרקע בתפעול תשלומים, DevOps או אנליטיקה של הנדידט. הפרסום חלקי ואינו מציג דרישות ברורות, והתפקיד נראה מנהלי ותפעולי מאוד רחוק מהמסלול המבוקש.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1715,7 +1783,7 @@
    "score": 40,
    "reason": "התפקיד Data Analyst הוא סוג תפקיד יעד, אבל הוא דורש לפחות 2 שנות ניסיון מקצועי כאנליסט, ולרקע הנוכחי יש בעיקר OCC Monitoring Analyst ב-Nuvei מ-2025. יש חפיפה ב-SQL מתקדם ו-Python, אבל חסרים pandas מעשי, ניסיון ב-dbt/Airflow ו-LLM evaluation.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1783,7 +1851,7 @@
    "score": 30,
    "reason": "התפקיד דורש LLB/JD ו-2+ שנות ניסיון כעורך דין תאגידי, שאין לכם ברקע, ולכן זו התאמה חלשה למרות שזה סטארטאפ מוקדם עם תפקיד Customer Success. ניסיון ה-CRM וה-Max ב-Customer Success לא מספיקים לדרישת הרקע המשפטי.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -1919,7 +1987,7 @@
    "score": 78,
    "reason": "תפקיד Data Analyst בתחום אנליטיקת נתונים, סוג תפקיד מוביל עבור המועמד. הדרישה היא 1-2 שנות ניסיון, וכישורי SQL ו-Excel תואמים לרקע ב-BA Information Systems ובעבודה עם נתונים ב-Nuvei. פער אפשרי: Tableau נחשב יתרון בלבד וחסר ב-CV, ונדרשת שליטה מלאה באנגלית שהמועמד מיומן בה.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1970,7 +2038,7 @@
    "score": 62,
    "reason": "תפקיד Technical Operations בחברת גיימינג B2C סטארטאפ בת״א, כולל ניהול קמפיינים והגדרות ב-Admin ומעקב live, וזה קרוב לרקע התפעולי והטכני של המועמד (Nuvei, ניטור ו-CRM). פער: נדרשת אנגלית ברמה גבוהה ולא מצוינים שנים ניסיון, והתפקיד לא ברור מבחינת דרג.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -1987,7 +2055,7 @@
    "score": 35,
    "reason": "התפקיד הוא Game Provider Account Manager בסטארטאפ גיימינג, תפקיד קשור לשותפויות ואנליטיקה אך לא ברשימת היעד המובהקת. דורש לפחות שנה ניסיון בתעשיית הגיימינג, שאין לכם, וגם אנגלית ברמת שפת אם, כך שההתאמה חלשה.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2004,7 +2072,7 @@
    "score": 40,
    "reason": "התפקיד דורש 2+ שנות ניסיון כ-Analytics/BI Engineer עם SQL ו-dbt מעמיקים, וזה תחום שאין לך בו ניסיון מקצועי ישיר. יש חפיפה טובה ב-SQL, ETL ו-Python, אבל הדרישה לניסיון בהנדסת נתונים ו-LLM/AI מרחיקה אותך מהפרופיל הנוכחי.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2038,7 +2106,7 @@
    "score": 45,
    "reason": "התפקיד הוא Product Manager, שהוא יעד מוצהר של המועמד, אבל התיאור קטוע ולא מציין שנות ניסיון. התפקיד דורש ניסיון בניהול מוצר קצה-לקצה ובעבודה מול ה-CRM של מוצר ERP, ולמועמד אין ניסיון ישיר בניהול מוצר, אלא יש רקע ב-Agile ו-SAP S/4HANA מ-BA ב-Ono ו-CRM מתפקיד Max.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2089,7 +2157,7 @@
    "score": 30,
    "reason": "התפקיד הוא Product Manager, תפקיד יעד, אבל המודעה דורשת ידע עמוק במערכות עסקיות מורכבות, ניסיון בניהול יוזמות מקצה לקצה ובקיאות טכנית ב-API, אינטגרציות ו-AI, ואין בקורות החיים ניסיון ב-PM מוכח. המיקום בחיפה מחוץ לאזור המרכז המועדף, ולא מצוין ניסיון נדרש בגלוי.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2123,7 +2191,7 @@
    "score": 35,
    "reason": "התפקיד מוגדר כ-Business Development ומרקטינג בחברה גדולה ולא ברור ממנו הדרישות או רמת הוותק. המועמד מתאים לתפקידי BD ו-Operations, אבל בלי תיאור לא ניתן לאשר התאמה לכישורי ה-CRM והניתוח שלו.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2242,7 +2310,7 @@
    "score": 48,
    "reason": "התפקיד הוא תפעול ותמיכה טכנית עם טיפול בתקלות ומעקב אחרי התראות, קרוב לרקע של Nuvei ו-incident handling, אבל אין דרישה מפורשת לשנות ניסיון ורמת הבכירות לא ברורה. חסר ניסיון בקריאת קוד מעמיקה ובתחום telecom, והתפקיד כולל תורנויות מחוץ לשעות העבודה.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2429,7 +2497,7 @@
    "score": 15,
    "reason": "התפקיד הוא BDR (נציג פיתוח עסקי/SDR-like) עם דרישה ל-2+ שנות ניסיון במכירות B2B ושפה איטלקית שוטפת כחובה, שאינם מתאימים לפרופיל. הניסיון ב-Max ו-Nuvei אינו ניסיון מכירות B2B טכנולוגי, ואין שפה איטלקית בקורות החיים.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2463,7 +2531,7 @@
    "score": 35,
    "reason": "התפקיד הוא Product Manager, תפקיד יעד של המועמד, אבל התיאור באתר הוא כמעט ריק ואין בו דרישות שנות ניסיון או רמת בכירות. יש התאמה חלקית ברקע ב-Agile וניתוח מערכות מ-Ono ובתחום התשלומים מ-Nuvei, אך אין מספיק מידע כדי להעריך את ההתאמה בפועל.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2599,7 +2667,7 @@
    "score": 35,
    "reason": "התפקיד דורש לפחות 2 שנות ניסיון בניהול קהילות או רשתות חברתיות, ואין ל-CV ניסיון כזה. המועמד מתאים באופן חלקי בזכות ניתוח מדדים וגישת ניהול תקלות, אבל חסרים ניסיון בגיימינג ויצירת תוכן.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "gaming company",
    "remote": false,
    "years_checked": true
@@ -2616,7 +2684,7 @@
    "score": 35,
    "reason": "התפקיד נקרא BDR, שהוא בתחום היעד, אבל בפועל מדובר בפרוספקטינג יוצא וחיוגים ללקוחות חדשים, קרוב ל-SDR שהמועמד לא מעוניין בו. הדרישה לניסיון קודם כ-BDR או בתפקיד מכירות דומה ולקריירה ב-B2B tech sales לא מתקיימת בקורות החיים, ואין ניסיון במכירות מבוססות יעדים מלבד תפקידי שירות ומשמרות ב-Max.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2667,7 +2735,7 @@
    "score": 55,
    "reason": "התפקיד הוא Marketing Analyst בתחום Paid Search (Google Ads ו-Microsoft Ads), שאינו ברשימת היעדים של המועמד, אך יש בו מסלול כניסה לבוגרים עם תואר בכלכלה/סטטיסטיקה ורקע אנליטי כמו שלך. הפער המרכזי הוא היעדר ניסיון ב-Paid Search וניהול תקציבי פרסום, מה ש-CV של המועמד לא כולל.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2684,7 +2752,7 @@
    "score": 12,
    "reason": "התפקיד הוא SecOps/Incident Response שמחייב לפחות שנתיים ניסיון בתגובה לאירועים או SOC Tier 2/3, וכולל כוננות ופיתוח זיהוי מתקדם; הרקע שלי ב-Nuvei הוא ניטור תשלומים ו-OCC, אבל אין לי ניסיון ב-CrowdStrike, Splunk, Cortex XSOAR או Entra ID, והתחום הוא SOC/cyber שאינו ביעד שלי.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2701,7 +2769,7 @@
    "score": 8,
    "reason": "התפקיד דורש תואר הנדסה ו-2 שנות ניסיון בשילוב מערכות חומרה ותוכנה, ואין לך רקע הנדסי ייעודי כזה. הוא גם רחוק מתחומי היעד שלך (DevOps, אנליסט, PM או PM מוצר), ולכן ההתאמה נמוכה מאוד.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -2743,7 +2811,7 @@
   {
    "title": "BDR (Business Development Representative)",
    "company": "Lusha",
-   "url": "https://www.lusha.com/careers/co/tel-aviv/A0.576/bdr-business-development-representative/",
+   "url": "https://www.lusha.com/careers/co/tel-aviv/A0.576/bdr-business-development-representative/?t=1795337599106",
    "location": "Tel Aviv-Yafo, Israel · Tel Aviv-Yafo, Tel Aviv District, Israel",
    "source": "comeet",
    "posted": "2026-11-11T12:08:51Z",
@@ -2752,7 +2820,7 @@
    "score": 12,
    "reason": "התפקיד הוא BDR/SDR של פרוספקטינג אאוטבאונד בלבד, והמועמד לא מחפש SDR. הדרישה לשנה לפחות של ניסיון BDR/SDR ב-B2B SaaS וניסיון מוכח ביעדי מיטינגים לא קיימים ב-CV, ואין התאמה לכלי GenAI ולמכירות אאוטבאונד.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2803,7 +2871,7 @@
    "score": 62,
    "reason": "התפקיד הוא Operations בקרן השקעות עם דגש על תפעול תזרימים, מול בנקים ו-fund administrator, ומתאים לרקע התפעולי והפיננסי בתשלומים של Nuvei. חסרים ניסיון בחזית ה-back-office הפיננסי, היכרות עם KYC/FATCA ו-HubSpot, והתפקיד לא מציין שנות ניסיון מחייבות.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2820,7 +2888,7 @@
    "score": 22,
    "reason": "התפקיד הוא אנליסט השקעות (Equity Analyst) בקרן גידור טכנולוגית הדורשת חשיבה פונדמנטלית, מחקר עצמאי ו-capital markets, מיומנות שאין לך ברקע. יש התאמה חלקית בשימוש ב-Excel ובניתוח, אך אין ניסיון בהשקעות או בשוק ההון.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2837,7 +2905,7 @@
    "score": 62,
    "reason": "תפקיד BI/analytics שמתאים לתחום האנליסט שלך, עם SQL מתקדם ו-Python, אבל הוא דורש dbt, כלי הדמיה כמו Tableau/Looker/Power BI וניסיון בסטטיסטיקה שלא מופיעים בקורות החיים. המשרה מרוחקת מישראל ומוגדרת כ-Remote from abroad, והמיקום הפתוח לתושבי מדינות נוספות לא ברור מהתיאור, כך שיש סיכון שהגיוס יוגבל.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -2854,7 +2922,7 @@
    "score": 8,
    "reason": "המשרה דורשת הרשאה לעבוד בארה\"ב ולעיתים אזרחות אמריקאית, והיא מיועדת לזרוע DevSecOps מתקדמת עם ניסיון ב-Azure, Key Vault ו-NIST, שאין לך. תפקיד מחוץ לישראל שאינו פתוח לתושבים זרים, ולכן ציון נמוך מאוד.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -2905,7 +2973,7 @@
    "score": 68,
    "reason": "התפקיד משלב תפעול פיננסי, ניהול תזרים, תיאום מול גורמים חיצוניים ו-CRM, וזה קרוב לרקע שלך ב-Nuvei ובתחום התשלומים. חסרים ניסיון ישיר בתפעול קרנות, KYC/FATCA ו-HubSpot, אבל הרמה מתאימה וניתן להתקבל על בסיס ניתוח, Excel ומיומנויות תפעול.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2922,7 +2990,7 @@
    "score": 58,
    "reason": "התפקיד הוא Data Analyst, תפקיד יעד, והמועמד מתאים בשפות SQL ו-Python. הדרישה לשנתיים ניסיון כ-Data Analyst ומיומנות SQL Server ידועה ברמה גבוהה נמוכה מעט מהמועמד, וחסר ידע מוכח בסטטיסטיקה ו-R.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -2956,7 +3024,7 @@
    "score": 10,
    "reason": "התפקיד הוא BDR/SDR עם דגש על cold calling מאסיבי, וזה סוג תפקיד שהמועמד לא מחפש ולכן מדורג נמוך מאוד. בנוסף נדרשת שפת אם אנגלית ועבודה לפי שעות ארה\"ב, שאינן מכוסות בפרופיל.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3007,7 +3075,7 @@
    "score": 72,
    "reason": "תפקיד BDR הוא קטגוריית יעד (Business Development) ברמת כניסה, ולא נדרש ניסיון קודם בתחום. הרקע ב-Nuvei ו-Max בשירות לקוחות, CRM ותקשורת, לצד הכשרת DevSecOps, תואם את הדרישות, אך חסר ניסיון מכירות B2B/SDR ושליטה באנגלית ברמת native שהמשרה דורשת.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3041,7 +3109,7 @@
    "score": 62,
    "reason": "תפקיד BDR הוא סוג תפקיד יעד (Business Development) ברמה מתאימה, אבל הוא דורש לפחות שנה ניסיון במכירות B2B או SDR/BDR, שאין לקנדידט במפורש. יש חפיפה טובה במיומנויות כמו CRM, מחקר חשבונות, עבודה מול צוותי DevOps ו-Cloud דרך Nuvei ולימודי DevSecOps, אך חסר ניסיון מכירות ישיר.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3058,7 +3126,7 @@
    "score": 55,
    "reason": "התפקיד Junior Customer Success Manager בחברת גיימינג מתאים כ-foot in the door, ולכן ההתאמה נבחנת לפי יכולת קבלה לעבודה. לרקע של המועמד יש ניסיון רלוונטי בשירות לקוחות, CRM ומעקב אחר תקלות ב-Nuvei, אבל אין תיאור משרה, ולכן אין וודאות לגבי הדרישות בפועל.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "gaming company",
    "remote": false,
    "years_checked": true
@@ -3075,7 +3143,7 @@
    "score": 40,
    "reason": "התפקיד DevOps בתחום הענן עם דרישה לשנתיים ניסיון לפחות וניסיון מוכח ב-IaC ו-Kubernetes, כשהמועמד מכיר היטב את AWS, EKS ו-Terraform מקורס ה-DevSecOps אך חסר ניסיון מקצועי כ-DevOps. יש גם דרישה למנטורינג של צוות ג'וניורים, מה שמרמז על רמה בכירה יותר.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3092,7 +3160,7 @@
    "score": 35,
    "reason": "התפקיד הוא Business Development, שהוא קטגוריה רלוונטית לפי הפרופיל, אך המיקום בקרית גת רחוק ממרכז הארץ והתיאור בפרסום דל מאוד ואינו מפרט דרישות או רמת ניסיון. אין בקורות החיים ניסיון ייעודי במכירות B2B או בתעשיית התעופה.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3109,7 +3177,7 @@
    "score": 12,
    "reason": "תפקיד הוא משרד ושירותי קבלה (Office & Operations Assistant) ולא תפקיד יעד של המועמד; הדרישה ל-1+ שנות ניסיון בניהול משרד וקבלה והעדר תואם לרקע ב-Nuvei ו-DevSecOps. המועמד אינו מתאים לתפקיד ה-front desk ולא מתקשר לכלים שהוא מכיר.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3143,7 +3211,7 @@
    "score": 52,
    "reason": "התפקיד דורש ניסיון בניתוח נתונים ו-Python, שיש לכם בסיס בהם (SQL, Python, טיפול באירועים ב-Nuvei), אך חסר רקע סייבר מוצהר והתפקיד מכונה 'experienced' בלי שנות ניסיון מוגדרות. בזכות אופי הסטארטאפ והכשרת DevSecOps זו כניסה אפשרית.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -3160,7 +3228,7 @@
    "score": 40,
    "reason": "התפקיד הוא DevOps/Platform בתחום היעד, אבל הדרישות כוללות GKE בייצור, Pulumi ESC, GCP (Pub/Sub, Cloud SQL), Cloudflare כקוד ואחריות לאישור PR ולאירועי ייצור, ואין בקורות החיים ניסיון בהם. ברקע יש Kubernetes/EKS ו-Terraform, אך הרמה נראית בכירה יותר ממה שהמועמד מציע, ואין ציון שנות ניסיון מפורש.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -3296,7 +3364,7 @@
    "score": 35,
    "reason": "התפקיד הוא Product Manager, תפקיד יעד של המועמד, והמיקום בתל אביב תואם. אך התיאור חסר פירוט על דרישות הניסיון והכישורים, ולכן קשה לאמוד את רמת הבשלות ואת הפער מול הרקע של המועמד.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3364,7 +3432,7 @@
    "score": 15,
    "reason": "התפקיד הוא שיווק דיגיטלי ורשתות חברתיות ולא תואם את הכיוון שלך (DevOps, אנליזה, PM או Product), והוא דורש 2-3 שנות ניסיון בשיווק, Meta Ads וצילום ועריכת תוכן, שאין לך ברזומה. אין גם התאמה לאפשרות 'כניסה דרך הדלת' בחברת גיימינג או סטארטאפ.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3432,7 +3500,7 @@
    "score": 62,
    "reason": "התפקיד הוא BDR/SDR ארגוני ב-REAL בתל אביב, וזה סוג תפקיד יעד מבחינת הסדר העדיפויות. הרקע של המועמד במוקד שירות, CRM ו-Genesys מתאים לפנייה ללקוחות, אבל אין בתיאור פירוט על דרישות מכירה ספציפיות, ולכן הציון בינוני-גבוה.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3441,7 +3509,7 @@
    "title": "Service Operations Specialist",
    "company": "BioCatch",
    "url": "https://www.comeet.com/jobs/biocatch/03.00E/service-operations-specialist/6A.477",
-   "location": "Tel Aviv-Yafo, Israel",
+   "location": "Tel Aviv-Yafo, Israel · Tel Aviv-Yafo, Tel Aviv District, Israel",
    "source": "comeet",
    "posted": "2026-11-08T07:25:26Z",
    "id": "edc48db1b09fd318",
@@ -3449,7 +3517,7 @@
    "score": 35,
    "reason": "התפקיד דורש לפחות 2 שנות ניסיון בניהול אירועי Production ב-SaaS וכולל תורנות Incident Manager, שזה מעבר לתפקידים הנוכחיים שלך במסגרת מוניטורינג תשלומים. יש חפיפה ב-incident handling, RCA ו-SQL, אך חסרים ניסיון ב-ITIL ובניהול תשתיות ענן בפועל.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3466,7 +3534,7 @@
    "score": 32,
    "reason": "התפקיד דורש ניסיון מוכח כ-DevSecOps, ניסיון מעשי ב-GCP וב-Kubernetes בפרודקשן וניהול CVE, ואילו ל-CV יש בעיקר קורס DevSecOps עם AWS/EKS ותפקיד ניטור ב-Nuvei. יש חפיפה טובה ב-Kubernetes, Docker, CI/CD ו-Python, אך הפער בניסיון מעשי ובכלי אבטחה כמו Wiz ו-Snyk משמעותי.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3483,7 +3551,7 @@
    "score": 30,
    "reason": "התפקיד מוגדר כ-AI Solutions Analyst אך התיאור כמעט ריק, כך שאי אפשר לאמת דרישות ניסיון או כלים. אין התאמה ברורה לרקע של המועמד מעבר לכך שמדובר בתפקיד אנליסט.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3517,7 +3585,7 @@
    "score": 62,
    "reason": "תפקיד BDR הוא יעד מתאים לפי סוג התפקיד, והמשרה מתאימה לרמה ג'וניורית ואינה דורשת ניסיון קודם. הפער המרכזי הוא שהמשרה דורשת אנגלית ברמת שפת אם או שליטה מלאה, וניסיון ב-SDR/BDR או B2B SaaS הוא יתרון בלבד, אך יש בפרופיל רקע רלוונטי מ-Nuvei ו-Max בתחום הלקוחות והתקשורת.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3534,7 +3602,7 @@
    "score": 48,
    "reason": "התפקיד הוא DevOps בסביבת AWS מרובת אזורים עם GitOps, Infrastructure as Code ו-FIPS/STIG, והמשרה לא מציינת שנות ניסיון, כך שהרמה לא ברורה. יש לך בסיס טוב מקורס DevSecOps עם EKS, Terraform ו-CI/CD, אך חסר ניסיון מעשי מוכח בתשתיות ייצור רחבות היקף ובתאימות ביטחונית כמו GovCloud.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3551,7 +3619,7 @@
    "score": 38,
    "reason": "תפקיד שיווק חלקי זמני בחברת GRC לסייבר, לא בתחום המקצועי שלך (אין ניסיון שיווקי). יש התאמה חלקית בניהול קמפיינים דיגיטליים, תוכן ו-HubSpot שלא מופיעים בקורות החיים, ותמיכה בניהול פרויקטים, אך דרישת B2B SaaS וניסיון PPC מעשי היא פער משמעותי.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -3568,7 +3636,7 @@
    "score": 18,
    "reason": "התפקיד הוא הנדסת דאטה פלטפורמה מבוזרת עם פיתוח מיקרו-שירותים ו-APIs, דורש מיומנות הנדסית מעמיקה שאין למועמד בסיס מוכח לה (Java ו-Python ברמת קורס בלבד). הנושא לא תואם את תפקידי DevOps או Analyst שמטרתך, וגם לא מצוין ניסיון שנים מפורש.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3585,7 +3653,7 @@
    "score": 55,
    "reason": "התפקיד הוא ניהול תור בקשות ועבודת אתר (Web Operations) עם ניהול פרויקטים, שמתאים חלקית לרקע שלך ב-Project Management ו-Agile, אבל הוא דורש ניסיון ב-web operations או digital project management וניהול CMS שלא מופיעים בקורות החיים. אין מניין שנים מפורש, והמשרה היא חוזה לא בתחום הליבה שלך.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3636,7 +3704,7 @@
    "score": 62,
    "reason": "התפקיד הוא אנליסט מסוג יעד (ניתוח נתונים ושיווק ביצועים) בתל אביב, והכישורים שלך כמו SQL, Python, Excel מתקדם וניתוח לוגים/KPIs רלוונטיים. חסר ניסיון מוכח בניהול קמפיינים ב-Google Ads וMeta, והמשרה לא מציינת מספר שנות ניסיון במפורש.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3670,7 +3738,7 @@
    "score": 55,
    "reason": "התפקיד מסוג Data Analyst שהוא יעד מובהק, אבל הדרישה היא 2+ שנות ניסיון בניתוח נתונים ודגש חזק על web analytics, GA4/Mixpanel ו-A/B testing שאינם מופיעים בקורות החיים. יש חפיפה טובה ב-SQL, Excel, תהליכי ניתוח ועבודה מול Payments ו-BI, אך חסר ניסיון מוכח בכלי אנליטיקס דיגיטלי ובמבחני A/B.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3687,7 +3755,7 @@
    "score": 52,
    "reason": "התפקיד הוא Solution Engineer לקוחות בתחום האנליטיקה החזוי, ומתאים לרקע של CV בניתוח תקלות, SQL ותמיכה בלקוחות מ-Nuvei ו-Max. עם זאת, המודעה דורשת 2-4 שנות ניסיון בתפקידים מול לקוחות ואנליטיקה, ולמועמד אין ניסיון בלמידת מכונה או ב-B2B SaaS.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3704,7 +3772,7 @@
    "score": 35,
    "reason": "התפקיד BI Developer הוא רלוונטי לרקע ב-SQL ולניתוח נתונים, אך דורש ניסיון קודם בפיתוח BI, ETL ו-Data Warehouse וכן ניסיון ב-Power BI, שאינם מופיעים בקורות החיים. המיקום בחיפה גם הוא מחוץ לאזור המועדף.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3738,7 +3806,7 @@
    "score": 30,
    "reason": "התפקיד הוא אנליסט נתוני סייבר מחקרי עם דגש על AI agents והערכה, ולא מתאים לרקע של מונה ניטור תשלומים. אין דרישת שנים מפורשת, אך חסרים ניסיון בנתוני אבטחה, ניתוח מחקרי מתקדם ו-AI evaluation, והתפקיד נוטה ל-SOC/cyber לפי הגדרת היעד.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3755,7 +3823,7 @@
    "score": 25,
    "reason": "התפקיד דורש 2-3 שנות ניסיון ב-M&A, corporate development או equity research, שאין לך בקורות החיים. בנוסף הוא ממוקד בסמיקונדקטור ו-financial modeling מתקדם (DCF, precedent transactions), תחומים שאינם מופיעים ב-CV שלך, והתפקיד ברחובות ולא במרכז.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3772,7 +3840,7 @@
    "score": 25,
    "reason": "התפקיד הוא אנליסט מודיעין OSINT/WEBINT לזיהוי איומים מקוונים, תחום שאינו ביעד ואינו תואם לרקע ה-SOC/ניטור של המועמד. חסרה דרישת ניסיון מודיעיני מוכח וידע בתחתית הטכנולוגית (underground), והמועמד מתאים יותר לתפקידי Payments/Ops/Analyst.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3959,7 +4027,7 @@
    "score": 62,
    "reason": "תפקיד PMO בתחום החומרה הוא יעד מרכזי של המועמד (Project Manager / PMO) והמשרה לא מציינת שנות ניסיון מפורשות. הפער: אין ניסיון מוכח ב-NPI, supply chain או contract manufacturers, והדרישה לניהול תקציב ורכש ולעבודה מול הנהלה בכירה דורשת הוכחת ניסיון שאינו מופיע בקורות החיים (Agile ו-SAP הם נקודות חוזק חלקיות).",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -3993,7 +4061,7 @@
    "score": 40,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון במכירות B2B ורקע בניהול צינור מכירות וסגירת עסקאות, ולכן אין לך את הניסיון הנדרש. עם זאת, זו חברת סטארט-אפ מוקדמת שמחפשת מגייסים גמישים, ויש לך רקע רלוונטי בתפעול תשלומים, CRM וניתוח נתונים.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4010,7 +4078,7 @@
    "score": 38,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון כ-Product Manager ומענה ברמה גבוהה באנגלית ובעבודה מול לקוחות US, ולכן אין לי ניסיון מתאים בתחום. יש חפיפה לחלק מהמסלול (ניהול פרויקטים, תהליכי תשלום, Claude), אך חסר ניסיון PM ורקע ב-unattended retail.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4078,7 +4146,7 @@
    "score": 62,
    "reason": "התפקיד Junior DevOps בחברת Cyabra תואם את תחום היעד שלך, והמועמד מכיר Docker, Kubernetes, AWS, Terraform ו-CI/CD מקורס DevSecOps ופרויקט הגמר. הפער: אין בתיאור דרישות מפורשות, וחסר ניסיון מעשי ב-production DevOps מעבר לקורס ולעבודת ניטור ב-Nuvei.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4095,7 +4163,7 @@
    "score": 55,
    "reason": "התפקיד ברמת junior עם דרישה של 1-2 שנות ניסיון בתשתיות ומערכות, וזה קרוב לתחום DevOps שהמועמד לומד (Linux, Docker, Kubernetes, AWS, Terraform). חסר ניסיון מעשי בניהול שרתי Windows ו-Linux ובכלי תצורה כמו Ansible, והתפקיד ממוקם רחוק מהתחום הפיננסי של המועמד.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4112,7 +4180,7 @@
    "score": 35,
    "reason": "התפקיד דורש 2-4 שנות ניסיון ותואר בכלכלה, והוא ממוקד ב-BlackLine ובהתאמות מערכת התחתונות של התאמות חשבונאיות, בעוד שלמועמד אין ניסיון במערכות כאלה או ברקע חשבונאי מעמיק. יש חפיפה חלקית בתחומי ניתוח אנומליות, תמיכה במערכות ו-SQL/Python, לכן ההתאמה חלשה.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4129,7 +4197,7 @@
    "score": 72,
    "reason": "התפקיד הוא ADR/SDR, סוג תפקיד יעד בתחום Business Development, ברמת כניסה בתל אביב עם היברידיות. הרקע בכרטיסי אשראי (Max), מוקד מכירות ו-CRM/Genesys מתאים, והעברית והאנגלית ברמה טובה. הפער: נדרש ניסיון מכירות מוכח ו-Salesforce, שאינם מופיעים בקורות החיים במפורש.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4163,7 +4231,7 @@
    "score": 62,
    "reason": "תפקיד BDR הוא יעד מוגדר בפרופיל (BDR/SDR), ברמת כניסה ובמיקום תל אביב/נתניה בהיברידי. החסרים: דרישה לאנגלית ברמת native (הפרופיל מציין אנגלית מיומנת), היעדר ניסיון ב-Salesforce ו-Outreach, ושפת גרמנית שאינה בפרופיל.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4180,7 +4248,7 @@
    "score": 62,
    "reason": "תפקיד BDR הוא סוג תפקיד יעד (Business Development) ברמה זוטרה, ללא דרישת ניסיון מוגדרת, והמועמד מתאים לאופי העבודה מול לקוחות כמו בתפקיד הנוכחי ב-Nuvei ובמקס. החיסרון: נדרשת שפת גרמנית ברמת שפת אם, שאינה מופיעה בפרופיל, וחסר ניסיון מכירות ישיר.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4197,7 +4265,7 @@
    "score": 62,
    "reason": "תפקיד BDR בחברת SaaS ב-HR tech בתל אביב, ביטויי מכירה ויצירת לידים דורשים 2+ שנות ניסיון ב-B2B SaaS וכתיבה קרה, שאין לך בתיק הנוכחי. יש לך ניסיון בתפעול תשלומים ב-Nuvei וב-Max עם CRM ו-KPIs, אבל לא בפרוספקטינג טלפוני/אאוטבאונד.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4214,7 +4282,7 @@
    "score": 45,
    "reason": "התפקיד הוא Business Development Representative, שהוא סוג תפקיד יעד, והוא פתוח מחוץ לישראל מכיוון שמדובר בעבודה מרחוק עם גיוס עולמי. חסר לי ניסיון מוכח ב-SDR או מכירות outbound וב-enterprise software sales; יש לי רקע רלוונטי בשיחות מכירה וניהול KPIs ב-Max ובתקשורת עם הנהלה ב-Nuvei.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -4248,7 +4316,7 @@
    "score": 35,
    "reason": "התפקיד הוא ניהול צוות SDR/BDR ודורש ניסיון ניהולי ותוצאות מכירה outbound מוכחות, שאין לי ברזומה. יש התאמה חלקית דרך ניסיון ה-shift manager ב-Max (KPIs, קשר עם הנהלה) ורקע ב-CRM, אבל אין ניסיון ב-SDR. המשרה פתוחה ל-Worldwide ולכן אינה נפסלת בגלל מיקום.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -4265,7 +4333,7 @@
    "score": 18,
    "reason": "תפקיד מכירות inbound טלפוני בעמלות בלבד, עם דרישת ניסיון מכירות שנה ומשמרות בשעות EST (כולל ערבים), ולכן אינו מתאים ליעדי המועמד. זו עבודה מרחוק מחו\"ל שמיועדת לאמריקאים בעיקר (תשלום ב-USD ו-OTE לפי שוק ארה\"ב), וללא כישורי מכירה מוכחים הסיכוי נמוך.",
    "category": "Business Development",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -4418,7 +4486,7 @@
    "score": 38,
    "reason": "התפקיד Systems Engineer 2 ב-Technical Operations קרוב חלקית לתחום ה-DevOps וה-Operations של המועמד, אבל התיאור כולל רק הצגת החברה ללא דרישות טכניות או שנות ניסיון. הדרגה '2' מרמזת על רמת ביניים, ולכן הרמה אינה ברורה.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4469,7 +4537,7 @@
    "score": 38,
    "reason": "התפקיד הוא בעיקר גיוס ו-HR (sourcing, סינון טלפוני, אירועי עובדים), תחומים שאינם בפרופיל שלך, והוא דורש לפחות 2 שנות ניסיון ב-recruitment או HR coordination. ההתנסות שלך ב-CRM ובתפעול לא מספיקה לכיסוי הדרישות, אך מדובר בסטארטאפ עם תפקיד כללי, לכן הציון בינוני.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4622,7 +4690,7 @@
    "score": 62,
    "reason": "התפקיד הוא תפעול וניהול ביצוע בטווח של 2+ שנות ניסיון, והמועמד מתאים ברמה כללית: ניהול משמרת וKPIs במקס, תיאום בין צוותים בנוסף לניסיון ב-Nuvei מול Development ו-Risk, ורקע ב-Agile וניהול פרויקטים מלימודי ONO. פערים: אין ניסיון מוכח בכלי Monday/Asana/Jira, ואין רקע בגיימינג או playable ads.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4656,7 +4724,7 @@
    "score": 45,
    "reason": "התפקיד הוא תפעול שיווק עם דרישת ניסיון של 1-2 שנים, והתחום קרוב לתפעול ולניהול לידים שבהם יש לך ניסיון ב-Nuvei ובמוקד. עם זאת, חסר ניסיון בשיווק וב-HubSpot, ואין לך היכרות עם Zapier, N8N ו-Monday, לכן ההתאמה חלקית בלבד.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4673,7 +4741,7 @@
    "score": 42,
    "reason": "התפקיד הוא Technical Operations בחברת משחקים, תחום קרוב לרקע התפעולי והאוטומציה של המועמד, אך הדרישה היא 2+ שנות ניסיון כ-Automation/QA Automation, שאין למועמד. חסרים גם ניסיון ב-QA אוטומטי ובתהליכי Live Ops, בעוד שהרקע ב-Nuvei, Python, Jira-like workflows ו-SOP מתאים חלקית.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4690,7 +4758,7 @@
    "score": 22,
    "reason": "התפקיד הוא HR Operations ולא אחד מתחומי היעד של המועמד, והוא דורש 2-4 שנות ניסיון ב-HR Shared Services/HRIS, שאין לנו בקורות החיים. יש חפיפה חלקית בניתוח תהליכים, SQL ו-ServiceNow-דומה לניטור, אך אין ניסיון ב-Oracle HCM או בניהול מחזור חיי עובד.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4724,7 +4792,7 @@
    "score": 12,
    "reason": "התפקיד הוא קבלה ותפעול משרד/משאבי אנוש, שאינו בתחומי היעד של המועמד, והוא דורש לפחות שנתיים של ניסיון מנהלי ונוכחות מלאה במשרד. אין בקורות החיים ניסיון ישיר בתפקידים כאלה, והתפקיד אינו מתאים לרקע בתפעול תשלומים, DevOps או ניתוח נתונים.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4741,7 +4809,7 @@
    "score": 12,
    "reason": "התפקיד הוא תחזוקת משרד ותמיכה לוגיסטית לצוות IT, לא תפקיד בתחום DevOps, אנליזה, PM או PM מוצר. אין בו דרישות לניסיון טכני מתקדם, ולכן אין בו התאמה למועמד מעבר לרקע כללי בתפעול.",
    "category": "Operations",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4758,7 +4826,7 @@
    "score": 62,
    "reason": "התפקיד נוגע לתחום הונאות ולוגיקת החלטות בתשלומים, וזה קרוב לרקע שלך ב-Nuvei ולשימוש ב-SQL ו-Python. הפערים: הדרישה לציון פסיכומטרי מעל 700 או GMAT, והדרישה לבניית דברים עם כלי AI סוכנתיים, שאין לך עדיין דוגמה מוכחת עבורם. לא מצוין מספר שנות ניסיון, והמשרה מגייסת בכמה רמות.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -4792,7 +4860,7 @@
    "score": 62,
    "reason": "תפקיד BDR בסטארטאפ מוקדם בתל אביב, ומתאים לרקע של המועמד בשיחות יוצאות, CRM ותקשורת עם לקוחות מהתפקידים הקודמים שלו. פער מרכזי: הדרישה לשפת אם אנגלית (המועמד דובר אנגלית ברמה טובה בלבד) ודרישה לניסיון SDR/BDR של שנה-שנתיים, וגם עבודה בשעות ערב.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4809,7 +4877,7 @@
    "score": 55,
    "reason": "תפקיד מכירות (Account Executive) בסטארטאפ מוקדם בתל אביב, והמועמד פתוח לתפקידי כניסה כאלה בחברות מסוג זה. רקע השירות בקול מכירה ו-CRM במקס עשוי לעזור, אך אין ניסיון מכירות B2B מוכח וייתכן שהתפקיד ידרוש ניסיון מכירות רלוונטי יותר. דרגת הניסיון הנדרשת לא מצוינת במודעה.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4826,7 +4894,7 @@
    "score": 52,
    "reason": "המשרה היא אנוטטור/בקרת איכות לנתונים רפואיים לאימון מודלי שפה בסטארטאפ מוקדם, ואין דרישת ניסיון מוגדרת. ניסיון הבקרה והדיוק מתבנית ה-Monitoring ב-Nuvei ורקע האנליטי ב-BA יכולים לעזור, אך אין כאן דרישת ידע רפואי או ניסיון ב-annotation, והעבודה חוזרנית מאוד.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4843,7 +4911,7 @@
    "score": 52,
    "reason": "התפקיד הוא BDR במשרה מלאה בתל אביב בסטארטאפ early-stage, והמועמד יכול להתאים כגישה דרך הדלת בזכות ניסיון במכירות/CRM בשירות לקוחות ופיננסים. עם זאת, הדרישה ל-2+ שנות ניסיון ב-BDR בחברת SaaS וניסיון בקולד-קולינג אינם קיימים בקורות החיים, והנוכחות במשרד מונעת גמישות.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4860,7 +4928,7 @@
    "score": 45,
    "reason": "תפקיד שיווק בסטארטאפ מוקדם בתל אביב, והמועמד מחפש תפקידים כלליים שם. אין דרישה מפורשת לרקע שיווקי מתמחה, אבל אין בקורות החיים ניסיון שיווקי ישיר, כך שההתאמה חלקית בלבד.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4877,7 +4945,7 @@
    "score": 40,
    "reason": "המשרה למתחילים ללא דרישת שנות ניסיון, והחברה סטארט-אפ מוקדם שמחפש עוזר תפעולי כללי, כך שזו דרך כניסה אפשרית. עם זאת, התפקיד מתמקד בכתיבת הוראות ל-AI ובדיקת אינטראקציות, ואין בקורות החיים ניסיון ישיר בפרומפטים או בעבודה עם סוכני שיחה, והדרישה לציון פסיכומטרי 700 ומעלה מצמצמת את הסיכוי.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4894,7 +4962,7 @@
    "score": 40,
    "reason": "התפקיד הוא ניהול שותפויות יוצרים (Creator/Influencer) והוא דורש לפחות שנתיים ניסיון בשיווק משפיענים או רשתות חברתיות, שאין ברקע שלי. יש התאמה בניהול פרויקטים, תיאום בין צוותים ועבודה עם לוחות זמנים, אבל הפער בניסיון ישיר בתחום הוא משמעותי.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4911,7 +4979,7 @@
    "score": 38,
    "reason": "התפקיד במחקר הונאות רפואיות דורש תואר במדעי החיים או מדע הנתונים ו-2+ שנות ניסיון בחקירות הונאה או מודיעין, שאין לי בצורה ישירה. הרקע בניטור תשלומים ב-Nuvei, SQL ו-Python נותן בסיס רלוונטי להתחלה במסגרת סטארטאפ מוקדם, אך אין לי רקע רפואי או ביטוחי.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4928,7 +4996,7 @@
    "score": 35,
    "reason": "המשרה ריקה ומיועדת ליצירת דרישה חדשה, ואין בה תיאור תפקיד או דרישות. המועמד מתאים לתפקידי כללי בסטארטאפ, אבל אין מספיק מידע כדי לדעת אם יש התאמה.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4945,7 +5013,7 @@
    "score": 30,
    "reason": "זו משרה כללית של בנק קורות חיים בלבד ללא תפקיד מוגדר, כך שאין דרישות ברורות להשוות לרקע שלך. המשרה נמצאת בתל אביב ומתאימה לסטארטאפ מוקדם, אך אין כאן מידע על תפקיד ספציפי.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4962,7 +5030,7 @@
    "score": 30,
    "reason": "התפקיד דורש רקע בביטחון סייבר (forensics, SOC, incident response) והכרת פרוטוקולים כמו LDAP ו-Kerberos, שאין לך ברמה מעשית, אם כי יש ניסיון רלוונטי ב-incident handling ובעבודה מול צוותי פיתוח. הניסיון בתפקיד פנייה ללקוחות וניסיון מכירתי מוגבל, והתפקיד כולל נסיעות לארה\"ב של 20-40%.",
    "category": "סטארטאפ: כל תפקיד",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "remote": false,
    "years_checked": true
@@ -4996,7 +5064,7 @@
    "score": 62,
    "reason": "התפקיד DevOps הוא יעד מרכזי, והמועמד מכיר Docker, Kubernetes, AWS, Terraform ו-CI/CD מהקורס. הפרסום לא מציין שנות ניסיון או רמת בכירות, ולכן הרמה לא ברורה, וחסר ניסיון מעשי מוכח בסביבת ייצור ו-DevOps מקצועי.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -5030,7 +5098,7 @@
    "score": 22,
    "reason": "התפקיד הוא Backend/Platform Engineer עם דרישות לפיתוח תשתית, Linux OS packaging ו-CD ברמת מערכת, ואין ציון של שנות ניסיון או רמה. חסרים לפרופיל ניסיון בפיתוח backend ובאריזת מערכות הפעלה, ולכן ההתאמה נמוכה.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -5098,7 +5166,7 @@
    "score": 62,
    "reason": "תפקיד Technical Project Manager הוא יעד מוצהר של המועמד, והמיקום בתל אביב מתאים. עם זאת, הדרישה היא 2+ שנות ניסיון מעשי מול צוותי הנדסה וניהול backlog, ולמועמד יש בעיקר ניסיון ב-monitoring ותפעול תשלומים ופרויקט אגילי אקדמי, כך שחסר ניסיון מעשי בניהול מוצר/פרויקט טכני. הרמה מסומנת Intermediate, ולכן ההתאמה לרמת ג'וניור לא ברורה.",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -5115,7 +5183,7 @@
    "score": 22,
    "reason": "תפקיד SEO ייעודי שאינו בתחום היעד שלך, ודורש שנתיים ניסיון ב-SEO ומנוסה בניהול צוות פרילנסרים. הניסיון שלך ב-WordPress, HTML ו-CSS בסיסיים, אבל אין לך ניסיון מעשי ב-SEO או בכלי SEO כמו Ahrefs ו-Semrush.",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -5149,7 +5217,7 @@
    "score": 12,
    "reason": "התפקיד דורש תואר בהנדסת חשמל, לפחות שנתיים ניסיון בתכנון לוחות ובניהול פרויקטי חומרה, וניסיון בהערכת ספקי חומרה, בעוד לרקע שלך אין ניסיון בתכנון חומרה או בניהול פרויקטי חומרה. זו משרה מחוץ לתחום היעד שלך (DevOps/Analyst/PM תוכנה) ודורשת ידע הנדסי שאינו קיים בקורות החיים.",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -5217,7 +5285,7 @@
    "score": 58,
    "reason": "התפקיד הוא Technical PM בסטארטאפ תשתיות נתונים בתל אביב, ולכן הוא סביר לכניסה דרך רקע כמו Agile, הבנת מערכות ו-DevOps בסיסי עם Kubernetes ו-AWS. הפער: אין ניסיון מוכח בניהול מוצר, והמודעה לא מציינת רמת ותק או שנות ניסיון.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": false,
    "years_checked": true
@@ -5285,7 +5353,7 @@
    "score": 42,
    "reason": "התפקיד הוא מהנדס תוכנה ב-Python וב-Kubernetes עם דגש על MLOps ו-Linux, והמועמד מכיר Python, Kubernetes ו-Docker מהקורס ומהעבודה. עם זאת, המשרה דורשת ניסיון מקצועי בפיתוח תוכנה ב-Python, והרקע שלו בעיקר ניטור ותפעול, כך שהפער משמעותי.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -5336,7 +5404,7 @@
    "score": 32,
    "reason": "התפקיד הוא Enterprise Project Manager עם דרישה לניסיון מוכח בתוכניות IT ארגוניות, הובלת צוותים גלובליים ולקוחות enterprise, והסמכות PMP/Scrum, ואילו למועמד יש בעיקר ניסיון תפעולי בניטור תשלומים ופרויקטי Agile בלימודים. התפקיד מרחוק מכל מקום בעולם, אך הפער בניסיון ניהול פרויקטים ובעומק הטכנולוגי של Linux וענן גדול.",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -5353,7 +5421,7 @@
    "score": 32,
    "reason": "התפקיד הוא SRE/GitOps עם ציפייה לניסיון עמוק ב-IaC, Python בפרויקטים גדולים, ניהול שרתי Linux ארגוניים ואחריות לאסקלציות קריטיות, ואין בקורות החיים ניסיון כזה. יש התאמה בסיסית ל-Linux, Docker, Kubernetes, Terraform ו-CI/CD, אבל הפער בניסיון מעשי ובעומק המערכות גדול.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "remote": true,
    "years_checked": true
@@ -5386,7 +5454,7 @@
    "score": 35,
    "reason": "התפקיד הוא DevOps מוקדם יותר מהרמה שלך כ-DevOps עם 2-4 שנות ניסיון, והמועמד בעל ניסיון מעשי של כשנה ב-OCC ובקורס DevSecOps בלבד. יש חפיפה בלינוקס, Docker, Kubernetes, Terraform ו-CI/CD, אך חסר ניסיון מקצועי ב-GCP, Ansible, Helm ו-Jenkins/GitLab CI.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5402,7 +5470,7 @@
    "score": 35,
    "reason": "התפקיד DevOps בסטארטאפ AI עם בסיס טוב ב-CI/CD, Kubernetes ו-AWS מהקורס, אבל הדרישות בפועל כוללות ניהול אשכולות GPU, InfiniBand, Slurm ונטוורקינג מתקדם שאין לך. הרמה לא מצוינת במפורש, וחסר ניסיון מעשי בתשתיות בקנה מידה גדול.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "years_checked": true
   },
@@ -5418,7 +5486,7 @@
    "score": 42,
    "reason": "התפקיד מבקש לפחות שנתיים ניסיון באוטומציה או פיתוח, ואין לך ניסיון מעשי בבניית פתרונות AI או אינטגרציות API, אם כי יש בסיס טוב ב-Python, SQL והבנה של מערכות ותהליכים מהעבודה ב-Nuvei ומהלימודים. מכיוון שמדובר בחברה צעירה ובתפקיד בתחום שאינו ביעד המרכזי שלך, ההתאמה חלקית בלבד.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "years_checked": true
   },
@@ -5450,7 +5518,7 @@
    "score": 55,
    "reason": "התפקיד DevOps בחברת סטארט-אפ ענן מתאים לכיוון שלך (Kubernetes, Docker, Terraform, CI/CD, AWS מהקורס), אבל הפרסום לא מציין רמת ותק ולא מפרט דרישות מפורטות. חסרה לך ניסיון מעשי ארוך בתפעול פלטפורמות ייצור, והמשרה מיועדת לצוות 'senior' לפי התיאור, ולכן הציון בינוני.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5466,7 +5534,7 @@
    "score": 30,
    "reason": "התפקיד הוא DevOps, תחום יעד של המועמד, והמיקום בתל אביב מתאים. עם זאת, תיאור המשרה לא נטען כראוי ולכן אין מידע על דרישות הניסיון והכלים. המועמד מכיר Docker, Kubernetes, AWS ו-CI/CD מקורס ה-DevSecOps, אך ללא פרטי המשרה לא ניתן לאמת את ההתאמה.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "years_checked": true
   },
@@ -5482,7 +5550,7 @@
    "score": 62,
    "reason": "התפקיד הוא אנליסט עסקי/דאטה בתחום שיווק, שהוא קרוב לתפקידי האנליסט בפרופיל, והמועמד מכיר SQL מתקדם ו-Python. הפער: הדרישה לשנתיים ניסיון בניתוח כמותי על דאטה גדול, ניסיון באיגום A/B testing וסטטיסטיקה, ולא רואים ניסיון מוכח בזה ברקע הנוכחי.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5498,7 +5566,7 @@
    "score": 62,
    "reason": "התפקיד דורש לפחות שנתיים ניסיון בתשלומים/פינטק בתפקיד מול לקוחות, ויש לך רקע רלוונטי מ-Nuvei בניטור מערכות תשלום, טיפול באירועים ותיאום עם צוותי Risk ו-Development, וכן ניסיון בשירות לקוחות ו-CRM ב-Max. הפער: אין לך ניסיון ישיר בהטמעת סוחרים (merchant onboarding) או בעבודה עם סוחרים בתחומי high-risk, ואין ניסיון מוכח בניהול KPI של authorization rates.",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5514,7 +5582,7 @@
    "score": 62,
    "reason": "המשרה היא אנליסט נתונים בחברת גיימינג בתל אביב, תחום שמתאים לרקע שלך ב-SQL ו-Python ולניתוח נתונים בתשלומים. הפער: הדרישה היא לפחות שנתיים של ניסיון אנליטי והעדפה לניסיון בגיימינג, שאין לך.",
    "category": "Analyst",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5530,7 +5598,7 @@
    "score": 62,
    "reason": "התפקיד DevOps בתחום CI/CD וקונטיינרים, והמועמד מתאים לו בזכות Docker, Kubernetes ו-AWS EKS מפרויקט הקורס, Linux, Git וPython. חסרים ניסיון מעשי עם Jenkins ותהליכי build ו-release בארגון, ולכן הציון בינוני-גבוה.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5546,7 +5614,7 @@
    "score": 55,
    "reason": "התפקיד DevOps שהוא יעד מובהק, אבל הדרישות כוללות \"ניסיון נרחב\" ב-Linux, Jenkins, qemu/KVM ו-Postgres, ואין ציון מפורש של שנות ניסיון. יש חפיפה טובה ב-Docker, Git, Terraform, Python ו-CI/CD מקורס ה-DevSecOps, אבל חסר ניסיון מעשי בוירטואליזציה, Ansible ו-Prometheus/Grafana/ELK.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5562,7 +5630,7 @@
    "score": 55,
    "reason": "התפקיד בגיימינג ומבוסס על ניהול הגדרות, קמפיינים, מוניטיזציה ומעקב ניסויים חיים, מה שקשור לרקע שלך במוניטורינג תשלומים, ניתוח לוגים ו-SQL. עם זאת, אין דרישה לניסיון מסוים, אבל הדרישה לתואר בהנדסת תעשייה וניהול מתוך ציפייה ל-off-hours ולעבודה מול מערכות backend פחות מתאימות לרקע שלך.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "gaming company",
    "years_checked": true
   },
@@ -5594,7 +5662,7 @@
    "score": 45,
    "reason": "התפקיד הוא הנדסת פלטפורמת דאטה עם דגש על Kafka, שאינו מתואר בפירוט בפוסטינג ואינו בתחום הליבה של המועמד. יש חיבור לרקע בתשלומים ב-Nuvei ולכלי DevOps כמו Docker ו-Kubernetes, אך חסרה ניסיון מעשי ב-Kafka והנדסת דאטה, והדרישות לא ברורות.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5610,7 +5678,7 @@
    "score": 40,
    "reason": "התפקיד הוא Product Manager, תפקיד יעד, אך הדרישה היא לפחות 2-3 שנות ניסיון בניהול מוצר בחברות SaaS/פינטק, בעוד שלמועמד אין ניסיון ישיר כ-PM. יש התאמה חלקית דרך ניסיון ב-Agile, ניתוח מערכות ו-SQL, אבל חסר ניסיון ב-HR tech, AI agents או B2B SaaS growth.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5626,7 +5694,7 @@
    "score": 35,
    "reason": "התפקיד DevOps מתאים לתחום היעד, אך הדרישה היא לפחות 2 שנות ניסיון מעשי ב-DevOps/SRE בסקייל גבוה, ודרישות עומק ב-EKS, Kubernetes internals, Terraform ו-Prometheus מעבר לרמת הג'וניור של המועמד. יש חפיפה בדוקר, EKS, CI/CD ו-GitHub Actions מהקורס, אבל אין ניסיון תפעולי מתמשך בסקייל כזה.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5642,7 +5710,7 @@
    "score": 35,
    "reason": "התפקיד הוא Product Manager, שהוא יעד של המועמד, אך הדרישות מדברות על 'track record' מוכח בניהול מוצר B2B ולא מצוין שנות ניסיון מפורשות, והתפקיד ברמה בכירה-מתקדמת בחברת סייבר עם ניסיון עמוק ב-AI ו-enterprise. לרקע של המועמד אין ניסיון ניהול מוצר B2B או סייבר מוצרי, והוא מתאים יותר לתפקידים ג'וניורים; ההתאמה חלקית מאוד.",
    "category": "Product Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5658,7 +5726,7 @@
    "score": 35,
    "reason": "התפקיד הוא VIP Account Manager בחברת גיימינג, והוא נכנס תחת 'דלת כניסה' אבל לא תואם את הרקע הטכני שלך. הדרישה לשנתיים ניסיון בתפקיד פונה לשירות לקוחות B2C, ויש לך ניסיון רלוונטי בתפקידי שירות ומנהל משמרת ב-Max, אך אין ניסיון בניהול קשרי VIP או בפוטושופ.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "gaming company",
    "years_checked": true
   },
@@ -5674,7 +5742,7 @@
    "score": 35,
    "reason": "התפקיד דורש 2+ שנות ניסיון כ-Game Economy Manager ומיומנויות מתקדמות ב-BI, כלי AI וסטטיסטיקה שאין לך עדיין. יש התאמה חלקית ב-SQL, Excel, Python ואנליזה תפעולית מ-Nuvei, אבל הפער בניסיון במשחקים ובאיזון כלכלי גדול, ולכן זו התאמה חלשה, גם עם ה-foot in the door.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "gaming company",
    "years_checked": true
   },
@@ -5690,7 +5758,7 @@
    "score": 35,
    "reason": "התפקיד דורש לפחות 2 שנות ניסיון בפרפורמנס מרקטינג או UA במשחקי מובייל, ואין למועמד ניסיון כזה, אם כי יש לו כישורי ניתוח נתונים ו-SQL ורקע בתשלומים שיכולים לעזור כ",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "gaming company",
    "years_checked": true
   },
@@ -5706,7 +5774,7 @@
    "score": 35,
    "reason": "התפקיד דורש 2-5 שנות ניסיון מעשי ביישום Priority ERP וניהול פרויקטים מול לקוחות, וזה מעבר לניסיון הנוכחי של המועמד. יש חפיפה בניהול פרויקטים (Agile), SQL וניתוח מערכות, אבל אין ניסיון ב-Priority ולא בהטמעת ERP ללקוחות.",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5722,7 +5790,7 @@
    "score": 35,
    "reason": "התפקיד הוא בעיקר IT Support ו-System Administration עם דרישה ל-2 שנות ניסיון, ולכן זה לא תואם את הרקע של המועמד שמתמקד ב-DevOps ו-Monitoring. יש חפיפה חלקית ב-Linux, AWS ו-Troubleshooting, אבל חסרים ניסיון מעשי ב-Okta, Intune, Windows/macOS administration, VMware/HyperV ותחזוקת ציוד רשת כמו FortiGate.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "years_checked": true
   },
@@ -5738,7 +5806,7 @@
    "score": 22,
    "reason": "התפקיד הוא ניהול תוכן והדרכה לתמיכת לקוחות (ידע, מאקרו, הדרכת נציגים) ולא תפקיד יעד שלך, ואף דורש 2+ שנות ניסיון ב-enablement או תקשורת תמיכה וכתיבה באנגלית ברמה גבוהה. אין לך ניסיון מתועד בבניית Help Center או מאקרו ב-Zendesk/Intercom, אם כי הניסיון כמנהל משמרת ומדריך נציגים ב-Max וההבנה של מדדי CSAT ו-FRT מהווים בסיס רלוונטי ל'פתיחת דלת' בסטארטאפ.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "years_checked": true
   },
@@ -5754,7 +5822,7 @@
    "score": 12,
    "reason": "התפקיד דורש תואר בהנדסת חשמל, ניסיון של שנתיים לפחות בתכנון לוחות ובניהול פרויקטי חומרה, והיכרות עם EVT/DVT/PVT ועם ODM, שאין לך. זהו תפקיד הנדסי-חומרה ולא תואם לתחומי היעד שלך (DevOps, אנליסט, PM תוכנה).",
    "category": "Project Manager",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   },
@@ -5770,7 +5838,7 @@
    "score": 12,
    "reason": "התפקיד דורש ניסיון מעשי בהיסטולוגיה ובאנוטציית תמונות פתולוגיה וכן רקע ברפואה או מדעי החיים, ואין לך רקע כזה בפועל. הרקע שלך בניטור תשתיות תשלומים, ניהול אירועים ו-SQL/Python אינו מתאים לתחום הפתולוגיה, ולכן ההתאמה נמוכה מאוד למרות שמדובר בסטארטאפ מוקדם.",
    "category": "דריסת רגל",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "early-stage startup",
    "years_checked": true
   },
@@ -5786,7 +5854,7 @@
    "score": 8,
    "reason": "תפקיד הנדסת קושחה משובצת (C/C++, מיקרו-בקרים, RTOS, JTAG) שאינו תואם לפרופיל הקנדידט שלו, שאין לו ניסיון פיתוח Embedded. נדרשות לפחות 2 שנות ניסיון בפיתוח קושחה בזמן אמת, ולכן זו אינה נקודת כניסה מתאימה לתפקיד DevOps/Cloud/אנליסט שהוא מחפש.",
    "category": "DevOps / Cloud",
-   "last_seen": "2026-11-22T16:17:17+00:00",
+   "last_seen": "2026-11-22T17:17:15+00:00",
    "broad": "",
    "years_checked": true
   }
