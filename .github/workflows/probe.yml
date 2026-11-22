@@ -1,0 +1,35 @@
+name: probe
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - run: npm i playwright@1.48.2 && npx playwright install --with-deps chromium
+      - run: |
+          cat > t.js <<'JS'
+          const { chromium } = require('playwright');
+          (async () => {
+            const b = await chromium.launch(); const U = 'https://job-finder-d29.pages.dev/';
+            const A = await (await b.newContext()).newPage(); await A.goto(U); await A.waitForSelector('button[data-mark]');
+            await A.click('#syncBtn'); await A.click('#syncCreate');
+            const code = (await A.textContent('.sync-code')).trim(); console.log('code made', code.length);
+            const id = await A.getAttribute('button[data-mark="saved"]', 'data-id');
+            await A.click(`button[data-id="${id}"][data-mark="saved"]`);
+            await A.waitForTimeout(5000); console.log('A status:', await A.textContent('#syncPanel .sync-note'));
+            const B = await (await b.newContext()).newPage(); await B.goto(U); await B.waitForSelector('button[data-mark]');
+            await B.click('#syncBtn'); await B.fill('#syncInput', code); await B.click('#syncJoin');
+            await B.waitForTimeout(5000);
+            const marks = await B.evaluate(() => localStorage.getItem('marks') || JSON.stringify(Object.entries(localStorage)));
+            console.log('B has saved mark:', marks.includes(id), 'B status:', await B.textContent('#syncPanel .sync-note'));
+            // undo on B, check A gets it after reload
+            await B.click(`button[data-id="${id}"][data-mark="saved"]`); await B.waitForTimeout(5000);
+            await A.reload(); await A.waitForSelector('button[data-mark]'); await A.waitForTimeout(5000);
+            const am = await A.evaluate(() => localStorage.getItem('marks') || '');
+            console.log('A after B unsaved, still saved?', /"saved"/.test(am) && am.includes(id));
+            await B.click('#syncBtn').catch(()=>{}); await b.close();
+          })().catch(e => { console.error(e); process.exit(1); });
+          JS
+          node t.js
