@@ -11398,5 +11398,17 @@
   "company": "Alma Lasers",
   "reason": "duplicate of another listing",
   "at": "2026-11-22T13:17:14+00:00"
+ },
+ "ba53d8f77dafe8cf": {
+  "title": "Forward Deployed Engineer",
+  "company": "Wonderful",
+  "reason": "startup role, weak fit (18)",
+  "at": "2026-11-22T14:17:14+00:00"
+ },
+ "e52cc4f100efc01f": {
+  "title": "Decision Analyst",
+  "company": "Forter",
+  "reason": "duplicate of another listing",
+  "at": "2026-11-22T14:17:14+00:00"
  }
 }
