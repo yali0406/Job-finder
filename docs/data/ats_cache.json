@@ -187,7 +187,7 @@
  "Anodot": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Anyclip": {
@@ -511,7 +511,7 @@
  "BlinkOps": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Blockaid": {
@@ -588,7 +588,7 @@
  "Bynet": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Cadence": {
@@ -624,7 +624,7 @@
  "Cardcom": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Cast AI": {
@@ -734,7 +734,7 @@
  "CloudZone": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Cloudinary": {
@@ -786,7 +786,7 @@
  "Commit": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Configu": {
@@ -1010,10 +1010,10 @@
   "slug": null
  },
  "DoiT": {
-  "ats": null,
+  "ats": "ashby",
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
-  "slug": null
+  "checked": "2026-11-22T16:17:17.678741+00:00",
+  "slug": "doit"
  },
  "Doist": {
   "ats": null,
@@ -1078,7 +1078,7 @@
  "Elad Systems": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Elal": {
@@ -1210,7 +1210,7 @@
  "Fintica": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Fireblocks": {
@@ -1376,7 +1376,7 @@
  "Gini-Apps": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "GitLab": {
@@ -1458,7 +1458,7 @@
  "Grow Payments": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Guardio": {
@@ -1516,7 +1516,7 @@
  "Hashavshevet": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Hashicorp": {
@@ -1819,7 +1819,7 @@
  "John Bryce": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Justt": {
@@ -2180,7 +2180,7 @@
  "Meshulam": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Meta": {
@@ -2268,13 +2268,13 @@
  "Morning": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Moveo": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Mozilla": {
@@ -2486,7 +2486,7 @@
  "Opsfleet": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Optimal+": {
@@ -2614,7 +2614,7 @@
  "PayPlus": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Payem": {
@@ -2756,7 +2756,7 @@
  "Planck": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Plarium": {
@@ -3040,7 +3040,7 @@
  "Rivhit": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Run:ai": {
@@ -3194,7 +3194,7 @@
  "Shift4 Israel": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Shikun & Binui": {
@@ -3500,7 +3500,7 @@
  "Taldor": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Taranis": {
@@ -3862,7 +3862,7 @@
  "We-Sec": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Wearable Devices": {
@@ -3914,7 +3914,7 @@
  "Wizsoft": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "Wobi": {
@@ -4115,7 +4115,7 @@
  "iCount": {
   "ats": null,
   "careers": null,
-  "checked": "2026-11-15T16:17:17.523323+00:00",
+  "checked": "2026-11-22T16:17:17.678741+00:00",
   "slug": null
  },
  "ironSource": {
