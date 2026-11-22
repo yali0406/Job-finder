@@ -489,6 +489,16 @@ $("sort").value = store.get("sort", "score");
 
 // ---- Sync between devices: marks and "opened" go to /api/sync under a shared code ----
 let syncCode = store.get("syncCode", "");
+// A link from another device (#sync=CODE) joins its marks; otherwise every device gets its own code,
+// so syncing is always on and connecting a second device is just opening a link.
+{
+  const m = location.hash.match(/sync=([A-Za-z0-9-]{16,80})/);
+  if (m) {
+    syncCode = m[1].toUpperCase().replace(/[^A-Z0-9]/g, "");
+    store.set("syncCode", syncCode);
+    history.replaceState(null, "", location.pathname + location.search);
+  }
+}
 let changedAt = store.get("changedAt", {});   // id -> when this device last changed the job's mark / opened
 let lastSync = store.get("lastSync", "");
 let syncState = "";                            // "", "busy", "ok", "error"
@@ -552,10 +562,14 @@ function renderSync() {
   $("syncPanel").classList.toggle("on", panelOpen);
   if (!panelOpen) return;
   $("syncPanel").innerHTML = syncCode ? `
-    <div>המכשיר הזה מסונכרן. כדי לחבר מכשיר נוסף, פתח בו את האתר, לחץ "סנכרון" והכנס את הקוד:</div>
-    <div class="row"><span class="sync-code">${esc(pretty(syncCode))}</span><button id="syncCopy">העתק</button></div>
+    <div>הסימונים נשמרים אוטומטית. כדי לחבר מכשיר נוסף (למשל הטלפון), שלח לעצמך את הקישור ופתח אותו שם פעם אחת:</div>
+    <div class="row"><button class="primary" id="syncShare">שלח קישור למכשיר אחר</button><button id="syncCopy">העתק קישור</button><span class="sync-note" id="syncMsg"></span></div>
+    <details style="margin-top:8px"><summary class="sync-note">קוד ידני / חיבור לקוד אחר</summary>
+      <div class="row"><span class="sync-code">${esc(pretty(syncCode))}</span></div>
+      <div class="row"><input id="syncInput" placeholder="הכנס קוד ממכשיר אחר" autocomplete="off" autocapitalize="characters">
+        <button id="syncJoin">חבר</button></div></details>
     <div class="row"><span class="sync-note">${esc(st)}</span><button id="syncGo">סנכרן עכשיו</button><button id="syncOff">נתק את המכשיר</button></div>
-    <div class="sync-note" style="margin-top:6px">שמור על הקוד לעצמך: מי שיש לו אותו רואה ומשנה את הסימונים שלך.</div>` : `
+    <div class="sync-note" style="margin-top:6px">שמור על הקישור לעצמך: מי שיש לו אותו רואה ומשנה את הסימונים שלך.</div>` : `
     <div>סנכרון שומר את "שמור", "הגשתי", "הסתר" ו"נכנסתי" בין המחשב לטלפון.</div>
     <div class="row"><button class="primary" id="syncCreate">צור קוד חדש (במכשיר הראשון)</button></div>
     <div class="row"><input id="syncInput" placeholder="או הכנס קוד ממכשיר אחר" autocomplete="off" autocapitalize="characters">
@@ -565,21 +579,28 @@ function renderSync() {
   on("syncCreate", () => { syncCode = newCode(); store.set("syncCode", syncCode); syncNow(); renderSync(); });
   on("syncJoin", async () => {
     const c = ($("syncInput").value || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
-    if (c.length < 16) { $("syncMsg").textContent = "הקוד קצר מדי. העתק אותו בדיוק כמו שהוא מופיע במכשיר השני."; return; }
-    syncCode = c;
+    if (c.length < 16) { copied = "הקוד קצר מדי. העתק אותו בדיוק כמו שהוא מופיע במכשיר השני."; return; }
+    const old = syncCode; syncCode = c;
     try {
       const got = await api("GET");
-      if (!got.marks.length && !confirm("לא נמצאו סימונים לקוד הזה. לחבר בכל זאת?")) { syncCode = ""; return; }
-    } catch { $("syncMsg").textContent = "לא הצלחתי להתחבר לשרת. נסה שוב בעוד רגע."; syncCode = ""; return; }
+      if (!got.marks.length) { copied("לא נמצאו סימונים לקוד הזה. בדוק שהעתקת אותו נכון."); syncCode = old; return; }
+    } catch { copied("לא הצלחתי להתחבר לשרת. נסה שוב בעוד רגע."); syncCode = old; return; }
     store.set("syncCode", syncCode); syncNow(); renderSync();
   });
-  on("syncCopy", () => navigator.clipboard?.writeText(pretty(syncCode)));
+  const link = () => location.origin + location.pathname + "#sync=" + syncCode;
+  const copied = (t) => { const el = $("syncMsg"); if (el) el.textContent = t; };
+  on("syncCopy", () => navigator.clipboard?.writeText(link()).then(() => copied("הקישור הועתק ✓")));
+  on("syncShare", () => navigator.share
+    ? navigator.share({ title: "סנכרון משרות", url: link() }).catch(() => {})
+    : navigator.clipboard?.writeText(link()).then(() => copied("הקישור הועתק ✓, שלח אותו לעצמך")));
   on("syncGo", syncNow);
-  on("syncOff", () => { syncCode = ""; store.set("syncCode", ""); syncState = ""; renderSync(); });
+  on("syncOff", () => { syncCode = newCode(); store.set("syncCode", syncCode); syncNow(); renderSync(); });
 }
 $("syncBtn").onclick = () => { panelOpen = !panelOpen; renderSync(); };
+if (!syncCode) { syncCode = newCode(); store.set("syncCode", syncCode); }
 renderSync();
-if (syncCode) syncNow();
+syncNow();
+setInterval(() => { if (!document.hidden) syncNow(); }, 120000);
 document.addEventListener("visibilitychange", () => { if (!document.hidden && syncCode) syncNow(); });
 
 fetch("data/jobs.json", { cache: "no-store" })
