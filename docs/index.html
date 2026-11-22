@@ -95,6 +95,19 @@
   .hb .num { color: var(--muted); font-variant-numeric: tabular-nums; text-align: end; }
   .tip { position: fixed; z-index: 20; pointer-events: none; background: var(--text); color: var(--bg); font-size: 12px;
     padding: 4px 8px; border-radius: 6px; display: none; white-space: nowrap; }
+  .sync-btn { float: inline-end; margin-top: 4px; border: 1px solid var(--line); background: var(--card); color: var(--text);
+    border-radius: 8px; padding: 5px 12px; cursor: pointer; font: inherit; font-size: 13px; }
+  .sync-panel { display: none; clear: both; margin-top: 10px; background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: 12px 14px; font-size: 14px; }
+  .sync-panel.on { display: block; }
+  .sync-panel .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px; }
+  .sync-panel input { flex: 1 1 180px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px;
+    background: var(--bg); color: var(--text); font: inherit; letter-spacing: 1px; direction: ltr; }
+  .sync-panel button { border: 1px solid var(--line); background: var(--bg); color: var(--text); border-radius: 8px;
+    padding: 6px 12px; cursor: pointer; font: inherit; font-size: 13px; }
+  .sync-panel button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .sync-code { font: 600 18px/1.4 ui-monospace, Menlo, Consolas, monospace; letter-spacing: 2px; direction: ltr; display: inline-block; }
+  .sync-note { color: var(--muted); font-size: 13px; }
   .empty { color: var(--muted); padding: 30px 0; text-align: center; }
   @media (max-width: 560px) {
     .job { grid-template-columns: 44px 1fr; }
@@ -105,8 +118,10 @@
 </head>
 <body>
 <header>
+  <button class="sync-btn" id="syncBtn">🔄 סנכרון</button>
   <h1>המשרות שלי</h1>
   <div class="sub" id="status">טוען…</div>
+  <div class="sync-panel" id="syncPanel"></div>
 </header>
 
 <section class="dash" id="dash">
@@ -210,14 +225,17 @@ function indexMarks() {
 }
 const markOf = (j) => marks[j.id] || markByKey[keyOf(j)];
 function setMark(j, mark) {
-  const k = keyOf(j), off = markOf(j) === mark;
+  const k = keyOf(j), off = markOf(j) === mark, before = { ...marks };
   for (const id of Object.keys(marks)) {  // clear every id this job has had, then set the new mark once
     const info = data.jobs.find(x => x.id === id) || archive[id];
     if (id === j.id || (info && keyOf(info) === k)) delete marks[id];
   }
+  const changed = [j.id];
+  for (const id of Object.keys(before)) if (!(id in marks)) changed.push(id);
   if (!off) marks[j.id] = mark;
   store.set("marks", marks);
   indexMarks();
+  touched(changed);
 }
 // Marked jobs (saved / applied / hidden) that are no longer on the site, from the archive.
 function goneMarked(view) {
@@ -260,6 +278,7 @@ function setOpened(ids, on) {
   const now = new Date().toISOString();
   ids.forEach(id => on ? (opened[id] = opened[id] || now) : delete opened[id]);
   store.set("opened", opened);
+  touched(ids);
 }
 
 function jobHtml(j) {
@@ -333,6 +352,7 @@ function render() {
       if (opened[id]) return;
       opened[id] = new Date().toISOString();
       store.set("opened", opened);
+      touched([id]);
       const tag = a.parentElement.querySelector(".tag.unopened");
       if (tag) tag.outerHTML = openedTag({ id });
     };
@@ -466,6 +486,101 @@ $("bulkClear").onclick = () => { picked.clear(); render(); };
 
 $("sort").value = store.get("sort", "score");
 ["q", "minScore", "view", "openedFilter", "sort"].forEach(id => $(id).addEventListener("input", render));
+
+// ---- Sync between devices: marks and "opened" go to /api/sync under a shared code ----
+let syncCode = store.get("syncCode", "");
+let changedAt = store.get("changedAt", {});   // id -> when this device last changed the job's mark / opened
+let lastSync = store.get("lastSync", "");
+let syncState = "";                            // "", "busy", "ok", "error"
+let syncTimer = null;
+function touched(ids) {
+  const now = new Date().toISOString();
+  ids.forEach(id => changedAt[id] = now);
+  store.set("changedAt", changedAt);
+  if (syncCode) { clearTimeout(syncTimer); syncTimer = setTimeout(syncNow, 1500); }
+}
+async function api(method, body) {
+  const r = await fetch("api/sync", { method, headers: { "x-sync-code": syncCode, "content-type": "application/json" },
+    body: body ? JSON.stringify(body) : undefined, cache: "no-store" });
+  if (!r.ok) throw new Error("sync " + r.status);
+  return r.json();
+}
+async function syncNow() {
+  if (!syncCode || syncState === "busy") return;
+  syncState = "busy"; renderSync();
+  try {
+    const server = {};
+    (await api("GET")).marks.forEach(r => server[r.job_id] = r);
+    let changed = false;
+    // newer on the server: take it
+    for (const [id, r] of Object.entries(server)) {
+      if ((changedAt[id] || "") >= r.updated_at) continue;
+      r.status ? (marks[id] = r.status) : delete marks[id];
+      r.opened_at ? (opened[id] = r.opened_at) : delete opened[id];
+      changedAt[id] = r.updated_at;
+      changed = true;
+    }
+    // newer here (or never sent): send it
+    const ids = new Set([...Object.keys(marks), ...Object.keys(opened), ...Object.keys(changedAt)]);
+    const updates = [];
+    for (const id of ids) {
+      const r = server[id], at = changedAt[id] || "1970-01-01T00:00:00.000Z";
+      if (r && r.updated_at >= at) continue;
+      if (!r && !marks[id] && !opened[id]) continue;
+      updates.push({ job_id: id, status: marks[id] || null, opened_at: opened[id] || null,
+                     updated_at: changedAt[id] || new Date().toISOString() });
+    }
+    if (updates.length) await api("POST", { updates });
+    store.set("marks", marks); store.set("opened", opened); store.set("changedAt", changedAt);
+    lastSync = new Date().toISOString(); store.set("lastSync", lastSync);
+    syncState = "ok";
+    if (changed && data.jobs.length) { indexMarks(); render(); }
+  } catch (e) {
+    syncState = "error";
+  }
+  renderSync();
+}
+function newCode() {
+  const abc = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789", b = crypto.getRandomValues(new Uint8Array(20));
+  return [...b].map(x => abc[x % abc.length]).join("");
+}
+const pretty = (c) => c.replace(/(.{4})(?=.)/g, "$1-");
+let panelOpen = false;
+function renderSync() {
+  const st = { busy: "מסנכרן…", ok: `מסונכרן ✓ ${lastSync ? fmt(lastSync) : ""}`, error: "⚠️ הסנכרון נכשל, ננסה שוב" }[syncState] || "";
+  $("syncBtn").textContent = syncCode ? (syncState === "error" ? "⚠️ סנכרון" : "🔄 מסונכרן") : "🔄 סנכרון";
+  $("syncPanel").classList.toggle("on", panelOpen);
+  if (!panelOpen) return;
+  $("syncPanel").innerHTML = syncCode ? `
+    <div>המכשיר הזה מסונכרן. כדי לחבר מכשיר נוסף, פתח בו את האתר, לחץ "סנכרון" והכנס את הקוד:</div>
+    <div class="row"><span class="sync-code">${esc(pretty(syncCode))}</span><button id="syncCopy">העתק</button></div>
+    <div class="row"><span class="sync-note">${esc(st)}</span><button id="syncGo">סנכרן עכשיו</button><button id="syncOff">נתק את המכשיר</button></div>
+    <div class="sync-note" style="margin-top:6px">שמור על הקוד לעצמך: מי שיש לו אותו רואה ומשנה את הסימונים שלך.</div>` : `
+    <div>סנכרון שומר את "שמור", "הגשתי", "הסתר" ו"נכנסתי" בין המחשב לטלפון.</div>
+    <div class="row"><button class="primary" id="syncCreate">צור קוד חדש (במכשיר הראשון)</button></div>
+    <div class="row"><input id="syncInput" placeholder="או הכנס קוד ממכשיר אחר" autocomplete="off" autocapitalize="characters">
+      <button class="primary" id="syncJoin">חבר</button></div>
+    <div class="sync-note" id="syncMsg"></div>`;
+  const on = (id, fn) => { const el = $(id); if (el) el.onclick = fn; };
+  on("syncCreate", () => { syncCode = newCode(); store.set("syncCode", syncCode); syncNow(); renderSync(); });
+  on("syncJoin", async () => {
+    const c = ($("syncInput").value || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+    if (c.length < 16) { $("syncMsg").textContent = "הקוד קצר מדי. העתק אותו בדיוק כמו שהוא מופיע במכשיר השני."; return; }
+    syncCode = c;
+    try {
+      const got = await api("GET");
+      if (!got.marks.length && !confirm("לא נמצאו סימונים לקוד הזה. לחבר בכל זאת?")) { syncCode = ""; return; }
+    } catch { $("syncMsg").textContent = "לא הצלחתי להתחבר לשרת. נסה שוב בעוד רגע."; syncCode = ""; return; }
+    store.set("syncCode", syncCode); syncNow(); renderSync();
+  });
+  on("syncCopy", () => navigator.clipboard?.writeText(pretty(syncCode)));
+  on("syncGo", syncNow);
+  on("syncOff", () => { syncCode = ""; store.set("syncCode", ""); syncState = ""; renderSync(); });
+}
+$("syncBtn").onclick = () => { panelOpen = !panelOpen; renderSync(); };
+renderSync();
+if (syncCode) syncNow();
+document.addEventListener("visibilitychange", () => { if (!document.hidden && syncCode) syncNow(); });
 
 fetch("data/jobs.json", { cache: "no-store" })
   .then(r => r.ok ? r.json() : Promise.reject(r.status))

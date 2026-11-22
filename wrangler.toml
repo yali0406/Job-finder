@@ -1,0 +1,10 @@
+# Cloudflare Pages config: the site is docs/, the API is functions/, and the sync data lives in D1.
+name = "job-finder"
+pages_build_output_dir = "docs"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "job-finder"
+database_id = "4d454718-845e-4df3-9b37-c39b2d701b9d"  # set by the "setup sync" workflow
+migrations_dir = "migrations"
