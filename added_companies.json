@@ -1038,5 +1038,101 @@
   "sector": "hightech",
   "remote_only": true,
   "added": "2026-11-21"
+ },
+ {
+  "name": "QuantHealth",
+  "ats": "greenhouse",
+  "slug": "quanthealth",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "Menlosecurity",
+  "ats": "ashby",
+  "slug": "menlosecurity",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "Trust Wallet",
+  "ats": "ashby",
+  "slug": "trust-wallet",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "Moxie",
+  "ats": "ashby",
+  "slug": "Moxie",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "EDB",
+  "ats": "greenhouse",
+  "slug": "edb",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "Flutterflow",
+  "ats": "ashby",
+  "slug": "FlutterFlow",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "Li.Fi",
+  "ats": "ashby",
+  "slug": "li.fi",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "Nabucasa",
+  "ats": "ashby",
+  "slug": "nabucasa",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "P2P.Org",
+  "ats": "ashby",
+  "slug": "p2p.org",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "Percona",
+  "ats": "ashby",
+  "slug": "percona",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "Plasma",
+  "ats": "ashby",
+  "slug": "plasma",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-22"
+ },
+ {
+  "name": "Tenex",
+  "ats": "ashby",
+  "slug": "tenex",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-22"
  }
 ]

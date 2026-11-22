@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-22",
+ "checked": 1048,
+ "qualified": 16,
+ "added": [
+  {
+   "name": "QuantHealth",
+   "ats": "greenhouse",
+   "slug": "quanthealth",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "CISO",
+    "Operations Manager "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Menlosecurity",
+   "ats": "ashby",
+   "slug": "menlosecurity",
+   "israel_jobs": 1,
+   "remote_jobs": 2,
+   "titles": [
+    "External Post"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Trust Wallet",
+   "ats": "ashby",
+   "slug": "trust-wallet",
+   "israel_jobs": 0,
+   "remote_jobs": 9,
+   "titles": [
+    "Senior Backend Engineer (Go)",
+    "Senior QA Engineer",
+    "Senior Product Marketing Manager",
+    "Join Our Engineering Talent Network",
+    "Senior AI Engineer (Internal Tools & Agents)",
+    "Senior Mobile Engineer (React Native)",
+    "Trust Wallet Graduate Leadership Programme ",
+    "Join Our Non-Engineering Talent Network"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Moxie",
+   "ats": "ashby",
+   "slug": "Moxie",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Staff Product Engineer, Frontend (LATAM)",
+    "Staff Product Engineer, Backend (LATAM)",
+    "Staff AI Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "EDB",
+   "ats": "greenhouse",
+   "slug": "edb",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Machine Learning Engineer (Governance ML Platform)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Flutterflow",
+   "ats": "ashby",
+   "slug": "FlutterFlow",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Software Engineer - Future Openings"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Li.Fi",
+   "ats": "ashby",
+   "slug": "li.fi",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Head of Finance"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Nabucasa",
+   "ats": "ashby",
+   "slug": "nabucasa",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior ICT Technician"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "P2P.Org",
+   "ats": "ashby",
+   "slug": "p2p.org",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Join Our Talent Network"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Percona",
+   "ats": "ashby",
+   "slug": "percona",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Technical Writer - PostgreSQL (Remote) "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Plasma",
+   "ats": "ashby",
+   "slug": "plasma",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Data Engineering Lead"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Tenex",
+   "ats": "ashby",
+   "slug": "tenex",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Territory Account Manager-EMEA"
+   ],
+   "sector": "hightech"
+  }
+ ],
+ "pending": 0,
+ "pool_left": 0,
+ "generated": "2026-11-22T08:16:46+00:00"
+}
