@@ -1,10 +1,10 @@
 {
- "run": "2026-11-23T16:17:17+00:00",
+ "run": "2026-11-23T17:17:16+00:00",
  "collected_by_source": {
   "smartrecruiters": 149,
-  "greenhouse": 1172,
-  "workday": 22,
-  "careers_page": 79,
+  "greenhouse": 1171,
+  "workday": 27,
+  "careers_page": 80,
   "lever": 259,
   "comeet": 1697,
   "workable": 153,
@@ -25,10 +25,10 @@
   "vc:israelvcforum.getro.com": 1115,
   "remote:remotive": 6,
   "remote:remoteok": 11,
-  "remote:himalayas": 34,
+  "remote:himalayas": 12,
   "remote:jobicy": 50,
-  "remote:weworkremotely": 93,
-  "linkedin": 662
+  "remote:weworkremotely": 71,
+  "linkedin": 653
  },
  "relevant_by_source": {
   "smartrecruiters": 22,
@@ -55,8 +55,8 @@
   "remote:remoteok": 2,
   "remote:himalayas": 2,
   "remote:jobicy": 3,
-  "remote:weworkremotely": 4,
-  "linkedin": 121
+  "remote:weworkremotely": 3,
+  "linkedin": 117
  },
  "log": [
   "WARNING CyberArk: workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
@@ -147,17 +147,17 @@
   "INFO Remote board weworkremotely: 100 jobs",
   "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
   "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
-  "INFO Remote: 5221 collected, 639 open to Israel",
-  "WARNING LinkedIn search 'Program Coordinator' blocked or failed (none)",
-  "WARNING LinkedIn search 'Kooply' blocked or failed (none)",
-  "WARNING LinkedIn search 'Duel gaming' blocked or failed (none)",
-  "WARNING LinkedIn search 'Financial Analyst' blocked or failed (none)",
-  "WARNING LinkedIn search 'Associate Product Manager' blocked or failed (none)",
-  "WARNING LinkedIn search 'Edelbyte' blocked or failed (none)",
-  "INFO LinkedIn: 574 jobs",
-  "INFO LinkedIn remote: 88 jobs",
-  "INFO Collected 7606 jobs in Israel",
-  "INFO 897 pass the title filter",
-  "INFO New: 2, total kept: 361"
+  "INFO Remote: 5213 collected, 596 open to Israel",
+  "WARNING LinkedIn search 'BDR' blocked or failed (none)",
+  "WARNING LinkedIn search 'PMO Analyst' blocked or failed (none)",
+  "WARNING LinkedIn search '{'name': 'Glassbox', 'ats': 'greenhouse', 'slug': 'glassboxltd'}' blocked or failed (none)",
+  "WARNING LinkedIn search 'Cloud Engineer' blocked or failed (none)",
+  "WARNING LinkedIn search 'Mave' blocked or failed (none)",
+  "WARNING LinkedIn search 'eBay' blocked or failed (none)",
+  "INFO LinkedIn: 564 jobs",
+  "INFO LinkedIn remote: 89 jobs",
+  "INFO Collected 7558 jobs in Israel",
+  "INFO 892 pass the title filter",
+  "INFO New: 2, total kept: 360"
  ]
 }
