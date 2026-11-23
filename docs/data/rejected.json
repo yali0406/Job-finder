@@ -1,10 +1,4 @@
 {
- "79b5d92b963f8f6f": {
-  "title": "DevOps Engineer",
-  "company": "Personetics",
-  "reason": "5+ years",
-  "at": "2026-10-24T15:17:16+00:00"
- },
  "18f3d99c38814bf7": {
   "title": "AI Platform Engineer",
   "company": "Alice (Formerly ActiveFence)",
@@ -11698,5 +11692,11 @@
   "company": "SolarEdge Technologies",
   "reason": "duplicate of another listing",
   "at": "2026-11-23T14:17:17+00:00"
+ },
+ "277c2e5af9bd4bbb": {
+  "title": "Data Product Manager",
+  "company": "comblack",
+  "reason": "7+ years",
+  "at": "2026-11-23T15:17:17+00:00"
  }
 }
