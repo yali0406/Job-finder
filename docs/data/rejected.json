@@ -1,34 +1,4 @@
 {
- "2f41353259cfa24b": {
-  "title": "Product Manager - Agentic AI",
-  "company": "Torq",
-  "reason": "3+ years",
-  "at": "2026-10-24T12:17:19+00:00"
- },
- "7a638a28c823d2f4": {
-  "title": "Program Manager for TOT (Transfer of Technology)",
-  "company": "Elbit Systems Israel",
-  "reason": "3+ years",
-  "at": "2026-10-24T12:17:19+00:00"
- },
- "c572082cabca9065": {
-  "title": "Project Manager",
-  "company": "Elbit Systems Israel",
-  "reason": "5+ years",
-  "at": "2026-10-24T12:17:19+00:00"
- },
- "594096aea3388371": {
-  "title": "DevOps Manager",
-  "company": "Checkmarx",
-  "reason": "8+ years",
-  "at": "2026-10-24T12:17:19+00:00"
- },
- "379e9669551b18a3": {
-  "title": "AI Product Manager - Paradox",
-  "company": "Workday",
-  "reason": "4+ years",
-  "at": "2026-10-24T12:17:19+00:00"
- },
  "79b5d92b963f8f6f": {
   "title": "DevOps Engineer",
   "company": "Personetics",
@@ -11632,5 +11602,65 @@
   "company": "PICK HR",
   "reason": "5+ years",
   "at": "2026-11-23T12:17:14+00:00"
+ },
+ "2ce1e7cc044b2352": {
+  "title": "AV Perception Product Manager",
+  "company": "Mobileye",
+  "reason": "4+ years",
+  "at": "2026-11-23T13:17:23+00:00"
+ },
+ "1bde2f1bec84d079": {
+  "title": "Procurement Operations Specialist",
+  "company": "VAST Data",
+  "reason": "5+ years",
+  "at": "2026-11-23T13:17:23+00:00"
+ },
+ "759327b7a2d2700c": {
+  "title": "Data Analyst, Identification Accuracy",
+  "company": "Jobgether",
+  "reason": "3+ years",
+  "at": "2026-11-23T13:17:23+00:00"
+ },
+ "4eec195234766731": {
+  "title": "Technical Customer Success Manager ",
+  "company": "Sweet Security",
+  "reason": "5+ years",
+  "at": "2026-11-23T13:17:23+00:00"
+ },
+ "e5d53e05e683c17c": {
+  "title": "Business Development & Sales Manager",
+  "company": "InspHire",
+  "reason": "3+ years",
+  "at": "2026-11-23T13:17:23+00:00"
+ },
+ "ebeb5e8d08ba5b48": {
+  "title": "Technical Project Manager",
+  "company": "Linnovate",
+  "reason": "3+ years",
+  "at": "2026-11-23T13:17:23+00:00"
+ },
+ "41a4bdf804cf2dcb": {
+  "title": "דרוש/ה ראש/ת צוות מתאמות שירות ואנליסט/ית עסקי/ת",
+  "company": "Medtechnica",
+  "reason": "3+ years",
+  "at": "2026-11-23T13:17:23+00:00"
+ },
+ "7276bf0fd2607008": {
+  "title": "מנהל/ת מערך אחזקה ותפעול | Maintenance & Operations Manager",
+  "company": "ELAD HR",
+  "reason": "5+ years",
+  "at": "2026-11-23T13:17:23+00:00"
+ },
+ "b4d1636063196047": {
+  "title": "WEB Project Manager (37773)",
+  "company": "מרטנס | Mertens – מקבוצת מלם תים",
+  "reason": "3+ years",
+  "at": "2026-11-23T13:17:23+00:00"
+ },
+ "5f7a02c3f9abf309": {
+  "title": "DevOps Engineer",
+  "company": "Abra R&D",
+  "reason": "duplicate of another listing",
+  "at": "2026-11-23T13:17:23+00:00"
  }
 }
