@@ -1,76 +1,4 @@
 {
- "844b440403973753": {
-  "title": "DevOps Engineer - Cloud Infra Team",
-  "company": "Wix",
-  "reason": "5+ years",
-  "at": "2026-10-24T00:07:20+00:00"
- },
- "40cb4e1815472610": {
-  "title": "AI Data Analyst",
-  "company": "Aidoc",
-  "reason": "3+ years",
-  "at": "2026-10-24T00:07:20+00:00"
- },
- "2c26e0ba2dd0e555": {
-  "title": "Data Analyst",
-  "company": "PAPAYA",
-  "reason": "4+ years",
-  "at": "2026-10-24T00:07:20+00:00"
- },
- "db4132f189e8d313": {
-  "title": "AI Transformation Product Manager",
-  "company": "Applied Materials - Israel",
-  "reason": "8+ years",
-  "at": "2026-10-24T00:07:20+00:00"
- },
- "68beece17911dc95": {
-  "title": "Product Manager",
-  "company": "Amphenol Communications Solutions",
-  "reason": "5+ years",
-  "at": "2026-10-24T00:07:20+00:00"
- },
- "996f978badd33770": {
-  "title": "CRE Solutions Engineer",
-  "company": "REAL",
-  "reason": "4+ years (recheck)",
-  "at": "2026-10-24T00:34:42+00:00"
- },
- "47ed433226d88774": {
-  "title": "Financial Solutions & Business Analyst",
-  "company": "REAL",
-  "reason": "5+ years (recheck)",
-  "at": "2026-10-24T00:34:42+00:00"
- },
- "186e3676809505e4": {
-  "title": "Sales Operations Manager",
-  "company": "Cylus",
-  "reason": "5+ years (recheck)",
-  "at": "2026-10-24T00:34:42+00:00"
- },
- "896c725805f8fb3c": {
-  "title": "Incident Response Analyst",
-  "company": "Perimeter 81",
-  "reason": "10+ years (recheck)",
-  "at": "2026-10-24T00:34:42+00:00"
- },
- "6c37626bd132526d": {
-  "title": "Product Manager",
-  "company": "Perimeter 81",
-  "reason": "5+ years (recheck)",
-  "at": "2026-10-24T00:34:42+00:00"
- },
- "bd87efe6d784e4d4": {
-  "title": "Incident Response Analyst",
-  "company": "Perception Point",
-  "reason": "3+ years (recheck)",
-  "at": "2026-10-24T00:34:42+00:00"
- },
- "5ca7a7489c186361": {
-  "title": "DevOps Engineer - Autonomous Workspace Platform",
-  "company": "Perimeter 81",
-  "reason": "4+ years (recheck)",
-  "at": "2026-10-24T00:34:42+00:00"
- },
  "2f41353259cfa24b": {
   "title": "Product Manager - Agentic AI",
   "company": "Torq",
@@ -11452,5 +11380,17 @@
   "company": "WAXMAN GROUP",
   "reason": "7+ years",
   "at": "2026-11-22T21:17:15+00:00"
+ },
+ "83fcaf9c1ff947ab": {
+  "title": "Operations Manager",
+  "company": "Syd Life AI",
+  "reason": "3+ years",
+  "at": "2026-11-23T04:17:18+00:00"
+ },
+ "f999a2436efeafa6": {
+  "title": "Project Manager: Center for Renewable Energy and Circular Economy in Agriculture",
+  "company": "MIGAL Galilee Research Institute",
+  "reason": "3+ years",
+  "at": "2026-11-23T04:17:18+00:00"
  }
 }

@@ -1,14 +1,14 @@
 {
- "run": "2026-11-22T21:17:15+00:00",
+ "run": "2026-11-23T04:17:18+00:00",
  "collected_by_source": {
   "smartrecruiters": 156,
   "greenhouse": 1011,
-  "careers_page": 79,
+  "careers_page": 76,
   "lever": 196,
   "comeet": 1709,
   "workable": 150,
   "ashby": 422,
-  "workday": 15,
+  "workday": 7,
   "ppltx": 24,
   "recruitee": 6,
   "breezy": 7,
@@ -25,10 +25,10 @@
   "vc:israelvcforum.getro.com": 1134,
   "remote:remotive": 7,
   "remote:remoteok": 15,
-  "remote:himalayas": 19,
+  "remote:himalayas": 29,
   "remote:jobicy": 55,
   "remote:weworkremotely": 82,
-  "linkedin": 599
+  "linkedin": 616
  },
  "relevant_by_source": {
   "smartrecruiters": 26,
@@ -52,14 +52,15 @@
   "vc:jobs.nfx.com": 3,
   "vc:israelvcforum.getro.com": 92,
   "remote:remotive": 1,
-  "remote:remoteok": 2,
-  "remote:himalayas": 2,
+  "remote:remoteok": 1,
+  "remote:himalayas": 3,
   "remote:jobicy": 2,
   "remote:weworkremotely": 5,
-  "linkedin": 91
+  "linkedin": 92
  },
  "log": [
   "WARNING CyberArk: workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
+  "WARNING Nvidia Israel: workday/nvidia|wd5|NVIDIAExternalCareerSite stopped responding",
   "WARNING Intel Israel: workday/intel|wd1|External stopped responding",
   "WARNING Salesforce Israel: workday/salesforce|wd12|External_Career_Site stopped responding",
   "WARNING Palo Alto Networks (incl. CyberArk): workday/paloaltonetworks|wd5|panwexternalcareers stopped responding",
@@ -77,7 +78,10 @@
   "WARNING Cadence Israel: workday/cadence|wd1|External_Careers stopped responding",
   "WARNING Citi Israel: workday/citi|wd5|2 stopped responding",
   "WARNING eBay Israel: workday/ebay|wd5|apply stopped responding",
+  "WARNING SciPlay: workday/lnw|wd5|SciPlayExternalCareersSite stopped responding",
   "WARNING SAM Seamless Network: comeet/securingsam/D4.000 stopped responding",
+  "WARNING ParaZero: careers_page/https://parazero.com/careers/ stopped responding",
+  "WARNING Elspec: careers_page/https://www.elspec-ltd.com/careers/ stopped responding",
   "INFO Daily added companies: 142 boards, 676 jobs",
   "INFO Workable search: 116 jobs in Israel",
   "WARNING Product Madness Israel: workday/aristocrat|wd3|AristocratExternalCareersSite stopped responding",
@@ -144,16 +148,16 @@
   "INFO Remote board jobicy: 100 jobs",
   "INFO Remote board weworkremotely: 100 jobs",
   "WARNING Cengage Group: workday/cengage|wd5|CengageEMEACareers stopped responding",
-  "INFO Remote: 5237 collected, 621 open to Israel",
+  "WARNING Cengage Group (US): workday/cengage|wd5|CengageNorthAmericaCareers stopped responding",
+  "INFO Remote: 5238 collected, 631 open to Israel",
   "WARNING LinkedIn search 'FTX Games' blocked or failed (none)",
-  "WARNING LinkedIn search 'Jelly Button Games' blocked or failed (none)",
-  "WARNING LinkedIn search 'Product Manager' blocked or failed (none)",
-  "WARNING LinkedIn search 'Pluto Security' blocked or failed (none)",
-  "WARNING LinkedIn search 'QualityAI' blocked or failed (none)",
-  "INFO LinkedIn: 514 jobs",
+  "WARNING LinkedIn search '{'name': 'Glassbox', 'ats': 'greenhouse', 'slug': 'glassboxltd'}' blocked or failed (none)",
+  "WARNING LinkedIn search 'Palo Alto Networks' blocked or failed (none)",
+  "WARNING LinkedIn search 'Equity Research Analyst' blocked or failed (none)",
+  "INFO LinkedIn: 531 jobs",
   "INFO LinkedIn remote: 85 jobs",
-  "INFO Collected 7268 jobs in Israel",
-  "INFO 842 pass the title filter",
-  "INFO New: 0, total kept: 348"
+  "INFO Collected 7284 jobs in Israel",
+  "INFO 843 pass the title filter",
+  "INFO New: 0, total kept: 347"
  ]
 }
