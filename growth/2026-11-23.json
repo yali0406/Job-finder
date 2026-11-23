@@ -1,0 +1,710 @@
+{
+ "date": "2026-11-23",
+ "checked": 67,
+ "qualified": 63,
+ "added": [
+  {
+   "name": "Astera Labs",
+   "ats": "greenhouse",
+   "slug": "asteralabs",
+   "israel_jobs": 38,
+   "remote_jobs": 0,
+   "titles": [
+    "DFT Engineer",
+    "DFT Engineer",
+    "Expert IC Package Design Lead",
+    "Manager Design Verification ",
+    "PCIe Firmware Expert",
+    "Physical Design Student",
+    "Physical Design Team Lead",
+    "Physical Design Team Lead"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Navan",
+   "ats": "greenhouse",
+   "slug": "tripactions",
+   "israel_jobs": 14,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Engineer",
+    "Business Travel Consultant II",
+    "Manager, Travel Services",
+    "Product Manager - Book with AI",
+    "Senior Full Stack Engineer",
+    "Senior IOS Developer",
+    " Senior Product Manager",
+    "Senior Product Manager, Traveler Support & Trip Management"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Irregular",
+   "ats": "ashby",
+   "slug": "Irregular",
+   "israel_jobs": 11,
+   "remote_jobs": 0,
+   "titles": [
+    "Research Engineer",
+    "Technical Policy Researcher",
+    "Cyber Researcher",
+    "AI Researcher",
+    "The Role You Are Perfect For",
+    "Senior Software Engineer",
+    "Senior DevOps Engineer",
+    "Senior Full-Stack Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Weka.IO",
+   "ats": "greenhouse",
+   "slug": "wekatest",
+   "israel_jobs": 10,
+   "remote_jobs": 3,
+   "titles": [
+    "Director, Release Management & Technical Programs",
+    "Engineering Manager – Platform Group",
+    "Engineering Manager, Protocols",
+    "Senior Software Engineer, Control",
+    "Senior Software Engineer, Filesystem",
+    "Senior Software Engineer, Platform",
+    "Software Engineer in Test ",
+    "Software Engineer – Verification Infrastructure"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Arago",
+   "ats": "ashby",
+   "slug": "arago",
+   "israel_jobs": 8,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Analog IC Design Engineer",
+    "Spontaneous Application",
+    "Physical Design Engineer",
+    "Digital Verification Engineer",
+    "SW Team Lead",
+    "Mixed-signal Verification Engineer",
+    "Senior Hardware Design Engineer",
+    "Mixed-signal IC Design Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Fundamental",
+   "ats": "ashby",
+   "slug": "Fundamental",
+   "israel_jobs": 8,
+   "remote_jobs": 0,
+   "titles": [
+    "DevOps Team Lead",
+    "Applied AI Engineer",
+    "MLOps Engineer ",
+    "Data Scientist - Extensions ",
+    "Backend Engineer - Extensions ",
+    "MLOps Team Lead",
+    "Evaluations Team Lead",
+    "ML Researcher (remote)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Pagaya Investments",
+   "ats": "greenhouse",
+   "slug": "pagayais",
+   "israel_jobs": 8,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Senior Backend Engineer",
+    "Data Science Group Lead",
+    "DevOps Engineer- Avon.AI",
+    "Lead Data Scientist",
+    "Senior Data Scientist",
+    "Senior Data Scientist",
+    "Senior HR Business Partner (HRBP)",
+    "Senior Product Manager"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "MyHeritage",
+   "ats": "greenhouse",
+   "slug": "myheritage",
+   "israel_jobs": 7,
+   "remote_jobs": 0,
+   "titles": [
+    "B2C Sales ",
+    "B2C Sales ",
+    "Controller ",
+    "Director of Science",
+    "Retention Representative ",
+    "Senior Machine Learning Engineer",
+    "Senior Security Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "ERGO NEXT Insurance",
+   "ats": "greenhouse",
+   "slug": "nextinsurance66",
+   "israel_jobs": 6,
+   "remote_jobs": 0,
+   "titles": [
+    "Backend Engineer",
+    "Backend Software Engineer",
+    "DevEx Software Engineer",
+    "Frontend Engineer",
+    "Security Engineering Tech Lead",
+    "Technical Implementation Analyst"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Airwallex",
+   "ats": "ashby",
+   "slug": "Airwallex",
+   "israel_jobs": 5,
+   "remote_jobs": 0,
+   "titles": [
+    "Enterprise Sales Development Representative - Israel",
+    "Account Executive, SME & Growth",
+    "Sales Development Representative, SME & Growth",
+    "Account Manager, SME & Growth",
+    "Account Manager, Enterprise"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "April",
+   "ats": "ashby",
+   "slug": "april",
+   "israel_jobs": 5,
+   "remote_jobs": 0,
+   "titles": [
+    "Staff Full-Stack Engineer",
+    "Senior Full-Stack Engineer",
+    "SRE / DevOps Lead",
+    "Hands-on AI & Data Engineering Manager",
+    "Product Manager, Growth (DIY Tax Filing)"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Crusoe",
+   "ats": "ashby",
+   "slug": "Crusoe",
+   "israel_jobs": 5,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Cloud Support ​​Engineer",
+    "Staff Technical Program Manager",
+    "Service Desk",
+    "Site Reliability Engineer",
+    "Staff Applied AI Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Veeva",
+   "ats": "lever",
+   "slug": "veeva",
+   "israel_jobs": 5,
+   "remote_jobs": 0,
+   "titles": [
+    "Data Analyst - Pioneer",
+    "Product Manager",
+    "Product Manager - Health Data",
+    "QA Automation Engineer - CDH",
+    "Senior Integration Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Airslate",
+   "ats": "lever",
+   "slug": "airslate",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "PMM - Lifecycle & GTM",
+    "Principal AI Product Manager",
+    "Senior Content Specialist",
+    "Strategy & BizOps Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "DRW",
+   "ats": "greenhouse",
+   "slug": "drweng",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Machine Learning Engineer",
+    "Senior FPGA Engineer",
+    "Senior Software Engineer",
+    "Site Reliability Engineer - Algorithmic Trading"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Figma",
+   "ats": "greenhouse",
+   "slug": "figma",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Brand Designer - Figma Weave (Tel Aviv, Israel) ",
+    "Product Designer - Figma Weave (Tel Aviv, Israel)",
+    "Product Marketing Manager - Figma Weave (Tel Aviv, Israel) ",
+    "Software Engineer - Figma Weave (Tel Aviv, Israel) "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Forgerock",
+   "ats": "greenhouse",
+   "slug": "pingidentity",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Principal Machine Learning Engineer",
+    "Senior Cloud Security Researcher",
+    "Senior Mobile Developer",
+    "Software Quality Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Venn",
+   "ats": "greenhouse",
+   "slug": "venncity",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Data Lead- Full-Stack Data Engineer",
+    "Full Stack Team Leader",
+    "Product Manager",
+    "Senior Full Stack Developer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Stripe",
+   "ats": "greenhouse",
+   "slug": "stripe",
+   "israel_jobs": 3,
+   "remote_jobs": 1,
+   "titles": [
+    "Account Executive, Enterprise Grower (Israel)",
+    "Account Executive, Enterprise Grower, Platforms (Israel)",
+    "Country Manager, Israel"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "ASM",
+   "ats": "greenhouse",
+   "slug": "asm",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Field Service Engineer (Early Career)",
+    "Senior Engineer, Field Service",
+    "Senior Engineer II, Field Service (Engineer in Charge)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Konnecto",
+   "ats": "greenhouse",
+   "slug": "partnerize",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Backend Engineer",
+    "Senior Data Engineer",
+    "Senior Product Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Nift",
+   "ats": "greenhouse",
+   "slug": "nift",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Applied Data Scientist",
+    "Data Analyst",
+    "ML Ops Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Ourritual",
+   "ats": "ashby",
+   "slug": "OurRitual",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Generative AI Engineer",
+    "Head of Product, AI Therapy",
+    "AI Data Lead"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Pendo",
+   "ats": "greenhouse",
+   "slug": "pendo",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "CONTRACTOR: Forward Deployed Engineer, Pendo Predict",
+    "Software Engineer, Mobile SDK",
+    "Sr. Product Manager, Mobile SDK"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Wayve",
+   "ats": "ashby",
+   "slug": "wayve",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Software Engineer, Embedded Automotive Platform",
+    "Application Software Engineer",
+    "Machine Learning Engineering Manager, ADAS"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Artemis",
+   "ats": "ashby",
+   "slug": "artemis",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Security Analyst (MDR-Israel)",
+    "MDR Lead (Israel)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "At-Bay",
+   "ats": "greenhouse",
+   "slug": "atbayjobs",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Backend Engineer ",
+    "Software Engineer"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "AutoDS",
+   "ats": "greenhouse",
+   "slug": "autods",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Marketing Operations Manager",
+    "Senior Data Engineer – Data Architecture & Agentic AI"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Eon",
+   "ats": "greenhouse",
+   "slug": "eonio",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Research Scientist, AI & Data Systems",
+    "Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Fever",
+   "ats": "greenhouse",
+   "slug": "feverup",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Market Strategy and Partnerships Manager - Israel",
+    "Senior Market Strategy and Partnerships Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "First Connect Insurance",
+   "ats": "greenhouse",
+   "slug": "firstconnectinsurance",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Director of Data",
+    "Senior Product Manager, Insurtech Platform"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Instacart",
+   "ats": "greenhouse",
+   "slug": "instacart",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Data Operations Manager",
+    "Principal Computer Vision Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Okta",
+   "ats": "greenhouse",
+   "slug": "okta",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Staff Software Engineer ",
+    "Staff Software Engineer - Full Stack"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Teads",
+   "ats": "greenhouse",
+   "slug": "teads1",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Data Scientist - Open Application",
+    "Senior GRC Analyst"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Telnyx",
+   "ats": "greenhouse",
+   "slug": "telnyx54",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Forward Deployed Engineer, Israel",
+    "Founding Account Executive, Israel"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Triple Whale",
+   "ats": "greenhouse",
+   "slug": "triplewhale",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Director of Engineering, Measurement",
+    "Senior Cloud/Backend Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "BeyondTrust",
+   "ats": "greenhouse",
+   "slug": "beyondtrust",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Cyber Defense Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "BrainPOP",
+   "ats": "greenhouse",
+   "slug": "brainpop",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    " Senior Full Stack Developer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "C2i Genomics",
+   "ats": "greenhouse",
+   "slug": "veracyte",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Sr. Bioinformatics Scientist"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Chalk",
+   "ats": "ashby",
+   "slug": "chalk",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Forward Deployed Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Comet",
+   "ats": "greenhouse",
+   "slug": "comet",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Full Stack Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Credible",
+   "ats": "greenhouse",
+   "slug": "credible",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Product Manager - Growth"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Jamf",
+   "ats": "greenhouse",
+   "slug": "jamf",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Security Analyst"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Matx",
+   "ats": "ashby",
+   "slug": "matx",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Emulation Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Metropolis",
+   "ats": "greenhouse",
+   "slug": "metropolis",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Core Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Paxos",
+   "ats": "ashby",
+   "slug": "paxos",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Security Engineer, Detection and Response"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Pontera",
+   "ats": "greenhouse",
+   "slug": "pontera",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "DevOps Engineer"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "SafeBreach",
+   "ats": "greenhouse",
+   "slug": "safebreach",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Security Researcher"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Scopely",
+   "ats": "greenhouse",
+   "slug": "scopely",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "VIP Manager - Royal Lounge Casino"
+   ],
+   "sector": "gaming"
+  },
+  {
+   "name": "Snowflake",
+   "ats": "ashby",
+   "slug": "snowflake",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Solution Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Veeam Software",
+   "ats": "greenhouse",
+   "slug": "veeamsoftware",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Sales Development Representative, Strategic Accounts with Hebrew (Bucharest Romania - based, relocation package possible)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Zip",
+   "ats": "ashby",
+   "slug": "zip",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Solutions Delivery Manager (ERP)"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Tulip Interfaces",
+   "ats": "greenhouse",
+   "slug": "tulip",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Continuous Improvement Project Manager ",
+    "Senior Customer Success Manager, Life Sciences"
+   ],
+   "sector": "hightech"
+  }
+ ],
+ "pending": 0,
+ "pool_left": 0,
+ "generated": "2026-11-23T06:23:42+00:00"
+}
