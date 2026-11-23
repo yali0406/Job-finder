@@ -1,10 +1,4 @@
 {
- "18f3d99c38814bf7": {
-  "title": "AI Platform Engineer",
-  "company": "Alice (Formerly ActiveFence)",
-  "reason": "5+ years",
-  "at": "2026-10-24T18:17:22+00:00"
- },
  "cce6293c84385bf6": {
   "title": "Website Product Manager",
   "company": "Qumra Capital",
@@ -11764,5 +11758,41 @@
   "company": "Applied Materials - Israel",
   "reason": "3+ years",
   "at": "2026-11-23T18:17:14+00:00"
+ },
+ "1f4c9742ead38b87": {
+  "title": "Manager, Payments & Reconciliation",
+  "company": "Maven Clinic",
+  "reason": "6+ years",
+  "at": "2026-11-23T19:17:19+00:00"
+ },
+ "69f83da152dffe58": {
+  "title": "Site Reliability Engineer",
+  "company": "Gusto, Inc.",
+  "reason": "8+ years",
+  "at": "2026-11-23T19:17:19+00:00"
+ },
+ "6bdb32381178aab4": {
+  "title": "Manager II, Engineering - Kubernetes Platform",
+  "company": "Pinterest",
+  "reason": "3+ years",
+  "at": "2026-11-23T19:17:19+00:00"
+ },
+ "9bc24d315401bfe0": {
+  "title": "Manager II, Engineering- Analytics Engineering, Core Data Science",
+  "company": "Pinterest",
+  "reason": "6+ years",
+  "at": "2026-11-23T19:17:19+00:00"
+ },
+ "da3cc537bb70de77": {
+  "title": "PMO מנהל/ת מחלקת בקרת פרויקטים",
+  "company": "רימונים - חברה לפיתוח רמת השרון בע\"מ",
+  "reason": "6+ years",
+  "at": "2026-11-23T19:17:19+00:00"
+ },
+ "3388c955bd4654ad": {
+  "title": "Account Development Representative, Hebrew Speaking",
+  "company": "MongoDB",
+  "reason": "duplicate of another listing",
+  "at": "2026-11-23T19:17:19+00:00"
  }
 }
