@@ -89,7 +89,9 @@ def main():
     cache = json.loads((ROOT / "docs" / "data" / "ats_cache.json").read_text())
     known |= {(v["ats"], str(v["slug"]).lower()) for v in cache.values() if v.get("ats")}
     boards, seen = [], set(known)
-    for b in harvest():  # Ashby slugs keep their case, so the same board can appear twice
+    # last week's boards are checked again too, so a week when Common Crawl doesn't answer keeps them
+    prev = json.loads(OUT.read_text()) if OUT.exists() else []
+    for b in [(e["ats"], e["slug"]) for e in prev] + harvest():  # Ashby slugs keep their case, so the same board can appear twice
         if (b[0], b[1].lower()) not in seen:
             seen.add((b[0], b[1].lower()))
             boards.append(b)
@@ -97,6 +99,9 @@ def main():
     with ThreadPoolExecutor(16) as ex:
         hits = [h for h in ex.map(check, boards) if h]
     hits.sort(key=lambda h: (-h["israel_jobs"], h["name"].lower()))
+    if prev and len(hits) < len(prev) // 2:
+        log.warning("Only %d of last week's %d boards answered; keeping the old list", len(hits), len(prev))
+        return
     OUT.write_text(json.dumps(hits, indent=1, ensure_ascii=False))
     log.info("Found %d boards with openings in Israel", len(hits))
 
