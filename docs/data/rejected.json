@@ -1,10 +1,4 @@
 {
- "fe9ca308d03da8c0": {
-  "title": "Infrastructure Engineer - Core Systems",
-  "company": "Wix",
-  "reason": "4+ years",
-  "at": "2026-10-25T08:17:19+00:00"
- },
  "3f571695bdf366d8": {
   "title": "Technical Product Manager — Cloud & Services Temporary Position",
   "company": "Mobileye",
@@ -11818,5 +11812,17 @@
   "company": "GitLab",
   "reason": "duplicate of another listing",
   "at": "2026-11-24T07:17:18+00:00"
+ },
+ "703b9184b8d7787d": {
+  "title": "Quality Manager",
+  "company": "Regulus",
+  "reason": "startup role, weak fit (15)",
+  "at": "2026-11-24T08:17:19+00:00"
+ },
+ "b3ba3b32bffa0abf": {
+  "title": "Product Manager - Base44",
+  "company": "Base44",
+  "reason": "5+ years",
+  "at": "2026-11-24T08:17:19+00:00"
  }
 }
