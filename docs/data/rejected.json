@@ -1,10 +1,4 @@
 {
- "af89935b9df29971": {
-  "title": "Project Manager, Operations Team",
-  "company": "Corgi",
-  "reason": "3+ years",
-  "at": "2026-10-25T06:17:19+00:00"
- },
  "fe9ca308d03da8c0": {
   "title": "Infrastructure Engineer - Core Systems",
   "company": "Wix",
@@ -11812,5 +11806,17 @@
   "company": "Plata Card",
   "reason": "4+ years",
   "at": "2026-11-24T04:17:16+00:00"
+ },
+ "e92d881028e4995b": {
+  "title": "Product Manager - Clinical Coding, Revenue Cycle, AI",
+  "company": "Nym",
+  "reason": "4+ years",
+  "at": "2026-11-24T07:17:18+00:00"
+ },
+ "b492d8580f2cefd9": {
+  "title": "Business Development Representative, Financial Services - UKI",
+  "company": "GitLab",
+  "reason": "duplicate of another listing",
+  "at": "2026-11-24T07:17:18+00:00"
  }
 }
