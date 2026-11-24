@@ -181,7 +181,7 @@
  "Angel One": {
   "ats": null,
   "careers": "https://www.angelone.in/careers",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Anodot": {
@@ -269,7 +269,7 @@
  "Arkency": {
   "ats": null,
   "careers": "https://arkency.com/join-our-team/",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Arkia": {
@@ -421,7 +421,7 @@
  "Beekeeper": {
   "ats": null,
   "careers": "https://www.beekeeper.io/careers/",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Behalf": {
@@ -902,10 +902,10 @@
   "slug": "daylight"
  },
  "DealHub": {
-  "ats": null,
+  "ats": "comeet",
   "careers": "https://dealhub.io/careers/",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
-  "slug": null
+  "checked": "2026-11-24T19:21:45.006707+00:00",
+  "slug": "dealhub/86.005"
  },
  "Decart": {
   "ats": null,
@@ -1018,7 +1018,7 @@
  "Doist": {
   "ats": null,
   "careers": "https://doist.com/careers/",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Dreamplay": {
@@ -1423,7 +1423,7 @@
  "Goinstacare": {
   "ats": null,
   "careers": "https://goinstacare.com",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Gong": {
@@ -1558,7 +1558,7 @@
  "Hims & Hers": {
   "ats": null,
   "careers": "https://www.hims.com/careers",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Hippo": {
@@ -1725,7 +1725,7 @@
  "Intrado": {
   "ats": null,
   "careers": "https://www.intrado.com/careers",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Intuit Israel": {
@@ -1807,7 +1807,7 @@
  "Jenius Bank": {
   "ats": null,
   "careers": "https://www.jeniusbank.com/careers",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Jit": {
@@ -1878,7 +1878,7 @@
  "Kemecon": {
   "ats": null,
   "careers": "http://kemecon.com",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Kidoz": {
@@ -2929,7 +2929,7 @@
  "Quest Software": {
   "ats": null,
   "careers": "https://careers.quest.com/",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "REE": {
@@ -2988,7 +2988,7 @@
  "Rec Room": {
   "ats": null,
   "careers": "https://recroom.com/careers",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Red Hat Israel": {
@@ -3206,7 +3206,7 @@
  "Shopify": {
   "ats": null,
   "careers": "https://www.shopify.com/careers",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Shufersal": {
@@ -3286,7 +3286,7 @@
  "Sorcero": {
   "ats": null,
   "careers": "https://www.sorcero.com/careers",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Sourcegraph": {
@@ -3447,7 +3447,7 @@
  "Symetra": {
   "ats": null,
   "careers": "https://www.symetra.com/about-us/careers",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Synopsys": {
@@ -3726,7 +3726,7 @@
  "Uplers": {
   "ats": null,
   "careers": "https://www.uplers.com/careers/",
-  "checked": "2026-11-17T18:22:47.024135+00:00",
+  "checked": "2026-11-24T19:21:45.006707+00:00",
   "slug": null
  },
  "Valens": {
