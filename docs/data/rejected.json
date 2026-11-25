@@ -1,22 +1,4 @@
 {
- "10689e95ad960b22": {
-  "title": "Growth Product Manager",
-  "company": "monday.com",
-  "reason": "5+ years",
-  "at": "2026-10-25T21:17:17+00:00"
- },
- "028d3e8b6c760f05": {
-  "title": "Product Manager",
-  "company": "ISI - ImageSat International",
-  "reason": "3+ years",
-  "at": "2026-10-25T21:17:17+00:00"
- },
- "fb0e9daebb69a2da": {
-  "title": "Project Manager",
-  "company": "TLVTech",
-  "reason": "5+ years",
-  "at": "2026-10-25T21:17:17+00:00"
- },
  "dcce721432e0dbf8": {
   "title": "DevOps Engineer - Azure (Contractor)",
   "company": "Terminal 3",
@@ -11548,5 +11530,11 @@
   "company": "Sunbit",
   "reason": "4+ years",
   "at": "2026-11-24T21:17:16+00:00"
+ },
+ "44d8f1cd95835281": {
+  "title": "Data Analyst עבור ארגון בריאות",
+  "company": "Jobist",
+  "reason": "3+ years",
+  "at": "2026-11-25T04:17:22+00:00"
  }
 }
