@@ -1,0 +1,30 @@
+name: probe
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - run: npm i playwright@1.48.2 && npx playwright install --with-deps chromium webkit
+      - run: |
+          cat > t.js <<'JS'
+          const { chromium, webkit, devices } = require('playwright');
+          (async () => {
+            for (const [name, bt, opts] of [['chromium', chromium, {}], ['iphone', webkit, devices['iPhone 13']]]) {
+              const b = await bt.launch(); const p = await (await b.newContext(opts)).newPage();
+              p.on('console', m => m.type() === 'error' && console.log('RESULT', name, 'console error:', m.text()));
+              p.on('pageerror', e => console.log('RESULT', name, 'page error:', e.message));
+              await p.goto('https://job-finder-d29.pages.dev/'); await p.waitForTimeout(8000);
+              console.log('RESULT', name, 'status:', await p.textContent('#status').catch(() => '?'));
+              console.log('RESULT', name, 'cards:', await p.$$eval('button[data-mark="saved"]', b => b.length));
+              console.log('RESULT', name, 'spines visible:', (await p.content()).includes('Spines'));
+              console.log('RESULT', name, 'list text:', ((await p.textContent('#list').catch(() => '')) || '').slice(0, 200).replace(/\s+/g, ' '));
+              const marks = await p.evaluate(() => localStorage.getItem('marks'));
+              console.log('RESULT', name, 'marks count:', Object.keys(JSON.parse(marks || '{}')).length, 'hidden:', Object.values(JSON.parse(marks || '{}')).filter(v => v === 'hidden').length);
+              await b.close();
+            }
+          })().catch(e => { console.error(e); process.exit(1); });
+          JS
+          node t.js
