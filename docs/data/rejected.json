@@ -1,16 +1,4 @@
 {
- "ac5746763ccfbc69": {
-  "title": "Equity Analyst",
-  "company": "Migdal Group",
-  "reason": "3+ years",
-  "at": "2026-10-26T06:17:19+00:00"
- },
- "56fcd6b8f2ad1b5e": {
-  "title": "Mechanical Project Manager",
-  "company": "JobsSeek",
-  "reason": "10+ years",
-  "at": "2026-10-26T06:17:19+00:00"
- },
  "58364f7e8bbd31e8": {
   "title": "Product Manager- AI Platform",
   "company": "Silverfort",
@@ -11578,5 +11566,47 @@
   "company": "Canonical",
   "reason": "duplicate of another listing",
   "at": "2026-11-25T06:17:15+00:00"
+ },
+ "b222854e69ab495b": {
+  "title": "Platform Engineer - Compute Capacity",
+  "company": "Supabase",
+  "reason": "5+ years",
+  "at": "2026-11-25T07:17:15+00:00"
+ },
+ "32347512268a1256": {
+  "title": "Product Manager - Realtime",
+  "company": "Supabase",
+  "reason": "5+ years",
+  "at": "2026-11-25T07:17:15+00:00"
+ },
+ "14db7322dad8c4b1": {
+  "title": "Enterprise Project Manager",
+  "company": "Canonical",
+  "reason": "5+ years",
+  "at": "2026-11-25T07:17:15+00:00"
+ },
+ "c2eff7125e2a31af": {
+  "title": "Project Manager",
+  "company": "Discount Bank בנק דיסקונט",
+  "reason": "3+ years",
+  "at": "2026-11-25T07:17:15+00:00"
+ },
+ "6c4f5c06e5318ab4": {
+  "title": "Product Manager",
+  "company": "Gotfriends",
+  "reason": "4+ years",
+  "at": "2026-11-25T07:17:15+00:00"
+ },
+ "349432396a49d04d": {
+  "title": "Marketing Analyst",
+  "company": "McCann Digital",
+  "reason": "3+ years",
+  "at": "2026-11-25T07:17:15+00:00"
+ },
+ "0989a96a833bc0aa": {
+  "title": "Site Reliability / Gitops Engineer",
+  "company": "Canonical",
+  "reason": "duplicate of another listing",
+  "at": "2026-11-25T07:17:15+00:00"
  }
 }
