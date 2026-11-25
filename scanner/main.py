@@ -315,7 +315,11 @@ def main():
     # A new copy that merged with a job already listed (e.g. LinkedIn yesterday, a VC board today) keeps the
     # older first_seen in _dedupe, so it isn't news and isn't emailed again.
     fresh = [j for j in new_jobs if j in jobs and j.get("first_seen") == now_s]
-    send_digest(fresh, os.environ.get("SITE_URL", ""))
+    if os.environ.get("EMAIL_AFTER_DEPLOY"):
+        # the workflow sends it once the site is up, so the email never links to jobs the site doesn't show yet
+        Path(os.environ["EMAIL_AFTER_DEPLOY"]).write_text(json.dumps(fresh, ensure_ascii=False))
+    else:
+        send_digest(fresh, os.environ.get("SITE_URL", ""))
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
             f.write(f"new_jobs={new_count}\n")

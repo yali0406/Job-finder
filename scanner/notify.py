@@ -47,3 +47,15 @@ def send_digest(jobs: list[dict], site_url: str = ""):
         log.info("Emailed %d new jobs to %s", len(good), to)
     except (smtplib.SMTPException, OSError) as ex:
         log.warning("Email failed: %s", ex)
+
+
+if __name__ == "__main__":
+    import json
+    import logging
+    import sys
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    try:
+        pending = json.loads(open(sys.argv[1]).read())
+    except (OSError, ValueError):
+        pending = []
+    send_digest(pending, os.environ.get("SITE_URL", ""))

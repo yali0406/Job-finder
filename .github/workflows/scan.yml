@@ -40,6 +40,7 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
           SITE_URL: https://job-finder-d29.pages.dev
+          EMAIL_AFTER_DEPLOY: ${{ runner.temp }}/email_pending.json
         run: python -m scanner.main --linkedin "${{ inputs.linkedin || 'auto' }}"
       # GitHub's own schedule for grow.yml is delayed by hours, so the first scan of the day starts it.
       - name: Start today's company-list growth run
@@ -78,3 +79,12 @@ jobs:
             sleep $((i * 20))
           done
           exit 1
+      # emailed only after the deploy, so the link in the email shows the new jobs
+      - name: Email new jobs
+        if: always() && steps.scan.outcome == 'success'
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+          SITE_URL: https://job-finder-d29.pages.dev
+        run: python -m scanner.notify "${{ runner.temp }}/email_pending.json"

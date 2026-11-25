@@ -605,15 +605,23 @@ syncNow();
 setInterval(() => { if (!document.hidden) syncNow(); }, 120000);
 document.addEventListener("visibilitychange", () => { if (!document.hidden && syncCode) syncNow(); });
 
-fetch("data/jobs.json", { cache: "no-store" })
+let loadedAt = 0;
+function loadJobs() {
+  loadedAt = Date.now();
+  return fetch("data/jobs.json", { cache: "no-store" })
   .then(r => r.ok ? r.json() : Promise.reject(r.status))
   .then(d => {
+    if (data.updated === d.updated) return;
     data = d;
     indexMarks();
     $("status").textContent = `עודכן לאחרונה: ${fmt(d.updated)} · ${d.new_this_run ?? 0} משרות חדשות בסריקה האחרונה`;
     renderSections(); renderCats(); render();
   })
-  .catch(() => { $("status").textContent = "עדיין אין נתונים. הסריקה הראשונה תרוץ בקרוב."; });
+  .catch(() => { if (!data.jobs.length) $("status").textContent = "עדיין אין נתונים. הסריקה הראשונה תרוץ בקרוב."; });
+}
+loadJobs();
+// a tab left open (common on phones) picks up new scans when it comes back into view
+document.addEventListener("visibilitychange", () => { if (!document.hidden && Date.now() - loadedAt > 60000) loadJobs(); });
 fetch("data/archive.json", { cache: "no-store" })
   .then(r => r.ok ? r.json() : {})
   .then(a => { archive = a || {}; if (data.jobs.length) { indexMarks(); render(); } })
