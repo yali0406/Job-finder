@@ -99,21 +99,6 @@
    "sector": "fintech"
   },
   {
-   "name": "Structureit",
-   "ats": "bamboohr",
-   "slug": "structureit",
-   "israel_jobs": 0,
-   "remote_jobs": 5,
-   "titles": [
-    "Senior Full Stack Developer",
-    "Senior Full Stack Engineer",
-    "Delivery Lead",
-    "Senior Business Analyst",
-    "Project Manager"
-   ],
-   "sector": "hightech"
-  },
-  {
    "name": "Whippy",
    "ats": "ashby",
    "slug": "whippy",
@@ -122,39 +107,6 @@
    "titles": [
     "Software Engineering Manager",
     "Product Designer"
-   ],
-   "sector": "hightech"
-  },
-  {
-   "name": "Gr8 Tech",
-   "ats": "ashby",
-   "slug": "GR8-TECH",
-   "israel_jobs": 0,
-   "remote_jobs": 1,
-   "titles": [
-    "Senior System Analyst (HR)"
-   ],
-   "sector": "hightech"
-  },
-  {
-   "name": "Prominentedge",
-   "ats": "bamboohr",
-   "slug": "prominentedge",
-   "israel_jobs": 0,
-   "remote_jobs": 1,
-   "titles": [
-    "Lead DevOps Engineer (Remote)"
-   ],
-   "sector": "hightech"
-  },
-  {
-   "name": "Toogeza",
-   "ats": "ashby",
-   "slug": "toogeza",
-   "israel_jobs": 0,
-   "remote_jobs": 1,
-   "titles": [
-    "Marketing & Data Analyst"
    ],
    "sector": "hightech"
   }

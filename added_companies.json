@@ -1192,41 +1192,9 @@
   "added": "2026-11-25"
  },
  {
-  "name": "Structureit",
-  "ats": "bamboohr",
-  "slug": "structureit",
-  "sector": "hightech",
-  "remote_only": true,
-  "added": "2026-11-25"
- },
- {
   "name": "Whippy",
   "ats": "ashby",
   "slug": "whippy",
-  "sector": "hightech",
-  "remote_only": true,
-  "added": "2026-11-25"
- },
- {
-  "name": "Gr8 Tech",
-  "ats": "ashby",
-  "slug": "GR8-TECH",
-  "sector": "hightech",
-  "remote_only": true,
-  "added": "2026-11-25"
- },
- {
-  "name": "Prominentedge",
-  "ats": "bamboohr",
-  "slug": "prominentedge",
-  "sector": "hightech",
-  "remote_only": true,
-  "added": "2026-11-25"
- },
- {
-  "name": "Toogeza",
-  "ats": "ashby",
-  "slug": "toogeza",
   "sector": "hightech",
   "remote_only": true,
   "added": "2026-11-25"
