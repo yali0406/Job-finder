@@ -1,10 +1,4 @@
 {
- "66deeafcc0af58ae": {
-  "title": "ERP Systems Analyst",
-  "company": "Abra R&D",
-  "reason": "3+ years",
-  "at": "2026-10-26T10:17:17+00:00"
- },
  "5172b8716e6cecfd": {
   "title": "FP&A Analyst ",
   "company": "Nexxen",
@@ -11632,5 +11626,41 @@
   "company": "Instacart",
   "reason": "duplicate of another listing",
   "at": "2026-11-25T10:17:15+00:00"
+ },
+ "a05c79c3896d6bad": {
+  "title": "Associate, Payment Integrity",
+  "company": "Oscar Health",
+  "reason": "4+ years",
+  "at": "2026-11-25T11:17:17+00:00"
+ },
+ "b9ee8866a6ca361e": {
+  "title": "Business Analyst",
+  "company": "ppltx",
+  "reason": "4+ years",
+  "at": "2026-11-25T11:17:17+00:00"
+ },
+ "7c7dbc021818dd14": {
+  "title": "IT Infrastructure Project Manager",
+  "company": "Ness Technologies | נס טכנולוגיות",
+  "reason": "4+ years",
+  "at": "2026-11-25T11:17:17+00:00"
+ },
+ "ca722e5e91774dcc": {
+  "title": "Operations manager",
+  "company": "Avnet",
+  "reason": "6+ years",
+  "at": "2026-11-25T11:17:17+00:00"
+ },
+ "ee2cccc5131aa8fb": {
+  "title": "FP&A Analyst | Project Budget Control",
+  "company": "Plasan",
+  "reason": "3+ years",
+  "at": "2026-11-25T11:17:17+00:00"
+ },
+ "e978cc4bde7d6b42": {
+  "title": "Global Repair Operations Manager",
+  "company": "Ribbon Communications",
+  "reason": "5+ years",
+  "at": "2026-11-25T11:17:17+00:00"
  }
 }
