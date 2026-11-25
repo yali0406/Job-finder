@@ -7,12 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - run: npm i playwright@1.48.2 && npx playwright install --with-deps chromium webkit
+      - run: npm i playwright@1.48.2 && npx playwright install --with-deps chromium
       - run: |
           cat > t.js <<'JS'
           const { chromium, webkit, devices } = require('playwright');
           (async () => {
-            for (const [name, bt, opts] of [['chromium', chromium, {}], ['iphone', webkit, devices['iPhone 13']]]) {
+            for (const [name, bt, opts] of [['chromium', chromium, {}], ['phone', chromium, {viewport:{width:390,height:844}, isMobile:true, hasTouch:true}]]) {
               const b = await bt.launch(); const p = await (await b.newContext(opts)).newPage();
               p.on('console', m => m.type() === 'error' && console.log('RESULT', name, 'console error:', m.text()));
               p.on('pageerror', e => console.log('RESULT', name, 'page error:', e.message));
