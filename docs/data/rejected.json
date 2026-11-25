@@ -1,16 +1,4 @@
 {
- "dcce721432e0dbf8": {
-  "title": "DevOps Engineer - Azure (Contractor)",
-  "company": "Terminal 3",
-  "reason": "5+ years",
-  "at": "2026-10-26T05:17:19+00:00"
- },
- "692f105f5449daaf": {
-  "title": "Defense Analyst",
-  "company": "micro1",
-  "reason": "3+ years",
-  "at": "2026-10-26T05:17:19+00:00"
- },
  "ac5746763ccfbc69": {
   "title": "Equity Analyst",
   "company": "Migdal Group",
@@ -11542,5 +11530,53 @@
   "company": "Rafael Advanced Defense Systems",
   "reason": "5+ years",
   "at": "2026-11-25T05:17:17+00:00"
+ },
+ "e9ea8f4ea6dffaa9": {
+  "title": "DevOps / Platform Engineer",
+  "company": "Como",
+  "reason": "5+ years",
+  "at": "2026-11-25T06:17:15+00:00"
+ },
+ "b6e7e4a075f155ab": {
+  "title": "Marketing & Data Analyst",
+  "company": "Toogeza",
+  "reason": "3+ years",
+  "at": "2026-11-25T06:17:15+00:00"
+ },
+ "9930e77508fe4a0a": {
+  "title": "Cloud Engineering Manager",
+  "company": "Canonical",
+  "reason": "5+ years",
+  "at": "2026-11-25T06:17:15+00:00"
+ },
+ "b884d779cd939d6f": {
+  "title": "Sustaining Operations Engineer",
+  "company": "Canonical",
+  "reason": "3+ years",
+  "at": "2026-11-25T06:17:15+00:00"
+ },
+ "fff2533f88fa1075": {
+  "title": "GTM Program Manager",
+  "company": "Dropbox",
+  "reason": "3+ years",
+  "at": "2026-11-25T06:17:15+00:00"
+ },
+ "1ffc7481dea4948c": {
+  "title": "Product Operations Manager (Remote Eligible)",
+  "company": "Smartsheet",
+  "reason": "4+ years",
+  "at": "2026-11-25T06:17:15+00:00"
+ },
+ "c2003048d4540267": {
+  "title": "Compensation Analyst II (Programs & Partnerships)",
+  "company": "Affirm",
+  "reason": "5+ years",
+  "at": "2026-11-25T06:17:15+00:00"
+ },
+ "c1979a1e62bd5035": {
+  "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
+  "company": "Canonical",
+  "reason": "duplicate of another listing",
+  "at": "2026-11-25T06:17:15+00:00"
  }
 }
