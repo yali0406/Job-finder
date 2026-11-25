@@ -1134,5 +1134,101 @@
   "sector": "hightech",
   "remote_only": true,
   "added": "2026-11-22"
+ },
+ {
+  "name": "Solitics",
+  "ats": "bamboohr",
+  "slug": "solitics",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Glassesusa",
+  "ats": "bamboohr",
+  "slug": "glassesusa",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Act Security",
+  "ats": "ashby",
+  "slug": "act-security",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Matia",
+  "ats": "ashby",
+  "slug": "matia",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Como",
+  "ats": "ashby",
+  "slug": "como",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Vistairhr",
+  "ats": "bamboohr",
+  "slug": "vistairhr",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Evergreenfinance",
+  "ats": "bamboohr",
+  "slug": "evergreenfinance",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Structureit",
+  "ats": "bamboohr",
+  "slug": "structureit",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Whippy",
+  "ats": "ashby",
+  "slug": "whippy",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Gr8 Tech",
+  "ats": "ashby",
+  "slug": "GR8-TECH",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Prominentedge",
+  "ats": "bamboohr",
+  "slug": "prominentedge",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-25"
+ },
+ {
+  "name": "Toogeza",
+  "ats": "ashby",
+  "slug": "toogeza",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-25"
  }
 ]

@@ -1,0 +1,165 @@
+{
+ "date": "2026-11-25",
+ "checked": 4000,
+ "qualified": 20,
+ "added": [
+  {
+   "name": "Solitics",
+   "ats": "bamboohr",
+   "slug": "solitics",
+   "israel_jobs": 6,
+   "remote_jobs": 0,
+   "titles": [
+    "Technical Product Manager",
+    "Junior Data Integration Specialist",
+    "Account Manager",
+    "Senior Account Executive ",
+    "Financial Controller – Maternity Leave Replacement",
+    "Frontend Developer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Glassesusa",
+   "ats": "bamboohr",
+   "slug": "glassesusa",
+   "israel_jobs": 5,
+   "remote_jobs": 0,
+   "titles": [
+    "IT Technician ",
+    "Partnerships & Affiliate Manager",
+    "Senior Product Manager",
+    "Supply Chain & Logistics Coordinator",
+    "Senior Bookkeeper"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Act Security",
+   "ats": "ashby",
+   "slug": "act-security",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Software Engineer (Data Platform)",
+    "Senior Software Engineer",
+    "Senior Full Stack Engineer",
+    "Senior Frontend Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Matia",
+   "ats": "ashby",
+   "slug": "matia",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Software Engineer",
+    "Senior Fullstack Engineer",
+    "Principal Software Engineer",
+    "Senior Product Designer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Como",
+   "ats": "ashby",
+   "slug": "como",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Engineer",
+    "Full Stack Engineer (Frontend-focused)",
+    "DevOps / Platform Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Vistairhr",
+   "ats": "bamboohr",
+   "slug": "vistairhr",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Backend Engineer",
+    "Senior Product Manager "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Evergreenfinance",
+   "ats": "bamboohr",
+   "slug": "evergreenfinance",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Full Stack Engineer"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Structureit",
+   "ats": "bamboohr",
+   "slug": "structureit",
+   "israel_jobs": 0,
+   "remote_jobs": 5,
+   "titles": [
+    "Senior Full Stack Developer",
+    "Senior Full Stack Engineer",
+    "Delivery Lead",
+    "Senior Business Analyst",
+    "Project Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Whippy",
+   "ats": "ashby",
+   "slug": "whippy",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Software Engineering Manager",
+    "Product Designer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Gr8 Tech",
+   "ats": "ashby",
+   "slug": "GR8-TECH",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior System Analyst (HR)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Prominentedge",
+   "ats": "bamboohr",
+   "slug": "prominentedge",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Lead DevOps Engineer (Remote)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Toogeza",
+   "ats": "ashby",
+   "slug": "toogeza",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Marketing & Data Analyst"
+   ],
+   "sector": "hightech"
+  }
+ ],
+ "pending": 0,
+ "pool_left": 8596,
+ "generated": "2026-11-25T05:23:52+00:00"
+}
