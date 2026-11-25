@@ -1,10 +1,4 @@
 {
- "eaf1e6d3d98dfd4e": {
-  "title": "Marketing Content & Operations Specialist",
-  "company": "Qedma",
-  "reason": "5+ years",
-  "at": "2026-10-26T14:17:18+00:00"
- },
  "159dc3afe6adab31": {
   "title": "SRE",
   "company": "Port",
@@ -11620,5 +11614,29 @@
   "company": "Intent",
   "reason": "3+ years",
   "at": "2026-11-25T14:17:16+00:00"
+ },
+ "7ed90eb343c1ae52": {
+  "title": "Automation Infrastructure Engineer",
+  "company": "Cyera",
+  "reason": "5+ years",
+  "at": "2026-11-25T15:17:15+00:00"
+ },
+ "adcfa39401ef3809": {
+  "title": "Growth Product Manager",
+  "company": "monday.com",
+  "reason": "5+ years",
+  "at": "2026-11-25T15:17:15+00:00"
+ },
+ "849f4b34bb3e315d": {
+  "title": "DevOps and SRE Engineer",
+  "company": "evoke",
+  "reason": "3+ years",
+  "at": "2026-11-25T15:17:15+00:00"
+ },
+ "837dc03799bb5331": {
+  "title": "DevOps Engineer (GCP)",
+  "company": "Aman Group",
+  "reason": "4+ years",
+  "at": "2026-11-25T15:17:15+00:00"
  }
 }
