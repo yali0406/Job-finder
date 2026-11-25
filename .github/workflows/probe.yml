@@ -23,6 +23,10 @@ jobs:
               console.log('RESULT', name, 'list text:', ((await p.textContent('#list').catch(() => '')) || '').slice(0, 200).replace(/\s+/g, ' '));
               const marks = await p.evaluate(() => localStorage.getItem('marks'));
               console.log('RESULT', name, 'marks count:', Object.keys(JSON.parse(marks || '{}')).length, 'hidden:', Object.values(JSON.parse(marks || '{}')).filter(v => v === 'hidden').length);
+              console.log('RESULT', name, 'hidden ids:', JSON.stringify(Object.entries(JSON.parse(marks||'{}')).filter(([k,v])=>v!=='saved')));
+              const card = await p.$('button[data-id="c0cc36df0c90cc62"]');
+              console.log('RESULT', name, 'spines card visible:', card ? await card.isVisible() : 'no card');
+              console.log('RESULT', name, 'controls:', JSON.stringify(await p.evaluate(() => [...document.querySelectorAll('select')].map(s => s.id + '=' + s.value))));
               await b.close();
             }
           })().catch(e => { console.error(e); process.exit(1); });
