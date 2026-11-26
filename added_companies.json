@@ -1198,5 +1198,493 @@
   "sector": "hightech",
   "remote_only": true,
   "added": "2026-11-25"
+ },
+ {
+  "name": "Bagira",
+  "ats": "comeet",
+  "slug": "bagirasystems/47.006",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Parallelwireless",
+  "ats": "lever",
+  "slug": "parallelwireless",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Maytronics",
+  "ats": "comeet",
+  "slug": "maytronics/E3.008",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "BIRD Aerosystems",
+  "ats": "comeet",
+  "slug": "birdaero/97.006",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "CodeValue",
+  "ats": "comeet",
+  "slug": "codevalue/81.009",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Lumenis",
+  "ats": "comeet",
+  "slug": "lumenis/A1.00C",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Pixel sight",
+  "ats": "comeet",
+  "slug": "pixelsight/7B.00E",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "LSports",
+  "ats": "comeet",
+  "slug": "lsports/26.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Mize",
+  "ats": "comeet",
+  "slug": "mize/88.000",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Way Security",
+  "ats": "comeet",
+  "slug": "waysecurity/2B.007",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Mayven",
+  "ats": "comeet",
+  "slug": "mayven/0B.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Razor Labs",
+  "ats": "comeet",
+  "slug": "razorlabs/A5.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "44 ventures",
+  "ats": "comeet",
+  "slug": "44ventures/18.001",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Colmex",
+  "ats": "comeet",
+  "slug": "cglms/69.003",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "esh",
+  "ats": "comeet",
+  "slug": "esh/87.003",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Investing",
+  "ats": "comeet",
+  "slug": "investing/42.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Lema AI",
+  "ats": "comeet",
+  "slug": "lemalabs/EA.001",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Vi",
+  "ats": "comeet",
+  "slug": "vi/B1.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "BOA Ideas",
+  "ats": "comeet",
+  "slug": "boaideas/EA.009",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Houzz",
+  "ats": "lever",
+  "slug": "houzz",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Israel Tech Guard",
+  "ats": "comeet",
+  "slug": "israeltechguard/29.009",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Skana Robotics",
+  "ats": "comeet",
+  "slug": "skanarobotics/5B.007",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Vetric",
+  "ats": "comeet",
+  "slug": "vetric/A9.009",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Ajax",
+  "ats": "lever",
+  "slug": "ajax",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Aleph",
+  "ats": "lever",
+  "slug": "aleph",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Controlup",
+  "ats": "lever",
+  "slug": "controlup",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "CTERA",
+  "ats": "comeet",
+  "slug": "ctera/A0.003",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Daisy",
+  "ats": "comeet",
+  "slug": "daisy/67.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "MA\\u00cbLYS",
+  "ats": "comeet",
+  "slug": "maelyscosmetics/68.002",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Mine",
+  "ats": "comeet",
+  "slug": "saymine/39.003",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Oktopost",
+  "ats": "lever",
+  "slug": "oktopost",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Orca-AI",
+  "ats": "comeet",
+  "slug": "orca-ai/86.003",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "SysAid Technologies",
+  "ats": "comeet",
+  "slug": "sysaid/43.00A",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Truvid",
+  "ats": "comeet",
+  "slug": "truvid/4A.00E",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Dot Compliance",
+  "ats": "comeet",
+  "slug": "dotcompliance/89.00D",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Idt",
+  "ats": "lever",
+  "slug": "idt",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Ilyon",
+  "ats": "comeet",
+  "slug": "ilyon/42.00A",
+  "sector": "gaming",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Surecomp",
+  "ats": "comeet",
+  "slug": "surecomp/24.00E",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Tango",
+  "ats": "comeet",
+  "slug": "tango/B7.007",
+  "sector": "fintech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Webbing",
+  "ats": "comeet",
+  "slug": "webbing/46.00E",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Metabase",
+  "ats": "lever",
+  "slug": "metabase",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Nibiru",
+  "ats": "lever",
+  "slug": "nibiru",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Sporty Group",
+  "ats": "greenhouse",
+  "slug": "sportygroup",
+  "sector": "gaming",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Cscgeneration 2",
+  "ats": "lever",
+  "slug": "cscgeneration-2",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Octoenergy",
+  "ats": "lever",
+  "slug": "octoenergy",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Talentuch",
+  "ats": "breezy",
+  "slug": "talentuch",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Yallaplay",
+  "ats": "breezy",
+  "slug": "yallaplay",
+  "sector": "gaming",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Defuse Labs",
+  "ats": "greenhouse",
+  "slug": "defuselabs",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Minerva Project",
+  "ats": "breezy",
+  "slug": "minerva-project",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Scarpel Telecom",
+  "ats": "breezy",
+  "slug": "scarpel-telecom",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Ecosystem",
+  "ats": "lever",
+  "slug": "ecosystem",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Fawkes",
+  "ats": "breezy",
+  "slug": "fawkes",
+  "sector": "gaming",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Jito",
+  "ats": "lever",
+  "slug": "jito",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Loopring",
+  "ats": "breezy",
+  "slug": "loopring",
+  "sector": "fintech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Lurecruiter",
+  "ats": "breezy",
+  "slug": "lurecruiter",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Mangolanguage",
+  "ats": "lever",
+  "slug": "mangolanguage",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Niceplay Games",
+  "ats": "breezy",
+  "slug": "niceplay-games",
+  "sector": "gaming",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Numrah",
+  "ats": "breezy",
+  "slug": "numrah",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Panopto",
+  "ats": "lever",
+  "slug": "panopto",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Researchhub",
+  "ats": "breezy",
+  "slug": "researchhub",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
+ },
+ {
+  "name": "Uvation",
+  "ats": "breezy",
+  "slug": "uvation",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-26"
  }
 ]

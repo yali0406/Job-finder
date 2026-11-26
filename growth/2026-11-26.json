@@ -1,0 +1,823 @@
+{
+ "date": "2026-11-26",
+ "checked": 4000,
+ "qualified": 77,
+ "added": [
+  {
+   "name": "Bagira",
+   "ats": "comeet",
+   "slug": "bagirasystems/47.006",
+   "israel_jobs": 21,
+   "remote_jobs": 0,
+   "titles": [
+    "Combat Instructor",
+    "Combat Instructor",
+    "Construction Project Manager",
+    "DevOps Lead (Modiin)",
+    "DevOps Lead (Tel Aviv)",
+    "Drone Simulators Product Manager Israel & Europe",
+    "Full stack team Lead (C#/.NET)",
+    "Integration Specialist"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Parallelwireless",
+   "ats": "lever",
+   "slug": "parallelwireless",
+   "israel_jobs": 21,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Engineering Team Manager",
+    "AI-Driven 4G PHY SW Engineer",
+    "AI-Driven 4G PHY SW Tech Lead",
+    "Automation Tech Lead",
+    "Integration & Validation Engineer",
+    "Integration Engineer",
+    "PHY Algorithms Senior Engineer - AI/ML",
+    "PHY System Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Maytronics",
+   "ats": "comeet",
+   "slug": "maytronics/E3.008",
+   "israel_jobs": 19,
+   "remote_jobs": 0,
+   "titles": [
+    "Algorithm Engineer",
+    "AOI Inspector",
+    "Assistant Controller",
+    "ATE Operator",
+    "Bookkeeper",
+    "Embedded Software Engineer Robotics Platforms",
+    "Junior Embedded Software Engineer robotics platforms temporary",
+    "Operational Strategy and Offshoring Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "BIRD Aerosystems",
+   "ats": "comeet",
+   "slug": "birdaero/97.006",
+   "israel_jobs": 18,
+   "remote_jobs": 0,
+   "titles": [
+    "Aircrafts electrical engineer",
+    "EO System Engineer",
+    "Flight Test Technician",
+    "Hardware Design Engineer (Board Design)",
+    "Junior System Engineer",
+    "Mechanics Practical Engineer",
+    "Planner",
+    "Procurement Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "CodeValue",
+   "ats": "comeet",
+   "slug": "codevalue/81.009",
+   "israel_jobs": 15,
+   "remote_jobs": 0,
+   "titles": [
+    "Application Security Architect",
+    "Automation Engineer-Python",
+    "Control Systems Engineer",
+    "Data Architect",
+    "DevOps Engineer",
+    "Full Stack Developer ( NET /NODEJS & Angular)",
+    "Full Stack Engineer (React / NestJS)",
+    "Java Developer - Yokneam"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Lumenis",
+   "ats": "comeet",
+   "slug": "lumenis/A1.00C",
+   "israel_jobs": 12,
+   "remote_jobs": 0,
+   "titles": [
+    "Assistant Controller- EMEA",
+    "Clinical Manager",
+    "Data Insights & Analytics Lead",
+    "Director of operations",
+    "Head of Marketing",
+    "NPI Engineer",
+    "Product Engineering Leader",
+    "Product Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Pixel sight",
+   "ats": "comeet",
+   "slug": "pixelsight/7B.00E",
+   "israel_jobs": 11,
+   "remote_jobs": 0,
+   "titles": [
+    "Account Director- Defense & Security",
+    "Embedded Hardware & System Integration Engineer",
+    "Field Operations Specialist",
+    "Manufacturing Operations Manager",
+    "Production Integration",
+    "Production Quality Specialist",
+    "Senior Applied Researcher – Computer Vision & AI",
+    "Senior Mechanical Design Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "LSports",
+   "ats": "comeet",
+   "slug": "lsports/26.002",
+   "israel_jobs": 6,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Business Automation Engineer",
+    "Browser Infrastructure Architect",
+    "Business Development Director",
+    "Chief Marketing Officer (CMO)",
+    "Junior DevOps Engineer",
+    "Principal Software Engineer – Web Rendering Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Mize",
+   "ats": "comeet",
+   "slug": "mize/88.000",
+   "israel_jobs": 6,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Product Specialist",
+    "Backend Developer",
+    "Cloud Platform Team Lead (Azure)",
+    "Customer Success Manager",
+    "Finance Operations Specialist",
+    "Operations Analyst"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Way Security",
+   "ats": "comeet",
+   "slug": "waysecurity/2B.007",
+   "israel_jobs": 6,
+   "remote_jobs": 0,
+   "titles": [
+    "GTM Engineer",
+    "Head of Demand Generation",
+    "Marketing Operations & Data Analytics Manager",
+    "Senior Full Stack Engineer",
+    "Senior Product Designer",
+    "Senior Product Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Mayven",
+   "ats": "comeet",
+   "slug": "mayven/0B.002",
+   "israel_jobs": 5,
+   "remote_jobs": 0,
+   "titles": [
+    "AI, Backend & Data Systems (Mid-Level)",
+    "Creative Strategist",
+    "Head of Operations E-commerce",
+    "Sales Representative",
+    "רכז/ת תפעול ולוגיסטיקה (E-commerce & Supply Chain)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Razor Labs",
+   "ats": "comeet",
+   "slug": "razorlabs/A5.002",
+   "israel_jobs": 5,
+   "remote_jobs": 0,
+   "titles": [
+    "PLC programmer",
+    "Senior Backend Developer",
+    "Senior Backend Developer",
+    "Senior Linux user space application developer (Freelancer)",
+    "Senior Manufacturing & NPI Engineer (Prototype to Low-Volume)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "44 ventures",
+   "ats": "comeet",
+   "slug": "44ventures/18.001",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Junior Developer – Automation & AI",
+    "Programmatic Account Manager Freelance",
+    "Programmatic Ad Ops",
+    "Senior Programmatic Operations Manager | Web & In-App"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Colmex",
+   "ats": "comeet",
+   "slug": "cglms/69.003",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Backend Engineer (Node.js, TypeScript & Azure)",
+    "Senior Full-Stack Engineer (Angular & C#/.NET)",
+    "Senior Mobile & Frontend Developer",
+    "Senior Product Designer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "esh",
+   "ats": "comeet",
+   "slug": "esh/87.003",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Financial Controller",
+    "Head of Compliance",
+    "Head of Customer Service",
+    "HR & Recruitment Specialist"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Investing",
+   "ats": "comeet",
+   "slug": "investing/42.002",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "App User Acquisition Manager",
+    "Full-Stack Developer",
+    "Head of Analytics",
+    "Product Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Lema AI",
+   "ats": "comeet",
+   "slug": "lemalabs/EA.001",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "Operations Manager",
+    "Security Researcher",
+    "Senior Backend Engineer",
+    "Technical Account Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Vi",
+   "ats": "comeet",
+   "slug": "vi/B1.002",
+   "israel_jobs": 4,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Solutions Manager (Pharma)",
+    "Senior AI engineer",
+    "Senior Data Scientist",
+    "Talent Acquisition Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "BOA Ideas",
+   "ats": "comeet",
+   "slug": "boaideas/EA.009",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "E-commerce Manager",
+    "Full-Stack Developer",
+    "Sales Development & Account Growth Representative"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Houzz",
+   "ats": "lever",
+   "slug": "houzz",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Product Manager",
+    "Senior Full Stack Software Engineer - Payments",
+    "Senior Product Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Israel Tech Guard",
+   "ats": "comeet",
+   "slug": "israeltechguard/29.009",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Data Team Lead",
+    "Freelance Designer (50-80% FTE)",
+    "Full Stack Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Skana Robotics",
+   "ats": "comeet",
+   "slug": "skanarobotics/5B.007",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Field Integration Technician",
+    "Product Manager",
+    "Robotics Software Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Vetric",
+   "ats": "comeet",
+   "slug": "vetric/A9.009",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Account Executive",
+    "Account Manager",
+    "Head of Product"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Ajax",
+   "ats": "lever",
+   "slug": "ajax",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "HR generalist",
+    "Invoice & Accounts Specialist"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Aleph",
+   "ats": "lever",
+   "slug": "aleph",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Client Partner - Pinterest",
+    "Client Solutions Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Controlup",
+   "ats": "lever",
+   "slug": "controlup",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Engineering Manager",
+    "HR Business Partner"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "CTERA",
+   "ats": "comeet",
+   "slug": "ctera/A0.003",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "QA Automation Engineer",
+    "Senior Application Security Lead"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Daisy",
+   "ats": "comeet",
+   "slug": "daisy/67.002",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Senior Developer- Agentic AI",
+    "Senior Product Manager - Agentic AI"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "MA\\u00cbLYS",
+   "ats": "comeet",
+   "slug": "maelyscosmetics/68.002",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Brand Designer",
+    "Head of AI"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Mine",
+   "ats": "comeet",
+   "slug": "saymine/39.003",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Principal Product Manager",
+    "Senior Backend Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Oktopost",
+   "ats": "lever",
+   "slug": "oktopost",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Lead Infrastructure Developer",
+    "QA Automation Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Orca-AI",
+   "ats": "comeet",
+   "slug": "orca-ai/86.003",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Edge Software Engineer",
+    "Tech Delivery Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "SysAid Technologies",
+   "ats": "comeet",
+   "slug": "sysaid/43.00A",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Brand Designer (Maternity Leave Cover)",
+    "Business Development Representative (Maternity Cover)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Truvid",
+   "ats": "comeet",
+   "slug": "truvid/4A.00E",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "Ad Operations Account Manager",
+    "Technical Customer Success Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Dot Compliance",
+   "ats": "comeet",
+   "slug": "dotcompliance/89.00D",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Tech Lead — AI Infra & Security"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Idt",
+   "ats": "lever",
+   "slug": "idt",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Product Manager – Mobile & Multi-Location POS"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Ilyon",
+   "ats": "comeet",
+   "slug": "ilyon/42.00A",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "UA Creative Animation Lead"
+   ],
+   "sector": "gaming"
+  },
+  {
+   "name": "Surecomp",
+   "ats": "comeet",
+   "slug": "surecomp/24.00E",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "DevOps Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Tango",
+   "ats": "comeet",
+   "slug": "tango/B7.007",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Tax Specialist"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Webbing",
+   "ats": "comeet",
+   "slug": "webbing/46.00E",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Director of Product Management"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Metabase",
+   "ats": "lever",
+   "slug": "metabase",
+   "israel_jobs": 0,
+   "remote_jobs": 12,
+   "titles": [
+    "CI Engineer",
+    "Engineering Manager",
+    "Enterprise Account Manager",
+    "Head of Partnerships",
+    "Open Source Community Advocate",
+    "Product Designer",
+    "Security Engineer",
+    "Senior SRE/DevOps Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Nibiru",
+   "ats": "lever",
+   "slug": "nibiru",
+   "israel_jobs": 0,
+   "remote_jobs": 8,
+   "titles": [
+    "AI Agent Launchpad Builder",
+    "Community Lead",
+    "Euclid Protocol | Head of Trading",
+    "Growth Analyst / Associate",
+    "Intern",
+    "Memecoin & NFT Community Leader",
+    "Motion Graphics (Freelance)",
+    "Sai Perps DEX - Regional Trader Ambassador"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Sporty Group",
+   "ats": "greenhouse",
+   "slug": "sportygroup",
+   "israel_jobs": 0,
+   "remote_jobs": 7,
+   "titles": [
+    "Associate Legal Counsel",
+    "Data Scientist (Europe, Asia)",
+    "Offensive Security Engineer",
+    "Operations Director, Payments",
+    "Project Manager",
+    "Senior Commercial Talent Acquisition Specialist",
+    "Weekend Backend Engineer"
+   ],
+   "sector": "gaming"
+  },
+  {
+   "name": "Cscgeneration 2",
+   "ats": "lever",
+   "slug": "cscgeneration-2",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Senior Frontend Engineer",
+    "Senior Frontend Engineer",
+    "Senior Full Stack Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Octoenergy",
+   "ats": "lever",
+   "slug": "octoenergy",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Always on the lookout for Brilliant Humans - Power Market Edition!",
+    "Octopus Internships",
+    "We’re always on the lookout for brilliant humans"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Talentuch",
+   "ats": "breezy",
+   "slug": "talentuch",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Ad Operations Manager - Programmatic (Display and Video) - based in Europe only",
+    "Future Opportunities /Talent Pool",
+    "Head of User Acquisition - Europe-based candidate only"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Yallaplay",
+   "ats": "breezy",
+   "slug": "yallaplay",
+   "israel_jobs": 0,
+   "remote_jobs": 3,
+   "titles": [
+    "Mobile Game Developer",
+    "Mobile Games QA",
+    "Senior Mobile Game UI/UX Artist"
+   ],
+   "sector": "gaming"
+  },
+  {
+   "name": "Defuse Labs",
+   "ats": "greenhouse",
+   "slug": "defuselabs",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Head of Product Marketing & Growth",
+    "Senior Product Designer (Full-Stack)"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Minerva Project",
+   "ats": "breezy",
+   "slug": "minerva-project",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Product Designer",
+    "Senior Product Manager"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Scarpel Telecom",
+   "ats": "breezy",
+   "slug": "scarpel-telecom",
+   "israel_jobs": 0,
+   "remote_jobs": 2,
+   "titles": [
+    "Product Lead",
+    "SMS Routing Specialist / Telecom Traffic Analyst"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Ecosystem",
+   "ats": "lever",
+   "slug": "ecosystem",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior Engineer - Project Development"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Fawkes",
+   "ats": "breezy",
+   "slug": "fawkes",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Senior Unreal Engineer (contractor)"
+   ],
+   "sector": "gaming"
+  },
+  {
+   "name": "Jito",
+   "ats": "lever",
+   "slug": "jito",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Propose Your Dream Job"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Loopring",
+   "ats": "breezy",
+   "slug": "loopring",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Social Media/Marketing Intern (paid)"
+   ],
+   "sector": "fintech"
+  },
+  {
+   "name": "Lurecruiter",
+   "ats": "breezy",
+   "slug": "lurecruiter",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Sr BackEnd Developer (NodeJS) - LATAM"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Mangolanguage",
+   "ats": "lever",
+   "slug": "mangolanguage",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Mango Live Coach for French (part-time)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Niceplay Games",
+   "ats": "breezy",
+   "slug": "niceplay-games",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Wildcard вакансия (разработка игры Potion Craft)"
+   ],
+   "sector": "gaming"
+  },
+  {
+   "name": "Numrah",
+   "ats": "breezy",
+   "slug": "numrah",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Machine Learning Engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Panopto",
+   "ats": "lever",
+   "slug": "panopto",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Customer Success Manager, Elai Contractor (UK, EU, or the Americas)"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Researchhub",
+   "ats": "breezy",
+   "slug": "researchhub",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Founding engineer"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Uvation",
+   "ats": "breezy",
+   "slug": "uvation",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Ecommerce Product Catalog & Research Analyst"
+   ],
+   "sector": "hightech"
+  }
+ ],
+ "pending": 0,
+ "pool_left": 4596,
+ "generated": "2026-11-26T04:42:08+00:00"
+}
