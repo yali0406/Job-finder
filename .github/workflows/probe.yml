@@ -1,0 +1,21 @@
+name: probe
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q -r requirements.txt
+      - run: |
+          python - <<'PY'
+          from scanner.sources import ats
+          for k,s in [('lever', 'metabase'), ('lever', 'nibiru'), ('greenhouse', 'sportygroup'), ('lever', 'cscgeneration-2'), ('lever', 'octoenergy'), ('breezy', 'talentuch'), ('breezy', 'yallaplay'), ('greenhouse', 'defuselabs'), ('breezy', 'minerva-project'), ('breezy', 'scarpel-telecom'), ('lever', 'ecosystem'), ('breezy', 'fawkes'), ('lever', 'jito'), ('breezy', 'loopring'), ('breezy', 'lurecruiter'), ('lever', 'mangolanguage'), ('breezy', 'niceplay-games'), ('breezy', 'numrah'), ('lever', 'panopto'), ('breezy', 'researchhub'), ('breezy', 'uvation')]:
+              try: js=ats.FETCHERS[k](s,s) or []
+              except Exception as e: js=[]
+              print("LOC", s, sorted({j.location for j in js})[:6])
+          PY
