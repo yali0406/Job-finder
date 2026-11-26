@@ -1424,14 +1424,6 @@
   "added": "2026-11-26"
  },
  {
-  "name": "MA\\u00cbLYS",
-  "ats": "comeet",
-  "slug": "maelyscosmetics/68.002",
-  "sector": "hightech",
-  "remote_only": false,
-  "added": "2026-11-26"
- },
- {
   "name": "Mine",
   "ats": "comeet",
   "slug": "saymine/39.003",
@@ -1544,30 +1536,6 @@
   "added": "2026-11-26"
  },
  {
-  "name": "Cscgeneration 2",
-  "ats": "lever",
-  "slug": "cscgeneration-2",
-  "sector": "hightech",
-  "remote_only": true,
-  "added": "2026-11-26"
- },
- {
-  "name": "Octoenergy",
-  "ats": "lever",
-  "slug": "octoenergy",
-  "sector": "hightech",
-  "remote_only": true,
-  "added": "2026-11-26"
- },
- {
-  "name": "Talentuch",
-  "ats": "breezy",
-  "slug": "talentuch",
-  "sector": "hightech",
-  "remote_only": true,
-  "added": "2026-11-26"
- },
- {
   "name": "Yallaplay",
   "ats": "breezy",
   "slug": "yallaplay",
@@ -1600,14 +1568,6 @@
   "added": "2026-11-26"
  },
  {
-  "name": "Ecosystem",
-  "ats": "lever",
-  "slug": "ecosystem",
-  "sector": "hightech",
-  "remote_only": true,
-  "added": "2026-11-26"
- },
- {
   "name": "Fawkes",
   "ats": "breezy",
   "slug": "fawkes",
@@ -1628,14 +1588,6 @@
   "ats": "breezy",
   "slug": "loopring",
   "sector": "fintech",
-  "remote_only": true,
-  "added": "2026-11-26"
- },
- {
-  "name": "Lurecruiter",
-  "ats": "breezy",
-  "slug": "lurecruiter",
-  "sector": "hightech",
   "remote_only": true,
   "added": "2026-11-26"
  },
@@ -1675,14 +1627,6 @@
   "name": "Researchhub",
   "ats": "breezy",
   "slug": "researchhub",
-  "sector": "hightech",
-  "remote_only": true,
-  "added": "2026-11-26"
- },
- {
-  "name": "Uvation",
-  "ats": "breezy",
-  "slug": "uvation",
   "sector": "hightech",
   "remote_only": true,
   "added": "2026-11-26"

@@ -417,18 +417,6 @@
    "sector": "hightech"
   },
   {
-   "name": "MA\\u00cbLYS",
-   "ats": "comeet",
-   "slug": "maelyscosmetics/68.002",
-   "israel_jobs": 2,
-   "remote_jobs": 0,
-   "titles": [
-    "Brand Designer",
-    "Head of AI"
-   ],
-   "sector": "hightech"
-  },
-  {
    "name": "Mine",
    "ats": "comeet",
    "slug": "saymine/39.003",
@@ -608,45 +596,6 @@
    "sector": "gaming"
   },
   {
-   "name": "Cscgeneration 2",
-   "ats": "lever",
-   "slug": "cscgeneration-2",
-   "israel_jobs": 0,
-   "remote_jobs": 3,
-   "titles": [
-    "Senior Frontend Engineer",
-    "Senior Frontend Engineer",
-    "Senior Full Stack Engineer"
-   ],
-   "sector": "hightech"
-  },
-  {
-   "name": "Octoenergy",
-   "ats": "lever",
-   "slug": "octoenergy",
-   "israel_jobs": 0,
-   "remote_jobs": 3,
-   "titles": [
-    "Always on the lookout for Brilliant Humans - Power Market Edition!",
-    "Octopus Internships",
-    "We’re always on the lookout for brilliant humans"
-   ],
-   "sector": "hightech"
-  },
-  {
-   "name": "Talentuch",
-   "ats": "breezy",
-   "slug": "talentuch",
-   "israel_jobs": 0,
-   "remote_jobs": 3,
-   "titles": [
-    "Ad Operations Manager - Programmatic (Display and Video) - based in Europe only",
-    "Future Opportunities /Talent Pool",
-    "Head of User Acquisition - Europe-based candidate only"
-   ],
-   "sector": "hightech"
-  },
-  {
    "name": "Yallaplay",
    "ats": "breezy",
    "slug": "yallaplay",
@@ -696,17 +645,6 @@
    "sector": "hightech"
   },
   {
-   "name": "Ecosystem",
-   "ats": "lever",
-   "slug": "ecosystem",
-   "israel_jobs": 0,
-   "remote_jobs": 1,
-   "titles": [
-    "Senior Engineer - Project Development"
-   ],
-   "sector": "hightech"
-  },
-  {
    "name": "Fawkes",
    "ats": "breezy",
    "slug": "fawkes",
@@ -738,17 +676,6 @@
     "Social Media/Marketing Intern (paid)"
    ],
    "sector": "fintech"
-  },
-  {
-   "name": "Lurecruiter",
-   "ats": "breezy",
-   "slug": "lurecruiter",
-   "israel_jobs": 0,
-   "remote_jobs": 1,
-   "titles": [
-    "Sr BackEnd Developer (NodeJS) - LATAM"
-   ],
-   "sector": "hightech"
   },
   {
    "name": "Mangolanguage",
@@ -802,17 +729,6 @@
    "remote_jobs": 1,
    "titles": [
     "Founding engineer"
-   ],
-   "sector": "hightech"
-  },
-  {
-   "name": "Uvation",
-   "ats": "breezy",
-   "slug": "uvation",
-   "israel_jobs": 0,
-   "remote_jobs": 1,
-   "titles": [
-    "Ecommerce Product Catalog & Research Analyst"
    ],
    "sector": "hightech"
   }
