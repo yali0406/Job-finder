@@ -1,16 +1,4 @@
 {
- "d7019ed0b55ec993": {
-  "title": "Technical Program Manager",
-  "company": "Wonderful",
-  "reason": "4+ years",
-  "at": "2026-10-27T16:17:16+00:00"
- },
- "eff5f0ede5c1cd74": {
-  "title": "Program Manager",
-  "company": "Wonderful",
-  "reason": "5+ years",
-  "at": "2026-10-27T16:17:16+00:00"
- },
  "c91a49eacbfa7d0d": {
   "title": "Salesforce Systems Analyst",
   "company": "YouCC Technologies Ltd.",
@@ -12040,5 +12028,47 @@
   "company": "Medison Pharma",
   "reason": "duplicate of another listing",
   "at": "2026-11-26T16:17:15+00:00"
+ },
+ "bf7107cb41a3f7f0": {
+  "title": "Marketing Communications Manager",
+  "company": "Bites",
+  "reason": "startup role, weak fit (12)",
+  "at": "2026-11-26T17:17:23+00:00"
+ },
+ "2804c6cce3a4d12b": {
+  "title": "Account Executive",
+  "company": "Bites",
+  "reason": "startup role, weak fit (22)",
+  "at": "2026-11-26T17:17:23+00:00"
+ },
+ "c626bfb52332b25a": {
+  "title": "Product Marketing Manager",
+  "company": "Bites",
+  "reason": "startup role, weak fit (22)",
+  "at": "2026-11-26T17:17:23+00:00"
+ },
+ "3818bd9a970585ec": {
+  "title": "Project Coordinator - MENA",
+  "company": "LigaData",
+  "reason": "5+ years",
+  "at": "2026-11-26T17:17:23+00:00"
+ },
+ "360c4bb264d50fec": {
+  "title": "DevOps Engineer",
+  "company": "Riverside",
+  "reason": "4+ years",
+  "at": "2026-11-26T17:17:23+00:00"
+ },
+ "a587d722f8b3b7b0": {
+  "title": "Project Manager Electrical Infrastructure and Lighting",
+  "company": "Self-employed",
+  "reason": "3+ years",
+  "at": "2026-11-26T17:17:23+00:00"
+ },
+ "c214c675b2fc10be": {
+  "title": "Finance Applications Analyst",
+  "company": "NiCE",
+  "reason": "duplicate of another listing",
+  "at": "2026-11-26T17:17:23+00:00"
  }
 }
