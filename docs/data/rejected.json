@@ -1,10 +1,4 @@
 {
- "94a43b621e31f23c": {
-  "title": "Product Manager - AI Infrastructure (Server HW) - IL",
-  "company": "Majestic Labs",
-  "reason": "10+ years",
-  "at": "2026-10-28T14:17:17+00:00"
- },
  "929fdcd6443de320": {
   "title": "Big Data Analyst",
   "company": "Similarweb",
@@ -11950,5 +11944,17 @@
   "company": "רימונים - חברה לפיתוח רמת השרון בע\"מ",
   "reason": "3+ years",
   "at": "2026-11-27T13:17:21+00:00"
+ },
+ "9b90bd9218ef6037": {
+  "title": "DevOps Data Infra Engineer",
+  "company": "Zafran Security",
+  "reason": "5+ years",
+  "at": "2026-11-27T14:17:17+00:00"
+ },
+ "3ac4f4d7c085db13": {
+  "title": "Group Product Manager, Filestore, Google Cloud",
+  "company": "Google",
+  "reason": "10+ years",
+  "at": "2026-11-27T14:17:17+00:00"
  }
 }
