@@ -1648,14 +1648,6 @@
   "added": "2026-11-27"
  },
  {
-  "name": "Tsmg",
-  "ats": "lever",
-  "slug": "tsmg",
-  "sector": "hightech",
-  "remote_only": false,
-  "added": "2026-11-27"
- },
- {
   "name": "Sapitbusinesssysteme",
   "ats": "smartrecruiters",
   "slug": "SAPITBusinessSysteme",
@@ -1667,30 +1659,6 @@
   "name": "Humanz",
   "ats": "workable",
   "slug": "humanz",
-  "sector": "hightech",
-  "remote_only": false,
-  "added": "2026-11-27"
- },
- {
-  "name": "Keywords Studios",
-  "ats": "workable",
-  "slug": "keywords-intl1",
-  "sector": "gaming",
-  "remote_only": false,
-  "added": "2026-11-27"
- },
- {
-  "name": "Tapi",
-  "ats": "smartrecruiters",
-  "slug": "TAPI",
-  "sector": "hightech",
-  "remote_only": false,
-  "added": "2026-11-27"
- },
- {
-  "name": "Huzzle",
-  "ats": "workable",
-  "slug": "huzzle",
   "sector": "hightech",
   "remote_only": false,
   "added": "2026-11-27"

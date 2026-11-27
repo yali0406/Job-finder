@@ -15,7 +15,7 @@ session.headers.update({"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9,he;
 ISRAEL_HINTS = re.compile(
     r"israel|tel[\s-]?aviv|herzliya|ramat[\s-]?gan|petah?[\s-]?tikva|ra'?anana|hod[\s-]?hasharon|"
     r"kfar[\s-]?saba|netanya|rishon|rehovot|holon|givatayim|bnei[\s-]?brak|or[\s-]?yehuda|"
-    r"airport[\s-]?city|yokneam|haifa|jerusalem|modi'?in|caesarea|beer[\s-]?sheva|lod|ramla|"
+    r"airport[\s-]?city|yokneam|haifa|jerusalem|modi'?in|caesarea|beer[\s-]?sheva|\blod\b|\bramla\b|"
     r"ישראל|תל[\s-]?אביב|הרצליה|רמת[\s-]?גן|פתח[\s-]?תקווה|רעננה",
     re.I,
 )

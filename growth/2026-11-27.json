@@ -40,24 +40,6 @@
    "sector": "gaming"
   },
   {
-   "name": "Tsmg",
-   "ats": "lever",
-   "slug": "tsmg",
-   "israel_jobs": 8,
-   "remote_jobs": 0,
-   "titles": [
-    "AI Text Validation Specialist (Hebrew language)",
-    "Audio Transcription Specialist (Hebrew language)",
-    "Audio Transcription Specialist (Hebrew language)",
-    "Driver in Lodi, CA",
-    "Photo data collector with a car",
-    "Quality control specialist for AI/ ML with Hebrew language",
-    "Quality control specialist for AI/ ML with Hebrew language",
-    "Team Coordinator"
-   ],
-   "sector": "hightech"
-  },
-  {
    "name": "Sapitbusinesssysteme",
    "ats": "smartrecruiters",
    "slug": "SAPITBusinessSysteme",
@@ -84,42 +66,6 @@
     "Customer Success",
     "Customer Success Team Lead",
     "Senior Copywriter"
-   ],
-   "sector": "hightech"
-  },
-  {
-   "name": "Keywords Studios",
-   "ats": "workable",
-   "slug": "keywords-intl1",
-   "israel_jobs": 3,
-   "remote_jobs": 0,
-   "titles": [
-    "BACOLOD FOR POOLING - Player Engagement Agent (NON-VOICE and GAMING)",
-    "FOR POOLING: BACOLOD - Trust and Safety Moderator (Permanent Onsite)",
-    "Non-Voice Customer Support Agent - Gaming Account | Bacolod"
-   ],
-   "sector": "gaming"
-  },
-  {
-   "name": "Tapi",
-   "ats": "smartrecruiters",
-   "slug": "TAPI",
-   "israel_jobs": 2,
-   "remote_jobs": 0,
-   "titles": [
-    "מהנדס/ת תהליך בייצור",
-    "Associate Director, Product Management"
-   ],
-   "sector": "hightech"
-  },
-  {
-   "name": "Huzzle",
-   "ats": "workable",
-   "slug": "huzzle",
-   "israel_jobs": 1,
-   "remote_jobs": 0,
-   "titles": [
-    "B2B Sales Development Representative"
    ],
    "sector": "hightech"
   },
