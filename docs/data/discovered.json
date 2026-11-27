@@ -1,7 +1,15 @@
 {
+ "1Password": [
+  "ashby",
+  "1password"
+ ],
  "4M Analytics": [
   "ashby",
   "4M"
+ ],
+ "Adaptive6": [
+  "comeet",
+  "adaptive6/AA.000"
  ],
  "Agora": [
   "comeet",
@@ -195,6 +203,10 @@
   "comeet",
   "exodigo/89.005"
  ],
+ "Fever": [
+  "greenhouse",
+  "feverup"
+ ],
  "Finout": [
   "ashby",
   "finout"
@@ -210,6 +222,10 @@
  "Flytrex": [
   "comeet",
   "flytrex/77.003"
+ ],
+ "Forgerock": [
+  "greenhouse",
+  "pingidentity"
  ],
  "Forter": [
   "greenhouse",
@@ -234,6 +250,10 @@
  "HUMAN": [
   "ashby",
   "HUMAN"
+ ],
+ "Higgsfield AI": [
+  "ashby",
+  "higgsfieldai"
  ],
  "HoneyBook": [
   "ashby",
@@ -330,6 +350,10 @@
  "Nagish": [
   "comeet",
   "rylo/D8.007"
+ ],
+ "Nebius": [
+  "greenhouse",
+  "nebius"
  ],
  "Next Insurance": [
   "greenhouse",
@@ -447,6 +471,10 @@
   "comeet",
   "scylladb/E4.006"
  ],
+ "Seeking Alpha": [
+  "comeet",
+  "seekingalpha/46.006"
+ ],
  "Semperis": [
   "ashby",
   "semperis"
@@ -495,6 +523,10 @@
   "comeet",
   "stampli/F6.007"
  ],
+ "Surf AI": [
+  "greenhouse",
+  "surfai"
+ ],
  "Sweep": [
   "ashby",
   "sweep"
@@ -531,6 +563,10 @@
   "greenhouse",
   "tokensecurity"
  ],
+ "Tonkean": [
+  "lever",
+  "tonkean"
+ ],
  "Transmit Security": [
   "greenhouse",
   "transmitsecurity"
@@ -566,6 +602,10 @@
  "VAST Data": [
   "comeet",
   "vastdata/43.001"
+ ],
+ "Vega Ventures": [
+  "comeet",
+  "vega/C9.009"
  ],
  "Viz.ai": [
   "ashby",
