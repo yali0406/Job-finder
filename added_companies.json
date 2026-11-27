@@ -1630,5 +1630,93 @@
   "sector": "hightech",
   "remote_only": true,
   "added": "2026-11-26"
+ },
+ {
+  "name": "Ontarget",
+  "ats": "recruitee",
+  "slug": "ontarget",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-27"
+ },
+ {
+  "name": "Sideinc",
+  "ats": "workable",
+  "slug": "sideinc",
+  "sector": "gaming",
+  "remote_only": false,
+  "added": "2026-11-27"
+ },
+ {
+  "name": "Tsmg",
+  "ats": "lever",
+  "slug": "tsmg",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-27"
+ },
+ {
+  "name": "Sapitbusinesssysteme",
+  "ats": "smartrecruiters",
+  "slug": "SAPITBusinessSysteme",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-27"
+ },
+ {
+  "name": "Humanz",
+  "ats": "workable",
+  "slug": "humanz",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-27"
+ },
+ {
+  "name": "Keywords Studios",
+  "ats": "workable",
+  "slug": "keywords-intl1",
+  "sector": "gaming",
+  "remote_only": false,
+  "added": "2026-11-27"
+ },
+ {
+  "name": "Tapi",
+  "ats": "smartrecruiters",
+  "slug": "TAPI",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-27"
+ },
+ {
+  "name": "Huzzle",
+  "ats": "workable",
+  "slug": "huzzle",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-27"
+ },
+ {
+  "name": "Z1Tech",
+  "ats": "lever",
+  "slug": "z1tech",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-27"
+ },
+ {
+  "name": "Vrchat",
+  "ats": "lever",
+  "slug": "vrchat",
+  "sector": "gaming",
+  "remote_only": true,
+  "added": "2026-11-27"
+ },
+ {
+  "name": "Zencore",
+  "ats": "lever",
+  "slug": "zencore",
+  "sector": "hightech",
+  "remote_only": true,
+  "added": "2026-11-27"
  }
 ]

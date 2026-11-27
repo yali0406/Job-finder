@@ -1,0 +1,167 @@
+{
+ "date": "2026-11-27",
+ "checked": 4000,
+ "qualified": 22,
+ "added": [
+  {
+   "name": "Ontarget",
+   "ats": "recruitee",
+   "slug": "ontarget",
+   "israel_jobs": 13,
+   "remote_jobs": 0,
+   "titles": [
+    "SaaS Product Marketing Manager",
+    "FPGA - Board Design Team Lead",
+    "Senior Embedded Software Engineer - C++",
+    "Hardware Engineer - Board Design",
+    "Executive Assistant - Office Management",
+    "Technical Knowledge Instructor (Electronics/UAVs) - Entry Level",
+    "Senior Chip Architect - VLSI",
+    "Product/R&D Lead - VLSI Design"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Sideinc",
+   "ats": "workable",
+   "slug": "sideinc",
+   "israel_jobs": 11,
+   "remote_jobs": 0,
+   "titles": [
+    "3D Character Artist - Talent Pool (MEA)",
+    "3D Environment Artist - Talent Pool (MEA)",
+    "Animation / Technical Animator -Talent Pool (MEA)",
+    "Audio Designer - Talent Pool (MEA)",
+    "Cinematics & Lighting Artist - Talent Pool (MEA)",
+    "Concept Artist Character - Talent Pool (MEA)",
+    "Concept Artist Environment/Props - Talent Pool (MEA)",
+    "Design - (Various Disciplines) - Talent Pool (MEA)"
+   ],
+   "sector": "gaming"
+  },
+  {
+   "name": "Tsmg",
+   "ats": "lever",
+   "slug": "tsmg",
+   "israel_jobs": 8,
+   "remote_jobs": 0,
+   "titles": [
+    "AI Text Validation Specialist (Hebrew language)",
+    "Audio Transcription Specialist (Hebrew language)",
+    "Audio Transcription Specialist (Hebrew language)",
+    "Driver in Lodi, CA",
+    "Photo data collector with a car",
+    "Quality control specialist for AI/ ML with Hebrew language",
+    "Quality control specialist for AI/ ML with Hebrew language",
+    "Team Coordinator"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Sapitbusinesssysteme",
+   "ats": "smartrecruiters",
+   "slug": "SAPITBusinessSysteme",
+   "israel_jobs": 7,
+   "remote_jobs": 0,
+   "titles": [
+    "Junior Developer and Data Analyst – SAP HANA Cloud Control Plane – Cost Optimization & TCO",
+    "Customer Data Cloud - student position",
+    "Senior Solution Sales Executive AI Expertise",
+    "Solution Advisor Senior Specialist AI Expertise",
+    "Senior Virtualization Engineer, Cloud Virtualization Group",
+    "HR Service Consultant (fixed-term contract)",
+    "Student HR Analyst & PMO "
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Humanz",
+   "ats": "workable",
+   "slug": "humanz",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "Customer Success",
+    "Customer Success Team Lead",
+    "Senior Copywriter"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Keywords Studios",
+   "ats": "workable",
+   "slug": "keywords-intl1",
+   "israel_jobs": 3,
+   "remote_jobs": 0,
+   "titles": [
+    "BACOLOD FOR POOLING - Player Engagement Agent (NON-VOICE and GAMING)",
+    "FOR POOLING: BACOLOD - Trust and Safety Moderator (Permanent Onsite)",
+    "Non-Voice Customer Support Agent - Gaming Account | Bacolod"
+   ],
+   "sector": "gaming"
+  },
+  {
+   "name": "Tapi",
+   "ats": "smartrecruiters",
+   "slug": "TAPI",
+   "israel_jobs": 2,
+   "remote_jobs": 0,
+   "titles": [
+    "מהנדס/ת תהליך בייצור",
+    "Associate Director, Product Management"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Huzzle",
+   "ats": "workable",
+   "slug": "huzzle",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "B2B Sales Development Representative"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Z1Tech",
+   "ats": "lever",
+   "slug": "z1tech",
+   "israel_jobs": 1,
+   "remote_jobs": 0,
+   "titles": [
+    "Vice President, App Partnerships and Growth"
+   ],
+   "sector": "hightech"
+  },
+  {
+   "name": "Vrchat",
+   "ats": "lever",
+   "slug": "vrchat",
+   "israel_jobs": 0,
+   "remote_jobs": 5,
+   "titles": [
+    "General Opportunity",
+    "Head of People",
+    "Staff Engineer - Recommendations",
+    "Staff Level Engineer - Trust and Safety",
+    "VP of Trust & Safety"
+   ],
+   "sector": "gaming"
+  },
+  {
+   "name": "Zencore",
+   "ats": "lever",
+   "slug": "zencore",
+   "israel_jobs": 0,
+   "remote_jobs": 1,
+   "titles": [
+    "Principal Architect, AI/ML"
+   ],
+   "sector": "hightech"
+  }
+ ],
+ "pending": 0,
+ "pool_left": 588,
+ "generated": "2026-11-27T04:54:57+00:00"
+}
