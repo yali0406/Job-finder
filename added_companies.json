@@ -1686,5 +1686,13 @@
   "sector": "hightech",
   "remote_only": true,
   "added": "2026-11-27"
+ },
+ {
+  "name": "Tomax Think Academy",
+  "ats": "workable",
+  "slug": "tomax",
+  "sector": "hightech",
+  "remote_only": false,
+  "added": "2026-11-28"
  }
 ]

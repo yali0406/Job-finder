@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-28",
+ "checked": 588,
+ "qualified": 1,
+ "added": [
+  {
+   "name": "Tomax Think Academy",
+   "ats": "workable",
+   "slug": "tomax",
+   "israel_jobs": 8,
+   "remote_jobs": 0,
+   "titles": [
+    "Head of Sales and Business Development",
+    "Junior level Fullstack Engineer",
+    "Junior level Fullstack Engineer",
+    "Product Manager (Hands-on UX/UI)",
+    "QA Engineer",
+    "Research Engineer - Applied ML & AI",
+    "Senior Full Stack Developer",
+    "Senior Full Stack Engineer"
+   ],
+   "sector": "hightech"
+  }
+ ],
+ "pending": 0,
+ "pool_left": 0,
+ "generated": "2026-11-28T04:42:11+00:00"
+}
